@@ -1,0 +1,349 @@
+{
+  "at": "2026-10-02T13:40:58.892678+00:00",
+  "files": {
+    "runs\\takeover-20261002\\rag\\known-prepared.jsonl": "73c056fe7338f224a28eeaebcca6160988c5677e4be995d6318ae7b31700709e",
+    "runs\\takeover-20261002\\rag\\public-prepared.jsonl": "b51a3cb32ea3bc318e3566b90c841f8da39acbb4e6fc689893eae9ce56fab154",
+    "runs\\takeover-20261002\\rag\\performance-prepared.jsonl": "b11a4aafe3c78ffd0e93c101ee8f4c0f180a8001c3e2fd92eed43c705d407623"
+  },
+  "stats": {
+    "known": {
+      "rows": 200,
+      "semantic_hits": 14,
+      "local_hits": 14,
+      "profile_payload_differences": 0
+    },
+    "public": {
+      "rows": 116,
+      "semantic_hits": 0,
+      "local_hits": 0,
+      "profile_payload_differences": 0
+    },
+    "performance": {
+      "rows": 24,
+      "semantic_hits": 2,
+      "local_hits": 2,
+      "profile_payload_differences": 0
+    }
+  },
+  "bank_hash": "4cacd81eafd0c2524b9446f23cdf27f1f9f6c8628bd6caf636dfb8f9d2ade4b7",
+  "protocol_hash": "2c8aaab9e54d5de223bfe3d22e097a8152b2cebbf2f4b750e4990f87c4a87129",
+  "embedding_events": [
+    {
+      "seconds": 1.3254311000000598,
+      "texts": 16,
+      "cache_hits": 12,
+      "requests": 1,
+      "input_tokens": 85,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 2.5200000891345553e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.449999945180025e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.1500000255182385e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2500000593718141e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2099999366910197e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2000000424450263e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2799999240087345e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.0900001143454574e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 2.3399999918183312e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.1300000551273115e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.4999999621068127e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.3499999113264494e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.8400000044493936e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.1500000255182385e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.809999957913533e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 2.099999983329326e-05,
+      "texts": 1,
+      "cache_hits": 1,
+      "requests": 0,
+      "input_tokens": 0,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5321235000010347,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 18,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.8860753999997542,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2057138000000123,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 13,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5285514999995939,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 28,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.9770889999999781,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 19,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.9288594000008743,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 29,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5938005999996676,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 16,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5446050999998988,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.6593405999992683,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 17,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5381514000000607,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 31,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.5896551000005275,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 15,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 0.529515199999878,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 26,
+      "model": "text-embedding-3-large"
+    }
+  ],
+  "online_uncached_query_seconds": [
+    0.532207299998845,
+    0.8861511000013707,
+    1.2058004999998957,
+    0.5286257999996451,
+    0.9771733999987191,
+    0.9289406999996572,
+    0.5938831999992544,
+    0.5446842000001197,
+    0.6594146999996156,
+    0.5382331999990129,
+    0.5897247999982937,
+    0.529588600000352
+  ],
+  "quality_preparation_cache": "Batched query embeddings for throughput only; not real-time inference speed evidence",
+  "profiles_selected_before_model_outputs": [
+    "semantic_terms",
+    "local_terms"
+  ],
+  "runtime_freeze": {
+    "at": "2026-10-02T11:44:21.246150+00:00",
+    "runtime_frozen": true,
+    "configuration": {
+      "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+      "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+      "quantization": "nf4",
+      "double_quant": true,
+      "compute_dtype": "bfloat16",
+      "lora_dtype": "float32",
+      "attention": "sdpa",
+      "runtime": "decode_compiled",
+      "cache": "static",
+      "max_cache_len": 1024,
+      "compile": {
+        "backend": "inductor",
+        "mode": "default",
+        "fullgraph": false,
+        "dynamic": false,
+        "scope": "decode_only",
+        "emulate_precision_casts": true,
+        "max_cache_len": 1024,
+        "forward_signature_preserved": true,
+        "emulate_divison_rounding": true,
+        "disable_hf_automatic_compile": true
+      },
+      "decoding": {
+        "do_sample": false,
+        "num_beams": 1,
+        "thinking": false,
+        "max_length": 1024,
+        "quality_max_new_tokens": 256,
+        "performance_max_new_tokens": 128
+      },
+      "dependencies": {
+        "torch": "2.10.0+cu128",
+        "transformers": "5.18.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.49.2"
+      }
+    },
+    "runtime_fingerprint": "d1dac834f0859cf50adc71cc41c41a0b8a1f0a6c5fa153c8b9f87831848a7143",
+    "source_hashes": {
+      "D:\\Project\\witrans\\scripts\\takeover_benchmark.py": "323efbab624321223440d8cef88d11048c4b04df51221164c951ddaeea2860eb",
+      "witrans_tools\\qwen35.py": "5d92e89fe954dc5fd784996e0202df4fd7f42bed3e5fe86d2750dcfe199f6da7",
+      "witrans_tools\\runtime.py": "a1d363fd668e117fce85604edee039b54508b99234139d9018c51384c0b19c53",
+      "witrans_tools\\protocol.py": "77236e95c52bd0bc214c3221c883b38b7937187cb727796f81784b6b40e45037",
+      "witrans_tools\\compile_runtime.py": "2295d430040c4b256bd5b7c34a2716527fc4215b8841b2267950e8f4d0708f67"
+    },
+    "uv_lock_sha256": "ce94e16997970387ec7c4bff781a0a5ac75bbfa7e4d77a69f4b7422c259d3fcf",
+    "performance_plan_hash": "91abf2541997fa7a62cdb9e039860fbbb9cee03b7d508af8986a9d02c485e6f6",
+    "performance_summary_hash": "43eb910cd81fe06b24e1dfa7b0e0c2881011a551a8b701df910f8b277c46bbc6",
+    "old_semantic_regression": "generation/review pending; independent model test entry blocked until complete",
+    "independent_source_authoring_allowed": true,
+    "independent_generation_allowed": false,
+    "source_authoring": "Separate blind process may read only source/reference and old-source exclusion catalog, never candidate test outputs.",
+    "configuration_changes_after_test": "Invalidate the independent status if prompted by new test errors; new independent sources then required.",
+    "release_approved": false
+  },
+  "implementation_hashes": {
+    "witrans_tools\\rag.py": "0347cf62da3367f5d66ae5c89d23f029515747758580fa0d2e37b6200963965a",
+    "D:\\Project\\witrans\\scripts\\prepare_rag_experiment.py": "e8110361e46d52d249d7c30efdc01c13f83a3bb31bf41ad6aa7e5284172e8e65"
+  },
+  "independent_test_used": false,
+  "release_approved": false
+}

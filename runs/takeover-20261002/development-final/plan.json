@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-02T11:42:55.412526+00:00",
+  "mode": "decode_compiled",
+  "data_hashes": {
+    "known": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "public": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0"
+  },
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "processes": [
+    {
+      "pid": 12612,
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_evaluate",
+        "--root",
+        "runs/takeover-20261002/development-final",
+        "--mode",
+        "decode_compiled",
+        "--cache-root",
+        "runs/takeover-20261002/decode-final"
+      ],
+      "name": "python.exe",
+      "create_time": 1790941371.0903
+    },
+    {
+      "pid": 29716,
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_evaluate",
+        "--root",
+        "runs/takeover-20261002/development-final",
+        "--mode",
+        "decode_compiled",
+        "--cache-root",
+        "runs/takeover-20261002/decode-final"
+      ],
+      "name": "python.exe",
+      "create_time": 1790941371.0817115
+    }
+  ],
+  "quantization": "nf4",
+  "compute_dtype": "bfloat16",
+  "lora_dtype": "float32",
+  "cache": "static",
+  "compile": {
+    "backend": "inductor",
+    "mode": "default",
+    "fullgraph": false,
+    "dynamic": false,
+    "scope": "decode_only",
+    "emulate_precision_casts": true,
+    "max_cache_len": 1024,
+    "forward_signature_preserved": true,
+    "emulate_divison_rounding": true,
+    "disable_hf_automatic_compile": true
+  },
+  "max_length": 1024,
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "thinking": false,
+  "cache_root": "runs/takeover-20261002/decode-final",
+  "dependencies": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.49.2"
+  },
+  "source_hashes": {
+    "D:\\Project\\witrans\\scripts\\takeover_evaluate.py": "47299b6353146e6b9e16758883301a506156bff33f0b580c5b6f3e92b9cf34b8",
+    "witrans_tools\\qwen35.py": "5d92e89fe954dc5fd784996e0202df4fd7f42bed3e5fe86d2750dcfe199f6da7",
+    "witrans_tools\\runtime.py": "a1d363fd668e117fce85604edee039b54508b99234139d9018c51384c0b19c53",
+    "witrans_tools\\protocol.py": "77236e95c52bd0bc214c3221c883b38b7937187cb727796f81784b6b40e45037",
+    "witrans_tools\\compile_runtime.py": "2295d430040c4b256bd5b7c34a2716527fc4215b8841b2267950e8f4d0708f67"
+  },
+  "semantic_review": "pending_Codex_AI_full_source_context_output_review",
+  "release_approved": false
+}

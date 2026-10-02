@@ -1,0 +1,938 @@
+{
+  "at": "2026-10-02T13:53:17.325301+00:00",
+  "reviewer": "Codex AI",
+  "human_acceptance": false,
+  "method": "Root AI individually read all316 actual original source/context/reference/RAG predictions. Source-grounded prior judgments retained only after rereading; all changed raws separately adjudicated. JSON/EOS/identity checks are not semantic scoring.",
+  "same_payload_profile_audit": "All316 semantic and local profiles have identical complete model payloads and actual raws. One full source/context/output read applies to both; local generation evidence transparently links identical-payload reuse.",
+  "new_independent_tests_read_for_this_rag_experiment": false,
+  "release_approved": false,
+  "sets": {
+    "known": {
+      "semantic_terms": {
+        "counts": {
+          "rows": 200,
+          "source_groups": 100,
+          "pass_count": 168,
+          "minor": 19,
+          "major": 13,
+          "critical": 0,
+          "pass_rate": 0.84,
+          "major_rate": 0.065,
+          "json_valid": 200,
+          "language_correct": 199,
+          "ended": 200
+        },
+        "source_group_intervals": {
+          "unit": "source_group",
+          "groups": 100,
+          "resamples": 10000,
+          "seed": 20261002,
+          "pass_bootstrap_95": [
+            0.785,
+            0.89
+          ],
+          "major_bootstrap_95": [
+            0.035,
+            0.1
+          ],
+          "major_event_groups": 13,
+          "zero_major_group_event_one_sided95_upper": null,
+          "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+        },
+        "baseline_counts_same_source_review": {
+          "rows": 200,
+          "source_groups": 100,
+          "pass_count": 168,
+          "minor": 19,
+          "major": 13,
+          "critical": 0,
+          "pass_rate": 0.84,
+          "major_rate": 0.065,
+          "json_valid": 200,
+          "language_correct": 199,
+          "ended": 200
+        },
+        "paired_pass_change": {
+          "pass_difference": 0.0,
+          "group_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ],
+          "rows": 200,
+          "source_groups": 100,
+          "iterations": 10000,
+          "seed": 20261002,
+          "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+        },
+        "changed_raw_count": 6,
+        "changed_rows": [
+          {
+            "id": "v4-dev-039-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "adjoining rooms 与原文相邻房间等义，房间之间无连通门的否定完整；原译 adjacent rooms 也正确。"
+          },
+          {
+            "id": "v4-dev-041-zh-CN",
+            "before": "pass",
+            "after": "pass",
+            "note": "孜然籽短时烘烤后再研磨，术语和时序完整；没有改变此前 pass 等级。"
+          },
+          {
+            "id": "v4-dev-041-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "先短时烘炒孜然籽再研磨，Toast 祈使与中文烹饪步骤一致；原译同样合格。"
+          },
+          {
+            "id": "v4-dev-056-zh-CN",
+            "before": "minor",
+            "after": "minor",
+            "note": "无气泡水比普通水更明确，但瓶子是无气泡水仍为不自然的对象表达，不能升为 pass。"
+          },
+          {
+            "id": "v4-dev-077-zh-CN",
+            "before": "pass",
+            "after": "pass",
+            "note": "对照组接受相同指示但无额外练习，角色和否定保留；instructions 的指示与原译指导均合理。"
+          },
+          {
+            "id": "v4-dev-080-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "加入溶剂稀释样品，同时保留全部溶质，溶剂与溶质角色未颠倒；与原译同样合格。"
+          }
+        ],
+        "new_major": 0,
+        "new_language_errors": 0,
+        "retrieval_hits": 14,
+        "strata": {
+          "academic/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 18,
+            "minor": 1,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.9,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "academic/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 20,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "daily/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 17,
+            "minor": 0,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.85,
+            "major_rate": 0.15,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "daily/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 15,
+            "minor": 4,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.75,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "food/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 17,
+            "minor": 1,
+            "major": 2,
+            "critical": 0,
+            "pass_rate": 0.85,
+            "major_rate": 0.1,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "food/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 13,
+            "minor": 7,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.65,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "hard/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 19,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.95,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "hard/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 16,
+            "minor": 1,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.8,
+            "major_rate": 0.15,
+            "json_valid": 20,
+            "language_correct": 19,
+            "ended": 20
+          },
+          "travel/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 18,
+            "minor": 1,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.9,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "travel/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 15,
+            "minor": 3,
+            "major": 2,
+            "critical": 0,
+            "pass_rate": 0.75,
+            "major_rate": 0.1,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          }
+        },
+        "source_constraints": {
+          "rows": 42,
+          "source_groups": 21,
+          "pass_count": 37,
+          "minor": 2,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.8809523809523809,
+          "major_rate": 0.07142857142857142,
+          "json_valid": 42,
+          "language_correct": 41,
+          "ended": 42
+        },
+        "constraint_retained": 39,
+        "actual_outputs_hash": "9c8a69450d0b941a9871dfbf8cc0ec62ea4e66d2e6924393d9e35759128e007f",
+        "reviews_hash": "c5396e162495432473dfc07d39ffc63a7001c5563a42433eaa88cab9b85fa57d",
+        "semantic_review_complete": true
+      },
+      "local_terms": {
+        "counts": {
+          "rows": 200,
+          "source_groups": 100,
+          "pass_count": 168,
+          "minor": 19,
+          "major": 13,
+          "critical": 0,
+          "pass_rate": 0.84,
+          "major_rate": 0.065,
+          "json_valid": 200,
+          "language_correct": 199,
+          "ended": 200
+        },
+        "source_group_intervals": {
+          "unit": "source_group",
+          "groups": 100,
+          "resamples": 10000,
+          "seed": 20261002,
+          "pass_bootstrap_95": [
+            0.785,
+            0.89
+          ],
+          "major_bootstrap_95": [
+            0.035,
+            0.1
+          ],
+          "major_event_groups": 13,
+          "zero_major_group_event_one_sided95_upper": null,
+          "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+        },
+        "baseline_counts_same_source_review": {
+          "rows": 200,
+          "source_groups": 100,
+          "pass_count": 168,
+          "minor": 19,
+          "major": 13,
+          "critical": 0,
+          "pass_rate": 0.84,
+          "major_rate": 0.065,
+          "json_valid": 200,
+          "language_correct": 199,
+          "ended": 200
+        },
+        "paired_pass_change": {
+          "pass_difference": 0.0,
+          "group_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ],
+          "rows": 200,
+          "source_groups": 100,
+          "iterations": 10000,
+          "seed": 20261002,
+          "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+        },
+        "changed_raw_count": 6,
+        "changed_rows": [
+          {
+            "id": "v4-dev-039-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "adjoining rooms 与原文相邻房间等义，房间之间无连通门的否定完整；原译 adjacent rooms 也正确。"
+          },
+          {
+            "id": "v4-dev-041-zh-CN",
+            "before": "pass",
+            "after": "pass",
+            "note": "孜然籽短时烘烤后再研磨，术语和时序完整；没有改变此前 pass 等级。"
+          },
+          {
+            "id": "v4-dev-041-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "先短时烘炒孜然籽再研磨，Toast 祈使与中文烹饪步骤一致；原译同样合格。"
+          },
+          {
+            "id": "v4-dev-056-zh-CN",
+            "before": "minor",
+            "after": "minor",
+            "note": "无气泡水比普通水更明确，但瓶子是无气泡水仍为不自然的对象表达，不能升为 pass。"
+          },
+          {
+            "id": "v4-dev-077-zh-CN",
+            "before": "pass",
+            "after": "pass",
+            "note": "对照组接受相同指示但无额外练习，角色和否定保留；instructions 的指示与原译指导均合理。"
+          },
+          {
+            "id": "v4-dev-080-en",
+            "before": "pass",
+            "after": "pass",
+            "note": "加入溶剂稀释样品，同时保留全部溶质，溶剂与溶质角色未颠倒；与原译同样合格。"
+          }
+        ],
+        "new_major": 0,
+        "new_language_errors": 0,
+        "retrieval_hits": 14,
+        "strata": {
+          "academic/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 18,
+            "minor": 1,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.9,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "academic/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 20,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "daily/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 17,
+            "minor": 0,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.85,
+            "major_rate": 0.15,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "daily/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 15,
+            "minor": 4,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.75,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "food/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 17,
+            "minor": 1,
+            "major": 2,
+            "critical": 0,
+            "pass_rate": 0.85,
+            "major_rate": 0.1,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "food/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 13,
+            "minor": 7,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.65,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "hard/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 19,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.95,
+            "major_rate": 0.0,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "hard/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 16,
+            "minor": 1,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.8,
+            "major_rate": 0.15,
+            "json_valid": 20,
+            "language_correct": 19,
+            "ended": 20
+          },
+          "travel/en": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 18,
+            "minor": 1,
+            "major": 1,
+            "critical": 0,
+            "pass_rate": 0.9,
+            "major_rate": 0.05,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          },
+          "travel/zh-CN": {
+            "rows": 20,
+            "source_groups": 20,
+            "pass_count": 15,
+            "minor": 3,
+            "major": 2,
+            "critical": 0,
+            "pass_rate": 0.75,
+            "major_rate": 0.1,
+            "json_valid": 20,
+            "language_correct": 20,
+            "ended": 20
+          }
+        },
+        "source_constraints": {
+          "rows": 42,
+          "source_groups": 21,
+          "pass_count": 37,
+          "minor": 2,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.8809523809523809,
+          "major_rate": 0.07142857142857142,
+          "json_valid": 42,
+          "language_correct": 41,
+          "ended": 42
+        },
+        "constraint_retained": 39,
+        "actual_outputs_hash": "f5bf7d6ad893aa00c51270cef72cb81958f7adc3af7446e5e87698334feab15f",
+        "reviews_hash": "94314d2ecfdbcaf5902c7811e92bffe20b671baa718e47a3742c9bb91c0cc27f",
+        "semantic_review_complete": true
+      }
+    },
+    "public": {
+      "semantic_terms": {
+        "counts": {
+          "rows": 116,
+          "source_groups": 58,
+          "pass_count": 105,
+          "minor": 8,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.9051724137931034,
+          "major_rate": 0.02586206896551724,
+          "json_valid": 116,
+          "language_correct": 116,
+          "ended": 116
+        },
+        "source_group_intervals": {
+          "unit": "source_group",
+          "groups": 58,
+          "resamples": 10000,
+          "seed": 20261002,
+          "pass_bootstrap_95": [
+            0.8448275862068966,
+            0.9568965517241379
+          ],
+          "major_bootstrap_95": [
+            0.0,
+            0.0603448275862069
+          ],
+          "major_event_groups": 3,
+          "zero_major_group_event_one_sided95_upper": null,
+          "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+        },
+        "baseline_counts_same_source_review": {
+          "rows": 116,
+          "source_groups": 58,
+          "pass_count": 105,
+          "minor": 8,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.9051724137931034,
+          "major_rate": 0.02586206896551724,
+          "json_valid": 116,
+          "language_correct": 116,
+          "ended": 116
+        },
+        "paired_pass_change": {
+          "pass_difference": 0.0,
+          "group_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ],
+          "rows": 116,
+          "source_groups": 58,
+          "iterations": 10000,
+          "seed": 20261002,
+          "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+        },
+        "changed_raw_count": 0,
+        "changed_rows": [],
+        "new_major": 0,
+        "new_language_errors": 0,
+        "retrieval_hits": 0,
+        "strata": {
+          "academic/en": {
+            "rows": 2,
+            "source_groups": 2,
+            "pass_count": 2,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 2,
+            "language_correct": 2,
+            "ended": 2
+          },
+          "academic/zh-CN": {
+            "rows": 2,
+            "source_groups": 2,
+            "pass_count": 2,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 2,
+            "language_correct": 2,
+            "ended": 2
+          },
+          "daily/en": {
+            "rows": 45,
+            "source_groups": 45,
+            "pass_count": 43,
+            "minor": 2,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.9555555555555556,
+            "major_rate": 0.0,
+            "json_valid": 45,
+            "language_correct": 45,
+            "ended": 45
+          },
+          "daily/zh-CN": {
+            "rows": 45,
+            "source_groups": 45,
+            "pass_count": 38,
+            "minor": 4,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.8444444444444444,
+            "major_rate": 0.06666666666666667,
+            "json_valid": 45,
+            "language_correct": 45,
+            "ended": 45
+          },
+          "food/en": {
+            "rows": 4,
+            "source_groups": 4,
+            "pass_count": 4,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 4,
+            "language_correct": 4,
+            "ended": 4
+          },
+          "food/zh-CN": {
+            "rows": 4,
+            "source_groups": 4,
+            "pass_count": 4,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 4,
+            "language_correct": 4,
+            "ended": 4
+          },
+          "hard/en": {
+            "rows": 1,
+            "source_groups": 1,
+            "pass_count": 0,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.0,
+            "major_rate": 0.0,
+            "json_valid": 1,
+            "language_correct": 1,
+            "ended": 1
+          },
+          "hard/zh-CN": {
+            "rows": 1,
+            "source_groups": 1,
+            "pass_count": 0,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.0,
+            "major_rate": 0.0,
+            "json_valid": 1,
+            "language_correct": 1,
+            "ended": 1
+          },
+          "travel/en": {
+            "rows": 6,
+            "source_groups": 6,
+            "pass_count": 6,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 6,
+            "language_correct": 6,
+            "ended": 6
+          },
+          "travel/zh-CN": {
+            "rows": 6,
+            "source_groups": 6,
+            "pass_count": 6,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 6,
+            "language_correct": 6,
+            "ended": 6
+          }
+        },
+        "source_constraints": {
+          "rows": 0,
+          "source_groups": 0,
+          "pass_count": 0,
+          "minor": 0,
+          "major": 0,
+          "critical": 0,
+          "pass_rate": 0,
+          "major_rate": 1,
+          "json_valid": 0,
+          "language_correct": 0,
+          "ended": 0
+        },
+        "constraint_retained": 0,
+        "actual_outputs_hash": "c4aa85fa8ace42f4f521880f16528f0a93cd5ab039c06736d17829530b0035b9",
+        "reviews_hash": "8226adb6d70d89cf0ee494aa0956ef3910a28fc61410320c03be24368bbdac46",
+        "semantic_review_complete": true
+      },
+      "local_terms": {
+        "counts": {
+          "rows": 116,
+          "source_groups": 58,
+          "pass_count": 105,
+          "minor": 8,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.9051724137931034,
+          "major_rate": 0.02586206896551724,
+          "json_valid": 116,
+          "language_correct": 116,
+          "ended": 116
+        },
+        "source_group_intervals": {
+          "unit": "source_group",
+          "groups": 58,
+          "resamples": 10000,
+          "seed": 20261002,
+          "pass_bootstrap_95": [
+            0.8448275862068966,
+            0.9568965517241379
+          ],
+          "major_bootstrap_95": [
+            0.0,
+            0.0603448275862069
+          ],
+          "major_event_groups": 3,
+          "zero_major_group_event_one_sided95_upper": null,
+          "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+        },
+        "baseline_counts_same_source_review": {
+          "rows": 116,
+          "source_groups": 58,
+          "pass_count": 105,
+          "minor": 8,
+          "major": 3,
+          "critical": 0,
+          "pass_rate": 0.9051724137931034,
+          "major_rate": 0.02586206896551724,
+          "json_valid": 116,
+          "language_correct": 116,
+          "ended": 116
+        },
+        "paired_pass_change": {
+          "pass_difference": 0.0,
+          "group_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ],
+          "rows": 116,
+          "source_groups": 58,
+          "iterations": 10000,
+          "seed": 20261002,
+          "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+        },
+        "changed_raw_count": 0,
+        "changed_rows": [],
+        "new_major": 0,
+        "new_language_errors": 0,
+        "retrieval_hits": 0,
+        "strata": {
+          "academic/en": {
+            "rows": 2,
+            "source_groups": 2,
+            "pass_count": 2,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 2,
+            "language_correct": 2,
+            "ended": 2
+          },
+          "academic/zh-CN": {
+            "rows": 2,
+            "source_groups": 2,
+            "pass_count": 2,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 2,
+            "language_correct": 2,
+            "ended": 2
+          },
+          "daily/en": {
+            "rows": 45,
+            "source_groups": 45,
+            "pass_count": 43,
+            "minor": 2,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.9555555555555556,
+            "major_rate": 0.0,
+            "json_valid": 45,
+            "language_correct": 45,
+            "ended": 45
+          },
+          "daily/zh-CN": {
+            "rows": 45,
+            "source_groups": 45,
+            "pass_count": 38,
+            "minor": 4,
+            "major": 3,
+            "critical": 0,
+            "pass_rate": 0.8444444444444444,
+            "major_rate": 0.06666666666666667,
+            "json_valid": 45,
+            "language_correct": 45,
+            "ended": 45
+          },
+          "food/en": {
+            "rows": 4,
+            "source_groups": 4,
+            "pass_count": 4,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 4,
+            "language_correct": 4,
+            "ended": 4
+          },
+          "food/zh-CN": {
+            "rows": 4,
+            "source_groups": 4,
+            "pass_count": 4,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 4,
+            "language_correct": 4,
+            "ended": 4
+          },
+          "hard/en": {
+            "rows": 1,
+            "source_groups": 1,
+            "pass_count": 0,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.0,
+            "major_rate": 0.0,
+            "json_valid": 1,
+            "language_correct": 1,
+            "ended": 1
+          },
+          "hard/zh-CN": {
+            "rows": 1,
+            "source_groups": 1,
+            "pass_count": 0,
+            "minor": 1,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 0.0,
+            "major_rate": 0.0,
+            "json_valid": 1,
+            "language_correct": 1,
+            "ended": 1
+          },
+          "travel/en": {
+            "rows": 6,
+            "source_groups": 6,
+            "pass_count": 6,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 6,
+            "language_correct": 6,
+            "ended": 6
+          },
+          "travel/zh-CN": {
+            "rows": 6,
+            "source_groups": 6,
+            "pass_count": 6,
+            "minor": 0,
+            "major": 0,
+            "critical": 0,
+            "pass_rate": 1.0,
+            "major_rate": 0.0,
+            "json_valid": 6,
+            "language_correct": 6,
+            "ended": 6
+          }
+        },
+        "source_constraints": {
+          "rows": 0,
+          "source_groups": 0,
+          "pass_count": 0,
+          "minor": 0,
+          "major": 0,
+          "critical": 0,
+          "pass_rate": 0,
+          "major_rate": 1,
+          "json_valid": 0,
+          "language_correct": 0,
+          "ended": 0
+        },
+        "constraint_retained": 0,
+        "actual_outputs_hash": "9421ba847712d25f35b7acb99076e4954991a3b1e8da8d3d5cdd576f7a2d45df",
+        "reviews_hash": "e9032332c1a13b8722ef518392c4af985557358a7ab368d05c956c376a7b5584",
+        "semantic_review_complete": true
+      }
+    }
+  },
+  "full316_review_complete": true,
+  "net_pass_gain": 0,
+  "major_reduction": 0,
+  "adoption_quality_gain_gate_passed": false,
+  "decision": "Retain frozen no-RAG default. This177-term experimental bank has no observed net semantic grade improvement; no independent RAG validation or release claim."
+}

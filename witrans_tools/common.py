@@ -9,8 +9,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE_DIR = ROOT / "models" / "Qwen3-4B"
-MODEL_ID = "Qwen/Qwen3-4B"
+BASE_DIR = ROOT / "models" / "Qwen3.5-4B"
+MODEL_ID = "Qwen/Qwen3.5-4B"
 TEACHER_ID = "Qwen/Qwen3-32B"
 
 
@@ -79,6 +79,6 @@ def base_manifest(base_dir):
     if not path.is_file():
         raise ValueError("基础模型缺少 revision 记录；先执行 download")
     manifest = json.loads(path.read_text(encoding="utf-8"))
-    if manifest.get("model_id") != MODEL_ID or not manifest.get("revision"):
-        raise ValueError("基础模型必须是固定 revision 的原始 Qwen/Qwen3-4B")
+    if manifest.get("model_id") != MODEL_ID or manifest.get("revision") != '851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a':
+        raise ValueError("基础模型必须是固定 revision 的 Qwen/Qwen3.5-4B")
     return manifest

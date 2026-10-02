@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-02T11:01:36.117820+00:00",
+  "original_state": {
+    "at": "2026-10-02T10:33:16.918053+00:00",
+    "pid": 92920,
+    "created": 1790937186.3864436,
+    "phase": "loading",
+    "status": "running"
+  },
+  "observation": "Unified execution session unavailable; original PID92920 absent at next process inspection. No termination command issued. No measurements produced. Preserved failed/uncompleted attempt; fresh logged baseline started only after process absence confirmed."
+}

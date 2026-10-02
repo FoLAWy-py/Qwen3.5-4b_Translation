@@ -1,0 +1,21 @@
+{
+  "toolchain": {
+    "package_directory": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton",
+    "c_compiler": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton\\runtime\\tcc\\tcc.exe",
+    "cuda_directory": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton\\backends\\nvidia",
+    "scope": "Process-local paths; OS environment unchanged"
+  },
+  "backend": "inductor",
+  "mode": "default",
+  "fullgraph": false,
+  "dynamic": false,
+  "scope": "decode_only",
+  "max_cache_len": 1024,
+  "cache_implementation": "static",
+  "disable_hf_automatic_compile": true,
+  "emulate_precision_casts": true,
+  "emulate_divison_rounding": true,
+  "cache_dir": "D:\\Project\\witrans\\runs\\takeover-20261002\\decode_compiled",
+  "warmup": "Lazy first generation plus whole input round; compilation cost must be reported",
+  "quality_validated": false
+}

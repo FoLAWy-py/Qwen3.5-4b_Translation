@@ -1,3 +1,7 @@
 # Only the retained v2 adapter uses LFS. Historical training binaries are not published.
 models/witrans-qwen35-v2-critical-cpo/adapter_model.safetensors filter=lfs diff=lfs merge=lfs -text
-
+# Preserve byte-level model/runtime/data evidence across Windows clones.
+*.py -text
+*.json -text
+*.jsonl -text
+*.lock -text

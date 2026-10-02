@@ -2,7 +2,7 @@
 import json
 from collections import Counter
 from pathlib import Path
-from scripts.review_v12_factorial import accept_manual, binding
+from archive.qwen3.scripts.review_v12_factorial import accept_manual, binding
 from witrans_tools.common import fingerprint, now, read_jsonl, write_json
 from witrans_tools.data import encode_example
 

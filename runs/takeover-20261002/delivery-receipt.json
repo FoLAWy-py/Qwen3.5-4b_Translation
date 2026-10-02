@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-02T13:10:12.087336+00:00",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "runtime_hash": "f6262156859bfad5ad00aa247ce9a22bd61e6713ca9a7b6ace4a71ae71dfecb3",
+  "data_freeze_hash": "84b7c6d1da553a5beba37e54bf3aa8e465fdeb61f0889411a9842e35572f2ed6",
+  "full_development_review_hash": "12c30f1c130bdfe0ed09b7f28b7a1c9fe9113de11ff0d0b38aac905267a0ab54",
+  "performance_summary_hash": "43eb910cd81fe06b24e1dfa7b0e0c2881011a551a8b701df910f8b277c46bbc6",
+  "confirmation_summary_hash": "83b3e6ac96416739f2c6857eaba52229a5db3c3aaf3161b9110083db0e2efc20",
+  "rows": 400,
+  "all_source_generation_review_bindings_verified": true,
+  "all_historic_file_hashes_unchanged": true,
+  "frozen_test_sources_unchanged": true,
+  "candidate_runtime_code_unchanged_after_test": true,
+  "confirmation_prompt_tokens_range": [
+    210,
+    243
+  ],
+  "confirmation_output_including_eos_tokens_range": [
+    12,
+    45
+  ],
+  "tests": {
+    "command": ".venv-qwen35-mainline/Scripts/python.exe -X utf8 -m scripts.low_cpu_run --module pytest -q",
+    "passed": 88,
+    "failed": 0,
+    "observed_seconds": 8.34,
+    "optimized_mode_guard_cases_included": true
+  },
+  "release_gate_guard": {
+    "observed_exception": "ValueError: Frozen confirmation entry gates did not pass",
+    "rejected_before_torch_loading": true,
+    "release_output_directory_absent": true
+  },
+  "no_training": true,
+  "no_push": true,
+  "release_executed": false,
+  "release_approved": false
+}

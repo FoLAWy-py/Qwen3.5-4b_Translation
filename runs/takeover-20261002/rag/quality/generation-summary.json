@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-02T13:50:57.187008+00:00",
+  "sets": {
+    "known": {
+      "semantic_terms": {
+        "rows": 200,
+        "json_valid": 200,
+        "eos": 200,
+        "direct_generated": 200,
+        "outputs_hash": "9c8a69450d0b941a9871dfbf8cc0ec62ea4e66d2e6924393d9e35759128e007f",
+        "semantic_review": "pending"
+      },
+      "local_terms": {
+        "rows": 200,
+        "json_valid": 200,
+        "eos": 200,
+        "direct_generated": 0,
+        "outputs_hash": "f5bf7d6ad893aa00c51270cef72cb81958f7adc3af7446e5e87698334feab15f",
+        "semantic_review": "pending"
+      }
+    },
+    "public": {
+      "semantic_terms": {
+        "rows": 116,
+        "json_valid": 116,
+        "eos": 116,
+        "direct_generated": 116,
+        "outputs_hash": "c4aa85fa8ace42f4f521880f16528f0a93cd5ab039c06736d17829530b0035b9",
+        "semantic_review": "pending"
+      },
+      "local_terms": {
+        "rows": 116,
+        "json_valid": 116,
+        "eos": 116,
+        "direct_generated": 0,
+        "outputs_hash": "9421ba847712d25f35b7acb99076e4954991a3b1e8da8d3d5cdd576f7a2d45df",
+        "semantic_review": "pending"
+      }
+    }
+  },
+  "load_seconds": 16.685115700000097,
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "cpu_parameter_count": 0,
+  "peak_reserved_gib": 3.45703125,
+  "semantic_review": "pending",
+  "release_approved": false
+}

@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-02T13:41:38.174597+00:00",
+  "pid": 35708,
+  "created": 1790948496.2677057,
+  "processes": [
+    {
+      "pid": 15992,
+      "create_time": 1790948496.2403932,
+      "name": "python.exe",
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.evaluate_rag_experiment"
+      ]
+    },
+    {
+      "pid": 35708,
+      "create_time": 1790948496.2677057,
+      "name": "python.exe",
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.evaluate_rag_experiment"
+      ]
+    }
+  ],
+  "prepared_freeze_hash": "257213b1f65f99ed415dde8905f51af618939f4ff71b42fd867bafa3d106671e",
+  "runtime": "decode_compiled",
+  "max_new_tokens": 256,
+  "max_length": 1024,
+  "same_payload_reuse": "Local profile uses the directly generated semantic-profile row only when complete model input is byte-identical. No baseline predictions or references used to generate outputs.",
+  "source_hash": "524aa93e68c8600a0d7c2f93f652c0cd5f0705b6a5db521b0f2faf6c38a96746",
+  "semantic_review": "pending"
+}

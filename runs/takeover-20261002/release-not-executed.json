@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-02T13:07:30.759227+00:00",
+  "reason": "Frozen confirmation entry gates did not pass",
+  "failed_gates": [
+    "pass_rate",
+    "major_rate",
+    "critical",
+    "stratum_pass",
+    "stratum_major"
+  ],
+  "confirmation_summary_hash": "83b3e6ac96416739f2c6857eaba52229a5db3c3aaf3161b9110083db0e2efc20",
+  "release_data_frozen": true,
+  "release_outputs_exist": false,
+  "no_candidate_changes_after_test": true,
+  "release_approved": false
+}

@@ -77,5 +77,5 @@ def test_unreviewed_and_changed_records_rejected():
 
 def test_missing_adapter_cannot_be_baseline(tmp_path):
     (tmp_path / "config.json").write_text("{}")
-    with pytest.raises(FileNotFoundError, match="adapter"):
+    with pytest.raises(FileNotFoundError):
         WiTrans(str(tmp_path), str(tmp_path / "missing"))

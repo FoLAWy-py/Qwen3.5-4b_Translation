@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-02T12:45:08.457533+00:00",
+  "stage": "confirmation",
+  "runtime_freeze_hash": "f6262156859bfad5ad00aa247ce9a22bd61e6713ca9a7b6ace4a71ae71dfecb3",
+  "data_freeze_hash": "84b7c6d1da553a5beba37e54bf3aa8e465fdeb61f0889411a9842e35572f2ed6",
+  "data_hash": "2138dc15c0c0b2873dc0a89abc80ce00342febb5eb62df7531925595ece544af",
+  "configuration": {
+    "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+    "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+    "quantization": "nf4",
+    "double_quant": true,
+    "compute_dtype": "bfloat16",
+    "lora_dtype": "float32",
+    "attention": "sdpa",
+    "runtime": "decode_compiled",
+    "cache": "static",
+    "max_cache_len": 1024,
+    "compile": {
+      "backend": "inductor",
+      "mode": "default",
+      "fullgraph": false,
+      "dynamic": false,
+      "scope": "decode_only",
+      "emulate_precision_casts": true,
+      "max_cache_len": 1024,
+      "forward_signature_preserved": true,
+      "emulate_divison_rounding": true,
+      "disable_hf_automatic_compile": true
+    },
+    "decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "thinking": false,
+      "max_length": 1024,
+      "quality_max_new_tokens": 256,
+      "performance_max_new_tokens": 128
+    },
+    "dependencies": {
+      "torch": "2.10.0+cu128",
+      "transformers": "5.18.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.49.2"
+    }
+  },
+  "source_first": true,
+  "optimization_from_new_test": false,
+  "process_inventory": [
+    {
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.evaluate_independent_frozen",
+        "--stage",
+        "confirmation",
+        "--data-root",
+        "data/independent-20261002-frozen"
+      ],
+      "name": "python.exe",
+      "create_time": 1790945104.1341205,
+      "pid": 13116
+    },
+    {
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.evaluate_independent_frozen",
+        "--stage",
+        "confirmation",
+        "--data-root",
+        "data/independent-20261002-frozen"
+      ],
+      "name": "python.exe",
+      "create_time": 1790945104.1422684,
+      "pid": 36444
+    }
+  ],
+  "full_old_review_hash": "12c30f1c130bdfe0ed09b7f28b7a1c9fe9113de11ff0d0b38aac905267a0ab54",
+  "reviewer": "Codex AI",
+  "human_acceptance": false,
+  "release_approved": false
+}

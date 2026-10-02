@@ -1,0 +1,20 @@
+进程内 CPU 隔离: [28, 29, 30, 31]，CPU 线程数 2；不修改系统设置
+.......................F................................................ [ 82%]
+...............                                                          [100%]
+================================== FAILURES ===================================
+___________________ test_revoked_base_branch_cannot_restart ___________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001E587F8B4A0>
+
+    def test_revoked_base_branch_cannot_restart(monkeypatch):
+        monkeypatch.setattr(sys,'argv',['train','--arm','base-old'])
+>       with pytest.raises(ValueError,match='User revoked further base branches'):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'User revoked further base branches'
+E         Actual message: '基础模型必须是固定 revision 的 Qwen/Qwen3.5-4B'
+
+tests\test_optimization_scope.py:8: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_optimization_scope.py::test_revoked_base_branch_cannot_restart
+1 failed, 86 passed in 12.25s

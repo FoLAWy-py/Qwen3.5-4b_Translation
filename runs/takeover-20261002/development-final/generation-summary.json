@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-02T11:52:47.435343+00:00",
+  "plan_hash": "6c7ee530f2a1f1c700c4ee9550b51228b83545d21dbe7e181617912564665297",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "load_seconds": 17.778742100000272,
+  "sets": {
+    "known": {
+      "rows": 200,
+      "json_valid": 200,
+      "ended": 200,
+      "outputs_hash": "ac914c332f334c6f777c85f525bd1778c87054c0105b123125e14ddca7ecdc53",
+      "semantic_review": "pending"
+    },
+    "public": {
+      "rows": 116,
+      "json_valid": 116,
+      "ended": 116,
+      "outputs_hash": "63eee91139d88b07e1787901ffc161960a1cebf5ab3cb126d7b3114769456658",
+      "semantic_review": "pending"
+    }
+  },
+  "cpu_parameter_count": 0,
+  "peak_reserved_gib": 3.412109375,
+  "release_approved": false
+}

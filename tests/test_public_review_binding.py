@@ -1,5 +1,5 @@
 import pytest
-from scripts import review_public_short
+from archive.qwen3.scripts import review_public_short
 
 
 def test_changed_public_source_cannot_inherit_reading(monkeypatch, tmp_path):

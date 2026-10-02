@@ -1,0 +1,103 @@
+{
+  "at": "2026-10-02T11:33:40.973448+00:00",
+  "mode": "decode_compiled",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "quantization": "nf4",
+  "compute_dtype": "bfloat16",
+  "lora_dtype": "float32",
+  "cache": "static",
+  "do_sample": false,
+  "max_length": 1024,
+  "max_new_tokens": 128,
+  "compile": {
+    "backend": "inductor",
+    "mode": "default",
+    "fullgraph": false,
+    "dynamic": false,
+    "scope": "decode_only",
+    "emulate_precision_casts": true,
+    "max_cache_len": 1024,
+    "forward_signature_preserved": true,
+    "emulate_divison_rounding": true,
+    "disable_hf_automatic_compile": true
+  },
+  "warmup_rounds": 1,
+  "measured_rounds": 3,
+  "input_hash": "f4057624ca5a024d3bf286b0d0acb37fcacfd6273250ae9979535d64c7c570f9",
+  "processes": [
+    {
+      "create_time": 1790940816.875238,
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_benchmark",
+        "--root",
+        "runs/takeover-20261002/decode-final",
+        "--mode",
+        "decode_compiled"
+      ],
+      "pid": 32332,
+      "name": "python.exe"
+    },
+    {
+      "create_time": 1790940816.8684046,
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_benchmark",
+        "--root",
+        "runs/takeover-20261002/decode-final",
+        "--mode",
+        "decode_compiled"
+      ],
+      "pid": 32976,
+      "name": "python.exe"
+    }
+  ],
+  "cpu_affinity": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "threads": 2,
+  "env": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "TOKENIZERS_PARALLELISM": "false"
+  },
+  "dependencies": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.49.2"
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda": "12.8",
+    "total_memory_bytes": 8585216000,
+    "capability": [
+      8,
+      9
+    ]
+  },
+  "source_hashes": {
+    "D:\\Project\\witrans\\scripts\\takeover_benchmark.py": "323efbab624321223440d8cef88d11048c4b04df51221164c951ddaeea2860eb",
+    "witrans_tools\\qwen35.py": "5d92e89fe954dc5fd784996e0202df4fd7f42bed3e5fe86d2750dcfe199f6da7",
+    "witrans_tools\\runtime.py": "a1d363fd668e117fce85604edee039b54508b99234139d9018c51384c0b19c53",
+    "witrans_tools\\protocol.py": "77236e95c52bd0bc214c3221c883b38b7937187cb727796f81784b6b40e45037",
+    "witrans_tools\\compile_runtime.py": "2295d430040c4b256bd5b7c34a2716527fc4215b8841b2267950e8f4d0708f67"
+  },
+  "release_approved": false
+}

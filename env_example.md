@@ -1,2 +1,3 @@
 DEEP_INFRA_APIKEY=
 HF_Access_Token=
+OPENAI_API_KEY=

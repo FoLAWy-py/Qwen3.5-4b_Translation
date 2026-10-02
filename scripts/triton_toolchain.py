@@ -1,22 +1,6 @@
 """Resolve bundled tools from actual uv overlay, rather than sysconfig platlib."""
-import importlib.util
-import os
 from pathlib import Path
-
-def configure_bundled_toolchain():
-    spec = importlib.util.find_spec('triton')
-    if spec is None or not spec.origin:
-        raise ValueError('Triton package unavailable')
-    package = Path(spec.origin).resolve().parent
-    compiler = package / 'runtime/tcc/tcc.exe'
-    cuda = package / 'backends/nvidia'
-    required = [compiler, cuda/'bin/ptxas.exe', cuda/'include/cuda.h', cuda/'lib/x64/cuda.lib']
-    if not all(path.is_file() for path in required):
-        raise ValueError('Incomplete bundled Triton toolchain')
-    os.environ['CC'] = str(compiler)
-    os.environ['CUDA_PATH'] = str(cuda)
-    return {'package_directory':str(package), 'c_compiler':str(compiler), 'cuda_directory':str(cuda),
-        'scope':'Process-local compiler paths; OS environment and project dependencies unchanged.'}
+from witrans_tools.compile_runtime import configure_bundled_toolchain
 
 def main():
     configured = configure_bundled_toolchain()

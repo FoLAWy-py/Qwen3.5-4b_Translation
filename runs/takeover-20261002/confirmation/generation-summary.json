@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-02T13:00:35.939671+00:00",
+  "rows": 400,
+  "load_seconds": 16.538420300000325,
+  "peak_reserved_gib": 3.431640625,
+  "cpu_parameter_count": 0,
+  "outputs_hash": "68252ea12c27e70573ca19e2307623db1cc536e3db3ab2e7726722fcf858a581",
+  "semantic_review": "pending",
+  "release_approved": false
+}

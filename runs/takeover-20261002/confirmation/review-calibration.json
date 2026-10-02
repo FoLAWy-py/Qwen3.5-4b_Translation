@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-02T13:07:30.758160+00:00",
+  "reviewer": "Codex AI",
+  "human_acceptance": false,
+  "preliminary_counts": {
+    "pass_count": 310,
+    "minor": 45,
+    "major_including_critical": 45,
+    "critical": 1
+  },
+  "final_counts": {
+    "rows": 400,
+    "source_groups": 200,
+    "pass_count": 310,
+    "minor": 48,
+    "major": 42,
+    "critical": 1,
+    "pass_rate": 0.775,
+    "major_rate": 0.105,
+    "json_valid": 400,
+    "language_correct": 400,
+    "ended": 400
+  },
+  "reconsidered_indices": [
+    202,
+    204,
+    263
+  ],
+  "reason": "Final source-based review distinguishes generic terms or underspecified existence from explicit substitution/contradiction; accept reasonable equivalents. Three preliminary major judgments become minor.",
+  "thresholds_changed": false,
+  "source_data_changed": false,
+  "model_or_runtime_changed": false
+}

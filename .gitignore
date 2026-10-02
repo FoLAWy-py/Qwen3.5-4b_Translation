@@ -2,9 +2,12 @@
 .env.*
 .venv/
 .venv-qwen35/
+.venv-*/
 __pycache__/
 .pytest_cache/
 .cache/
+dist/
+*.egg-info/
 *.pyc
 *.pem
 *.key
@@ -23,6 +26,9 @@ models/Qwen3.5-4B/*
 !models/Qwen3.5-4B/*.txt
 !models/Qwen3.5-4B/*.md
 runs/*
+!runs/takeover-20261002/
+runs/takeover-20261002/**/inductor/
+runs/takeover-20261002/**/triton/
 !runs/qwen35-finetuned-known.jsonl
 !runs/qwen35-finetuned-known.summary.json
 !runs/qwen35-finetuned-known-manual.jsonl
@@ -59,3 +65,10 @@ runs/qwen35-v3-diagnostic-recovery1/*
 !runs/qwen35-v3-diagnostic-recovery1/performance.jsonl
 !runs/qwen35-v3-diagnostic-recovery1/performance-summary.json
 
+# Sealed release sources and references; publish hashes only.
+data/independent-20261002-drafts/
+data/independent-20261002-v2-drafts/
+data/independent-original-scene-cards-20261002.txt
+data/independent-source-*-corrections-20261002.json
+data/independent-20261002-frozen/release.jsonl
+runs/takeover-20261002/rag/coverage-draft124/

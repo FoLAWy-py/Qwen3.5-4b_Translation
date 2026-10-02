@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-02T13:40:29.167655+00:00",
+  "bank_hash": "4cacd81eafd0c2524b9446f23cdf27f1f9f6c8628bd6caf636dfb8f9d2ade4b7",
+  "index_hash": "7654a3fe95f2b8a5b4383cecfc7723bbaaf3b2d3120c60909d7f92fb7fd1002a",
+  "embedding_events": [
+    {
+      "seconds": 2.494918600001256,
+      "texts": 177,
+      "cache_hits": 124,
+      "requests": 1,
+      "input_tokens": 967,
+      "model": "text-embedding-3-large"
+    }
+  ],
+  "estimated_embedding_cost_usd": 0.00012571000000000001
+}

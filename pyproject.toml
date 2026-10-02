@@ -1,24 +1,42 @@
 [project]
-name = "witrans-4b"
-version = "0.1.0"
-description = "Chinese-English translation data, QLoRA training, and local inference"
+name = "witrans-qwen35"
+version = "0.2.0"
+description = "Frozen Qwen3.5-4B NF4 Chinese-English local translation"
 requires-python = ">=3.12,<3.13"
 dependencies = [
-  "torch>=2.7,<2.11",
-  "transformers>=4.57,<5",
-  "peft>=0.17,<0.19",
-  "bitsandbytes>=0.46,<0.50",
-  "accelerate>=1.10,<2",
-  "huggingface-hub>=0.34,<1",
-  "httpx>=0.28,<1",
-  "python-dotenv>=1.1,<2",
-  "safetensors>=0.6,<1",
-  "regex==2024.11.6",
-  "psutil>=7.2,<8",
+  "torch==2.10.0",
+  "transformers==5.18.0",
+  "peft==0.21.2",
+  "bitsandbytes==0.49.2",
+  "accelerate==1.15.0",
+  "huggingface-hub==1.33.0",
+  "httpx==0.28.1",
+  "python-dotenv==1.2.3",
+  "safetensors==0.8.0",
+  "regex==2026.9.29",
+  "psutil==7.2.2",
+  "tokenizers==0.23.2",
 ]
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["witrans_tools"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/witrans_tools", "/README.md", "/pyproject.toml", "/uv.lock", "/docs/install-and-run.md", "/witrans-qwen35-spec.md"]
+exclude = ["/models", "/archive", "/data", "/runs", "/.venv*", "/.env*"]
+
+[project.scripts]
+witrans = "witrans_tools.cli:main"
 
 [dependency-groups]
 dev = ["pytest>=8,<10"]
+
+[project.optional-dependencies]
+compile = ["triton-windows>=3.6,<3.7; sys_platform == 'win32'"]
 
 [tool.uv.sources]
 torch = { index = "pytorch-cu128" }

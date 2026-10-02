@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-02T14:09:39.408681+00:00",
+  "command": [
+    "uv",
+    "build",
+    "--out-dir",
+    "dist/rag-20261002"
+  ],
+  "cpu_affinity": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "Building source distribution...\nBuilding wheel from source distribution...\nSuccessfully built dist\\rag-20261002\\witrans_qwen35-0.2.0.tar.gz\nSuccessfully built dist\\rag-20261002\\witrans_qwen35-0.2.0-py3-none-any.whl\n",
+  "isolated_wheel_import": {
+    "exit_code": 0,
+    "stdout": "D:\\Project\\witrans\\dist\\rag-20261002\\witrans_qwen35-0.2.0-py3-none-any.whl\\witrans_tools\\rag.py\nTrue\n"
+  },
+  "packages": [
+    {
+      "path": "dist\\rag-20261002\\witrans_qwen35-0.2.0-py3-none-any.whl",
+      "bytes": 41503,
+      "sha256": "625cfece961063d164f0e221c6ac22de56f2a9518b800701e524273bf7134469",
+      "file_count": 34
+    },
+    {
+      "path": "dist\\rag-20261002\\witrans_qwen35-0.2.0.tar.gz",
+      "bytes": 62152,
+      "sha256": "a4e0a962e9014c8b674d2daf7a7cb5581426521c2b4622a521bf89a8ae58a141",
+      "file_count": 37
+    }
+  ],
+  "no_weights_or_secrets": true,
+  "verified": true
+}

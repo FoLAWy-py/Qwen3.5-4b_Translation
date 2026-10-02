@@ -1,114 +1,45 @@
 # Qwen3.5-4B 中英翻译
 
-这是一个面向本地使用的中英翻译项目，主要处理日常、旅行、饮食、学术和一些容易误解的表达。输入可以带语境和术语表，模型返回 `{"translation": "..."}`，方便在 Python 程序里调用。
+本地中英翻译，支持语境和术语表，返回 `{"translation":"..."}`。唯一主线是 Qwen3.5-4B + 冻结 v2 LoRA，NF4 加载，总预算 1024 tokens。旧 Qwen3 实现在 `archive/qwen3`，不进入默认安装和测试。
 
-训练和测试都在一台 **RTX 4060 Laptop 8GB** 上完成。模型以 NF4 4bit 加载，只训练 LoRA 适配器，尽量把显存需求控制在普通笔记本显卡能承担的范围内。
-
-目前保留的是 **Qwen3.5 v2**，对应 `models/witrans-qwen35-v2-critical-cpo`。它是现有实验中翻译质量最好的候选。后面几轮纠错没有带来足够的改善，因此继续优化仍从 v2 开始。
-
-## 效果怎么样
-
-我们使用同一套已知评测和公开句对，对比了 Qwen3.5 v2 与之前的 Qwen3-4B v7。这里的“通过”指译文不需要修订；主要错误包括错译、漏译，以及角色、否定、条件或数量发生变化。
-
-| 模型 | 已知集通过 / 200 | 主要错误 | 公开辅助集通过 / 116 | 主要错误 |
-|---|---:|---:|---:|---:|
-| **Qwen3.5 v2** | **164（82.0%）** | **17** | **105（90.5%）** | **3** |
-| Qwen3-4B v7 | 140（70.0%） | 29 | 95（81.9%） | 3 |
-
-v2 两个集合的 JSON 和生成结束都正常，没有发现 critical 级危险错误。不过，已知集仍有一条没有按目标语言翻译；难例英译中只有 16/20，通过数还比 v7 少一条。总体成绩更好，不意味着每一种表达都更好。
-
-评测由 Codex AI 逐条核对原文、语境和译文完成，接受意思相同的不同说法。这些集合已经用于开发，尚不能当作独立测试，也不能把这里的通过率当作实际使用中的准确率。完整结果和限制见[实验报告](docs/experiment-report.md)。
-
-## 训练是怎么做的
-
-v2 分两步训练。先用正确译文做 SFT，让模型学习完整翻译和 JSON 输出；再用正确与错误译文组成的偏好对做 CPO，重点处理角色、数量、条件等容易出错的片段。
-
-| 项目 | SFT | 关键片段 CPO |
-|---|---:|---:|
-| 数据 | 678 条正确译文 | 85 个偏好对 |
-| 更新次数 | 85 | 22 |
-| 梯度累计 | 16 | 8 |
-| 学习率 | 1e-5 | 1e-5 |
-| 完整输入 token 计数 | 320,848 | 83,507 |
-| 训练时间 | 约 46 分钟 | 约 12 分钟 |
-| 峰值保留显存 | 4.26 GiB | 4.40 GiB |
-
-LoRA 使用 rank 16、alpha 32、dropout 0.05，随机种子为 42。两阶段都使用预先约定的最终检查点，不根据开发成绩挑选中间权重。主体权重保持冻结，计算采用 BF16，模型没有卸载到 CPU。
-
-数据按来源分组：同一句子的两个翻译方向、不同语境和近似改写放在一起，再隔离训练与评测。译文和错误样本都需要审核，不能因为参考答案写法不同就判错。具体配置见[训练方案](data/prepared/qwen35-v2/plan.json)。
-
-### 后续纠错为什么没有换掉 v2
-
-后续尝试用 v2 自己生成的错误做定向训练，同时回放旧的正确译文。复核时发现，一些合理表达被误当成了负例，例如词义本来就有歧义，或者译文只是换了一种自然说法。这些样本被排除。
-
-最后一轮使用重新审核的 23 条明确错误和 456 条正例回放池，训练 64 次更新，学习率降到 2e-6。训练正常完成，但原始错误中只有 **4 条达到无需修订**，仍有 14 条主要错误，远低于预设的修复目标。40 条能力保持样本中有 38 条通过，也没有补上修复不足的问题。
-
-这轮共生成 103 条诊断译文，已审核 95 条；其余未完成的审核不计入结论。由于已确定未通过修复门槛，没有继续跑开发集或测速。旧实验权重和冗余日志已经清理，保留结果摘要、v2 和继续优化需要的数据与依据。
-
-## 运行速度
-
-在 v2 自身权重上，用固定 24 条短句完整预热后测了三轮：
-
-| 指标 | 实测 |
-|---|---:|
-| 平均耗时 | 11.68 秒 |
-| P95 耗时 | 14.14 秒 |
-| 输出吞吐，包含 EOS | 2.63 token/秒 |
-| 峰值保留显存 | 3.32 GiB |
-| 模型加载 | 20.59 秒 |
-
-72 次生成的 JSON 和 EOS 都正常，也没有 CPU 卸载。显存满足 6.5 GiB 的目标，但速度离平均 4 秒、P95 8 秒的目标还有距离。
-
-早期六句测速得到过平均 4.31 秒，样本不同，不能替代这里的完整测速。编译加速只做过单输入探测，LoRA BF16 转换只完成了 CPU 检查，都还没有经过完整的质量与性能验证。
-
-## 本地调用
-
-已使用的环境是 Windows、Python 3.12、CUDA 12.8 版 PyTorch 和独立的 `.venv-qwen35`。具体依赖版本在 [requirements-qwen35.txt](requirements-qwen35.txt) 中；它记录本机版本，其他平台的环境重建尚未验证。根目录的 `pyproject.toml` 和 `uv.lock` 对应旧 Qwen3 环境。
-
-在现有环境运行示例：
+需要 Git LFS、uv、Python 3.12 和支持 BF16 的 NVIDIA 显卡。本机验证环境为 Windows、RTX 4060 Laptop 8GB。
 
 ```powershell
-uv run --no-project --python .venv-qwen35/Scripts/python.exe python -X utf8 -m examples.translate_qwen35
+git clone https://github.com/FoLAWy-py/Qwen3.5-4b_Translation.git
+cd Qwen3.5-4b_Translation
+git lfs install --local
+git lfs pull --include="models/witrans-qwen35-v2-critical-cpo/adapter_model.safetensors"
+uv sync --locked
+uv run --locked witrans download
+uv run --locked witrans translate "Please send me the receipt." --target-lang zh-CN
 ```
 
-也可以直接在 Python 中调用：
+下载器获取固定官方版本并核对权重哈希；官方大权重、环境、缓存和密钥不进入 Git。
 
 ```python
-from witrans_tools.qwen35 import Qwen35Translator
+from witrans_tools import Qwen35Translator
 
-translator = Qwen35Translator(
-    base_dir="models/Qwen3.5-4B",
-    adapter_dir="models/witrans-qwen35-v2-critical-cpo",
-    max_length=1024,
-)
-result = translator.translate(
-    "The cast has been removed.",
-    "zh-CN",
+translator = Qwen35Translator()
+print(translator.translate(
+    "The cast has been removed.", "zh-CN",
     context="We are discussing a plaster cast on a healed wrist.",
-    max_new_tokens=256,
-)
-print(result)
+))
 ```
 
-这里的语境用于区分 cast 的含义，返回结果形如 `{"translation": "..."}`，具体措辞由模型生成。所有输入共用提示词，原文里的指令也作为文本翻译。总输入加输出上限是 1024 tokens，关闭 thinking，使用贪心解码。
+默认使用 eager。需要已验证的解码编译配置时：
 
-官方模型固定为 `Qwen/Qwen3.5-4B` 的 revision `851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a`。基座权重需要单独获取，运行器还需要目录中的 `witrans_base.json`；[获取凭证](models/Qwen3.5-4B/witrans_base.json)记录了版本与权重哈希。v2 适配器目录约 143 MiB，模型二进制使用 Git LFS，克隆时需要下载对应实体。仓库不收录历史适配器、旧检查点、虚拟环境或官方大权重。
+```powershell
+uv sync --locked --extra compile
+uv run --locked --extra compile witrans translate "请把收据寄给我。" --target-lang en --runtime decode_compiled
+```
 
-## 接下来要解决什么
+固定 24 条短句，整轮预热后测三轮：平均 **3.164 秒**、P95 **4.039 秒**、峰值保留显存 **3.387 GiB**；加载 16.867 秒，预热含编译 164.296 秒。无 OOM 或 CPU 卸载，速度门槛达标。
 
-优先修复时间、角色、否定条件和物品词义，再考虑扩充数据。新候选既要修好真实错误，也要保持已有能力；loss 下降本身不足以证明翻译更好。
+质量还未达到发布门槛。新原创合成 confirmation 400 条为 **310 pass / 48 minor / 42 major（含 1 critical）**，由 Codex AI 逐条审核，非人工验收；release 600 条按预定门槛未执行，继续封存。已知 200 和公开 116 属于开发材料，不能称实际翻译准确率。
 
-速度优化需要使用最终候选自身的权重。改变编译或精度配置后，质量、显存和延迟都要重新测。等权重和推理配置确定，再使用至少 400 条、200 个新来源组做独立确认；如果根据确认结果继续调参，就需要换一套新数据。
+RAG 已完成完整开发质量对照和正式测速：177 条训练术语没有带来语义等级净提升，保持默认配置。新句的 OpenAI 查询向量仍需 API；全本地术语筛选不需要 API。
 
-发布还需要更严格的 600 条、300 个独立来源组测试，通过率至少 95%、主要错误不超过 1%，并满足分项、格式和性能要求。当前模型尚未达到这一步，详见[验收标准](data/release_acceptance_policy.md)。
-
-## 项目文件
-
-- `witrans_tools/`、`scripts/`：推理、训练、数据审核和评测工具。
-- `data/`：训练与评测材料、来源记录和实验方案。
-- `models/witrans-qwen35-v2-critical-cpo/`：保留的 v2 适配器。
-- `runs/`：v2 的必要评测证据，以及继续优化所需的错误审核记录。
-- [实验报告](docs/experiment-report.md)：成绩、权重身份和主要证据。
-
-训练材料包含项目原创合成文本及有署名的公开句对。具体许可按逐条来源记录与 [data/README.md](data/README.md)处理；官方模型的许可不自动覆盖整个项目。
-
+- [安装与运行](docs/install-and-run.md)：模型身份、CLI、Python 与本机环境说明。
+- [本轮报告](docs/takeover-20261002.md)：性能、完整回归、独立确认及证据。
+- [RAG 结果与下一步](docs/rag-analysis-20261002.md)：质量、延迟和本地检索的取舍。
+- [运行 spec](witrans-qwen35-spec.md) · [验收规则](data/release_acceptance_policy.md) · [历史实验](docs/experiment-report.md)

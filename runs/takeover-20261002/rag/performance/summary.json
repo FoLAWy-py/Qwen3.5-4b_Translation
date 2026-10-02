@@ -1,0 +1,119 @@
+{
+  "at": "2026-10-02T14:03:03.540274+00:00",
+  "profiles": {
+    "local_terms": {
+      "calls": 72,
+      "mean_seconds": 2.9370516111112264,
+      "p95_seconds": 3.4871293000014703,
+      "mean_generation_seconds": 2.936395966666699,
+      "mean_retrieval_seconds": 0.0006451652777488764,
+      "retrieval_hit_calls": 6,
+      "warmup_seconds_including_compile": 70.05667219999123,
+      "end_to_end_output_tokens_per_second": 10.483869793155154,
+      "generated_tokens": 2217,
+      "min_max_prompt_tokens": [
+        223,
+        238
+      ],
+      "outputs_hash": "3e78a51916c35eabb50f49835736fa5e82a1e2818edf457676c4e966d2b8f368",
+      "all_json_valid": true,
+      "all_eos": true,
+      "performance_passed": true
+    },
+    "semantic_terms": {
+      "calls": 72,
+      "mean_seconds": 3.1193584152776768,
+      "p95_seconds": 4.106682999999975,
+      "mean_generation_seconds": 2.942674813888794,
+      "mean_retrieval_seconds": 0.17666919444443213,
+      "retrieval_hit_calls": 6,
+      "warmup_seconds_including_compile": 99.63268760000574,
+      "end_to_end_output_tokens_per_second": 9.871153797479113,
+      "generated_tokens": 2217,
+      "min_max_prompt_tokens": [
+        223,
+        238
+      ],
+      "outputs_hash": "f3208f738a1446733b0c951a7c71940743ae8cc4f52c872e1cd18f0c3389c13a",
+      "all_json_valid": true,
+      "all_eos": true,
+      "performance_passed": true
+    }
+  },
+  "index_load_seconds": 0.5928046999997605,
+  "load_seconds": 16.637607699998625,
+  "whole_warmup_seconds": 170.4477707999995,
+  "compile_cache": "Previously populated decode-final cache; first compile cost remains in original baseline receipt",
+  "peak_reserved_gib": 3.431640625,
+  "peak_allocated_gib": 3.2264699935913086,
+  "cpu_parameter_count": 0,
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "embedding_events": [
+    {
+      "seconds": 2.2096232999992935,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 57,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.3892766999997548,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2447694999991654,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 57,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 6.118278600000849,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2404036999996606,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 57,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.6931292999997822,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.1097382999996626,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 57,
+      "model": "text-embedding-3-large"
+    },
+    {
+      "seconds": 1.2669702000002872,
+      "texts": 1,
+      "cache_hits": 0,
+      "requests": 1,
+      "input_tokens": 30,
+      "model": "text-embedding-3-large"
+    }
+  ],
+  "semantic_review": "pending",
+  "release_approved": false
+}

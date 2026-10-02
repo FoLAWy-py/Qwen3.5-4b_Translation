@@ -1,0 +1,17 @@
+进程内 CPU 隔离: [28, 29, 30, 31]，CPU 线程数 2；不修改系统设置
+
+=================================== ERRORS ====================================
+____________ ERROR collecting tests/test_public_review_binding.py _____________
+ImportError while importing test module 'D:\Project\witrans\tests\test_public_review_binding.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\22198\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_public_review_binding.py:2: in <module>
+    from scripts import review_public_short
+E   ImportError: cannot import name 'review_public_short' from 'scripts' (unknown location)
+=========================== short test summary info ===========================
+ERROR tests/test_public_review_binding.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 3.23s

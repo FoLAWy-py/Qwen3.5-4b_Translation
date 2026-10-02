@@ -1,0 +1,7 @@
+{'stage': 'confirmation', 'category': 'daily', 'approved_in_stratum': 10, 'total_groups': 10}
+{'stage': 'confirmation', 'category': 'daily', 'approved_in_stratum': 20, 'total_groups': 20}
+{'stage': 'confirmation', 'category': 'daily', 'approved_in_stratum': 30, 'total_groups': 30}
+{'stage': 'confirmation', 'category': 'daily', 'approved_in_stratum': 40, 'total_groups': 40}
+{'stage': 'confirmation', 'category': 'travel', 'approved_in_stratum': 10, 'total_groups': 50}
+{'stage': 'confirmation', 'category': 'travel', 'approved_in_stratum': 20, 'total_groups': 60}
+{'stage': 'confirmation', 'category': 'travel', 'approved_in_stratum': 30, 'total_groups': 70}

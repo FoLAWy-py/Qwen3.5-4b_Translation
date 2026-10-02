@@ -5,7 +5,7 @@ from pathlib import Path
 
 import psutil
 from scripts.decode_qwen35_repair_recall import load, verify_training
-from scripts.review_v12_factorial import accept_manual, binding
+from archive.qwen3.scripts.review_v12_factorial import accept_manual, binding
 from witrans import parse_translation
 from witrans_tools.common import fingerprint, now, read_jsonl, write_json
 

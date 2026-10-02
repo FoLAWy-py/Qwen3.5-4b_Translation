@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-02T11:29:03.643176+00:00",
+  "root": "decode_compiled",
+  "scope": "First decode-only prototype already running; forward dispatcher lacked functools.wraps, so HF introspection does not request logits_to_keep=1. This retains full-prefill vocabulary logits, although decoder sequence is1. Preserve this experiment; final installed implementation fixes signature and needs own formal timing and full200/116 review.",
+  "forward_signature_preserved": false,
+  "final_candidate": false,
+  "release_approved": false
+}

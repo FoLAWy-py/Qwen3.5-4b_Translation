@@ -1,0 +1,23 @@
+{
+  "status": "frozen_before_new_test_outputs",
+  "date": "2026-10-02",
+  "candidate": "Qwen3.5 v2 only; no training",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "runtime_freeze": "Must record final NF4, BF16/base and LoRA precision, cache, compilation, dependency lock and greedy decoding before acquiring new test sources. Total budget 1024; quality max_new_tokens 256; fixed24 performance max_new_tokens 128.",
+  "confirmation": {"rows_min":400,"groups_min":200,"category_direction_min":40,"context_or_glossary_min":80,"multisentence_min":80},
+  "release": {"rows_min":600,"groups_min":300,"category_direction_min":60,"context_or_glossary_min":120,"multisentence_min":120},
+  "categories":["daily","travel","food","academic","hard"],
+  "directions":["en","zh-CN"],
+  "data_preflight":"Before any new outputs: audit license, attribution, source, references, context/glossary and ambiguity per item. Group bidirectional, alternate-context and near-paraphrase cases. Audit against ALL historical data and source families and between A/B; unresolved overlap blocks freezing. Exact and normalized text plus approximate matching with manual adjudication. Synthetic data explicitly labeled; never independent human data. No old-text rewrites counted as new sources.",
+  "confirmation_entry":"Engineering import/optimized-mode guards pass; final runtime frozen; complete known200/public116 semantic regression reviewed; fixed24 full warmup plus three measured rounds and all resource/format checks complete. Performance target failure is reported but does not prohibit diagnostic confirmation.",
+  "release_entry":{"confirmation_pass_min":0.95,"confirmation_major_max":0.01,"critical":0,"json":1.0,"direction":1.0,"eos":1.0,"stratum_pass_min":0.90,"stratum_major_max":0.03,"constraint_retention_min":0.98,"performance_mean_max_s":4,"performance_p95_max_s":8,"memory_max_gib":6.5},
+  "release_gates":{"pass_min":0.95,"major_including_critical_max":0.01,"critical":0,"json":1.0,"direction":1.0,"eos":1.0,"stratum_pass_min":0.90,"stratum_major_max":0.03,"constraint_retention_min":0.98,"performance_mean_max_s":4,"performance_p95_max_s":8,"memory_max_gib":6.5},
+  "review":"Codex AI item-by-item source/context/translation assessment; reasonable equivalents accepted; pass/minor/major/critical, JSON, direction, EOS and each explicit constraint separately recorded. Critical included in major. Not human acceptance. Source authoring/audit may not inspect test model outputs.",
+  "statistics":{"unit":"source_group","bootstrap_resamples":10000,"seed":20261002,"confidence":0.95,"report":["total","category_direction","context","multisentence","source_composition","group_bootstrap_intervals","group_event_one_sided_bounds"]},
+  "policy_adjustments_before_outputs":["Remove required v7 comparison: its weights are deleted, historical scores cannot substitute for direct new-set comparison.","Frozen v2 weights are the candidate and starting point. Do not require new TRAIN repair gates or three training seeds for an engineering delivery without algorithm improvement claims.","Use balanced unweighted strata; no real traffic weights were supplied, so no invented scenario-weighted accuracy.","Confirmation entry may diagnose performance failure; release entry requires performance success and the same quality thresholds as release."],
+  "invalidation":"If either new test informs weights, prompt or output-affecting runtime changes, relabel it regression and create fresh independently audited sources for the changed candidate.",
+  "no_push":true,
+  "release_approved":false
+}

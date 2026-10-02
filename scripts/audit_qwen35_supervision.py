@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 
 from scripts.audit_qwen35_stage import legacy_known, load
-from scripts.finalize_v13_optimization import complete_review
+from archive.qwen3.scripts.finalize_v13_optimization import complete_review
 from witrans_tools.common import fingerprint, now, read_jsonl, write_json
 from witrans_tools.critical_spans import validated_annotations,encode_critical_spans
 from witrans_tools.data import encode_example

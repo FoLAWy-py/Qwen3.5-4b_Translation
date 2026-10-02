@@ -1,0 +1,5 @@
+{
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "at": "2026-10-02T11:07:35.257877+00:00",
+  "generation_changes": "Mechanical extraction; only default max_new_tokens changed512 to256. Benchmark supplies128 and fullquality supplies256 explicitly, so this default does not affect experimental calls."
+}

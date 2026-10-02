@@ -1,0 +1,451 @@
+{
+  "stage": "confirmation",
+  "review_hash": "b2dd267ee8dbb6c5ea069cb5c004e1878c49cb1e251ef74d54254e8c275d96fe",
+  "counts": {
+    "rows": 400,
+    "source_groups": 200,
+    "pass_count": 310,
+    "minor": 48,
+    "major": 42,
+    "critical": 1,
+    "pass_rate": 0.775,
+    "major_rate": 0.105,
+    "json_valid": 400,
+    "language_correct": 400,
+    "ended": 400
+  },
+  "intervals": {
+    "unit": "source_group",
+    "groups": 200,
+    "resamples": 10000,
+    "seed": 20261002,
+    "pass_bootstrap_95": [
+      0.73,
+      0.8175
+    ],
+    "major_bootstrap_95": [
+      0.075,
+      0.1375
+    ],
+    "major_event_groups": 37,
+    "zero_major_group_event_one_sided95_upper": null,
+    "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+  },
+  "strata": {
+    "daily/en": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 32,
+        "minor": 6,
+        "major": 2,
+        "critical": 0,
+        "pass_rate": 0.8,
+        "major_rate": 0.05,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.675,
+          0.925
+        ],
+        "major_bootstrap_95": [
+          0.0,
+          0.125
+        ],
+        "major_event_groups": 2,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "daily/zh-CN": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 28,
+        "minor": 9,
+        "major": 3,
+        "critical": 0,
+        "pass_rate": 0.7,
+        "major_rate": 0.075,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.55,
+          0.825
+        ],
+        "major_bootstrap_95": [
+          0.0,
+          0.15
+        ],
+        "major_event_groups": 3,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "travel/en": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 33,
+        "minor": 5,
+        "major": 2,
+        "critical": 0,
+        "pass_rate": 0.825,
+        "major_rate": 0.05,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.7,
+          0.925
+        ],
+        "major_bootstrap_95": [
+          0.0,
+          0.125
+        ],
+        "major_event_groups": 2,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "travel/zh-CN": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 32,
+        "minor": 6,
+        "major": 2,
+        "critical": 0,
+        "pass_rate": 0.8,
+        "major_rate": 0.05,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.675,
+          0.925
+        ],
+        "major_bootstrap_95": [
+          0.0,
+          0.125
+        ],
+        "major_event_groups": 2,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "food/en": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 33,
+        "minor": 3,
+        "major": 4,
+        "critical": 0,
+        "pass_rate": 0.825,
+        "major_rate": 0.1,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.7,
+          0.925
+        ],
+        "major_bootstrap_95": [
+          0.025,
+          0.2
+        ],
+        "major_event_groups": 4,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "food/zh-CN": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 21,
+        "minor": 12,
+        "major": 7,
+        "critical": 0,
+        "pass_rate": 0.525,
+        "major_rate": 0.175,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.375,
+          0.675
+        ],
+        "major_bootstrap_95": [
+          0.075,
+          0.3
+        ],
+        "major_event_groups": 7,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "academic/en": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 38,
+        "minor": 2,
+        "major": 0,
+        "critical": 0,
+        "pass_rate": 0.95,
+        "major_rate": 0.0,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.875,
+          1.0
+        ],
+        "major_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "major_event_groups": 0,
+        "zero_major_group_event_one_sided95_upper": 0.0721575245055146,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "academic/zh-CN": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 34,
+        "minor": 1,
+        "major": 5,
+        "critical": 0,
+        "pass_rate": 0.85,
+        "major_rate": 0.125,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.725,
+          0.95
+        ],
+        "major_bootstrap_95": [
+          0.025,
+          0.225
+        ],
+        "major_event_groups": 5,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "hard/en": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 34,
+        "minor": 1,
+        "major": 5,
+        "critical": 0,
+        "pass_rate": 0.85,
+        "major_rate": 0.125,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.725,
+          0.95
+        ],
+        "major_bootstrap_95": [
+          0.025,
+          0.225
+        ],
+        "major_event_groups": 5,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    },
+    "hard/zh-CN": {
+      "counts": {
+        "rows": 40,
+        "source_groups": 40,
+        "pass_count": 25,
+        "minor": 3,
+        "major": 12,
+        "critical": 1,
+        "pass_rate": 0.625,
+        "major_rate": 0.3,
+        "json_valid": 40,
+        "language_correct": 40,
+        "ended": 40
+      },
+      "intervals": {
+        "unit": "source_group",
+        "groups": 40,
+        "resamples": 10000,
+        "seed": 20261002,
+        "pass_bootstrap_95": [
+          0.475,
+          0.775
+        ],
+        "major_bootstrap_95": [
+          0.175,
+          0.45
+        ],
+        "major_event_groups": 12,
+        "zero_major_group_event_one_sided95_upper": null,
+        "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+      }
+    }
+  },
+  "context": {
+    "counts": {
+      "rows": 80,
+      "source_groups": 40,
+      "pass_count": 62,
+      "minor": 12,
+      "major": 6,
+      "critical": 0,
+      "pass_rate": 0.775,
+      "major_rate": 0.075,
+      "json_valid": 80,
+      "language_correct": 80,
+      "ended": 80
+    },
+    "retention": 1.0,
+    "intervals": {
+      "unit": "source_group",
+      "groups": 40,
+      "resamples": 10000,
+      "seed": 20261002,
+      "pass_bootstrap_95": [
+        0.675,
+        0.8625
+      ],
+      "major_bootstrap_95": [
+        0.025,
+        0.1375
+      ],
+      "major_event_groups": 6,
+      "zero_major_group_event_one_sided95_upper": null,
+      "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+    }
+  },
+  "multisentence": {
+    "counts": {
+      "rows": 82,
+      "source_groups": 41,
+      "pass_count": 63,
+      "minor": 13,
+      "major": 6,
+      "critical": 0,
+      "pass_rate": 0.7682926829268293,
+      "major_rate": 0.07317073170731707,
+      "json_valid": 82,
+      "language_correct": 82,
+      "ended": 82
+    },
+    "intervals": {
+      "unit": "source_group",
+      "groups": 41,
+      "resamples": 10000,
+      "seed": 20261002,
+      "pass_bootstrap_95": [
+        0.6707317073170732,
+        0.8536585365853658
+      ],
+      "major_bootstrap_95": [
+        0.024390243902439025,
+        0.13414634146341464
+      ],
+      "major_event_groups": 6,
+      "zero_major_group_event_one_sided95_upper": null,
+      "limitation": "Balanced audited test scope only; AI review and synthetic source limitations reported separately. Zero-event bootstrap bounds are degenerate; separate group-event upper bound supplied."
+    }
+  },
+  "source_composition": {
+    "synthetic_AI": 400
+  },
+  "gates": {
+    "rows": true,
+    "source_groups": true,
+    "stratum_coverage": true,
+    "constraint_coverage": true,
+    "multisentence_coverage": true,
+    "pass_rate": false,
+    "major_rate": false,
+    "critical": false,
+    "json": true,
+    "direction": true,
+    "eos": true,
+    "stratum_pass": false,
+    "stratum_major": false,
+    "constraint_retention": true,
+    "performance": true
+  },
+  "release_entry_passed": false,
+  "release_approved": false,
+  "at": "2026-10-02T13:07:30.742864+00:00",
+  "reviewer": "Codex AI",
+  "human_acceptance": false,
+  "all_gates_passed": false,
+  "output_hash": "68252ea12c27e70573ca19e2307623db1cc536e3db3ab2e7726722fcf858a581",
+  "data_hash": "2138dc15c0c0b2873dc0a89abc80ce00342febb5eb62df7531925595ece544af",
+  "full_item_review_complete": true,
+  "method": "All actual source/context/prediction rows personally read; semantic verdicts separate from JSON/direction/EOS; reasonable equivalents accepted; constraints manually assessed"
+}

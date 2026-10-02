@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "reviewer": "Codex AI",
+  "human_acceptance": false,
+  "actual_source_context_prediction_rows_read": 316,
+  "known_rows_read": 200,
+  "public_rows_read": 116,
+  "local_profile_same_complete_payload_reuse": true,
+  "semantic_summary": "semantic-summary.json",
+  "release_approved": false
+}

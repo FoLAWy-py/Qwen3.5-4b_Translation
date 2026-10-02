@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-02T11:40:31.348741+00:00",
+  "plan_hash": "91abf2541997fa7a62cdb9e039860fbbb9cee03b7d508af8986a9d02c485e6f6",
+  "calls": 72,
+  "load_seconds": 16.86740520000012,
+  "warmup_seconds": 164.29629270000032,
+  "compile_cost_included_in_warmup": true,
+  "mean_seconds": 3.1643855875000337,
+  "p95_seconds": 4.039028200000303,
+  "output_tokens_per_second": 9.730693626054931,
+  "peak_allocated_gib": 3.1753859519958496,
+  "peak_reserved_gib": 3.38671875,
+  "cpu_parameter_count": 0,
+  "measurements_hash": "20c1f5bf6eb6e5e41a19eecfbbc8e74a40a3cb2937f72f7a861347d50004190a",
+  "all_json_valid": true,
+  "all_eos": true,
+  "performance_passed": true,
+  "semantic_regression": "pending",
+  "release_approved": false
+}

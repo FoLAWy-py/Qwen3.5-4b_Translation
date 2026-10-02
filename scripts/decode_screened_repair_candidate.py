@@ -14,7 +14,7 @@ def load(path):
 
 def qwen35_controls(training):
     from scripts.audit_qwen35_stage import legacy_known
-    from scripts.finalize_v13_optimization import complete_review
+    from archive.qwen3.scripts.finalize_v13_optimization import complete_review
     datasets=load('data/prepared/qwen35-v2/plan.json')['datasets']
     controls=[]
     for role,adapter,sha,stems in (

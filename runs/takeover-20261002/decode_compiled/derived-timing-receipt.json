@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-02T11:33:36.958180+00:00",
+  "source_hash": "f4fce764b35ea46588f55037be3bcd6681ad0d7cdf9cdcca0ba353fdb4d79fee",
+  "file": "per-input.csv",
+  "rows": 24,
+  "measurements": 72,
+  "original_measurements_unchanged": true,
+  "note": "Per-input P95 with3 measurements is their maximum; formal global P95 uses all72."
+}

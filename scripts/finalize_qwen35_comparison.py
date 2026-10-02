@@ -4,7 +4,7 @@ import json
 import statistics
 from collections import Counter,defaultdict
 from pathlib import Path
-from scripts.finalize_v13_optimization import complete_review
+from archive.qwen3.scripts.finalize_v13_optimization import complete_review
 from witrans_tools.common import fingerprint,now,read_jsonl,write_json
 from witrans_tools.paired_stats import paired_pass_interval
 

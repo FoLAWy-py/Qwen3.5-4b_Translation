@@ -1,0 +1,6 @@
+{
+  "package_directory": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton",
+  "c_compiler": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton\\runtime\\tcc\\tcc.exe",
+  "cuda_directory": "D:\\Project\\witrans\\.venv-qwen35-mainline\\Lib\\site-packages\\triton\\backends\\nvidia",
+  "scope": "Process-local compiler paths; OS environment and project dependencies unchanged."
+}

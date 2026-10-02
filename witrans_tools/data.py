@@ -5,7 +5,7 @@ import random
 import re
 from collections import Counter, defaultdict
 
-from witrans import make_messages, parse_translation
+from .protocol import make_messages, parse_translation
 from .common import fingerprint, read_jsonl, write_json, write_jsonl
 
 CATEGORIES = {"daily", "travel", "food", "academic", "hard"}

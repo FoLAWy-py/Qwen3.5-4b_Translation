@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-02T13:40:25.813778+00:00",
+  "bank_hash": "4cacd81eafd0c2524b9446f23cdf27f1f9f6c8628bd6caf636dfb8f9d2ade4b7",
+  "entries": 177,
+  "source_files": {
+    "data\\prepared\\qwen35-v1\\sft.jsonl": "6df46d960546cfaf94b1e8ee81b9f67ee221bceb25e0bd185d1054e5eade1db6",
+    "data\\prepared\\v10-source-family-checked\\train.jsonl": "9cd15e368ef3837562a002f6b32ebc1e8c22bacb9d5ddc8901328c4d6103341a"
+  },
+  "source_hash": "c6b616c45d2130d65b98cd1563ad7a7eed6e1fa72885df42e9c384962cf8695a",
+  "source_scope": "Previously approved synthetic training data only; no test references or outputs",
+  "review": "Root Codex AI read cited bilingual source pairs; terminology mappings and sense anchors authored before RAG outputs",
+  "human_review": false,
+  "embedding_model": "text-embedding-3-large",
+  "dimensions": 3072,
+  "profiles": [
+    "semantic_terms",
+    "local_terms"
+  ],
+  "semantic_cosine_floor": 0.25,
+  "max_terms": 3,
+  "lexical_full_term_required": true,
+  "ambiguous_term_requires_positive_anchor": true,
+  "conflicting_senses": "abstain",
+  "explicit_user_glossary": "takes_precedence",
+  "quality_sets": [
+    "known200",
+    "public116"
+  ],
+  "thresholds_changed": false,
+  "adoption": "No new major/critical/direction/format/EOS errors; full source review; measurable net quality gain; formal 24x3 end-to-end mean<=4s P95<=8s reserved<=6.5GiB",
+  "test_isolation": "Do not read confirmation or release in this experiment; no new training; no release claim"
+}

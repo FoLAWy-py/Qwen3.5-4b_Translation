@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-02T13:52:34.748108+00:00",
+  "processes": [
+    {
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.benchmark_rag_experiment"
+      ],
+      "name": "python.exe",
+      "create_time": 1790949152.987146,
+      "pid": 5220
+    },
+    {
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.benchmark_rag_experiment"
+      ],
+      "name": "python.exe",
+      "create_time": 1790949153.0138955,
+      "pid": 29496
+    }
+  ],
+  "pid": 29496,
+  "created": 1790949153.0138955,
+  "prepared_freeze_hash": "257213b1f65f99ed415dde8905f51af618939f4ff71b42fd867bafa3d106671e",
+  "fixed24_hash": "f4057624ca5a024d3bf286b0d0acb37fcacfd6273250ae9979535d64c7c570f9",
+  "runtime": "decode_compiled",
+  "nf4": true,
+  "lora_precision": "float32",
+  "compute_dtype": "bfloat16",
+  "cache": "static1024",
+  "max_length": 1024,
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "thinking": false,
+  "warmup": "Entire24 for each profile; compile cost included; existing compiler cache reused explicitly",
+  "measured_rounds": 3,
+  "profiles": [
+    "local_terms",
+    "semantic_terms"
+  ],
+  "query_embedding_cache": "Disabled in all formal semantic-profile requests, including warmup",
+  "order": "Per-input paired; order alternates by round/index",
+  "semantic_guard": "Actual retrieval payload must equal preregistered prepared payload; changed retrieval aborts",
+  "release_approved": false
+}

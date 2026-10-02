@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-02T19:25:42.3467506+08:00",
+  "pid": 28708,
+  "command": "\"C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe\" -X utf8 -m scripts.low_cpu_run --module scripts.takeover_benchmark --root runs/takeover-20261002/compiled --mode compiled",
+  "creation_time": "2026-10-02T18:49:24.340608+08:00",
+  "cpu_seconds": 1954.390625,
+  "working_set_bytes": 5613801472,
+  "prior_progress": {
+    "at": "2026-10-02T18:49:57.649234+08:00",
+    "pid": 28708,
+    "created": 1790938164.3406084,
+    "phase": "warmup",
+    "status": "running",
+    "repeat": -1
+  },
+  "status": "aborted_configuration_trial",
+  "reason": "Measured first prefill518.767s; second prefill continued symbolic compilation for over20min. Three nonblocking stack samples and installed source locate huge prefill graph plus export-only triangular inverse path, with growing symbolic algebra. Reject whole-forward dynamic prefill compilation on operational-cost evidence; preserve all outputs/cache, do not claim formal performance or quality success. Next experiment is separate fixed1024 decode-only compilation, not retry of this configuration.",
+  "completed_formal_calls": 0,
+  "release_approved": false
+}

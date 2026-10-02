@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-02T10:49:28.582466+00:00",
+  "mode": "compiled",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "quantization": "nf4",
+  "compute_dtype": "bfloat16",
+  "lora_dtype": "float32",
+  "cache": "static",
+  "do_sample": false,
+  "max_length": 1024,
+  "max_new_tokens": 128,
+  "warmup_rounds": 1,
+  "measured_rounds": 3,
+  "input_hash": "f4057624ca5a024d3bf286b0d0acb37fcacfd6273250ae9979535d64c7c570f9",
+  "processes": [
+    {
+      "cmdline": [
+        "D:\\Project\\witrans\\.venv-qwen35-mainline\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_benchmark",
+        "--root",
+        "runs/takeover-20261002/compiled",
+        "--mode",
+        "compiled"
+      ],
+      "create_time": 1790938164.3324604,
+      "name": "python.exe",
+      "pid": 9264
+    },
+    {
+      "cmdline": [
+        "C:\\Users\\22198\\AppData\\Roaming\\uv\\python\\cpython-3.12.12-windows-x86_64-none\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.low_cpu_run",
+        "--module",
+        "scripts.takeover_benchmark",
+        "--root",
+        "runs/takeover-20261002/compiled",
+        "--mode",
+        "compiled"
+      ],
+      "create_time": 1790938164.3406084,
+      "name": "python.exe",
+      "pid": 28708
+    }
+  ],
+  "cpu_affinity": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "threads": 2,
+  "env": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "TOKENIZERS_PARALLELISM": "false"
+  },
+  "dependencies": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.49.2"
+  },
+  "release_approved": false
+}

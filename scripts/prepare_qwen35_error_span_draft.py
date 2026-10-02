@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 from transformers import AutoTokenizer
-from scripts.review_v12_factorial import binding, accept_manual
+from archive.qwen3.scripts.review_v12_factorial import binding, accept_manual
 from witrans_tools.common import fingerprint, now, read_jsonl, write_json
 from witrans_tools.critical_spans import encode_critical_spans
 from witrans_tools.data import validate_record

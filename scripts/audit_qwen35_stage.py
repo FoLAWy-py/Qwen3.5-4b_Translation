@@ -6,9 +6,9 @@ from collections import Counter
 from pathlib import Path
 
 import psutil
-from scripts.finalize_v13_optimization import complete_review
-from scripts.compare_v12_blind import validate_decisions
-from scripts.review_v12_factorial import binding
+from archive.qwen3.scripts.finalize_v13_optimization import complete_review
+from archive.qwen3.scripts.compare_v12_blind import validate_decisions
+from archive.qwen3.scripts.review_v12_factorial import binding
 from witrans import SYSTEM_PROMPT
 from witrans_tools.common import fingerprint, now, read_jsonl, write_json
 from witrans_tools.data import validate_record

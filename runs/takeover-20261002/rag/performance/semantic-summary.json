@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-02T14:05:18.258705+00:00",
+  "profiles": {
+    "local_terms": {
+      "counts": {
+        "rows": 24,
+        "source_groups": 13,
+        "pass_count": 20,
+        "minor": 1,
+        "major": 3,
+        "critical": 0,
+        "pass_rate": 0.8333333333333334,
+        "major_rate": 0.125,
+        "json_valid": 24,
+        "language_correct": 22,
+        "ended": 24
+      },
+      "baseline_counts": {
+        "rows": 24,
+        "source_groups": 13,
+        "pass_count": 20,
+        "minor": 1,
+        "major": 3,
+        "critical": 0,
+        "pass_rate": 0.8333333333333334,
+        "major_rate": 0.125,
+        "json_valid": 24,
+        "language_correct": 22,
+        "ended": 24
+      },
+      "new_major": 0,
+      "new_language_errors": 0,
+      "review_hash": "7ab059be86f80d9cf543a04ed358b05faec4b70108ffc44d88eb1d9de24d7542"
+    },
+    "semantic_terms": {
+      "counts": {
+        "rows": 24,
+        "source_groups": 13,
+        "pass_count": 20,
+        "minor": 1,
+        "major": 3,
+        "critical": 0,
+        "pass_rate": 0.8333333333333334,
+        "major_rate": 0.125,
+        "json_valid": 24,
+        "language_correct": 22,
+        "ended": 24
+      },
+      "baseline_counts": {
+        "rows": 24,
+        "source_groups": 13,
+        "pass_count": 20,
+        "minor": 1,
+        "major": 3,
+        "critical": 0,
+        "pass_rate": 0.8333333333333334,
+        "major_rate": 0.125,
+        "json_valid": 24,
+        "language_correct": 22,
+        "ended": 24
+      },
+      "new_major": 0,
+      "new_language_errors": 0,
+      "review_hash": "5001279a5b928ffbe250a8c4c6875682b4fcce7f51c478a3074f2d568b77f02a"
+    }
+  },
+  "method": "Root Codex AI read all24 original source/context/actual warmup translations. All144 formal raw outputs bound to those actually read predictions, same raw checked for binding only; not semantic string-match scoring.",
+  "review_complete": true,
+  "human_acceptance": false,
+  "finding": "Three pre-existing major errors including two language-direction failures persist. Passing timing thresholds is not a translation-quality or release pass.",
+  "independent_test": false,
+  "release_approved": false
+}

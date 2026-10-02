@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-02T13:12:04.745283+00:00",
+  "command": [
+    "uv",
+    "build"
+  ],
+  "cpu_affinity": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "Building source distribution...\nBuilding wheel from source distribution...\nSuccessfully built dist\\witrans_qwen35-0.2.0.tar.gz\nSuccessfully built dist\\witrans_qwen35-0.2.0-py3-none-any.whl\n",
+  "prior_unisolated_attempt": "uv access violation 0xC0000005; preserved here, not treated as success"
+}

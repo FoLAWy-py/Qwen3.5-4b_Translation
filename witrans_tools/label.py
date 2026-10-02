@@ -7,7 +7,7 @@ from pathlib import Path
 
 import httpx
 
-from witrans import make_messages, parse_translation
+from .protocol import make_messages, parse_translation
 from .common import TEACHER_ID, append_jsonl, fingerprint, now, read_jsonl, secret
 from .data import check_constraints, validate_record
 

@@ -3,7 +3,7 @@ import argparse
 import json
 from collections import Counter
 from pathlib import Path
-from scripts.review_v12_factorial import binding,collect,accept_manual
+from archive.qwen3.scripts.review_v12_factorial import binding,collect,accept_manual
 from witrans_tools.common import fingerprint,now,read_jsonl,write_json,write_jsonl
 
 

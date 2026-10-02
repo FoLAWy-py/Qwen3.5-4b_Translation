@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-02T11:15:38.698424+00:00",
+  "scope": "Additional explicit runtime metadata for already-started whole-forward compile experiment; no configuration changed in active process",
+  "backend": "inductor",
+  "mode": "default",
+  "fullgraph": false,
+  "dynamic": null,
+  "cache_implementation": "static",
+  "disable_hf_automatic_compile": true,
+  "emulate_precision_casts": true,
+  "emulate_divison_rounding": true,
+  "lora_dtype": "float32",
+  "triton_windows": "3.6.0.post26",
+  "stack_evidence": "compiled-stack-1914.txt",
+  "semantic_status": "pending full200/116, not inferred from output matches"
+}

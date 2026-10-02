@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-02T18:49:57.649234+08:00",
+  "pid": 28708,
+  "created": 1790938164.3406084,
+  "phase": "prefill_symbolic_compilation_cost_rejected",
+  "status": "aborted_configuration_trial",
+  "repeat": -1
+}
