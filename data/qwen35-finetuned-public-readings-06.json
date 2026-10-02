@@ -1,0 +1,12 @@
+{
+  "public-short-0099-zh-CN": ["pass", "汤姆认为300美元无法买齐所需，否定提升到觉得不可能是自然近义，仍为他的判断。", true],
+  "public-short-0099-en": ["pass", "汤姆不觉得300美元能买齐，金额范围否定正确，中文时态未限定。", true],
+  "public-short-0201-zh-CN": ["minor", "每人千日元可辨，但我每人给了他们语序别扭，宜给他们每人。", true],
+  "public-short-0072-zh-CN": ["minor", "不涨我工资保留，would not 的拒绝意愿弱化为不会。", true],
+  "public-short-0025-zh-CN": ["pass", "下个路口左转，方向与相邻路口正确。", true],
+  "public-short-0151-zh-CN": ["pass", "每次来都同道菜，习惯重复范围完整。", true],
+  "public-short-0151-en": ["pass", "every time 与 same dish 保留。", true],
+  "public-short-0226-zh-CN": ["pass", "我想谈你的情况，角色与愿望正确。", true],
+  "public-short-0227-zh-CN": ["pass", "桌上一个橙子，数量位置准确。", true],
+  "public-short-0011-zh-CN": ["major", "address on this parcel 为包裹上的地址，parcel 错用地块词义。", true]
+}

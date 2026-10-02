@@ -1,0 +1,21 @@
+{
+  "v4-dev-063-en": ["pass", "磁场方向改变、幅值不变，完整。", true],
+  "v4-dev-064-zh-CN": ["pass", "电阻耗散能量成热而非储存，物理作用准确。", true],
+  "v4-dev-064-en": ["pass", "电阻耗散而非存能，单复数不改一般性质。", true],
+  "v4-dev-065-zh-CN": ["pass", "溶剂蒸发留下曾溶解的盐，物质角色不倒置。", true],
+  "v4-dev-065-en": ["pass", "溶剂蒸发后原先溶解的盐留下，中文未要求特定时态。", true],
+  "v4-dev-066-zh-CN": ["pass", "叶在蒸腾时通过气孔失水，过程通道准确。", true],
+  "v4-dev-066-en": ["pass", "叶片通过气孔蒸腾失水，被动不改语义。", true],
+  "v4-dev-067-zh-CN": ["pass", "有丝分裂染色体数不变，未翻译或扩写消歧 context。", true],
+  "v4-dev-067-en": ["pass", "mitosis 和 chromosome number unchanged 保留正文，语境仅用于理解。", true],
+  "v4-dev-068-en": ["pass", "河流在弯内侧沉积淤泥，位置准确。", true],
+  "v4-dev-069-zh-CN": ["pass", "事件后写成且可能反映事后回顾，时间与可能性完整。", true],
+  "v4-dev-069-en": ["pass", "事件后文献可能带事后视角，retrospective perspective 合理。", true],
+  "v4-dev-070-zh-CN": ["pass", "omitted 可指未纳入调查，排除已搬走人保留范围，原文未限定是否故意。", true],
+  "v4-dev-070-en": ["pass", "调查漏掉已搬走者，完成搬走和遗漏准确。", true],
+  "v4-dev-071-en": ["pass", "能检测部分传输错误但不能纠正，范围否定完整。", true],
+  "v4-dev-073-zh-CN": ["pass", "酶较窄温区活性最高对应工作最快，专业意义准确。", true],
+  "v4-dev-073-en": ["pass", "较窄可表相对窄，narrower 不改变该温区作用最快。", true],
+  "v4-dev-074-zh-CN": ["pass", "半径二倍面积四倍，比例准确。", true],
+  "v4-dev-074-en": ["pass", "倍增半径使面积为原来四倍，完整。", true]
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:54.782420+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-hard-01",
+      "category": "hard",
+      "topic": "A team says a proposal is a long shot and wants to try it anyway; idiom means unlikely to succeed, not a long physical shot.",
+      "group_id": "v10-hard-01"
+    },
+    {
+      "case_id": "v10-hard-02",
+      "category": "hard",
+      "topic": "A person is on the fence about taking a role and asks for more information; hesitation is not rejection or physical location.",
+      "group_id": "v10-hard-02"
+    },
+    {
+      "case_id": "v10-hard-03",
+      "category": "hard",
+      "topic": "A new colleague learns the ropes while a mentor retains responsibility for final approval; idiom concerns learning work procedures.",
+      "group_id": "v10-hard-03"
+    },
+    {
+      "case_id": "v10-hard-04",
+      "category": "hard",
+      "topic": "A speaker takes a remark with a grain of salt and checks it against a document; scepticism is not a food instruction.",
+      "group_id": "v10-hard-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-hard-01\",\n      \"english\": \"The team called the proposal a long shot, but still wanted to try it. They believed that even if the odds were low, the potential reward was worth the effort.\",\n      \"chinese\": \"团队认为这个提议是长线赌注，但仍然想尝试。他们相信即使胜算很低，潜在回报也值得付出努力。\",\n      \"context\": \"A team is considering a high-risk project with uncertain outcomes.\"\n    },\n    {\n      \"case_id\": \"v10-hard-02\",\n      \"english\": \"She said she was on the fence about accepting the role and asked for more details. She needed time to decide without making a hasty choice.\",\n      \"chinese\": \"她说她对接受这个角色犹豫不决，并要求更多细节。她需要时间做决定，而不草率选择。\",\n      \"context\": \"A person is considering a new professional opportunity but is undecided.\"\n    },\n    {\n      \"case_id\": \"v10-hard-03\",\n      \"english\": \"The new hire was learning the ropes in the department, but their mentor still handled the final sign-off. This ensured that critical decisions remained in experienced hands.\",\n      \"chinese\": \"新员工正在学习部门的业务，但导师仍负责最终审批。这确保了关键决策仍然掌握在有经验的人手中。\",\n      \"context\": \"A new colleague is being trained in a specialized department.\"\n    },\n    {\n      \"case_id\": \"v10-hard-04\",\n      \"english\": \"He took the comment with a grain of salt and compared it with the official report. He didn't want to act on something without verification.\",\n      \"chinese\": \"他以怀疑态度看待这条评论，并与官方报告进行了对比。他不想在没有验证的情况下采取行动。\",\n      \"context\": \"A speaker hears an ambiguous statement and seeks to verify its accuracy.\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 466,
+    "total_tokens": 887,
+    "completion_tokens": 421,
+    "estimated_cost": 0.00015516,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

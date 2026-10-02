@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-30T23:25:45.432178+00:00",
+  "supersedes": "data/prepared/v9-constraints/train.jsonl",
+  "prior_hash": "25f02c8bca09eae9055632798804568f220070c29210c6163a9b5711f71196b0",
+  "train_hash": "eb0e98c3875e5972d5391fd80f7614e9e5d62d5e0693a1f43db23ec1de630c90",
+  "rows": 58,
+  "groups": 29,
+  "excluded_ids": [
+    "v9-constraint-003-zh-CN",
+    "v9-constraint-003-en"
+  ],
+  "reason": "Codex source recheck: English visit does not explicitly specify a home visit, whereas the Chinese source says上门. Whole bilingual family excluded rather than adding unsupported location or changing frozen source context.",
+  "reviewer": "Codex (user-authorized AI acceptance)",
+  "actions": {
+    "accept_teacher": 37,
+    "correct": 21,
+    "exclude": 2
+  },
+  "policy": "Use only this58-row revision for future training; original60-row first review preserved for audit. No release or model accuracy claim."
+}

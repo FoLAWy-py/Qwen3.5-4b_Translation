@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:52.002884+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-travel-01",
+      "category": "travel",
+      "topic": "A traveller books a bicycle space separately from a passenger ticket; passenger confirmation does not reserve the bicycle space.",
+      "group_id": "v10-travel-01"
+    },
+    {
+      "case_id": "v10-travel-02",
+      "category": "travel",
+      "topic": "A visitor is told that an audio guide can be collected after admission but is not included in the ticket price; preserve both actions and fee scope.",
+      "group_id": "v10-travel-02"
+    },
+    {
+      "case_id": "v10-travel-03",
+      "category": "travel",
+      "topic": "A guest agrees to change rooms tomorrow, while leaving luggage in the current room until staff confirm the new room is ready.",
+      "group_id": "v10-travel-03"
+    },
+    {
+      "case_id": "v10-travel-04",
+      "category": "travel",
+      "topic": "A walking party reaches a junction where one path is shorter but steeper; the suggested route is conditional on the group’s preference, not a closure notice.",
+      "group_id": "v10-travel-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-travel-01\",\n      \"english\": \"The traveler must book a separate bicycle reservation, as the passenger ticket does not automatically include a space for a bicycle. Confirmation of the passenger booking does not guarantee access to the cycle storage area.\",\n      \"chinese\": \"旅行者必须另行预订自行车空间，因为乘客车票不自动包含自行车位。确认乘客预订并不能保证可以使用自行车存放区。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-02\",\n      \"english\": \"The visitor was informed that an audio guide can be picked up at the entrance after purchasing the ticket, but it is not part of the standard admission fee.\",\n      \"chinese\": \"访客被告知可以在购票后在入口处领取语音导览器，但它不包含在标准门票费用中。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-03\",\n      \"english\": \"The guest agrees to move to a new room the following day, with their luggage to remain in the current room until the staff confirm the new room is ready.\",\n      \"chinese\": \"客人同意第二天搬到新房间，行李将留在当前房间，直到工作人员确认新房间已准备就绪。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-04\",\n      \"english\": \"At the trail junction, one route is shorter but steeper; the guide suggests the steep path only if the group prefers it, not because of any trail closure.\",\n      \"chinese\": \"在小径岔口，一条路线较短但更陡峭；导游仅在小组偏好时才推荐陡峭路线，并非因为小径关闭。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 479,
+    "total_tokens": 873,
+    "completion_tokens": 394,
+    "estimated_cost": 0.00014864,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

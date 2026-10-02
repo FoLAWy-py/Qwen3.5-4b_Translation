@@ -1,0 +1,20 @@
+{
+  "original_audit": "runs/qwen35-v3-context-supplement-overlap-audit.json",
+  "scope": "Preserved excluded source texts; no TRAIN use. Original working draft changed after overlap inspection; historical audit remains unchanged.",
+  "excluded": [
+    {
+      "key":"travel-02",
+      "en":"On this ferry, a folding bicycle counts as cabin luggage only if it is folded and placed inside a carrying bag. A bicycle with small wheels does not qualify merely because it takes up less space.",
+      "zh":"在这班渡轮上，折叠自行车只有折好并装进携行袋后才算作客舱行李。小轮自行车不会仅因占用空间较少就符合条件。",
+      "reason":"Conservative exclusion: shares the core folding-bicycle/bag admission condition with old DEV v4-dev-030. Authored before looking at the old source, but not suitable as an independent TRAIN addition.",
+      "training_allowed_in_this_trial": false
+    },
+    {
+      "key":"food-03",
+      "en":"Toast the pumpkin seeds with their thin skins on, then let them cool on an uncovered tray. Covering the hot seeds traps steam and can soften them again.",
+      "zh":"保留薄皮烘香南瓜子，然后将它们放在未加盖的托盘上冷却。盖住热的南瓜子会困住蒸汽，可能使它们重新变软。",
+      "reason":"Conservative exclusion: seed-toasting/cooling scenario too similar to old TRAIN v8-multi-017 to count as a new independent source.",
+      "training_allowed_in_this_trial": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:53.641275+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-hard-01",
+      "category": "hard",
+      "topic": "culture: a laboratory discussing growth in a culture vessel",
+      "group_id": "v5-seed-20"
+    },
+    {
+      "case_id": "v6-hard-02",
+      "category": "hard",
+      "topic": "culture: a sociologist discussing customs in an organization",
+      "group_id": "v5-seed-20"
+    },
+    {
+      "case_id": "v6-hard-03",
+      "category": "hard",
+      "topic": "interest: a savings account accumulating interest",
+      "group_id": "v5-seed-21"
+    },
+    {
+      "case_id": "v6-hard-04",
+      "category": "hard",
+      "topic": "interest: a reader developing interest in a new subject",
+      "group_id": "v5-seed-21"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-hard-01\",\n      \"english\": \"The culture is growing well in the vessel.\",\n      \"chinese\": \"培养物在容器中生长得很好。\",\n      \"context\": \"A laboratory technician is monitoring the growth of a biological culture in a sterile container.\"\n    },\n    {\n      \"case_id\": \"v6-hard-02\",\n      \"english\": \"The culture of this organization is unique.\",\n      \"chinese\": \"这个组织的文化很独特。\",\n      \"context\": \"A sociologist is analyzing the customs and values within a corporate environment.\"\n    },\n    {\n      \"case_id\": \"v6-hard-03\",\n      \"english\": \"The interest on this account is compounding monthly.\",\n      \"chinese\": \"这笔账户的利息每月复利计算。\",\n      \"context\": \"A bank teller is explaining the financial details of a savings account.\"\n    },\n    {\n      \"case_id\": \"v6-hard-04\",\n      \"english\": \"She developed a strong interest in ancient history.\",\n      \"chinese\": \"她对古代历史产生了浓厚兴趣。\",\n      \"context\": \"A student is describing her new passion after reading a book on archaeology.\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 381,
+    "total_tokens": 649,
+    "completion_tokens": 268,
+    "estimated_cost": 0.00010552,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

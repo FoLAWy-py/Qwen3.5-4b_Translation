@@ -1,0 +1,12 @@
+{
+  "v4-dev-002-zh-CN": ["minor", "放下一半与午后阳光正确，blind 泛化窗帘，与微调同项口径一致。", true],
+  "v4-dev-002-en": ["pass", "百叶帘放下一半与屏幕照阳光准确。", true],
+  "v4-dev-003-zh-CN": ["major", "still have 指仍保管对方延长线，拥有增加所有权含义，角色归属不准确。", true],
+  "v4-dev-003-en": ["minor", "已还梯子而线仍在我处的语义正确，extension line 搭配不如 cord/cable；原始 JSON 多出字段，另记格式失败。", true],
+  "v4-dev-004-zh-CN": ["pass", "包裹送楼上邻居而非我们，位置接受者正确。", true],
+  "v4-dev-005-zh-CN": ["pass", "冲海绵后留沥水板，两动作完整。", true],
+  "v4-dev-006-en": ["pass", "周二照狗与带食物前提准确。", true],
+  "v4-dev-007-zh-CN": ["pass", "关闭背包时拉链卡内衬，频次动作正确。", true],
+  "v4-dev-007-en": ["major", "拉上背包即拉链关闭，pull up backpack 错为提拉背包，与微调相同错误。", true],
+  "v4-dev-008-zh-CN": ["pass", "平摊包括配送费，均分和范围正确。", true]
+}

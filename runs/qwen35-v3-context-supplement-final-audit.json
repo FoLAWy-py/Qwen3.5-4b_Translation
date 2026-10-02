@@ -1,0 +1,1522 @@
+{
+  "at": "2026-10-02T01:50:10.964818+00:00",
+  "draft_hash": "af193873adb031357f392067a7dfc2e6a4ff235592c3a1a226b7ae7383847d46",
+  "rows": 40,
+  "source_groups": 20,
+  "old_unique_source_texts": 7498,
+  "old_input_file_hashes": {
+    "data\\generated\\candidates.jsonl": "9a3f56ab06aece4541e5d71514a45f7018d1e122a7b4ded91dcaf8218992da9b",
+    "data\\generated\\memory_smoke_1024.jsonl": "8171344bf0f55ad15918c7361548d16d40e13224d523a7aa9738f68825f5316e",
+    "data\\generated\\memory_smoke_1536.jsonl": "b869c5d2db066edc894d6224a69160a28ae7d3902532c037431a59d08eb4a308",
+    "data\\generated\\memory_smoke_2048.jsonl": "e230628378edc386d7b2fc3861868f7a6cabe104d2b617feb682dd4a4cbc937d",
+    "data\\generated\\pilot_reviewed.jsonl": "e1c92510d1fcacb587b6c5fbfc51aeb452ebe685570f85ca1706851befccedec",
+    "data\\generated\\v1_candidates.jsonl": "9d5dd79ad14c88e6178cdd4be62716f26eb51fd4164a7fa3cb78383ecae12a5c",
+    "data\\generated\\v2_candidates.jsonl": "11e8dc47d7d4d4b324005ee2431d6aed3481fda1530aab4fd02e4311eeb7598c",
+    "data\\generated\\v2_sourcefix_candidates.jsonl": "547f3e6f301e794d956e4af71aa70553cb83ae7259c9678325a4ca5472b42377",
+    "data\\generated\\v3_candidates.jsonl": "d9be2d2018abe1ad44792f46b4019f0bc00b3008621c8a47088fcddd0a6802d5",
+    "data\\generated\\v5_seed_candidates.jsonl": "7ff0001fedb9f9b2291f81bc7e9789b2e4259bcfc35db0bc3e5728a4c8a5ceab",
+    "data\\generated\\v7_context_candidates.jsonl": "277b9cf375f75be0b2fdc533bb1fd3e55abae3d038cddd50eee8d4be500c6c79",
+    "data\\generated\\v8_multisentence_candidates.jsonl": "ee627072edf0c438102ff177c80a3b72d13c82035d960c61193e8c2a31d4b745",
+    "data\\generated\\v9_constraint_candidates.jsonl": "f19680173561ceaa7d8f8446a3e0532cb6a22fef097b1ef718f188f0c0cda060",
+    "data\\pilot_inputs.jsonl": "29bd3f74ff76453593c02178fdb530d16f1e28c24ea83d95551bfce319d6d7a8",
+    "data\\prepared\\pilot-v1\\dev.jsonl": "eb7684f2e7c205a0d1c4b2cb0e6747a1243f368f473e4bf99a00e832057a091d",
+    "data\\prepared\\pilot-v1\\test.jsonl": "6d33a4bb25019f0078436c513e9455626ac4cc7c0d4c01175b623a1ec8f872f6",
+    "data\\prepared\\pilot-v1\\train.jsonl": "0577c4b9aab62fb494e98c4ba3c2ed9e3f3fc3f39cbbae40c13214bb57009f2c",
+    "data\\prepared\\qwen35-v1\\pairs.jsonl": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826",
+    "data\\prepared\\qwen35-v1\\sft.jsonl": "6df46d960546cfaf94b1e8ee81b9f67ee221bceb25e0bd185d1054e5eade1db6",
+    "data\\prepared\\qwen35-v2\\pairs.jsonl": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826",
+    "data\\prepared\\qwen35-v2\\sft.jsonl": "6df46d960546cfaf94b1e8ee81b9f67ee221bceb25e0bd185d1054e5eade1db6",
+    "data\\prepared\\qwen35-v3-current-errors\\pairs.jsonl": "e06fb9b8036a3816131a46c30f1802bbb11fa35fa965bf63900e972edbc1a0ed",
+    "data\\prepared\\short-benchmark-v1\\inputs.jsonl": "e1ada036fae1dcd56d06ea0a1e9f630a8ca4f59e461abe5d9df267de29a3964c",
+    "data\\prepared\\v1\\acceptance_120.jsonl": "63807d80131c0a5b3e3ecabd5020e104eff1d1f1ee51398acd6d93679f96199d",
+    "data\\prepared\\v1\\challenges.jsonl": "a728b55ad78366b2ff4816744e27185980c410677cd7edaeba679851a49851f1",
+    "data\\prepared\\v1\\dev.jsonl": "89270e6f6b754f18f57b905c8623108270723734546892d2fa8864f8531318f9",
+    "data\\prepared\\v1\\dev_screen.jsonl": "0d245ecf1c8fa385f6e40f11bbd3a3371563f9c5b813959f11a8cc685df1ed5f",
+    "data\\prepared\\v1\\test.jsonl": "364ed8a892e249c7cbe6da90c186c4eb5b56a6a122ac636b461ea05620b35bf3",
+    "data\\prepared\\v1\\test_corrected.jsonl": "81bb83b743c915c3d02c17059485e92bc57210972c29f9b0c11bfd17162c21d2",
+    "data\\prepared\\v1\\test_screen.jsonl": "995d0cc6080642c6b8c089964e550550e71a540080ca12ff3bf9b22ca352d243",
+    "data\\prepared\\v1\\test_screen_corrected.jsonl": "2829cd96bb48754f370dddc04a72453dc7e65ff659e67ae35668527dc8960e08",
+    "data\\prepared\\v1\\train.jsonl": "3813f2391c67d528ee4252ce6f8c4f651a7637deca1caa34b69e03851529c566",
+    "data\\prepared\\v10-source\\candidates.jsonl": "576ee553b5b23e99c26e8d6d7eb7c9022249e781c4624856dbb4ca86f5e08c22",
+    "data\\prepared\\v10-source\\reviewed-partial.jsonl": "e870ffcab696f6e1984645752af0f73cfc7ce0b560090c11f225a2819f8314c5",
+    "data\\prepared\\v10-source-family-checked\\train.jsonl": "9cd15e368ef3837562a002f6b32ebc1e8c22bacb9d5ddc8901328c4d6103341a",
+    "data\\prepared\\v11-mixed\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v11-mixed\\train.jsonl": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe",
+    "data\\prepared\\v12-factorial\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v12-factorial\\mixed-train.jsonl": "3ed8cbe5968a6ec7b6df612005b67db6a438616a870ccb52229bc01997843615",
+    "data\\prepared\\v12-factorial\\old-train.jsonl": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe",
+    "data\\prepared\\v12-factorial\\public-dev.jsonl": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+    "data\\prepared\\v12-factorial-v2\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v12-factorial-v2\\mixed-train.jsonl": "3ed8cbe5968a6ec7b6df612005b67db6a438616a870ccb52229bc01997843615",
+    "data\\prepared\\v12-factorial-v2\\old-train.jsonl": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe",
+    "data\\prepared\\v12-factorial-v2\\public-dev.jsonl": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+    "data\\prepared\\v12-public-short\\dev.jsonl": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+    "data\\prepared\\v12-public-short\\train.jsonl": "0c3098fbbc3708c153975e21bc300cd5afc9d646b7813d42e49d004a321f0f9c",
+    "data\\prepared\\v14-fact-trial\\replay.jsonl": "00afe81fc281e4d446f3ef87105249ee8e016c9f3aa6693f24a3a1d0a3508ed8",
+    "data\\prepared\\v14-public-fact-pairs\\positives.jsonl": "3b5458a5d1e4dc1edb7cd9d51a2be567aeb7e80643e3d55effeec41924c8de03",
+    "data\\prepared\\v15-error-repair\\pairs.jsonl": "5271e4ed53e73864c6593e4aed9c49827aedaf544908bf49a8d53015cf979e1b",
+    "data\\prepared\\v15-error-repair\\replay.jsonl": "beab1f97b251ac157c2125b63b07afeda8299b7e36aea4bd842c2420285b4892",
+    "data\\prepared\\v16-family-audit\\records.jsonl": "7b93078f7d2e9b0fe85fa65dcae21b68168c73276efe19da816a79dc5d8bea0a",
+    "data\\prepared\\v16-reviewed-families\\all-reviewed.jsonl": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+    "data\\prepared\\v16-reviewed-families\\quarantined.jsonl": "1e427a753d660e5182a87a8e11f9d04d44791e3feb1c874aa023d1aaa4909b35",
+    "data\\prepared\\v16-reviewed-families\\train-ready-after-overlap-review.jsonl": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+    "data\\prepared\\v16-reviewed-families\\train-ready.jsonl": "5bdf4ed80bfed01e67f07917bbfcba50dec4ff2b012e776fa5ca54167da3162a",
+    "data\\prepared\\v17-new-error-triage\\records.jsonl": "a0f092e3b09a585096e4692dd1a44b504e4c83945c034adc1e7917434a12aea3",
+    "data\\prepared\\v19-balanced-repair\\pairs.jsonl": "03c3a693dd26d4ae8e15d67051b82c0147dfb3ef55dd9c24ce5e8fb7c0fa472c",
+    "data\\prepared\\v19-balanced-repair\\replay.jsonl": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+    "data\\prepared\\v2\\bf16_test.jsonl": "fc191f063979ff2d2a4880f20297b36ddefd4f1f8cf40cc35c2314d1eaebbe62",
+    "data\\prepared\\v2\\dev.jsonl": "a418fed10b80fd6acd72ed974f7a67d2a67f9b9dcd98227087be5703d2d11a88",
+    "data\\prepared\\v2\\dev_corrected.jsonl": "385c64ebe443c49d0bf5eb9ed6933e1a064dcf2559e62d64398825808984cd78",
+    "data\\prepared\\v2\\dev_screen.jsonl": "a418fed10b80fd6acd72ed974f7a67d2a67f9b9dcd98227087be5703d2d11a88",
+    "data\\prepared\\v2\\dev_screen_corrected.jsonl": "385c64ebe443c49d0bf5eb9ed6933e1a064dcf2559e62d64398825808984cd78",
+    "data\\prepared\\v2\\precision_test.jsonl": "e7bfbd5761a078ecd2fb46ab9880e26a1e35edeb8032828c43e2fb4db2647d6d",
+    "data\\prepared\\v2\\replay.jsonl": "72ea5ae8386908eaa98602b6bb986734e81fad8b832fe419549f56610cc8c538",
+    "data\\prepared\\v2\\test.jsonl": "d6de9840504f22fdb1de0c918ee213c3b07af90c6627998be09c6b00cc64a812",
+    "data\\prepared\\v2\\train.jsonl": "99e495898c8282b5925583f0df0e805143c8a3d713612152e1e9ada3ce0c51a4",
+    "data\\prepared\\v3\\dev.jsonl": "5acb4ed45d4192094b8cee38a6a600029821157822756ffb094e3c77ceb2511f",
+    "data\\prepared\\v3\\dev_references.jsonl": "27eb7852e36c70d6b2157936749d3f3245188e3d18ff26f9dda4764aa09f917d",
+    "data\\prepared\\v3\\test.jsonl": "0f1f1784726497f3afcfb2e702cdac4ca614f1f745d208da82e19b05167f93cc",
+    "data\\prepared\\v3\\test_references.jsonl": "f5af5b43d0058521f7afad72421b517fa27a1e206e0c1c589166a467641d823f",
+    "data\\prepared\\v3\\train.jsonl": "9cf69600f666ce18920ba4cfc26d9298df8900f2b27a613a035f501b47b9d601",
+    "data\\prepared\\v3\\train_references.jsonl": "9e3eec819af9c6ad46f91bced54e591b03577a0572c974a080bf769f048247d5",
+    "data\\prepared\\v4\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v4\\train.jsonl": "e49ef710eeec2781846368188b1a73ff93e0e6bcf154585d0c3acc9ae98210c3",
+    "data\\prepared\\v4-mining\\pool.jsonl": "70b94c789b9b37ef0f2be53c9003c0215ce43116c6fb1a5d372ac139953f5fc9",
+    "data\\prepared\\v4-mining\\preferences.jsonl": "3decd41683c8978119c1fd7c47488b7f5e26f46f0bcb6f5e9e52407403f0ab13",
+    "data\\prepared\\v5-mixed\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v5-mixed\\train.jsonl": "9757eaf8a0a666c317326a069dea258fc8271a46e6c6ac12f3fcf9bfafff4c5f",
+    "data\\prepared\\v5-seed\\references.jsonl": "971c8aa04214d9a1fc463dcb45687c51cf51a3b3b67cbdea3a42b3e7bddf0241",
+    "data\\prepared\\v5-seed\\train.jsonl": "e1fea313ff165d84839d22dd0bb431d0ce510f9a843c87094ec357057054ce58",
+    "data\\prepared\\v6-preference\\dev.jsonl": "5acb4ed45d4192094b8cee38a6a600029821157822756ffb094e3c77ceb2511f",
+    "data\\prepared\\v6-preference\\train.jsonl": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826",
+    "data\\prepared\\v6-source\\candidates.jsonl": "beae724f5b5e40b0d7a404d341f46054123efccb4b2c0803e83a679d54c42a74",
+    "data\\prepared\\v6-source\\train.jsonl": "5f7c979ab3f99dc84fd3d4a36dfcb57f2c95244d0de28a2b15c2568808d3dbb6",
+    "data\\prepared\\v7-context\\references.jsonl": "7101b4808b2b68d277e5c0ceccbab8e6a837f28da276fadb937e004a03eb3411",
+    "data\\prepared\\v7-context\\train.jsonl": "097e22e8d55582ad6d751561e6bba343abae50f6c819c469a025b2e8f00a1d05",
+    "data\\prepared\\v8-mining\\preferences.jsonl": "9957220beeb1f6b146dcba74de9edd57f4b77c40810661b19c95a6e3f0539dec",
+    "data\\prepared\\v8-mixed\\dev.jsonl": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "data\\prepared\\v8-mixed\\train.jsonl": "3096225c7aa6025697354ea24ebde4222d3bf6f6c6f528b32b50a5d723c44390",
+    "data\\prepared\\v8-multisentence\\references.jsonl": "a8a1c5cc02a10fc9e2a7c2bde0dc159fefc7937812fff97f48b32e48c102b461",
+    "data\\prepared\\v8-multisentence\\train.jsonl": "28b9b54e5eb122af77a8c90fc2f6c5b217228adbcafeb72f2fedd8a80a8b6245",
+    "data\\prepared\\v9-constraints\\references.jsonl": "efb04c87309844fa4c8653a0c2ae82e775bc886a9a577d711603c25c7f7f9163",
+    "data\\prepared\\v9-constraints\\train.jsonl": "25f02c8bca09eae9055632798804568f220070c29210c6163a9b5711f71196b0",
+    "data\\prepared\\v9-constraints-context-checked\\train.jsonl": "eb0e98c3875e5972d5391fd80f7614e9e5d62d5e0693a1f43db23ec1de630c90",
+    "data\\qwen35-base-known-packets-01.jsonl": "758dc6e0a2ce405bbc1b46e1233c5b372fba690b44b0004067870066724eba27",
+    "data\\qwen35-base-known-packets-02.jsonl": "3e5b71a6e546ba76f41d8b1efaeb47cc2d7b9b5808e4ac052ce34a219a14657a",
+    "data\\qwen35-base-known-packets-03.jsonl": "1c0c916394d73141f95a054e309cee06de40a04668bc5a574fcf2a92393cbed0",
+    "data\\qwen35-base-known-packets-04.jsonl": "6a85d9d4302d8a817b0286e7b83b14cebd16ed5fed93d910e61fbf6405e1eb80",
+    "data\\qwen35-base-known-packets-05.jsonl": "6ae13446a0f7c00556f7422f7c68c70eb7e447529ce3edc8be84c16c05d9e883",
+    "data\\qwen35-base-known-packets-06.jsonl": "77de8ce7b3c0072b4309be4a8a1b6eccc03d5d6e4a2c7fc0f62de47d89e2c507",
+    "data\\qwen35-base-known-packets-07.jsonl": "52b9e9031adf4b5fdcf1acf0b796fb0f71d5152f6849b0410dbe335a3f5f1910",
+    "data\\qwen35-base-known-packets-08.jsonl": "5ebd28cabae53890144b88c3edb35b60d4d022461a28d506f895a243e3fc25c9",
+    "data\\qwen35-base-public-packets-01.jsonl": "f4c7bf9d08bff6b486ae9d280af5c6ed9ee11a495fcbf27b9fe23c4aff6e03f0",
+    "data\\qwen35-base-public-packets-02.jsonl": "9123f1e8b8d6d7d9271d6b201c27715f7f4dc89db469140afa45263428873dbd",
+    "data\\qwen35-base-public-packets-03.jsonl": "3d1c8f5d78a7ae2b44e4a64580c1bad72273446e671191a2b181ab556dbc071a",
+    "data\\qwen35-finetuned-known-packets-01.jsonl": "9b82cc767ff89b72559cf0e4ac8cd18c035cb2e2d10595baf262fe355a43d4ff",
+    "data\\qwen35-finetuned-known-packets-02.jsonl": "76ef1747b3bf4849d9b3d6e2c3e466bd1ff0050549b0d0011bc1501b6b66e878",
+    "data\\qwen35-finetuned-known-packets-03.jsonl": "494fcde15a3d35a8135ce6ae2ae2b278d4d14128c18cd67061267925d11205c9",
+    "data\\qwen35-finetuned-known-packets-04.jsonl": "18a3f4df80653a1532aa623b706637888ef1f16c63594374fe04edfc025c5094",
+    "data\\qwen35-finetuned-known-packets-05.jsonl": "9d2c9e9ba72566fe5582127a51ca807f908cb62cdb5700e3a7ebebe982e680cb",
+    "data\\qwen35-finetuned-known-packets-06.jsonl": "46038193aee7082a18655200513978189d02a11b0582622995c14b00bf4d63b7",
+    "data\\qwen35-finetuned-known-packets-07.jsonl": "a3995106468dec182480c46edad960fe722bedc1ed1fc21e4bf39bae989db74d",
+    "data\\qwen35-finetuned-known-packets-08.jsonl": "4e0982ba919bc7be7453b7bf2054a48eb8d0e7ffc4112026584da6c386c350c2",
+    "data\\qwen35-finetuned-known-packets-09.jsonl": "55121dc99cd094c7d49821dd1d562a4785fc60cb1d01202717367fd43b8b49ea",
+    "data\\qwen35-finetuned-known-packets-10.jsonl": "bbaf36e91a6848ffbc36a8d8c56629cdbe11adcba7fb806e1e95419006f57482",
+    "data\\qwen35-finetuned-known-packets-11.jsonl": "00fbd9855ce412b65d4e335e1c671e0cb9ed0b006836c142d270db60a7ece8df",
+    "data\\qwen35-finetuned-public-packets-01.jsonl": "139af9480303bdbc92064bec97c7ee955ffc7f225c809057d4680a0aafd609f2",
+    "data\\qwen35-finetuned-public-packets-02.jsonl": "3d2c009dce294778a035d4fce8c27921661a8805cbd76c0a24b433a1369700db",
+    "data\\qwen35-finetuned-public-packets-03.jsonl": "233f0b71d9aa68b6888ad78d6f51ca1374ab9cc774bc9c1685f6cb0b2c5ed251",
+    "data\\qwen35-finetuned-public-packets-04.jsonl": "c44670e7bf4e11ca66b1d6035adfcf3dc596bd62b573adc71f1189518eda7ac3",
+    "data\\qwen35-finetuned-public-packets-05.jsonl": "4065563b9077fe6e1726a23bb53bde51e412f44871c88cbd059b414ae6656eeb",
+    "data\\qwen35-finetuned-public-packets-06.jsonl": "4e562f90d95aaa80b7f179e5f3d94e502313865d4b9ece2077c4f72c5b8b0f21",
+    "data\\qwen35-finetuned-public-packets-07.jsonl": "6799acea8715901169d7445a06c9bee9eec18bcc5c033f23c573705c038d0f34",
+    "data\\qwen35-finetuned-public-packets-08.jsonl": "9e827b1ea69b02335a05d27e0df4f42e103d37dddd033ac0958682d5eb92f8cc",
+    "data\\v1_inputs.jsonl": "fd5f220f7d604646fcc45fa6e17e177e068ef3b04532883aeaceccfb25684ad3",
+    "data\\v1_label_inputs.jsonl": "6450270f98925b0fac314d4ed59d1b81a79a8df7e4c2a99d2ffe3ecdcd5d3375",
+    "data\\v1_references.jsonl": "21f7e33c1b98ef19b57e48d86d22d27ef56b7d2aafdb2c1be29289dbbc2537c8",
+    "data\\v2_label_inputs.jsonl": "7f87708aa6ffec47e75c6ef5f1d87899287bc7f1ef35496866e1281323b66759",
+    "data\\v2_sourcefix_inputs.jsonl": "1230be44a917a04158ac2c43e43a0626afbe90e0afd359e982357b8a3c3d9bef",
+    "data\\v2_train_references.jsonl": "15fafd3f40505633b144bc0f5f0bd7f8bdc922337e295efb399e13ad326999b9",
+    "data\\v2_train_references_corrected.jsonl": "01f942c13017e225398b074f17eaedc103bbe0954be8362f025c48e04b724eb5",
+    "data\\v3_label_inputs.jsonl": "185e458f9b194c8db02d241535abc421ba96cd29c8faa5cc854aa3cd1678e381",
+    "data\\v5_seed_label_inputs.jsonl": "20e2b58490389ca7f1897560e1e890b3c9cfacec3775bb7894bd330c57d6d5c9",
+    "data\\v7_context_label_inputs.jsonl": "1d6bdefadc9b3f9ccc699d3309c3dc30181fe6cf8aa1a2787f601af3b0affe15",
+    "data\\v8_multisentence_label_inputs.jsonl": "580d8e8c9d1bd1855f5e8ea7ad1805ace9439d072e2f14bc724a0de96002ed51",
+    "data\\v9_constraint_label_inputs.jsonl": "fa3c8157f92cbccf032e0bea7999e2dd4bba33f446a2539ed63897096ab50a82",
+    "runs\\pilot-adapter-greedy.jsonl": "5d1136fd3fea6a35ae1fb31a4483d937bba982ec1c31e5c986bde4fb134fd50c",
+    "runs\\pilot-baseline-greedy.jsonl": "69ef0883a8ac1525bdf420da3beb58cc8d194c5913933fe5c293d326d07a6565",
+    "runs\\pilot-baseline.jsonl": "08dbdb5b713cc5f6a74f0fb3aff9704b75cec0dff302f3cacfe116ed1b85b791",
+    "runs\\qwen35-base-known.jsonl": "945dd1d3351a81fa3bc5f9a44fc081c8950afbb326f2e62a40bc9c056b66c8b3",
+    "runs\\qwen35-base-public.jsonl": "c61461b6c9847e49c32af9ea3e5d64acc4cc4a4e28c0cf49cd5025308bd1e635",
+    "runs\\qwen35-base-v2-known.jsonl": "0ade89fd7cb6464438b3cbc1077fcb4898ad54b9096bacee7fed146d7fcf74c2",
+    "runs\\qwen35-base-v2-public.jsonl": "32d102da6e4131e48b14e6d697450d724fdbb868c3debb2df02a4fc6d9816107",
+    "runs\\qwen35-finetuned-known.jsonl": "c1b5ef0b1cb631c6cf64e62f919d0550b1c45810af665debb26c3d190b80dc3d",
+    "runs\\qwen35-finetuned-public.jsonl": "8f4582c1826bd47a15e66ead35f49554b7d27af75a85919938361a9d8a5fb3b0",
+    "runs\\qwen35-v2-short-benchmark.jsonl": "3fd34dc5dd5dd692783bb003277f6fb3a61271f5f1587298bf075e1babd86503",
+    "runs\\qwen35-v3-train-discovery-recovery1.jsonl": "4157c8242c57973710f84f0e5dac721f8efb35277922359fcd28a5fdf2c809c0",
+    "runs\\v1-adapter-acceptance.jsonl": "91517ce57cab6caa190222554120b6b186245328d9fa402ee3abe0da8cfe467e",
+    "runs\\v1-baseline-screen-corrected.jsonl": "1f86f700457db7ba7529a049a54e80dc862cebb452b14d8ff088d84d0175b9e0",
+    "runs\\v1-baseline-screen.jsonl": "50774be11a4871a650384a3ed5dbe07b6565ba8f72843cb6ffa341df5792f41a",
+    "runs\\v12-base-dev.jsonl": "11ac0a37d0e7ee758c21ff4b311a2dcf6400d8f1c8f6206091d24eb669df05c3",
+    "runs\\v12-blind-packets.jsonl": "394d5733b7c80f19a3ebe4577706cd49d9e40e1f786d23898d76aed2ccccb0ca",
+    "runs\\v13-candidate-known.jsonl": "1b12a6fcacdd31739f6ea12b8729001fe913de3be8653ceb47d4924b013554f9",
+    "runs\\v13-candidate-public.jsonl": "91707063405d5848015afb7873b5ee5d6d663dc85cadf8184eda8538833031d6",
+    "runs\\v13-selected-dev.jsonl": "1b12a6fcacdd31739f6ea12b8729001fe913de3be8653ceb47d4924b013554f9",
+    "runs\\v13-start-dev.jsonl": "79821371798d9743fcfd3f9878e7355f2196b3d2ce127d9743eaee9cd1e2566d",
+    "runs\\v13-v7-public.jsonl": "1c4e5e76dc8a0cf8d9ef5abb811819deaf6eb971fe6ba39c197f8963bc68ee81",
+    "runs\\v14-matching-known.jsonl": "c5e65146de488e63e7d726d252c10c787a173cfaaa3ff6fa83020a8ea10bb715",
+    "runs\\v14-matching-public.jsonl": "e9ac6e4f557920f6524aaa94ab487c7e8953335ee2c833a7a65057f498ca0e22",
+    "runs\\v14-matching-selected-dev.jsonl": "c5e65146de488e63e7d726d252c10c787a173cfaaa3ff6fa83020a8ea10bb715",
+    "runs\\v14-matching-start-dev.jsonl": "79821371798d9743fcfd3f9878e7355f2196b3d2ce127d9743eaee9cd1e2566d",
+    "runs\\v15-error-known.jsonl": "e0cc2347c0862d26afe0489fc5018963a4669a99aa6957c58af1e2895ba0dfed",
+    "runs\\v15-error-public.jsonl": "6ee253ed3729101cfcf853057351705efd4f0d3953f76ef8423aed32cbb0a948",
+    "runs\\v15-error-selected-dev.jsonl": "e0cc2347c0862d26afe0489fc5018963a4669a99aa6957c58af1e2895ba0dfed",
+    "runs\\v15-error-start-dev.jsonl": "79821371798d9743fcfd3f9878e7355f2196b3d2ce127d9743eaee9cd1e2566d",
+    "runs\\v15-known-readings-batch01.jsonl": "3eddb83edccec88fe49c88e66e2cd666f249a0cfb555b23263c9e82f8cf6ed81",
+    "runs\\v15-known-readings-batch02.jsonl": "111085184841a3a0d5c048c9d5f24ff6623ac34fbbcb68765804ad60ace74768",
+    "runs\\v15-known-readings-batch03.jsonl": "bebfa22439391a65304b8edabe46f2c5c095cbc0096576b53759c46618ff88bb",
+    "runs\\v15-public-readings-batch01.jsonl": "6b99a7dd21e76424592534f2efb4559ddc9651e6ac4401435c200030bce569c8",
+    "runs\\v15-public-readings-batch02.jsonl": "a3fab675ad1369bfaa1c6692faad8f38b206d1a28454982fce42cca49ebc4139",
+    "runs\\v15-public-readings-batch03.jsonl": "639d5103b375f4a0ade2ec80df8806c56e13020131cbc55276d81f3ea2e878cd",
+    "runs\\v15-public-readings-batch04.jsonl": "9b3b086c3f1a776764f2eb918db89eb1abfa15d33395e6b39136d31b551a51bb",
+    "runs\\v15-recall-readings-batch01.jsonl": "b29ba51db04aa4fb455c22e223041f2b72bba1791465247dfa750744fc1c3a2b",
+    "runs\\v15-repair-recall-input.jsonl": "5271e4ed53e73864c6593e4aed9c49827aedaf544908bf49a8d53015cf979e1b",
+    "runs\\v15-repair-recall.jsonl": "5573f715619992208feca30950da138adcb3752c3d6b2149c5a4e961ace7d711",
+    "runs\\v15-training-triage-generations.jsonl": "9db0ed889fd7f68823ede21850d4493a8f87f0aa55591a1b68e10e4d9bc65d04",
+    "runs\\v16-recall-readings-batch01.jsonl": "b29ba51db04aa4fb455c22e223041f2b72bba1791465247dfa750744fc1c3a2b",
+    "runs\\v16-span-recall.jsonl": "d4b842982b38b417574ae9c9d4ceaa4200c72ebed8cb15b6abecd5b33467962b",
+    "runs\\v17-new-error-triage.jsonl": "efd3530739b4b1573477edb30cf7c9f4af141e65af659cb585f1819717091c1f",
+    "runs\\v17-recall-readings-batch01.jsonl": "6e8d9c2014d4a80c200ab9622aa44185ba379ea45c38c57a62b9336e75b2d499",
+    "runs\\v17-strength-recall.jsonl": "4d8111178a45843d23d0f41e32defe865cdf0263f013ca2e60f5fcf911df983a",
+    "runs\\v18-sft-explicit-readings.jsonl": "beb9438a1fcdf1e4979afbdcb454f9cbca090bcf4a7585e77e44da424afd3f64",
+    "runs\\v18-sft-recall.jsonl": "5ad88a8380b4bb94226f93aa4bada553b7e3d477a3ada9f1d01ee6543e7ec005",
+    "runs\\v19-balanced-recall.jsonl": "bd2b9517c95927081dc758dc34f17369a465657f668290150d3f924a9e8459d2",
+    "runs\\v19-triage-explicit-readings.jsonl": "d39a896180250ff4db6938625855b6af04efc94bdccb81e1819522788560dd46",
+    "runs\\v2-adapter-dev.jsonl": "2770176dcd7020f652d3a7984b93a00ae97cb5219fcce8062c852b00f8bf1257",
+    "runs\\v2-adapter-test.jsonl": "608e68437e5aa824ebbcc07ef106dc3d15f3b8a89bd2f595736cdc0fc084c045",
+    "runs\\v2-baseline-dev-corrected.jsonl": "2d66b019e0b8d1aaed59e8462c10e68b19ef0b44647c6b49be487b5192843b36",
+    "runs\\v2-baseline-dev.jsonl": "1e029150ed3007e0caaf8c364f571fbe27e424e7254be65394072e6ac9aa0cf1",
+    "runs\\v2-baseline-test.jsonl": "8e81c1ae96a061c45f42007e5ff407a06e279f5cdde2af455d32f4556288403f",
+    "runs\\v2-bf16-adapter-test.jsonl": "e8894a3115954e75540aa327f5450a84eb0feac02aefc7c59dccb2b8b9de7670",
+    "runs\\v2-bf16-baseline-test.jsonl": "e3b07ef8829ee248f60af6bfb32a87b189d22fa933d2575566acd2d1f0846f4a",
+    "runs\\v2-bf16-dev.jsonl": "e40860e6f04c9f5e23d33ec1eb40e65511fb521d41afc7552e7381aef03ee847",
+    "runs\\v2-int8-adapter-precision.jsonl": "582b2084d4ad788194758d9205d7edef85f2f5873cc7bf35abdfa8bac2e4e05d",
+    "runs\\v2-int8-baseline-precision.jsonl": "e7a97785c402a0e8d34c7637939fd5ae03ab4064e861e4ef04a6651115c697c4",
+    "runs\\v2-int8-dev.jsonl": "2289368304e738ef08fbce31518d32198f664b3123ba94dd51d39fbbf2052136",
+    "runs\\v3-cpo-dev.jsonl": "1e19521f61288ec27f37c609f43593c1372a21f81e4c78549d58be38d8a41eee",
+    "runs\\v3-selected-dev.jsonl": "fad9947fff17cbcd0994192f61b824b3f07419763442bbb80a6e52b72c2a93be",
+    "runs\\v3-selected-test.jsonl": "bb4fdae650f7cb5221eebf1bb75ac08d8086adfbeced6c20840d09c1ae44555d",
+    "runs\\v3-start-dev.jsonl": "ce26fb2c7f0857da0dbafdc5af46db256111b8fd8f1a9ada97e1e237824137b3",
+    "runs\\v3-start-test.jsonl": "eb6c173d67976a8f9ea8c246b24c64f5d769a2601103ef59517512a6077f8b28",
+    "runs\\v4-mining-start.jsonl": "80bedcf975a78a645bf38db8eefa50c2730a3f549d669a3e710a8be4ee507e40",
+    "runs\\v4-selected-dev.jsonl": "929feb2305a8a6d2124e3c7fe0477ac5401190d6b7188491fc7966a773b52f2a",
+    "runs\\v4-start-dev.interrupted-20261001.jsonl": "808d256a0bf2726af9e0589d016f9ca76bd330c64b44dbe7244acf108f36e282",
+    "runs\\v4-start-dev.jsonl": "654e74d010e34b4fb971128c003cf26debb7cecdeee2d7e07d22979cde79ec34",
+    "runs\\v5-selected-dev.jsonl": "892a315fa170f9392e83d4a38307970ef3969e3c11ef162c9cbff43e995ba9bf",
+    "runs\\v5-start-dev.jsonl": "75d6a5ed55f7439dddbcdb202d7d02ab16b508f6030e656a405202efa8e7b040",
+    "runs\\v6-cpo-dev.jsonl": "3c1f2fecb9a66f35f0dea459690858a17d89289d3c94c6b83a38f990f2d600f4",
+    "runs\\v6-sft-control-dev.jsonl": "aceea327e6ef40ff3d693d580aad5c967d63d36d4414375fd931059bf33687c4",
+    "runs\\v7-critical-dev.jsonl": "79821371798d9743fcfd3f9878e7355f2196b3d2ce127d9743eaee9cd1e2566d",
+    "runs\\v7-short-compiled-eager-rounding.jsonl": "ff9b3b1751a96eeade90e2acd980910d559b90035cc41ad48d8a7424bdc0d66e",
+    "runs\\v7-short-compiled.jsonl": "8f7034805b1b3a2a4fe24a2a096bf1515138a84e7b48a450a4f69ca0909f2cd4",
+    "runs\\v7-short-eager-rounding-comparison.changed.jsonl": "406413b47e56e4e87ba729ade256db54ff6565e0d0bf1cdc1270a3483d56e5d6",
+    "runs\\v7-short-eager.jsonl": "5add2df55e7719b5a0688e3430cc3039e18a1cc586117f6b1ac622eb5e20e04d",
+    "runs\\v7-short-runtime-comparison.changed.jsonl": "360c45b52817b5ac7899b4172d44bfe73e334af1d757502774701544fa08210d",
+    "runs\\v8-multisentence-v5-mining.jsonl": "707b9ad6b0c7ddfbfda99fd0caad5c1729c910681fde3bfbb8a68f2ba72a2a69",
+    "runs\\v8-selected-dev.jsonl": "4f3831d41959fbc84a2c25a8ba3aa2abbf83fdd13e3625b5b2d8b81d555a9d7a"
+  },
+  "rows_hash": "b20d73f034adbf27168bb2c52c31b5a43e363378d3c78afa15a8b47048a8de13",
+  "audit_hash": "dc15857bb9c20ef32b272e3a3b6b12397cf7307bf1871f9869b7113ca2d6c432",
+  "audit": [
+    {
+      "id": "q35-v3-supplement-daily-01-zh-CN",
+      "input_hash": "179554efbe90efaa5a0b15ec2730e9aebbdf7f53a1534d9c0a1fb9a3dcb4116f",
+      "reference_hash": "a25a043a2115aba1fc4e53af213d0617b48da984565470e81a409c0f147885aa",
+      "full_tokens": 301,
+      "nearest_old_sources": [
+        {
+          "id": "v8-multi-006-zh-CN",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-006",
+          "text": "The notice says the lift will be inspected tomorrow morning. That does not mean it will remain unavailable for the whole day.",
+          "trigram_jaccard": 0.021739130434782608,
+          "character_similarity": 0.3967611336032389
+        },
+        {
+          "id": "v10-travel-08-zh-CN",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-travel-08",
+          "text": "Your campsite reservation includes a tent pitch, but does not cover equipment rental. Sending a message about arrival does not mean the site will supply a tent for you.",
+          "trigram_jaccard": 0.018867924528301886,
+          "character_similarity": 0.2907801418439716
+        },
+        {
+          "id": "v10-daily-08-zh-CN",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-daily-08",
+          "text": "The volunteer updated the noticeboard poster only after confirming the new room number with the office. Leaving a draft on the desk does not mean it's ready for display.",
+          "trigram_jaccard": 0.018518518518518517,
+          "character_similarity": 0.4098939929328622
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-01-en",
+      "input_hash": "cf779582bdfc2976e9dd25ab82b52c617b4a445a2c77aefa00d07c82274ed265",
+      "reference_hash": "97aec22927774f74f45c9db3ac3d15381010a3b46cc7afb6cf2e4b65eb1a10f1",
+      "full_tokens": 301,
+      "nearest_old_sources": [
+        {
+          "id": "v2-train-011-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-2a5ee55107e3581b",
+          "text": "收据不见了，这并不意味着付款失败了。",
+          "trigram_jaccard": 0.06521739130434782,
+          "character_similarity": 0.25925925925925924
+        },
+        {
+          "id": "v8-multi-006-en",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-006",
+          "text": "通知说电梯明天上午会接受检查。这并不意味着它一整天都不能使用。",
+          "trigram_jaccard": 0.05084745762711865,
+          "character_similarity": 0.1791044776119403
+        },
+        {
+          "id": "v9-constraint-029-en",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-029",
+          "text": "他说结果有好有坏。有些部分有所改进，但这并不意味着所有部分都成功了。",
+          "trigram_jaccard": 0.04918032786885246,
+          "character_similarity": 0.2028985507246377
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-02-zh-CN",
+      "input_hash": "ed655e4f0d166e61deae765faa48d6a572ebf9a871d532798ae8acf3ce88de21",
+      "reference_hash": "3369f00b52f131e8e09a2f5c2eaeb81343fc214346cf2faf28e5281783a64e6f",
+      "full_tokens": 296,
+      "nearest_old_sources": [
+        {
+          "id": "v2-bf16-018-zh-CN",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-018",
+          "text": "Assume x > 0 and y = 2x. The statement applies only when both conditions are satisfied.",
+          "trigram_jaccard": 0.027777777777777776,
+          "character_similarity": 0.28431372549019607
+        },
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.16766467065868262
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.16149068322981366
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-02-en",
+      "input_hash": "8f061328f406dd8a7f33d819c39fe66b78e7897a22e0bd5b2ea1980ffda72214",
+      "reference_hash": "74308f0dd30ef0861cbc29d950b73c7610d9dc6d089b4d9e7051996b0651b8ee",
+      "full_tokens": 296,
+      "nearest_old_sources": [
+        {
+          "id": "public-short-0562-en",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0562",
+          "text": "有一个人想见你。",
+          "trigram_jaccard": 0.02,
+          "character_similarity": 0.10714285714285714
+        },
+        {
+          "id": "public-short-0227-en",
+          "path": "data\\prepared\\v12-factorial\\public-dev.jsonl",
+          "group_id": "public-v12-public-short-0227",
+          "text": "桌上有一个橙子。",
+          "trigram_jaccard": 0.02,
+          "character_similarity": 0.10714285714285714
+        },
+        {
+          "id": "public-short-0298-en",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0298",
+          "text": "她有一个钢琴家女儿。",
+          "trigram_jaccard": 0.019230769230769232,
+          "character_similarity": 0.10344827586206896
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-03-zh-CN",
+      "input_hash": "548eeb06018be53b5523661c5efc7608ac55636810ee728ee0f3f1d44cf36cb4",
+      "reference_hash": "cc961d979723a54d398e81c59e3674c1b159eb9cd5df451ca713376e8afb487b",
+      "full_tokens": 307,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.09944751381215469
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.09142857142857143
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.14207650273224043
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-03-en",
+      "input_hash": "88e1df4bbbc02a3fc83fdb814ef87d59217a17fb766e895281576e7d71defd14",
+      "reference_hash": "2b34b70f4423b118d50e0d6b964ed72ea3ee7d8a35faa34c09e75a3c7dac9762",
+      "full_tokens": 307,
+      "nearest_old_sources": [
+        {
+          "id": "v9-constraint-030-en",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-030",
+          "text": "我们在交货日期上各让一步吧。我是在建议达成折中，而不是让你到我们办公室之间的某个地方去。",
+          "trigram_jaccard": 0.024096385542168676,
+          "character_similarity": 0.11235955056179775
+        },
+        {
+          "id": "v1-travel-014-04-en",
+          "path": "data\\prepared\\v1\\dev.jsonl",
+          "group_id": "v1-travel-014",
+          "text": "请不要取消另外 8 位客人的预订。",
+          "trigram_jaccard": 0.017543859649122806,
+          "character_similarity": 0.12903225806451613
+        },
+        {
+          "id": "v1-travel-014-02-en",
+          "path": "data\\prepared\\v1\\dev.jsonl",
+          "group_id": "v1-travel-014",
+          "text": "请不要取消另外 4 位客人的预订。",
+          "trigram_jaccard": 0.017543859649122806,
+          "character_similarity": 0.12903225806451613
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-04-zh-CN",
+      "input_hash": "1794c42bf38976028976b1402b2c71c8ce99a425d428187d7c2007fb4cf062e7",
+      "reference_hash": "d38f280d50b952657614dc5984d3f9a8598a61b6836284ce08536af432920de8",
+      "full_tokens": 291,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.06134969325153374
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.15286624203821655
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.10909090909090909
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-daily-04-en",
+      "input_hash": "36f92b96fc0c8e9335811b657d3c1c1d880ee962a55dbc00313520d6d93c5c18",
+      "reference_hash": "1651230e84ebac4f80c250138b608ccc27a5d9ff2823debc0b877397da0a1fbd",
+      "full_tokens": 291,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-01-zh-CN",
+      "input_hash": "cec49b60319606d3f18ec0deb6f7d85b78ea8f132cfa2500870221591bcb4f14",
+      "reference_hash": "29269529a1c47ab5e40dcb6c042ded11474d35fb8b43cead343fe7abda97ad91",
+      "full_tokens": 307,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.12698412698412698
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.09836065573770492
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.17801047120418848
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-01-en",
+      "input_hash": "700788b9216eda7cfda83ad979270555fe590899fc2a55599e3bd5c1872425df",
+      "reference_hash": "9fa9d2fc84b0ffa1b0a48537d7465619cd4464e35c971574c5e44a44796c7e66",
+      "full_tokens": 307,
+      "nearest_old_sources": [
+        {
+          "id": "v3-train-013-en",
+          "path": "data\\generated\\v3_candidates.jsonl",
+          "group_id": "v3-train-013",
+          "text": "登机口编号变了，但出发时间没有变。",
+          "trigram_jaccard": 0.03389830508474576,
+          "character_similarity": 0.11940298507462686
+        },
+        {
+          "id": "v8-multi-013-en",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-013",
+          "text": "时刻表上列了两班出发时间，但星期日只有较晚的那班运行。选择接续班次前，请核对一下日期。",
+          "trigram_jaccard": 0.024096385542168676,
+          "character_similarity": 0.13186813186813187
+        },
+        {
+          "id": "v8-multi-014-en",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-014",
+          "text": "日票包括瞭望塔。它不包括导览步行活动，那项活动必须另行预约。",
+          "trigram_jaccard": 0.013888888888888888,
+          "character_similarity": 0.10126582278481013
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-02-zh-CN",
+      "input_hash": "97859b1ed1819089a57f70bf48ccc68b64715c265570c7420ba732fc7e477ce5",
+      "reference_hash": "ece4d7c7283e6f2b3948f4682f42428a0ad5f710fd1ab37da03cc218873d253c",
+      "full_tokens": 310,
+      "nearest_old_sources": [
+        {
+          "id": "v2-bf16-007-zh-CN",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-007",
+          "text": "The ticket is valid for one journey, even if you change vehicles along the way.",
+          "trigram_jaccard": 0.0975609756097561,
+          "character_similarity": 0.3317972350230415
+        },
+        {
+          "id": "public-short-0452-zh-CN",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0452",
+          "text": "Sunday is not a workday for me.",
+          "trigram_jaccard": 0.027777777777777776,
+          "character_similarity": 0.19101123595505617
+        },
+        {
+          "id": "public-short-0558-zh-CN",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0558",
+          "text": "It is not easy to master English.",
+          "trigram_jaccard": 0.027777777777777776,
+          "character_similarity": 0.2
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-02-en",
+      "input_hash": "2ef25b0d1d03a4c42210ec64f2b47979ceb3e0e7171c9ed486abac445b680dda",
+      "reference_hash": "fd4d0af792f6366ba992c614ab06a573568219c018611d6f0cea092319220e06",
+      "full_tokens": 310,
+      "nearest_old_sources": [
+        {
+          "id": "v2-bf16-007-en",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-007",
+          "text": "这张票可用于一次行程，即使途中换乘也可以。",
+          "trigram_jaccard": 0.0625,
+          "character_similarity": 0.25
+        },
+        {
+          "id": "v2-train-074-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-1cb46a25c148e479",
+          "text": "不能用验证集拟合归一化参数。",
+          "trigram_jaccard": 0.01639344262295082,
+          "character_similarity": 0.09090909090909091
+        },
+        {
+          "id": "v2-train-034-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-c85a9837f3681779",
+          "text": "这张票可以免费改乘更早的一班吗？",
+          "trigram_jaccard": 0.015873015873015872,
+          "character_similarity": 0.14705882352941177
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-03-zh-CN",
+      "input_hash": "fa7e523f091d91658985887cdc70739b4c3954e955410bd723f933da57b29fd9",
+      "reference_hash": "02f6477522fe7a30f8722b8fc22f79d10dfdf1c0f542e883cb59edad61e18fd1",
+      "full_tokens": 308,
+      "nearest_old_sources": [
+        {
+          "id": "v5-seed-006-zh-CN",
+          "path": "data\\generated\\v5_seed_candidates.jsonl",
+          "group_id": "v5-seed-06",
+          "text": "The guide will wait beside the fountain in the courtyard. If you arrive late, contact the reception desk instead of joining a different group.",
+          "trigram_jaccard": 0.020833333333333332,
+          "character_similarity": 0.2962962962962963
+        },
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.13043478260869565
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.15730337078651685
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-03-en",
+      "input_hash": "c0233c58f35d6550507a44dad6f63a192f3be8e628b6781e61f5d8bd121c6454",
+      "reference_hash": "1ab5888169d0cdc5349040977e2ecb4e29d66ccf8d2a815590411248e7b03000",
+      "full_tokens": 308,
+      "nearest_old_sources": [
+        {
+          "id": "v10-travel-15-en",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-travel-15",
+          "text": "游客的预订信息标明集合点在车站外，但活动实际在附近的庭院开始。导游在庭院内与他们会合，并带领他们穿过一道隐蔽的入口。",
+          "trigram_jaccard": 0.03225806451612903,
+          "character_similarity": 0.22
+        },
+        {
+          "id": "v10-travel-02-en",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-travel-02",
+          "text": "访客被告知可以在购票后在入口处领取语音导览器，但它不包含在标准门票费用中。",
+          "trigram_jaccard": 0.02666666666666667,
+          "character_similarity": 0.12345679012345678
+        },
+        {
+          "id": "v2-bf16-006-en",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-006",
+          "text": "我们约好在图书馆外面见面。我先到了，在入口旁等着。他打来电话时，我才发现他在另一个入口。我们谁都没有进去。",
+          "trigram_jaccard": 0.022988505747126436,
+          "character_similarity": 0.12903225806451613
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-04-zh-CN",
+      "input_hash": "e7881bf4e0f8da3568060b0f7a08e31f91bdfe679b816f05842af8af205db0bd",
+      "reference_hash": "1989d075e071e8cee23a38d61ecbf1cf352930fbdb8a6871082d8e095216909e",
+      "full_tokens": 314,
+      "nearest_old_sources": [
+        {
+          "id": "public-short-0235-zh-CN",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0235",
+          "text": "I saw him at the station a few days ago.",
+          "trigram_jaccard": 0.029411764705882353,
+          "character_similarity": 0.25287356321839083
+        },
+        {
+          "id": "v2-train-048-zh-CN",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-c65bed894f76072e",
+          "text": "I received a booking confirmation, but no ticket was attached. Could you tell me whether I should collect it at the station?",
+          "trigram_jaccard": 0.021739130434782608,
+          "character_similarity": 0.22950819672131148
+        },
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.1839080459770115
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-travel-04-en",
+      "input_hash": "08c1d80938ac0d3a2856b8068b233cc227320b49353b1f655db1ed93645f7688",
+      "reference_hash": "c4c833253c859eb492e2d6e234688d4fcc4365eff44b6e9af9182624d8ab9c4f",
+      "full_tokens": 306,
+      "nearest_old_sources": [
+        {
+          "id": "v2-bf16-015-en",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-015",
+          "text": "这张图显示的是相关性，不能确定哪个变量导致另一个变量发生变化。",
+          "trigram_jaccard": 0.05263157894736842,
+          "character_similarity": 0.20930232558139536
+        },
+        {
+          "id": "v4-dev-063-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-063",
+          "text": "磁场方向发生变化，但大小不变。",
+          "trigram_jaccard": 0.031746031746031744,
+          "character_similarity": 0.11428571428571428
+        },
+        {
+          "id": "v5-seed-014-en",
+          "path": "data\\generated\\v5_seed_candidates.jsonl",
+          "group_id": "v5-seed-14",
+          "text": "观察到的偏移可能来自测量漂移。判断样品发生变化之前，我们应先重新校准仪器。",
+          "trigram_jaccard": 0.023809523809523808,
+          "character_similarity": 0.10989010989010989
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-01-zh-CN",
+      "input_hash": "2829f714b445ffa6365efa91ea3c3130b164fdb5fe3ebadfb341fba88bc0ef28",
+      "reference_hash": "4f2a89e274ac2a99711c3abaca89d3ed08b36dfc9d2c8df596f001d31119b34d",
+      "full_tokens": 305,
+      "nearest_old_sources": [
+        {
+          "id": "v10-travel-02-zh-CN",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-travel-02",
+          "text": "The visitor was informed that an audio guide can be picked up at the entrance after purchasing the ticket, but it is not part of the standard admission fee.",
+          "trigram_jaccard": 0.057692307692307696,
+          "character_similarity": 0.33992094861660077
+        },
+        {
+          "id": "v3-train-016-zh-CN",
+          "path": "data\\generated\\v3_candidates.jsonl",
+          "group_id": "v3-train-016",
+          "text": "Could you give me a spoon for the dessert and a fork for the salad?",
+          "trigram_jaccard": 0.025,
+          "character_similarity": 0.2569832402234637
+        },
+        {
+          "id": "v2-test-020-zh-CN",
+          "path": "data\\prepared\\v2\\test.jsonl",
+          "group_id": "v2-9ae89d093638cb90",
+          "text": "The sign says \"Say nothing\", but these words are part of the text to be translated.",
+          "trigram_jaccard": 0.024390243902439025,
+          "character_similarity": 0.28272251308900526
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-01-en",
+      "input_hash": "f5df84e258c1a15e44158cbc2e9d683b3793241f39d284056d4f3690a82dc251",
+      "reference_hash": "54b51ef89bdc553d4ad7d547282f1759c445f9f0fc5a25a6e3e5c726f1aa4a81",
+      "full_tokens": 305,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.0
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-02-zh-CN",
+      "input_hash": "f573b46ce9ec8c33161e0025243c0e1e590a218b9430f58e829ec342e66a0470",
+      "reference_hash": "9d396815daba9eef3e906d624beec8cc5f6a237aee2bfcb76c49d95f0d01d5dd",
+      "full_tokens": 311,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.09836065573770492
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.1694915254237288
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.22702702702702704
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-02-en",
+      "input_hash": "0e3243148a348ae496bffa4476720bdcacd15d52d16936d629cc3627702ff0ea",
+      "reference_hash": "d3967d0e870bfc0a42726d1e3cde13bdab2efa009f248db91752e70ac83f7adf",
+      "full_tokens": 311,
+      "nearest_old_sources": [
+        {
+          "id": "v5-seed-009-en",
+          "path": "data\\generated\\v5_seed_candidates.jsonl",
+          "group_id": "v5-seed-09",
+          "text": "撇去高汤表面的浮沫。不要把浮沫搅回汤里，否则汤会变浑浊。",
+          "trigram_jaccard": 0.030303030303030304,
+          "character_similarity": 0.1891891891891892
+        },
+        {
+          "id": "public-short-0006-en",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0006",
+          "text": "汤姆把钱包放在了桌子上。",
+          "trigram_jaccard": 0.018867924528301886,
+          "character_similarity": 0.13333333333333333
+        },
+        {
+          "id": "v2-train-089-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-f9293c9e510e66bb",
+          "text": "慢慢把酸加入水中，不要把水加入酸中。",
+          "trigram_jaccard": 0.017241379310344827,
+          "character_similarity": 0.15384615384615385
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-03-zh-CN",
+      "input_hash": "441cf9ee6c9f140e4089d496b87cf0c9059dc349429e3a824771ef0082832c41",
+      "reference_hash": "746e430ec47dffab96436db554a5b6e2173acd0768e21f02bbeef2546e6cf3bc",
+      "full_tokens": 327,
+      "nearest_old_sources": [
+        {
+          "id": "v3-train-015-zh-CN",
+          "path": "data\\generated\\v3_candidates.jsonl",
+          "group_id": "v3-train-015",
+          "text": "The broth contains shellfish even if the visible pieces are removed.",
+          "trigram_jaccard": 0.030303030303030304,
+          "character_similarity": 0.328042328042328
+        },
+        {
+          "id": "v4-dev-013-zh-CN",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-013",
+          "text": "Please knock before coming in, even if the door is ajar.",
+          "trigram_jaccard": 0.030303030303030304,
+          "character_similarity": 0.2840909090909091
+        },
+        {
+          "id": "v8-multi-038-zh-CN",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-038",
+          "text": "We should not cut corners. Every stage must undergo the same checks, even if the deadline moves.",
+          "trigram_jaccard": 0.02564102564102564,
+          "character_similarity": 0.23923444976076555
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-03-en",
+      "input_hash": "5893c107500a33c0f3e9e580d2725acb8b7a4db8832b28000249f186b668c27e",
+      "reference_hash": "1db982b0b97c83e5393d86a15de6f8854583af45665260a7150587cc8b3d23c4",
+      "full_tokens": 327,
+      "nearest_old_sources": [
+        {
+          "id": "v4-dev-045-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-045",
+          "text": "菜单把这道炖菜列为主菜，而不是配菜。",
+          "trigram_jaccard": 0.018867924528301886,
+          "character_similarity": 0.13559322033898305
+        },
+        {
+          "id": "v2-train-008-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-597fd3f14bc8f6d1",
+          "text": "我以为你是在征求建议，而不是请求许可。",
+          "trigram_jaccard": 0.018518518518518517,
+          "character_similarity": 0.13333333333333333
+        },
+        {
+          "id": "v6-academic-07-en",
+          "path": "data\\prepared\\qwen35-v1\\sft.jsonl",
+          "group_id": "v6-academic-07",
+          "text": "引文展示了原始话语，而不是后来的解释。",
+          "trigram_jaccard": 0.018518518518518517,
+          "character_similarity": 0.1
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-04-zh-CN",
+      "input_hash": "84fee7fe9fdb624e363af67d9c94f14762a83439be6de5f0f2640cbd33078a4d",
+      "reference_hash": "20176864cc57c51ee8d59d4eb6068f181f27a25f795f203dfe7f74eb37fa4c85",
+      "full_tokens": 303,
+      "nearest_old_sources": [
+        {
+          "id": "v4-mining-004-zh-CN",
+          "path": "data\\prepared\\qwen35-v1\\sft.jsonl",
+          "group_id": "v4-mining-04",
+          "text": "The replacement arrived without a charger, even though the packing list included one.",
+          "trigram_jaccard": 0.029411764705882353,
+          "character_similarity": 0.34517766497461927
+        },
+        {
+          "id": "v8-multi-007-zh-CN",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-007",
+          "text": "I have renamed the document Quiet Beacon. Please use that name in the minutes, even though the folder still has the old name.",
+          "trigram_jaccard": 0.022727272727272728,
+          "character_similarity": 0.3185840707964602
+        },
+        {
+          "id": "v10-food-18-zh-CN",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-food-18",
+          "text": "The customer asked for a dessert without any alcohol. Even though the waiter removed the maraschino cherry, the syrup still contained brandy and didn't meet the request.",
+          "trigram_jaccard": 0.02040816326530612,
+          "character_similarity": 0.3018867924528302
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-food-04-en",
+      "input_hash": "073364ca9e061b8ccd6dcdfbbc863193fad73f4ff8193c6a22788bc2a3a1e63a",
+      "reference_hash": "4eb2499d85e3489ee7e2d4f8045da1b35e081ea8b51250ffd186eb9a9aed54ec",
+      "full_tokens": 303,
+      "nearest_old_sources": [
+        {
+          "id": "v9-constraint-013-en",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-013",
+          "text": "这款面包含有芝麻，尽管表面看不到芝麻粒。去掉外皮也不能让它变成不含芝麻的面包，请不要把它端给对芝麻过敏的客人。",
+          "trigram_jaccard": 0.05333333333333334,
+          "character_similarity": 0.16666666666666666
+        },
+        {
+          "id": "v2-train-054-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-b5ec4e4ddb801a13",
+          "text": "菜单说这道菜含芝麻。做的时候也可以不放芝麻油吗？",
+          "trigram_jaccard": 0.02040816326530612,
+          "character_similarity": 0.21818181818181817
+        },
+        {
+          "id": "v2-bf16-013-en",
+          "path": "data\\prepared\\v2\\bf16_test.jsonl",
+          "group_id": "v2-bf16-013",
+          "text": "调味汁里含芝麻油。不放芝麻粒并不能去掉调味汁中的芝麻油。",
+          "trigram_jaccard": 0.0196078431372549,
+          "character_similarity": 0.23728813559322035
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-01-zh-CN",
+      "input_hash": "413eedd32d65feb7efed26f6a60dd4f8c1df274fa4022d90db6df5f827eae284",
+      "reference_hash": "b0b204ed790812b0cec1c996d7345d8fede13b2a3cfe1bed2e0fe09f7d682f27",
+      "full_tokens": 299,
+      "nearest_old_sources": [
+        {
+          "id": "v1-academic-022-05-zh-CN",
+          "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 10 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.02857142857142857,
+          "character_similarity": 0.30985915492957744
+        },
+        {
+          "id": "v1-academic-022-13-zh-CN",
+          "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 26 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.02857142857142857,
+          "character_similarity": 0.30985915492957744
+        },
+        {
+          "id": "v1-academic-022-04-zh-CN",
+          "path": "data\\prepared\\v1\\test.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 8 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.02857142857142857,
+          "character_similarity": 0.3113207547169811
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-01-en",
+      "input_hash": "c47bd1bca2a0fd6627f9e95a905b2bd27aa42c48818fcc1afa48b2f7cf57cad8",
+      "reference_hash": "391a376a18a6c82d6cee969b3b249fc3b84f3c10ef42b8adfaa29d72c2e8d698",
+      "full_tokens": 299,
+      "nearest_old_sources": [
+        {
+          "id": "v10-academic-20-en",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-academic-20",
+          "text": "最初的报告将该指标称为'temp_index'以保持清晰。之后将其更名为'final_index'，但这并不影响数据集中存储的值。",
+          "trigram_jaccard": 0.023529411764705882,
+          "character_similarity": 0.12844036697247707
+        },
+        {
+          "id": "v1-academic-029-01-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-029",
+          "text": "对照组中有 2 名参与者没有接受治疗。",
+          "trigram_jaccard": 0.01639344262295082,
+          "character_similarity": 0.14925373134328357
+        },
+        {
+          "id": "v1-academic-029-02-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-029",
+          "text": "对照组中有 4 名参与者没有接受治疗。",
+          "trigram_jaccard": 0.01639344262295082,
+          "character_similarity": 0.14925373134328357
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-02-zh-CN",
+      "input_hash": "c569ea889e6bd64b200e3342307ee404d4febc79e7ec37efa5b1f065ba00387c",
+      "reference_hash": "c0c7eab48caf45e6f981cee7407ab577c9b54ed253b9feeb5e48391835e11d63",
+      "full_tokens": 285,
+      "nearest_old_sources": [
+        {
+          "id": "v9-constraint-015-zh-CN",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-015",
+          "text": "Reserve two tablespoons of the cooking liquid before draining the beans. Add the reserved liquid only if the mixture is too dry; it is not an extra serving of sauce.",
+          "trigram_jaccard": 0.04081632653061224,
+          "character_similarity": 0.3533834586466165
+        },
+        {
+          "id": "public-short-0558-zh-CN",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0558",
+          "text": "It is not easy to master English.",
+          "trigram_jaccard": 0.037037037037037035,
+          "character_similarity": 0.1761006289308176
+        },
+        {
+          "id": "public-short-0448-zh-CN",
+          "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+          "group_id": "public-v12-public-short-0448",
+          "text": "It is not good for a scientist to get emotional.",
+          "trigram_jaccard": 0.03333333333333333,
+          "character_similarity": 0.16374269005847952
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-02-en",
+      "input_hash": "1c565069cfc71d3acd56129187b3d89302291cbc06c0b0b68bf724c09683a514",
+      "reference_hash": "e6cc72ea5e3ca0710b234dffe7ba6ee58c111ea18e6b3dfe39d4de7707ba545a",
+      "full_tokens": 278,
+      "nearest_old_sources": [
+        {
+          "id": "v4-mining-015-en",
+          "path": "data\\prepared\\qwen35-v1\\sft.jsonl",
+          "group_id": "v4-mining-15",
+          "text": "估计效应为正，但置信区间包含零。",
+          "trigram_jaccard": 0.0392156862745098,
+          "character_similarity": 0.2033898305084746
+        },
+        {
+          "id": "v3-dev-007-en",
+          "path": "data\\prepared\\v3\\dev.jsonl",
+          "group_id": "v3-dev-007",
+          "text": "这个传感器测量的是速率，而不是加速度。",
+          "trigram_jaccard": 0.037037037037037035,
+          "character_similarity": 0.1935483870967742
+        },
+        {
+          "id": "v4-dev-062-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-062",
+          "text": "回归系数描述的是关联，不一定是因果效应。",
+          "trigram_jaccard": 0.03636363636363636,
+          "character_similarity": 0.2222222222222222
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-03-zh-CN",
+      "input_hash": "a245559118056555fa3aa654b5a483a5777642b4c3247cbbd84bb2cb7b7b49c7",
+      "reference_hash": "09b1c9619e6e5a2f23eeef4219993712cecad0e2b681805d0d34e9069fa6e2b6",
+      "full_tokens": 286,
+      "nearest_old_sources": [
+        {
+          "id": "v3-train-020-zh-CN",
+          "path": "data\\generated\\v3_candidates.jsonl",
+          "group_id": "v3-train-020",
+          "text": "The capacitor stores charge; it does not generate charge.",
+          "trigram_jaccard": 0.037037037037037035,
+          "character_similarity": 0.3333333333333333
+        },
+        {
+          "id": "pilot-academic-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-academic-003",
+          "text": "A statistically significant result does not necessarily imply a large effect.",
+          "trigram_jaccard": 0.034482758620689655,
+          "character_similarity": 0.37185929648241206
+        },
+        {
+          "id": "v2-train-068-zh-CN",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-a258020700a29c45",
+          "text": "The function returns a new list; it does not modify the original one.",
+          "trigram_jaccard": 0.03225806451612903,
+          "character_similarity": 0.3404255319148936
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-03-en",
+      "input_hash": "3c127b9ad805e455997132845783005a5a8e3d6cd0d6fb9ac33796b59da2b938",
+      "reference_hash": "e7cb7c905d67b2b94b7bb9ca141edf4ec58c94317c9a738668c90677db22473a",
+      "full_tokens": 286,
+      "nearest_old_sources": [
+        {
+          "id": "v1-academic-011-01-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-011",
+          "text": "在 2 次试验中出现统计显著的差异，并不一定意味着效应很大。",
+          "trigram_jaccard": 0.03636363636363636,
+          "character_similarity": 0.19672131147540983
+        },
+        {
+          "id": "v1-academic-011-02-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-011",
+          "text": "在 4 次试验中出现统计显著的差异，并不一定意味着效应很大。",
+          "trigram_jaccard": 0.03636363636363636,
+          "character_similarity": 0.19672131147540983
+        },
+        {
+          "id": "v1-academic-011-03-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-011",
+          "text": "在 6 次试验中出现统计显著的差异，并不一定意味着效应很大。",
+          "trigram_jaccard": 0.03636363636363636,
+          "character_similarity": 0.19672131147540983
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-04-zh-CN",
+      "input_hash": "00fd57a8752174cd3699fd52511793ecac34440da0d46c8e3fcddabb2c8e862b",
+      "reference_hash": "dd27da7612f8dfee94f24b008559e41280f6705b4a8a0e1cc13b9bca2ee61569",
+      "full_tokens": 293,
+      "nearest_old_sources": [
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.16766467065868262
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.09937888198757763
+        },
+        {
+          "id": "pilot-daily-003",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-003",
+          "text": "Would tomorrow afternoon work for you?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.15384615384615385
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-academic-04-en",
+      "input_hash": "89ad59ce3538a56ce5391d676ace4beed76f0a9a2be61c2f821ea2df98e453b4",
+      "reference_hash": "a636089d736492a2e53e00e6014873a507519726eb4630e94a926d51b7d4b1b5",
+      "full_tokens": 293,
+      "nearest_old_sources": [
+        {
+          "id": "v9-constraint-015-en",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-015",
+          "text": "给豆子沥水之前，先留出两汤匙煮豆子的水。只有混合物太干时才加入留出的水，这并不是额外的一份酱汁。",
+          "trigram_jaccard": 0.023529411764705882,
+          "character_similarity": 0.1978021978021978
+        },
+        {
+          "id": "v4-dev-067-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-067",
+          "text": "有丝分裂过程中，染色体数目保持不变。",
+          "trigram_jaccard": 0.017241379310344827,
+          "character_similarity": 0.15873015873015872
+        },
+        {
+          "id": "v1-daily-027-01-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-daily-027",
+          "text": "我并不是有意打断你这场 2 分钟的演讲。",
+          "trigram_jaccard": 0.01694915254237288,
+          "character_similarity": 0.125
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-01-zh-CN",
+      "input_hash": "cc0805a4471a29bd77671d247d0f83fe6849253103f88dbe4100f7a9c4b053a4",
+      "reference_hash": "0fa33dc4e0d2550c63c3b3b424a5d5a114813215e67dbe62ed33b6049bc5ba50",
+      "full_tokens": 297,
+      "nearest_old_sources": [
+        {
+          "id": "v10-food-11-zh-CN",
+          "path": "data\\prepared\\v10-source\\candidates.jsonl",
+          "group_id": "v10-food-11",
+          "text": "The recipe specifies 200 grams of flour measured before sifting, not after. Changing the order may affect the volume and texture of the final product.",
+          "trigram_jaccard": 0.022222222222222223,
+          "character_similarity": 0.4076923076923077
+        },
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.1437125748502994
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.14906832298136646
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-01-en",
+      "input_hash": "4cd67ccb9185ca97b99f99f0883a6ea3b648739b72889100d094b5ae1d29815d",
+      "reference_hash": "c30c71aa8680cfe134fb374498f47e843ab067933cfaa6dd88cfec57eb37d2db",
+      "full_tokens": 297,
+      "nearest_old_sources": [
+        {
+          "id": "v4-dev-045-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-045",
+          "text": "菜单把这道炖菜列为主菜，而不是配菜。",
+          "trigram_jaccard": 0.0196078431372549,
+          "character_similarity": 0.14285714285714285
+        },
+        {
+          "id": "v2-train-008-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-597fd3f14bc8f6d1",
+          "text": "我以为你是在征求建议，而不是请求许可。",
+          "trigram_jaccard": 0.019230769230769232,
+          "character_similarity": 0.10526315789473684
+        },
+        {
+          "id": "v6-academic-07-en",
+          "path": "data\\prepared\\qwen35-v1\\sft.jsonl",
+          "group_id": "v6-academic-07",
+          "text": "引文展示了原始话语，而不是后来的解释。",
+          "trigram_jaccard": 0.019230769230769232,
+          "character_similarity": 0.14035087719298245
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-02-zh-CN",
+      "input_hash": "cf6c1c5740480ad7f0ca9483ee707e5dd9cd8a6bd025a1b92b7fbcf03449d858",
+      "reference_hash": "f1e0ed6ca55dfbf9dae3fccdc554fa4cbd9ce74fc3be919cb5c61f1bb34c52fe",
+      "full_tokens": 310,
+      "nearest_old_sources": [
+        {
+          "id": "v9-constraint-029-zh-CN",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-029",
+          "text": "He said the result was a mixed bag. Some sections improved, but that did not make every section successful.",
+          "trigram_jaccard": 0.022727272727272728,
+          "character_similarity": 0.3275862068965517
+        },
+        {
+          "id": "pilot-daily-001",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-001",
+          "text": "Could you give me a hand with this box?",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.18181818181818182
+        },
+        {
+          "id": "pilot-daily-002",
+          "path": "data\\generated\\candidates.jsonl",
+          "group_id": "pilot-daily-002",
+          "text": "I didn't mean to interrupt you.",
+          "trigram_jaccard": 0.0,
+          "character_similarity": 0.18823529411764706
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-02-en",
+      "input_hash": "f3e0dccb5b52cf57dbbddc624184b955c40acf102a60821a265c21901d4a3926",
+      "reference_hash": "9a86ee68314e5d05870f7ecb0dfedcdcadaf615e2efc02874b7619e24b91673b",
+      "full_tokens": 310,
+      "nearest_old_sources": [
+        {
+          "id": "v2-train-011-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-2a5ee55107e3581b",
+          "text": "收据不见了，这并不意味着付款失败了。",
+          "trigram_jaccard": 0.0625,
+          "character_similarity": 0.1917808219178082
+        },
+        {
+          "id": "v8-multi-006-en",
+          "path": "data\\generated\\v8_multisentence_candidates.jsonl",
+          "group_id": "v8-multi-006",
+          "text": "通知说电梯明天上午会接受检查。这并不意味着它一整天都不能使用。",
+          "trigram_jaccard": 0.05194805194805195,
+          "character_similarity": 0.16279069767441862
+        },
+        {
+          "id": "v9-constraint-029-en",
+          "path": "data\\generated\\v9_constraint_candidates.jsonl",
+          "group_id": "v9-constraint-029",
+          "text": "他说结果有好有坏。有些部分有所改进，但这并不意味着所有部分都成功了。",
+          "trigram_jaccard": 0.05063291139240506,
+          "character_similarity": 0.1590909090909091
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-03-zh-CN",
+      "input_hash": "2a6b2b1e9da93350cf7acd58fed64ea53760ea9339c918d76a055cca082ad256",
+      "reference_hash": "8032cc87c1ff765ade5aafda8e407c0a7ec8057586e7d8530b6b13ab3063cfe3",
+      "full_tokens": 314,
+      "nearest_old_sources": [
+        {
+          "id": "v1-academic-022-05-zh-CN",
+          "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 10 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.023809523809523808,
+          "character_similarity": 0.31
+        },
+        {
+          "id": "v1-academic-022-13-zh-CN",
+          "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 26 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.023809523809523808,
+          "character_similarity": 0.31
+        },
+        {
+          "id": "v1-academic-022-04-zh-CN",
+          "path": "data\\prepared\\v1\\test.jsonl",
+          "group_id": "v1-academic-022",
+          "text": "The catalyst was used in 8 trials, but it did not change the equilibrium constant.",
+          "trigram_jaccard": 0.023809523809523808,
+          "character_similarity": 0.31155778894472363
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-03-en",
+      "input_hash": "c2e8341ea1128f5684898c688844b9425e56a9be9080020ae78fd004032a27e9",
+      "reference_hash": "5947c81b127bfa0508d068e3e7f92dccb737bd36c909fdcebbbe4dcec8a590db",
+      "full_tokens": 314,
+      "nearest_old_sources": [
+        {
+          "id": "v1-daily-027-01-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-daily-027",
+          "text": "我并不是有意打断你这场 2 分钟的演讲。",
+          "trigram_jaccard": 0.016666666666666666,
+          "character_similarity": 0.09090909090909091
+        },
+        {
+          "id": "v1-daily-027-02-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-daily-027",
+          "text": "我并不是有意打断你这场 4 分钟的演讲。",
+          "trigram_jaccard": 0.016666666666666666,
+          "character_similarity": 0.09090909090909091
+        },
+        {
+          "id": "v1-daily-027-03-en",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-daily-027",
+          "text": "我并不是有意打断你这场 6 分钟的演讲。",
+          "trigram_jaccard": 0.016666666666666666,
+          "character_similarity": 0.09090909090909091
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-04-zh-CN",
+      "input_hash": "6957af8b1ac0ec0d4f0bce8da019caa8eb25c11ae4b9037b58fa324c42cecb0f",
+      "reference_hash": "23785a56174f36413182ea4e2f52e693684386eb0128e63623af5735ae3df7db",
+      "full_tokens": 318,
+      "nearest_old_sources": [
+        {
+          "id": "v1-academic-006-01-zh-CN",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-006",
+          "text": "The gradient was close to zero after 2 updates.",
+          "trigram_jaccard": 0.02631578947368421,
+          "character_similarity": 0.25806451612903225
+        },
+        {
+          "id": "v1-academic-006-02-zh-CN",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-006",
+          "text": "The gradient was close to zero after 4 updates.",
+          "trigram_jaccard": 0.02631578947368421,
+          "character_similarity": 0.25806451612903225
+        },
+        {
+          "id": "v1-academic-006-03-zh-CN",
+          "path": "data\\generated\\v1_candidates.jsonl",
+          "group_id": "v1-academic-006",
+          "text": "The gradient was close to zero after 6 updates.",
+          "trigram_jaccard": 0.02631578947368421,
+          "character_similarity": 0.25806451612903225
+        }
+      ]
+    },
+    {
+      "id": "q35-v3-supplement-hard-04-en",
+      "input_hash": "83e240cc03dcd08b8b6da4cd1935abadcd719ade0ad8ba72f1a774be36559704",
+      "reference_hash": "cea1af691f5c6bb7963893952114c8531ae61a6c430c9a5df624afcbf1793da1",
+      "full_tokens": 318,
+      "nearest_old_sources": [
+        {
+          "id": "v4-dev-045-en",
+          "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+          "group_id": "v4-dev-045",
+          "text": "菜单把这道炖菜列为主菜，而不是配菜。",
+          "trigram_jaccard": 0.017543859649122806,
+          "character_similarity": 0.0967741935483871
+        },
+        {
+          "id": "v2-train-008-en",
+          "path": "data\\generated\\v2_candidates.jsonl",
+          "group_id": "v2-597fd3f14bc8f6d1",
+          "text": "我以为你是在征求建议，而不是请求许可。",
+          "trigram_jaccard": 0.017241379310344827,
+          "character_similarity": 0.12698412698412698
+        },
+        {
+          "id": "v6-academic-07-en",
+          "path": "data\\prepared\\qwen35-v1\\sft.jsonl",
+          "group_id": "v6-academic-07",
+          "text": "引文展示了原始话语，而不是后来的解释。",
+          "trigram_jaccard": 0.017241379310344827,
+          "character_similarity": 0.12698412698412698
+        }
+      ]
+    }
+  ],
+  "exact_text_group_overlap": false,
+  "context_rows": 40,
+  "glossary_rows": 40,
+  "scope": "TRAIN-only original synthetic supplement; no independent quality estimate, no confirmation data, no fabricated negatives.",
+  "ready_for_training": true,
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "train_path": "data\\prepared\\qwen35-v3-context-supplement\\train.jsonl",
+  "train_hash": "817c8bcdec7767751cbda5650bce89103db15eba28cba28b42f2577a6caf60f9",
+  "readings_hash": "7ac29511ffe8d3b95c0c5d56d8d2337751d0320e927116969aa51a5e892bf180"
+}

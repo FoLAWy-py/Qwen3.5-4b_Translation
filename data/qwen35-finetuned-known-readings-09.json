@@ -1,0 +1,15 @@
+{
+  "v4-dev-075-en": ["pass", "纵轴位移横轴经过时间，轴与物理量未倒置。", true],
+  "v4-dev-076-zh-CN": ["pass", "区分两个定义后表面矛盾消失，因果条件准确。", true],
+  "v4-dev-076-en": ["pass", "区别定义后表面矛盾消失，完整。", true],
+  "v4-dev-077-zh-CN": ["pass", "同样指导但无额外练习，额外范围保留。", true],
+  "v4-dev-077-en": ["pass", "对照组同指导而无额外练习，完整。", true],
+  "v4-dev-078-zh-CN": ["pass", "放大图像而非标本，否定对象准确。", true],
+  "v4-dev-079-zh-CN": ["pass", "岩层年龄下限未误作上限，正确。", true],
+  "v4-dev-079-en": ["pass", "化石给年代 lower limit，下界准确。", true],
+  "v4-dev-080-zh-CN": ["pass", "加入溶剂稀释同时保留全部溶质，两物质角色准确。", true],
+  "v4-dev-080-en": ["pass", "中文为无时态过程表达，Add solvent 操作句合理；稀释与全部溶质保留正确。", true],
+  "v4-dev-082-zh-CN": ["pass", "机械语境 spring 译弹簧且受张力，正确消歧。", true],
+  "v4-dev-082-en": ["pass", "弹簧受拉张力，专业表达完整。", true],
+  "v4-dev-083-zh-CN": ["pass", "泵轴橡胶 seal 译密封圈，必须更换且未错海豹。", true]
+}

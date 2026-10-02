@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:55.293932+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-travel-09",
+      "category": "travel",
+      "topic": "A traveller leaves a large suitcase at a staffed desk but carries a smaller bag; do not invent lockers or a fee.",
+      "group_id": "v10-travel-09"
+    },
+    {
+      "case_id": "v10-travel-10",
+      "category": "travel",
+      "topic": "A park reservation allows access to a garden but excludes a separately booked workshop; preserve the activity rather than turning it into a facility.",
+      "group_id": "v10-travel-10"
+    },
+    {
+      "case_id": "v10-travel-11",
+      "category": "travel",
+      "topic": "A guest asks whether late checkout can be requested for one room without applying it to the second room in the same booking.",
+      "group_id": "v10-travel-11"
+    },
+    {
+      "case_id": "v10-travel-12",
+      "category": "travel",
+      "topic": "A bus timetable distinguishes a route that runs on public holidays from one that runs only on weekdays; do not invent a country or a specific holiday.",
+      "group_id": "v10-travel-12"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-travel-09\",\n      \"english\": \"The traveler placed the large suitcase on the counter at the front desk and asked if someone could hold it while they explored the city. They carried only the smaller backpack with essentials.\",\n      \"chinese\": \"旅行者把一个大箱子放在前台柜台上，询问是否有人可以帮忙保管，同时他们只带着装有必需品的小背包。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-10\",\n      \"english\": \"The park reservation included entry to the garden but did not cover the art workshop, which required a separate booking and payment.\",\n      \"chinese\": \"公园的预订包括花园的入场券，但不包括需要另外报名和付费的艺术工作坊。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-11\",\n      \"english\": \"The guest asked if it was possible to request a late checkout for just one room in their double booking, without affecting the second room’s departure time.\",\n      \"chinese\": \"客人询问是否可以只为他们双间预订中的一间房申请延迟退房，而不影响第二间房的退房时间。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-12\",\n      \"english\": \"The bus schedule showed that Route A operates on public holidays, while Route B runs only from Monday to Friday and is not available on weekends or holidays.\",\n      \"chinese\": \"公交时刻表显示A线路在公共假日运行，而B线路仅在周一至周五运行，周末及假日不发车。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 480,
+    "total_tokens": 855,
+    "completion_tokens": 375,
+    "estimated_cost": 0.00014340000000000002,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:41.342513+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-food-01",
+      "category": "food",
+      "topic": "preparing oats with fruit kept separate until serving",
+      "group_id": "v6-food-01"
+    },
+    {
+      "case_id": "v6-food-02",
+      "category": "food",
+      "topic": "using a spatula to turn delicate fish in a pan",
+      "group_id": "v6-food-02"
+    },
+    {
+      "case_id": "v6-food-03",
+      "category": "food",
+      "topic": "kneading dough and leaving it to rest before shaping",
+      "group_id": "v6-food-03"
+    },
+    {
+      "case_id": "v6-food-04",
+      "category": "food",
+      "topic": "a customer distinguishing a soup portion from a tasting portion",
+      "group_id": "v6-food-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-food-01\",\n      \"english\": \"Mix the oats with warm milk and let them sit for five minutes before adding the sliced banana and blueberries just before serving.\",\n      \"chinese\": \"将燕麦与温牛奶混合，静置五分钟，上菜前再加入切片香蕉和蓝莓。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-02\",\n      \"english\": \"Use a spatula to gently flip the fish in the pan, ensuring the skin stays intact and the fillet doesn't break apart.\",\n      \"chinese\": \"用铲子轻轻翻转平底锅里的鱼，确保鱼皮完整且鱼片不会散开。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-03\",\n      \"english\": \"Knead the dough for ten minutes until it becomes smooth, then let it rest under a damp cloth before rolling it out.\",\n      \"chinese\": \"揉面十分钟直到变得光滑，然后在湿布下静置，再将其擀开。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-04\",\n      \"english\": \"The customer asked for a regular soup portion and a tasting sample to compare the flavors later.\",\n      \"chinese\": \"顾客点了一份常规汤和一份试吃样，以便之后比较味道。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 381,
+    "total_tokens": 703,
+    "completion_tokens": 322,
+    "estimated_cost": 0.00012064,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

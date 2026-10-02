@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-30T20:23:38.802773+00:00",
+  "rows": 48,
+  "groups": 12,
+  "hash": "7101b4808b2b68d277e5c0ceccbab8e6a837f28da276fadb937e004a03eb3411",
+  "excluded_duplicate_families": [],
+  "scope": "Training-only contrasts; English target direction has explicit Chinese sense, context-dependence evaluated separately by direction; exact source exclusion, not semantic near-duplicate guarantee"
+}

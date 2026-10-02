@@ -1,0 +1,15 @@
+{
+  "v4-dev-005-zh-CN": ["pass", "冲洗海绵并留在沥水板，动作与顺序完整。", true],
+  "v4-dev-005-en": ["pass", "rinse clean 和 draining board 保留清洗与位置。", true],
+  "v4-dev-006-zh-CN": ["pass", "周二看狗在带食物语境可理解为照看，前提与角色保留。", true],
+  "v4-dev-006-en": ["pass", "周二代照看狗、带来它食物的前提完整。", true],
+  "v4-dev-007-zh-CN": ["pass", "每次关闭背包拉链勾内衬，卡住关系可辨。", true],
+  "v4-dev-007-en": ["major", "拉上背包指关闭拉链，pull the backpack up 变成向上拉背包，动作改变。", true],
+  "v4-dev-008-zh-CN": ["pass", "平摊含均分，账单包括配送费保留。", true],
+  "v4-dev-008-en": ["major", "split the bill 未明确平分；沿用既有数量约束评分口径，配送费范围正确。", true],
+  "v4-dev-009-zh-CN": ["pass", "污渍颜色变淡而未完全消失，否定和程度保留。", true],
+  "v4-dev-009-en": ["pass", "污渍变淡但仍未完全消失，事实正确。", true],
+  "v4-dev-010-zh-CN": ["pass", "保留原信封与邮戳以后可能有用，完整。", true],
+  "v4-dev-010-en": ["pass", "原信封、邮戳与可能性均准确。", true],
+  "v4-dev-011-zh-CN": ["major", "tap 应为水龙头，译成阀门改变维修对象；换垫圈而非整体关系正确。", true]
+}

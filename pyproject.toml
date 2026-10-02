@@ -1,0 +1,33 @@
+[project]
+name = "witrans-4b"
+version = "0.1.0"
+description = "Chinese-English translation data, QLoRA training, and local inference"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "torch>=2.7,<2.11",
+  "transformers>=4.57,<5",
+  "peft>=0.17,<0.19",
+  "bitsandbytes>=0.46,<0.50",
+  "accelerate>=1.10,<2",
+  "huggingface-hub>=0.34,<1",
+  "httpx>=0.28,<1",
+  "python-dotenv>=1.1,<2",
+  "safetensors>=0.6,<1",
+  "regex==2024.11.6",
+  "psutil>=7.2,<8",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-02T03:02:27.115692+00:00",
+  "performance_inputs_hash": "f4057624ca5a024d3bf286b0d0acb37fcacfd6273250ae9979535d64c7c570f9",
+  "rows": 24,
+  "lengths": {
+    "v8-multi-025-en": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-026-en": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    },
+    "v8-multi-027-en": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-025-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-026-zh-CN": {
+      "body_tokens": 28,
+      "prompt_tokens": 231
+    },
+    "v8-multi-027-zh-CN": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-001-en": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    },
+    "v8-multi-002-en": {
+      "body_tokens": 20,
+      "prompt_tokens": 223
+    },
+    "v8-multi-003-en": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-001-zh-CN": {
+      "body_tokens": 26,
+      "prompt_tokens": 229
+    },
+    "v8-multi-002-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-003-zh-CN": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-018-en": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-019-en": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-017-zh-CN": {
+      "body_tokens": 29,
+      "prompt_tokens": 232
+    },
+    "v8-multi-018-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-019-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-038-zh-CN": {
+      "body_tokens": 20,
+      "prompt_tokens": 238
+    },
+    "v8-multi-009-en": {
+      "body_tokens": 21,
+      "prompt_tokens": 224
+    },
+    "v8-multi-010-en": {
+      "body_tokens": 21,
+      "prompt_tokens": 224
+    },
+    "v8-multi-011-en": {
+      "body_tokens": 31,
+      "prompt_tokens": 234
+    },
+    "v8-multi-009-zh-CN": {
+      "body_tokens": 28,
+      "prompt_tokens": 231
+    },
+    "v8-multi-010-zh-CN": {
+      "body_tokens": 26,
+      "prompt_tokens": 229
+    },
+    "v8-multi-011-zh-CN": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    }
+  },
+  "warmup_rounds": 1,
+  "measured_rounds": 3,
+  "decoding": {
+    "do_sample": false,
+    "max_length": 1024,
+    "max_new_tokens": 128
+  },
+  "gpu_executed": false,
+  "candidate_weight_validation_pending": true,
+  "stage_goal_complete": false
+}

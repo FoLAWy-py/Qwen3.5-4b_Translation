@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-02T05:50:15.618999+00:00",
+  "original_probe_report_hash": "429af86528a8b3462b136855cf491b00064e547fa22eb08f3d73be3992fd8296",
+  "original_executed_accounting": {
+    "forward_calls": 205,
+    "backward_calls": 164,
+    "encoded_forward_tokens": 50897,
+    "optimizer_updates": 0,
+    "cpu_parameter_count": 0,
+    "peak_reserved_gib": 4.41015625
+  },
+  "selected_real_error_rows": 23,
+  "selected_rows_hash": "6e135a3df7f334f3cafb402570752a5bd96f92af19fdb8dc077948408bcdd1fb",
+  "clean_pairs_hash": "e0ed2caf14c04d5cbecd48c9f740e154e6cfb07bcf411278aabed2d2cc7347c1",
+  "overall": {
+    "rows": 23,
+    "distributions": {
+      "summed_margin": {
+        "n": 23,
+        "minimum": -48.94967746734619,
+        "median": -14.470518112182617,
+        "maximum": 1.7851829528808594
+      },
+      "mean_margin": {
+        "n": 23,
+        "minimum": -1.6166687905788422,
+        "median": -0.7314706146717072,
+        "maximum": 0.08114469051361084
+      },
+      "span_rest_cosine": {
+        "n": 23,
+        "minimum": -0.06379448835404194,
+        "median": 0.035784545734206835,
+        "maximum": 0.4328221661328783
+      },
+      "chosen_preference_cosine": {
+        "n": 23,
+        "minimum": 0.7160792720442396,
+        "median": 0.8571994516450779,
+        "maximum": 0.9994304955052136
+      },
+      "span_fraction_of_component_norms": {
+        "n": 23,
+        "minimum": 0.2118924708926866,
+        "median": 0.7345100264535056,
+        "maximum": 0.9977672784921966
+      },
+      "span_rest_additivity_relative_error": {
+        "n": 23,
+        "minimum": 0.010702879277250887,
+        "median": 0.012922623354466194,
+        "maximum": 0.01604843523390213
+      }
+    },
+    "negative_summed_margin": 22,
+    "negative_mean_margin": 22,
+    "opposite_summed_and_mean_margin": 0,
+    "chosen_preference_conflict": 0,
+    "zero_chosen_gradients": 0,
+    "preference_to_weighted_chosen_gradient_norm_ratio": {
+      "n": 23,
+      "minimum": 0.4096205563227189,
+      "median": 1.637201583131311,
+      "maximum": 3.7283763929665144
+    },
+    "gradient_norms": {
+      "weighted_span_NLL_contribution": {
+        "n": 23,
+        "minimum": 1.3313389274690384,
+        "median": 11.562739516107694,
+        "maximum": 63.41346637645648
+      },
+      "remaining_NLL_contribution": {
+        "n": 23,
+        "minimum": 0.02487239614310754,
+        "median": 4.768541604133082,
+        "maximum": 7.255233075511006
+      },
+      "weighted_chosen_NLL": {
+        "n": 23,
+        "minimum": 5.1847786296612695,
+        "median": 13.127300641578197,
+        "maximum": 63.628749420880574
+      },
+      "preference_only": {
+        "n": 23,
+        "minimum": 5.5867543562523165,
+        "median": 18.1006329535225,
+        "maximum": 54.453924313838854
+      }
+    }
+  },
+  "scope": "CPU subset of original actual FP64 gradient probe. No new GPU calls; original205 forwards164 backwards remain counted."
+}

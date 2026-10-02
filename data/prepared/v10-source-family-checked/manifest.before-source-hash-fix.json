@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-01T05:08:57.837699+00:00",
+  "train_hash": "9cd15e368ef3837562a002f6b32ebc1e8c22bacb9d5ddc8901328c4d6103341a",
+  "rows": 176,
+  "groups": 88,
+  "new_groups": 84,
+  "categories": {
+    "daily": 30,
+    "travel": 34,
+    "food": 38,
+    "academic": 34,
+    "hard": 40
+  },
+  "directions": {
+    "zh-CN": 88,
+    "en": 88
+  },
+  "context_rows": 16,
+  "glossary_rows": 0,
+  "multisentence_rows_by_punctuation": 145,
+  "reviewed_source_hash": "30237c7c0203e87d74803eac4736888604bb9a81113c2ede7097d35e943bd018",
+  "individual_decisions_hash": "923ed2e274db23bb2adc1d827e2b04877377f37ea5ade1fa1b2582baa5dd71ca",
+  "source_quality_excluded_rows": 14,
+  "heldout_retrieval_excluded_groups": [
+    "v10-academic-03",
+    "v10-academic-10",
+    "v10-food-04",
+    "v10-travel-10",
+    "v10-travel-14"
+  ],
+  "heldout_retrieval_excluded_rows": 10,
+  "training_family_joins": {
+    "v10-travel-05": "v3-train-013",
+    "v10-food-03": "v4-mining-10",
+    "v10-academic-07": "v2-a258020700a29c45",
+    "v10-academic-13": "v3-train-022"
+  },
+  "complete_individual_reading": true,
+  "bounded_family_and_split_audit_complete": true,
+  "training_ready": true,
+  "release_approved": false,
+  "limitations": "Original fictional model-generated project data with explicit generation provenance; AI acceptance, not professional human review or independent references. Character four-gram and listed idiom retrieval do not prove absence of every semantic near duplicate. Whole held-out matches conservatively excluded without reading held-out texts or labels. Training only, never a release test. Multi-sentence count is punctuation-based, not a release coverage assertion."
+}

@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-02T01:17:45.993251+00:00",
+  "generated": 416,
+  "reviewed": 416,
+  "expected": 416,
+  "complete_review_validated": true,
+  "pool_written": true,
+  "major_critical_pairs": 41,
+  "excluded_malformed_or_unfinished_errors": [],
+  "train_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "review_hash": "3f7c5435c4177f5f05bbc81cd499e6e0b56ca95f6d8ff2f7066aaa604d8ae019",
+  "generation_snapshot_hash": "4157c8242c57973710f84f0e5dac721f8efb35277922359fcd28a5fdf2c809c0",
+  "source_family_audit_hash": "214d46c0587e77485c533f7ac3b062a3f7424d6e1913f497a199ce56e6bacab2",
+  "overlap_resolution_hash": "bd292051cdc6c3d8710badfe664d6e3cb19b4d4f7f414788b7b49f946438c5b6",
+  "heldout_hashes": {
+    "known": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "public": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0"
+  },
+  "counts": {
+    "pass": 324,
+    "minor": 51,
+    "major": 41
+  },
+  "diagnostic_error_strata": {
+    "daily/en": 6,
+    "daily/zh-CN": 3,
+    "travel/zh-CN": 8,
+    "travel/en": 2,
+    "food/zh-CN": 11,
+    "food/en": 3,
+    "academic/en": 2,
+    "academic/zh-CN": 2,
+    "hard/zh-CN": 4
+  },
+  "selection": "All individually reviewed major/critical real current errors with valid JSON and EOS. Minor/style-only outputs excluded. This is a diagnostic pool, not frozen experiment selection.",
+  "authorization": "Current user stage Goal authorizes new negatives from these true current errors; legacy v16 positive-only manifest remains unchanged.",
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "default_promoted": false,
+  "pairs_hash": "e06fb9b8036a3816131a46c30f1802bbb11fa35fa965bf63900e972edbc1a0ed",
+  "pool_path": "data\\prepared\\qwen35-v3-current-errors\\pairs.jsonl",
+  "summary_hash": "d097ef6817eeffdb71e719ae392efd6e9be07893070247f0394dec3542a7ad21"
+}

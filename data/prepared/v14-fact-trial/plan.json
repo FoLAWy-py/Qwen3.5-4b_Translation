@@ -1,0 +1,497 @@
+{
+  "at": "2026-10-01T08:22:22.086144+00:00",
+  "starting_adapter": "models\\witrans-4b-v7-critical-cpo",
+  "starting_adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424",
+  "base": {
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "completed_at": "2026-09-30T09:16:22.165833+00:00",
+    "status": "complete"
+  },
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "pairs_path": "data\\prepared\\v14-fact-trial\\pairs.jsonl",
+  "pairs_hash": "a08cc193f065ad5fe85b885f8371989388c1e711c3b81c09c04240942928c293",
+  "replay_path": "data\\prepared\\v14-fact-trial\\replay.jsonl",
+  "replay_hash": "00afe81fc281e4d446f3ef87105249ee8e016c9f3aa6693f24a3a1d0a3508ed8",
+  "parent_fact_manifest": "data/prepared/v14-public-fact-pairs/manifest.json",
+  "schedule": [
+    {
+      "pair": "public-fact-0178-zh-CN",
+      "replay": [
+        "v5-seed-028-en",
+        "public-short-0239-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-zh-CN",
+      "replay": [
+        "v8-multi-035-zh-CN",
+        "public-short-0541-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-zh-CN",
+      "replay": [
+        "v2-train-117-en-sourcefix",
+        "public-short-0100-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0564-en",
+      "replay": [
+        "v2-replay-v1-academic-004-02-en",
+        "public-short-0137-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0584-en",
+      "replay": [
+        "v4-mining-013-en",
+        "public-short-0335-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0462-zh-CN",
+      "replay": [
+        "v3-train-001-zh-CN",
+        "public-short-0107-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0449-en",
+      "replay": [
+        "v2-train-014-zh-CN",
+        "public-short-0403-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-en",
+      "replay": [
+        "v10-academic-18-en",
+        "public-short-0344-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0543-zh-CN",
+      "replay": [
+        "v7-context-013-en",
+        "public-short-0390-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0590-en",
+      "replay": [
+        "v8-multi-014-zh-CN",
+        "public-short-0363-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0551-zh-CN",
+      "replay": [
+        "v6-travel-01-zh-CN",
+        "public-short-0098-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0545-zh-CN",
+      "replay": [
+        "v2-train-056-en",
+        "public-short-0252-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0178-en",
+      "replay": [
+        "v8-multi-012-en",
+        "public-short-0140-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0543-en",
+      "replay": [
+        "v2-train-047-zh-CN",
+        "public-short-0305-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0551-en",
+      "replay": [
+        "v10-travel-09-en",
+        "public-short-0236-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0482-en",
+      "replay": [
+        "v9-constraint-016-zh-CN",
+        "public-short-0359-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0545-en",
+      "replay": [
+        "v9-constraint-020-zh-CN",
+        "public-short-0235-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0511-zh-CN",
+      "replay": [
+        "v2-train-039-zh-CN",
+        "public-short-0343-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-en",
+      "replay": [
+        "v2-train-066-zh-CN",
+        "public-short-0157-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0584-zh-CN",
+      "replay": [
+        "v10-daily-14-en",
+        "public-short-0158-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0449-zh-CN",
+      "replay": [
+        "v2-replay-v1-daily-020-02-en",
+        "public-short-0121-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0320-zh-CN",
+      "replay": [
+        "v10-daily-06-zh-CN",
+        "public-short-0238-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0462-en",
+      "replay": [
+        "v2-train-004-zh-CN",
+        "public-short-0199-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0590-zh-CN",
+      "replay": [
+        "v3-train-012-zh-CN",
+        "public-short-0347-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0320-en",
+      "replay": [
+        "v2-train-096-en",
+        "public-short-0249-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0482-zh-CN",
+      "replay": [
+        "v2-train-108-zh-CN",
+        "public-short-0353-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0511-en",
+      "replay": [
+        "v2-train-031-zh-CN",
+        "public-short-0065-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0564-zh-CN",
+      "replay": [
+        "v10-academic-12-en",
+        "public-short-0339-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-zh-CN",
+      "replay": [
+        "v10-hard-07-en",
+        "public-short-0269-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0320-zh-CN",
+      "replay": [
+        "v6-travel-07-zh-CN",
+        "public-short-0126-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0178-en",
+      "replay": [
+        "v10-food-10-en",
+        "public-short-0140-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-en",
+      "replay": [
+        "v8-multi-029-en",
+        "public-short-0283-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0584-zh-CN",
+      "replay": [
+        "v2-replay-v1-daily-002-02-en",
+        "public-short-0552-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0482-en",
+      "replay": [
+        "v2-train-115-zh-CN-sourcefix",
+        "public-short-0561-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0545-en",
+      "replay": [
+        "v7-context-021-en",
+        "public-short-0573-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0320-en",
+      "replay": [
+        "v5-seed-008-zh-CN",
+        "public-short-0434-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0564-zh-CN",
+      "replay": [
+        "v3-train-009-en",
+        "public-short-0519-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0590-en",
+      "replay": [
+        "v10-food-14-en",
+        "public-short-0513-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0545-zh-CN",
+      "replay": [
+        "v10-academic-13-zh-CN",
+        "public-short-0332-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0590-zh-CN",
+      "replay": [
+        "v7-context-015-zh-CN",
+        "public-short-0380-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0551-en",
+      "replay": [
+        "v4-mining-011-en",
+        "public-short-0509-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0511-zh-CN",
+      "replay": [
+        "v2-replay-v1-food-007-02-en",
+        "public-short-0464-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-zh-CN",
+      "replay": [
+        "v2-train-030-zh-CN",
+        "public-short-0060-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0564-en",
+      "replay": [
+        "v2-train-073-zh-CN",
+        "public-short-0526-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0449-zh-CN",
+      "replay": [
+        "v2-train-008-en",
+        "public-short-0422-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0449-en",
+      "replay": [
+        "v9-constraint-004-zh-CN",
+        "public-short-0076-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0584-en",
+      "replay": [
+        "v6-travel-03-zh-CN",
+        "public-short-0145-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0511-en",
+      "replay": [
+        "v5-seed-030-zh-CN",
+        "public-short-0179-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0551-zh-CN",
+      "replay": [
+        "v2-train-017-zh-CN",
+        "public-short-0312-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0543-en",
+      "replay": [
+        "v9-constraint-005-zh-CN",
+        "public-short-0247-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0462-en",
+      "replay": [
+        "v6-food-08-zh-CN",
+        "public-short-0249-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0462-zh-CN",
+      "replay": [
+        "v3-train-026-zh-CN",
+        "public-short-0043-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0178-zh-CN",
+      "replay": [
+        "v10-academic-01-en",
+        "public-short-0096-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0482-zh-CN",
+      "replay": [
+        "v6-food-07-en",
+        "public-short-0092-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0543-zh-CN",
+      "replay": [
+        "v3-train-011-zh-CN",
+        "public-short-0579-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-en",
+      "replay": [
+        "v2-train-071-en",
+        "public-short-0159-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0545-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-013-02-zh-CN",
+        "public-short-0137-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-en",
+      "replay": [
+        "v5-seed-013-zh-CN",
+        "public-short-0288-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0462-zh-CN",
+      "replay": [
+        "v5-seed-005-zh-CN",
+        "public-short-0281-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0265-zh-CN",
+      "replay": [
+        "v2-train-119-zh-CN",
+        "public-short-0451-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0551-en",
+      "replay": [
+        "v9-constraint-009-en",
+        "public-short-0036-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-zh-CN",
+      "replay": [
+        "v2-train-001-en",
+        "public-short-0231-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-fact-0564-zh-CN",
+      "replay": [
+        "v10-food-01-en",
+        "public-short-0152-en"
+      ]
+    },
+    {
+      "pair": "public-fact-0310-en",
+      "replay": [
+        "v2-train-048-zh-CN",
+        "public-short-0533-zh-CN"
+      ]
+    }
+  ],
+  "seed": 42,
+  "updates": 16,
+  "accumulation": 4,
+  "checkpoints": [
+    8,
+    16
+  ],
+  "learning_rate": 2e-06,
+  "beta": 0.1,
+  "temperature": 0.1,
+  "matching_weight": 0.1,
+  "pair_weight": 0.5,
+  "replay_weight": 0.5,
+  "quantization": "nf4",
+  "max_length": 1024,
+  "selected_checkpoint": 16,
+  "selection": "Fixed final update; no DEV-based checkpoint selection.",
+  "arms": {
+    "matching": "models/witrans-4b-v14-fact-matching",
+    "sft": "models/witrans-4b-v14-fact-sft",
+    "cpo": "models/witrans-4b-v14-fact-cpo"
+  },
+  "first_arm": "matching",
+  "other_arms_started": false,
+  "compute_protocol": "All arms score four pairs without gradients then recompute four forwards/backwards with restored CPU/CUDA dropout RNG; two replay SFT forwards/backwards per matrix. Equal calls/tokens, not a proven equal FLOP or runtime claim.",
+  "expected_training_forward_calls": 640,
+  "expected_training_backward_calls": 384,
+  "scope": "Pilot:14 existing TRAIN families/28 matrices,64 matrix visits,128 replay records; no new independent source or generalization claim. No original-base arm.",
+  "require_v13_semantic_acceptance_complete": true,
+  "release_approved": false
+}

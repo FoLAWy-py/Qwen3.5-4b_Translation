@@ -1,0 +1,18 @@
+{
+  "v4-dev-084-zh-CN": ["pass", "点蜡烛语境 match 为火柴，划得过早准确。", true],
+  "v4-dev-085-zh-CN": ["pass", "种植地块尚未清理完成，否定完成状态准确。", true],
+  "v4-dev-085-en": ["pass", "地块尚未清理，plot of land 正确消歧。", true],
+  "v4-dev-086-zh-CN": ["pass", "公司语境 board 为董事会且批准提议，准确。", true],
+  "v4-dev-086-en": ["pass", "board of directors 与 approved proposal 完整。", true],
+  "v4-dev-087-zh-CN": ["pass", "眼睛语境 pupil 为瞳孔且反应慢，正确。", true],
+  "v4-dev-087-en": ["pass", "瞳孔反应缓慢，未改学生。", true],
+  "v4-dev-088-zh-CN": ["pass", "烧杯化学语境 solution 为溶液且不稳定，正确。", true],
+  "v4-dev-089-zh-CN": ["major", "金属压制机械语境 press 应为压力机，却译新闻，忽视明确 context。", true],
+  "v4-dev-089-en": ["pass", "压力机已停止，机械语境下 stopped 保留运转停止。", true],
+  "v4-dev-090-zh-CN": ["major", "金属手工具 file 错为文件，sharpening 普通谓语未翻译，语义与语言方向均不合格。", false],
+  "v4-dev-091-zh-CN": ["major", "杂志期次语境 issue 错为问题，召回对象改变。", true],
+  "v4-dev-091-en": ["pass", "这期杂志已召回，magazine issue 正确。", true],
+  "v4-dev-092-zh-CN": ["pass", "铜电缆语境 conductor 为导体，受损准确。", true],
+  "v4-dev-093-zh-CN": ["pass", "波传播语境 medium 为介质，稠密与致密可接受同义。", true],
+  "v4-dev-094-zh-CN": ["pass", "树木语境 root 为树根，暴露状态准确。", true]
+}

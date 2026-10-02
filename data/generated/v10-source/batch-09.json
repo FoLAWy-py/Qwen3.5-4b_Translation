@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:08.111254+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-travel-13",
+      "category": "travel",
+      "topic": "A walker is told to follow a painted marker after passing a water fountain; the fountain is a landmark, not the destination.",
+      "group_id": "v10-travel-13"
+    },
+    {
+      "case_id": "v10-travel-14",
+      "category": "travel",
+      "topic": "A ferry passenger can carry a folding bicycle if it remains folded; a full-size bicycle follows a different reservation rule.",
+      "group_id": "v10-travel-14"
+    },
+    {
+      "case_id": "v10-travel-15",
+      "category": "travel",
+      "topic": "A visitor’s booking lists a meeting point outside a station, while the activity begins in a courtyard reached together with the guide.",
+      "group_id": "v10-travel-15"
+    },
+    {
+      "case_id": "v10-travel-16",
+      "category": "travel",
+      "topic": "A guest receives a breakfast voucher valid for either morning of a two-night stay; using it once does not include both mornings.",
+      "group_id": "v10-travel-16"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-travel-13\",\n      \"english\": \"The hiker was instructed to continue past the water fountain and look for the yellow painted line on the rocks. The fountain marked the starting point, but the trailhead was still a few hundred meters ahead.\",\n      \"chinese\": \"徒步者被告知要经过喷泉继续前进，并寻找岩石上的黄色油漆线。喷泉是起点标志，但真正的步道入口还在几百米之外。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-14\",\n      \"english\": \"Passengers on the ferry may bring a folded bike, but must keep it closed at all times. Full-sized bikes require a separate reservation and may not be brought on board without it.\",\n      \"chinese\": \"渡轮乘客可以携带折叠自行车，但必须全程保持折叠状态。全尺寸自行车需要单独预订，未经预订不得带上船。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-15\",\n      \"english\": \"The visitor's booking stated the meeting point was outside the station, but the activity began in a courtyard nearby. The guide met the group there and led them through a hidden entrance.\",\n      \"chinese\": \"游客的预订信息标明集合点在车站外，但活动实际在附近的庭院开始。导游在庭院内与他们会合，并带领他们穿过一道隐蔽的入口。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-16\",\n      \"english\": \"The guest received a breakfast voucher valid for either morning of their two-night stay. They could choose one day to use it, but not both.\",\n      \"chinese\": \"住客获得一张早餐券，可在两晚住宿的任意一个早晨使用。他们可以选择其中一天使用，但不能在两天都用。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 472,
+    "total_tokens": 893,
+    "completion_tokens": 421,
+    "estimated_cost": 0.00015564,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

@@ -1,0 +1,64 @@
+{
+  "at": "2026-09-30T11:30:47.826293+00:00",
+  "new_pair_counts": {
+    "train": 120,
+    "dev": 20,
+    "test": 20
+  },
+  "replay_rows": 150,
+  "planned_train_rows": 390,
+  "source_hash": "435653362c1d5a006a4d849d26293aab1dd324d8b233cd0389db73270a869341",
+  "splits": {
+    "train": {
+      "count": 240,
+      "groups": 118,
+      "hash": "15fafd3f40505633b144bc0f5f0bd7f8bdc922337e295efb399e13ad326999b9",
+      "categories": {
+        "daily": 60,
+        "travel": 36,
+        "food": 36,
+        "academic": 84,
+        "hard": 24
+      },
+      "context_rows": 8
+    },
+    "dev": {
+      "count": 40,
+      "groups": 20,
+      "hash": "a418fed10b80fd6acd72ed974f7a67d2a67f9b9dcd98227087be5703d2d11a88",
+      "categories": {
+        "daily": 10,
+        "travel": 6,
+        "food": 6,
+        "academic": 14,
+        "hard": 4
+      },
+      "context_rows": 2
+    },
+    "test": {
+      "count": 40,
+      "groups": 20,
+      "hash": "d6de9840504f22fdb1de0c918ee213c3b07af90c6627998be09c6b00cc64a812",
+      "categories": {
+        "daily": 10,
+        "travel": 6,
+        "food": 6,
+        "academic": 14,
+        "hard": 4
+      },
+      "context_rows": 2
+    }
+  },
+  "experiment": {
+    "base": "Original Qwen3-4B; fresh LoRA",
+    "learning_rate": 3e-05,
+    "lora_dropout": 0.05,
+    "epochs": 1,
+    "rank": 16,
+    "max_length": 1024,
+    "eval_steps": 8,
+    "selection": "Minimum new-development loss; examine dev generations before independent test",
+    "test_use": "Single acceptance after model choice; never train or choose checkpoints with test"
+  },
+  "limitations": "Focused small optimization trial, 120 new training pairs plus 75 old train pairs; not a 3000-row independent corpus"
+}

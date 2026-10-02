@@ -1,0 +1,13 @@
+{
+  "base_model_id": "Qwen/Qwen3.5-4B",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "parent_adapter_sha256": "81e6fbd693d5541d903943a0eb927e7b48311880f15652cfa2d3c29f4fc0992b",
+  "created_at": "2026-10-01T12:58:00.577504+00:00",
+  "smoke_only": false,
+  "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+  "recommended_quantization": "nf4",
+  "training_method": "Transfer current validated v7 recipe: supervised translation then reviewed critical-span CPO.",
+  "quality_status": "Experimental; matched semantic comparison pending"
+}

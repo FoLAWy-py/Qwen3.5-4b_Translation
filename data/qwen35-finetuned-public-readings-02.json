@@ -1,0 +1,14 @@
+{
+  "public-short-0082-zh-CN": ["pass", "说清楚且让别人听清，两个要求完整。", true],
+  "public-short-0082-en": ["pass", "他人听见的语境明确说话清楚，Be clear 为可接受表达。", true],
+  "public-short-0366-zh-CN": ["pass", "我们还需等多久，问句角色正确。", true],
+  "public-short-0527-zh-CN": ["pass", "隔一天一次澡，every other day 频次正确。", true],
+  "public-short-0376-zh-CN": ["pass", "站着等公交车，动作与姿态准确。", true],
+  "public-short-0376-en": ["pass", "站着等公交，中文未指定过去，进行时合理。", true],
+  "public-short-0266-en": ["pass", "足球比网球受欢迎，比较方向准确。", true],
+  "public-short-0391-zh-CN": ["pass", "不介意对方在我回家前睡，角色时序准确。", true],
+  "public-short-0391-en": ["pass", "对方先睡而我不介意，before 关系正确。", true],
+  "public-short-0351-zh-CN": ["pass", "她在商业上巨大成功，business 合理词义。", true],
+  "public-short-0351-en": ["pass", "事业 career 和巨大成功完整，不拘参考 business。", true],
+  "public-short-0031-en": ["pass", "Tokyo is home to 各种人，居住语义自然完整。", true]
+}

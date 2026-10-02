@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-30T20:41:53.455649+00:00",
+  "rows": 80,
+  "groups": 40,
+  "hash": "a8a1c5cc02a10fc9e2a7c2bde0dc159fefc7937812fff97f48b32e48c102b461",
+  "categories": {
+    "daily": 16,
+    "travel": 16,
+    "food": 16,
+    "academic": 16,
+    "hard": 16
+  },
+  "glossary_rows": 8,
+  "multi_sentence_rows": 80,
+  "policy": "Training-only;80 source texts individually authored as multi-sentence paragraphs; hard cases are idioms, not claimed context-only ambiguity; exact prior-source exclusion only; not release evidence"
+}

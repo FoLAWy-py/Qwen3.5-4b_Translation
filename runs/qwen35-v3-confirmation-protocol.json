@@ -1,0 +1,37 @@
+{
+  "status": "protocol_only_no_confirmation_samples_created",
+  "supersedes_for_this_goal": "runs/stage-independent-confirmation-protocol.json",
+  "scope": "Stage optimization; separate from release acceptance",
+  "entry_condition": "Final candidate passes TRAIN repair selection, all known200/public116 gates and own-weight formal performance. Freeze candidate and configuration before new sources are collected.",
+  "minimum_rows": 400,
+  "minimum_source_groups": 200,
+  "categories": ["daily", "travel", "food", "academic", "hard"],
+  "directions": ["en", "zh-CN"],
+  "source_groups_per_category": 40,
+  "rows_per_category_direction": 40,
+  "minimum_context_or_glossary_rows": 80,
+  "minimum_multisentence_rows": 80,
+  "source_rules": [
+    "Named new sources with permission/license, attribution and traceable original content. Audit all source/reference/context/glossary/ambiguity before any model output is inspected.",
+    "Both directions, alternate contexts and near paraphrases stay in one source family.",
+    "Isolate all historic TRAIN, DEV and viewed evaluation source families using exact and approximate retrieval plus source-grounded manual resolutions.",
+    "No DEV answers, original DEV errors or near rewrites may be used to author TRAIN or independent confirmation.",
+    "If confirmation informs further tuning it becomes regression; a different new source set is required for final confirmation."
+  ],
+  "comparators": [
+    {"role": "final_candidate", "adapter_sha256": "pending_freeze"},
+    {"role": "historical_v7", "path": "models/witrans-4b-v7-critical-cpo", "adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424"},
+    {"role": "frozen_qwen35_start", "path": "models/witrans-qwen35-v2-critical-cpo", "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27", "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"}
+  ],
+  "generation": {"quantization": "nf4", "max_length": 1024, "do_sample": false, "max_new_tokens": 256, "gpu_jobs": "serial", "preserve_raw_outputs": true, "silent_truncation": false, "cpu_offload": false},
+  "review": {"reviewer": "Codex AI, user-authorized", "professional_human_review": false, "mask_identity_where_possible": true, "randomize_order_seed": 20261002, "reasonable_equivalents_accepted": true, "content_bound_per_output": true},
+  "statistics": {"unit": "paired_source_group", "resamples": 10000, "seed": 20261002, "confidence_level": 0.95, "interval": "percentile", "report_strata_counts_and_transitions": true},
+  "gates_vs_v7": {"pass_gain_at_least": 0.03, "paired95_lower_bound_greater_than": 0, "major_including_critical_nonincrease": true, "critical": 0},
+  "gates_vs_frozen_qwen35_start": {"pass_must_not_decrease": true, "major_including_critical_nonincrease": true, "report_all_strata_and_uncertainty": true},
+  "final_protocol": {"json": "100%", "language_direction": "100%", "eos": "100%"},
+  "release_policy": "data/release_acceptance_policy.md still requires fresh600 rows/300 groups and all stricter release gates.",
+  "method_claim": "Concrete candidate engineering result only without valuable matched methods and at least3 seeds.",
+  "default_promoted": false,
+  "stage_goal_complete": false,
+  "release_approved": false
+}

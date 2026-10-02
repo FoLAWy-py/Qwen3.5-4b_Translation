@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:37.291688+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-daily-13",
+      "category": "daily",
+      "topic": "A home workshop borrows a measuring tape and returns it rolled up; the borrowed item is separate from the tool that needs repair.",
+      "group_id": "v10-daily-13"
+    },
+    {
+      "case_id": "v10-daily-14",
+      "category": "daily",
+      "topic": "A gardener distinguishes fallen leaves from branches cut deliberately; a requested cleanup does not authorize pruning remaining branches.",
+      "group_id": "v10-daily-14"
+    },
+    {
+      "case_id": "v10-daily-15",
+      "category": "daily",
+      "topic": "A friend asks for a voice message to be transcribed, including hesitations when they change meaning; transcription is not a request to answer its questions.",
+      "group_id": "v10-daily-15"
+    },
+    {
+      "case_id": "v10-daily-16",
+      "category": "daily",
+      "topic": "A resident moves a lamp to a desk after unplugging it; the desk is cleared by the speaker and the recipient carries the lamp.",
+      "group_id": "v10-daily-16"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-daily-13\",\n      \"english\": \"The home workshop asked to borrow the measuring tape for a week. After use, the tape was returned neatly rolled up, while the damaged caliper, which needed repair, was left with the host separately.\",\n      \"chinese\": \"家庭工作间请求借用卷尺一周。使用后，卷尺整齐卷起归还，而需要修理的损坏卡尺则单独留给主人。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-14\",\n      \"english\": \"The gardener was asked to clean up the yard, not to cut down more branches. They carefully separated the fallen leaves from the freshly cut branches to avoid over-pruning.\",\n      \"chinese\": \"园丁被要求清理庭院，而不是砍掉更多树枝。他们仔细将落叶与新剪下的枝条分开，以避免过度修剪。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-15\",\n      \"english\": \"A friend sent a voice message and asked for a full transcription, including pauses and corrections. They emphasized that the request was not to answer the message’s questions, just to write it out as is.\",\n      \"chinese\": \"一位朋友发送了一条语音消息，并要求完整转录，包括停顿和修改。他们强调这个请求并不是要回答消息中的问题，而是按照原样写出内容。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-16\",\n      \"english\": \"The resident unplugged the lamp and carried it to the desk. The desk was cleared by the speaker, and the recipient took the lamp to its new location.\",\n      \"chinese\": \"居民拔掉台灯插头，将其带到书桌。说话人清空了书桌，接收者将台灯搬到新位置。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 479,
+    "total_tokens": 906,
+    "completion_tokens": 427,
+    "estimated_cost": 0.00015788,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

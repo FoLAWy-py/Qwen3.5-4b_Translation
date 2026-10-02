@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:41.820057+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-food-05",
+      "category": "food",
+      "topic": "preparing a sauce by stirring flour into melted fat",
+      "group_id": "v6-food-05"
+    },
+    {
+      "case_id": "v6-food-06",
+      "category": "food",
+      "topic": "a cook cooling rice before adding it to a salad",
+      "group_id": "v6-food-06"
+    },
+    {
+      "case_id": "v6-food-07",
+      "category": "food",
+      "topic": "a diner requesting a separate container for leftover noodles",
+      "group_id": "v6-food-07"
+    },
+    {
+      "case_id": "v6-food-08",
+      "category": "food",
+      "topic": "a baker wrapping cooled biscuits for transport",
+      "group_id": "v6-food-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-food-05\",\n      \"english\": \"Stir the flour into the melted fat until it turns golden brown and fragrant.\",\n      \"chinese\": \"将面粉搅拌进融化的脂肪中，直到它变成金黄色并散发香味。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-06\",\n      \"english\": \"Let the rice cool in the refrigerator for 10 minutes before mixing it into the salad.\",\n      \"chinese\": \"将米饭在冰箱中冷却10分钟，然后再拌入沙拉中。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-07\",\n      \"english\": \"Could I have a separate container for the leftover noodles, please?\",\n      \"chinese\": \"请给我一个单独的容器装剩余的面条好吗？\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-food-08\",\n      \"english\": \"The baker wrapped the cooled biscuits in parchment paper to keep them fresh during transport.\",\n      \"chinese\": \"面包师用烘焙纸包裹冷却后的饼干，以便在运输过程中保持新鲜。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 376,
+    "total_tokens": 648,
+    "completion_tokens": 272,
+    "estimated_cost": 0.00010624,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

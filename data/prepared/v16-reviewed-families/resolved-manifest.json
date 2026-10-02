@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-01T10:47:44.444047+00:00",
+  "reviewed_families": 200,
+  "reviewed_rows": 416,
+  "decision_hash": "214d46c0587e77485c533f7ac3b062a3f7424d6e1913f497a199ce56e6bacab2",
+  "original_records_hash": "7b93078f7d2e9b0fe85fa65dcae21b68168c73276efe19da816a79dc5d8bea0a",
+  "reviewed_records_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "train_ready_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "train_ready_families": 200,
+  "train_ready_rows": 416,
+  "quarantined_families": [],
+  "reference_repairs": 3,
+  "strata": {
+    "daily/zh-CN": 40,
+    "daily/en": 40,
+    "travel/zh-CN": 40,
+    "travel/en": 40,
+    "food/zh-CN": 41,
+    "food/en": 41,
+    "academic/zh-CN": 40,
+    "academic/en": 40,
+    "hard/zh-CN": 43,
+    "hard/en": 43
+  },
+  "source_selection": "TRAIN-only NLL priority inside five balanced categories; all references individually read in both directions.",
+  "data_role": "Authorized reviewed existing TRAIN positive sources, not independent confirmation; no new negative labels.",
+  "new_negative_authorized": false,
+  "heldout_hashes": {
+    "dev": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "public_dev": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0"
+  },
+  "release_approved": false,
+  "supersedes_for_train_ready_only": "manifest.json",
+  "train_ready_path": "data\\prepared\\v16-reviewed-families\\train-ready-after-overlap-review.jsonl",
+  "overlap_resolution_hash": "bd292051cdc6c3d8710badfe664d6e3cb19b4d4f7f414788b7b49f946438c5b6"
+}

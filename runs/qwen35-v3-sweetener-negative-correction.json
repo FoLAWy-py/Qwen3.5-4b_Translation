@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-02T05:12:40.731046+00:00",
+  "source": {
+    "title": "Cambridge unsweetened",
+    "url": "https://dictionary.cambridge.org/us/dictionary/english-chinese-simplified/unsweetened",
+    "finding": "Both 未加糖的 and 未加甜味料的 are listed; sugar wording alone cannot justify a major negative."
+  },
+  "issue_id": "v10-food-15-zh-CN",
+  "input": {
+    "text": "The customer asked if the iced tea was unsweetened or sweetened with honey. They wanted to know if sugar was omitted, not necessarily that no sweetener was used at all.",
+    "target_lang": "zh-CN",
+    "context": "",
+    "glossary": {}
+  },
+  "original_actual_rejected": {
+    "translation": "顾客询问冰茶是否是不加糖的，还是用蜂蜜加糖的。他们想知道是否省略了糖，而不一定是完全没有使用任何甜味剂。"
+  },
+  "old_review_hash": "c8beb17e0033c5605cadaa29640ba5121bcd2d182ee28e57ecdb698e78dd30fc",
+  "new_review_hash": "49ab9ffd6d0cb47a25b99007bcf1687e472206b62ace69ce495633c079384f19",
+  "old_verdict": "major",
+  "new_verdict": "minor",
+  "original_review_path": "runs/qwen35-v3-train-discovery-lexical-corrected-manual.jsonl",
+  "original_review_hash": "b23397474e89585b289fc0184fcd1e638f27302bb6de2ce3d0a8e6d3d4784a16",
+  "original_pool_path": "data/prepared/qwen35-v3-reviewed33-current-errors/pairs.jsonl",
+  "original_pool_hash": "53fe4378468b89fb71fd293e2dbae2a670c58e9fba0cb7f2a4c894fdb08a4b69",
+  "invalidated_plan_hashes": [
+    "28767f4a12b6e328156ed0f60f0e591c176b5e21495cf786cdd3ec8df3c9baae"
+  ],
+  "invalidated_outputs": [
+    "models/witrans-qwen35-v3-reviewed33-cpo"
+  ],
+  "quarantined_adapter_sha256": "073e596f8ee4ef9b8b7f1e436aa11b30f50e6fd899859b7cda3280d02b2fcd8b",
+  "reason": "Unsweetened/sugar lexical choice and honey phrasing were not sufficiently established as a true major negative.",
+  "old_trial_eligible": false,
+  "optimization_round_requirement_satisfied": false,
+  "original_training_completion_audit": "runs/qwen35-v3-reviewed33-training-completion-audit.json",
+  "actual64_update_and_budget_evidence_preserved": true,
+  "already_running_recall_policy": "Preserve bounded113 diagnostic generations and individually review; do not terminate/restart or decode DEV. Quarantine forbids candidate acceptance and inheritance.",
+  "new_view": "runs/qwen35-v3-train-discovery-sweetener-corrected-manual.jsonl",
+  "new_view_hash": "c6f0497b33af1490f3e44ea9c9bdd86cfeb8bf98db3dce5f6b99d460b70eefcb",
+  "clean_pool": "data/prepared/qwen35-v3-reviewed32-current-errors/pairs.jsonl",
+  "clean_pool_hash": "b9acee16f2c374e07466aa77cd7ebef2338adba7e20092733af037433a41f68b",
+  "clean_gradient": "runs/qwen35-v3-reviewed32-gradient-diagnosis.json",
+  "clean_gradient_hash": "77a7d50f6f6a20b5fe068d8e9f4b4c1e94149d0beb9d45566cf9ea5bd71fbb79",
+  "counts": {
+    "pass": 328,
+    "minor": 56,
+    "major": 32
+  },
+  "pairs": 32,
+  "groups": 31,
+  "all_prior_quarantines_preserved": true,
+  "before_next_optimization": "Full focused32 negative source reread with conservative severity and dictionary verification of any uncertain lexical contrasts before freezing any further trial. No new trial frozen by this correction.",
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "default_promoted": false
+}

@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-01T10:41:37.559847+00:00",
+  "threshold": 0.68,
+  "hits": [
+    {
+      "train_id": "v5-seed-019-zh-CN",
+      "train_group": "v5-seed-18",
+      "heldout_id": "v4-dev-091-zh-CN",
+      "heldout_group": "v4-dev-091",
+      "source_similarity": 0.7407407407407407,
+      "decision": "quarantine whole TRAIN family pending explicit near-source overlap review"
+    },
+    {
+      "train_id": "v5-seed-020-zh-CN",
+      "train_group": "v5-seed-18",
+      "heldout_id": "v4-dev-091-zh-CN",
+      "heldout_group": "v4-dev-091",
+      "source_similarity": 0.7407407407407407,
+      "decision": "quarantine whole TRAIN family pending explicit near-source overlap review"
+    },
+    {
+      "train_id": "v7-context-017-zh-CN",
+      "train_group": "v7-context-09",
+      "heldout_id": "v4-dev-095-zh-CN",
+      "heldout_group": "v4-dev-095",
+      "source_similarity": 0.7619047619047619,
+      "decision": "quarantine whole TRAIN family pending explicit near-source overlap review"
+    },
+    {
+      "train_id": "v7-context-018-zh-CN",
+      "train_group": "v7-context-09",
+      "heldout_id": "v4-dev-095-zh-CN",
+      "heldout_group": "v4-dev-095",
+      "source_similarity": 0.7619047619047619,
+      "decision": "quarantine whole TRAIN family pending explicit near-source overlap review"
+    }
+  ],
+  "scope": "Source-text retrieval only; no heldout answers read for repair or authoring. High similarity is an audit flag, not proof of leakage. Entire bidirectional/context/paraphrase family quarantined. Prior grouping provenance retained."
+}

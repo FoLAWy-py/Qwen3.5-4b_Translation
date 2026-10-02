@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-30T20:32:55.684655+00:00",
+  "lineage": [
+    {
+      "path": "data\\prepared\\v4\\train.jsonl",
+      "rows": 496,
+      "hash": "e49ef710eeec2781846368188b1a73ff93e0e6bcf154585d0c3acc9ae98210c3"
+    },
+    {
+      "path": "data\\prepared\\v5-seed\\train.jsonl",
+      "rows": 60,
+      "hash": "e1fea313ff165d84839d22dd0bb431d0ce510f9a843c87094ec357057054ce58"
+    },
+    {
+      "path": "data\\prepared\\v6-source\\train.jsonl",
+      "rows": 74,
+      "hash": "5f7c979ab3f99dc84fd3d4a36dfcb57f2c95244d0de28a2b15c2568808d3dbb6"
+    },
+    {
+      "path": "data\\prepared\\v7-context\\train.jsonl",
+      "rows": 48,
+      "hash": "097e22e8d55582ad6d751561e6bba343abae50f6c819c469a025b2e8f00a1d05"
+    }
+  ],
+  "train": {
+    "rows": 678,
+    "groups": 306,
+    "hash": "9757eaf8a0a666c317326a069dea258fc8271a46e6c6ac12f3fcf9bfafff4c5f",
+    "categories": {
+      "travel": 98,
+      "food": 102,
+      "daily": 154,
+      "hard": 134,
+      "academic": 190
+    }
+  },
+  "dev": {
+    "rows": 200,
+    "groups": 100,
+    "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+  },
+  "policy": "All prepared development/test/acceptance files and training-prohibited rows excluded by group and exact source. Known200-row v4 development reused for screening only; no release test. No complete semantic near-duplicate guarantee.",
+  "configuration": {
+    "method": "continue SFT from v2 NF4; reviewed replay plus context contrasts",
+    "lr": 1e-05,
+    "steps": 85,
+    "accumulation": 16,
+    "seed": 42,
+    "checkpoint_steps": [
+      43,
+      85
+    ],
+    "selection": "Lowest dev answer/EOS NLL before generation; known development results cannot establish release acceptance",
+    "record_visits": 1360,
+    "nominal_epochs": 2.005899705014749
+  }
+}

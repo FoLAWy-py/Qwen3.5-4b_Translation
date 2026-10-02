@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:31.058078+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-daily-01",
+      "category": "daily",
+      "topic": "a tenant arranging access to a storage cupboard",
+      "group_id": "v6-daily-01"
+    },
+    {
+      "case_id": "v6-daily-02",
+      "category": "daily",
+      "topic": "a neighbor returning borrowed gardening equipment",
+      "group_id": "v6-daily-02"
+    },
+    {
+      "case_id": "v6-daily-03",
+      "category": "daily",
+      "topic": "a coworker arranging a change to a meeting agenda",
+      "group_id": "v6-daily-03"
+    },
+    {
+      "case_id": "v6-daily-04",
+      "category": "daily",
+      "topic": "a household sorting clothes for donation",
+      "group_id": "v6-daily-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-daily-01\",\n      \"english\": \"Could you let the maintenance team in to the storage cupboard next Tuesday between 10 and 12? I'll be out of the office then.\",\n      \"chinese\": \"你能在下周二上午10点到12点之间让维修团队进入储物柜吗？那时我不在办公室。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-02\",\n      \"english\": \"I brought back the rake and gloves you lent me last weekend. I hope they're all in one piece.\",\n      \"chinese\": \"我把上周末你借给我的耙子和手套带来了。希望它们都完好无损。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-03\",\n      \"english\": \"I think we should move the budget discussion to the first part of the agenda so we can finalize it earlier.\",\n      \"chinese\": \"我认为我们应该把预算讨论移到议程的前半部分，以便我们能更早敲定。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-04\",\n      \"english\": \"Let's go through the clothes in the back and decide which ones we can donate to charity this weekend.\",\n      \"chinese\": \"我们来看看后面的衣服，决定哪些可以在这个周末捐给慈善机构。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 378,
+    "total_tokens": 703,
+    "completion_tokens": 325,
+    "estimated_cost": 0.00012124,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

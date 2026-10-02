@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-30T23:20:03.384447+00:00",
+  "rows": 60,
+  "groups": 30,
+  "reference_hash": "efb04c87309844fa4c8653a0c2ae82e775bc886a9a577d711603c25c7f7f9163",
+  "categories": {
+    "daily": 12,
+    "travel": 12,
+    "food": 12,
+    "academic": 12,
+    "hard": 12
+  },
+  "context_rows": 18,
+  "glossary_rows": 8,
+  "multi_sentence_rows": 60,
+  "policy": "Training-only original sources, not release tests. Codex-author acceptance, not independent professional human review. Prior exact-source exclusion checked; no full semantic near-duplicate guarantee. Full teacher candidates require later individual review."
+}

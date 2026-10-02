@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:38.264939+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-daily-05",
+      "category": "daily",
+      "topic": "A hobbyist labels boxes of finished pottery and unglazed pieces; a label describes the contents, not permission to sell them.",
+      "group_id": "v10-daily-05"
+    },
+    {
+      "case_id": "v10-daily-06",
+      "category": "daily",
+      "topic": "Neighbours arrange watering plants during an absence; the person receiving instructions checks soil before watering, rather than watering automatically every day.",
+      "group_id": "v10-daily-06"
+    },
+    {
+      "case_id": "v10-daily-07",
+      "category": "daily",
+      "topic": "A family copies photographs to a drive before clearing an old phone; preserve completion and who will check that copies open.",
+      "group_id": "v10-daily-07"
+    },
+    {
+      "case_id": "v10-daily-08",
+      "category": "daily",
+      "topic": "A volunteer changes a noticeboard poster after the updated room number is confirmed; leaving a draft on the desk does not authorize replacing the poster.",
+      "group_id": "v10-daily-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-daily-05\",\n      \"english\": \"The hobbyist carefully labels each box to distinguish between glazed pottery and raw clay pieces. The label describes the contents, but does not imply they can be sold without permission.\",\n      \"chinese\": \"该爱好者仔细地标明每个箱子，以区分上釉陶器和未上釉的黏土作品。标签描述了箱内物品，但并不意味着可以在未经许可的情况下出售。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-06\",\n      \"english\": \"The neighbor left a note on the porch about taking care of the plants. The person reading it will check the soil first before deciding whether to water.\",\n      \"chinese\": \"邻居在门廊留下一张便条，说明照料植物的事宜。阅读便条的人会先检查土壤，再决定是否浇水。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-07\",\n      \"english\": \"The family transferred all the photos from the old phone to the external drive. After the transfer, the oldest child will check to make sure all the files open correctly.\",\n      \"chinese\": \"这个家庭将旧手机中的所有照片都复制到了外接硬盘上。复制完成后，年纪最大的孩子会检查所有文件是否能够正常打开。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-08\",\n      \"english\": \"The volunteer updated the noticeboard poster only after confirming the new room number with the office. Leaving a draft on the desk does not mean it's ready for display.\",\n      \"chinese\": \"志愿者在确认办公室的新房间号码后，才更新了公告板上的海报。将草稿留在办公桌上并不表示可以立即展示。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 476,
+    "total_tokens": 884,
+    "completion_tokens": 408,
+    "estimated_cost": 0.00015231999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

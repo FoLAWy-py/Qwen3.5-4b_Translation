@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:43.302062+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-academic-01",
+      "category": "academic",
+      "topic": "a statistics class comparing population and sample descriptions",
+      "group_id": "v6-academic-01"
+    },
+    {
+      "case_id": "v6-academic-02",
+      "category": "academic",
+      "topic": "a physics class distinguishing distance from displacement",
+      "group_id": "v6-academic-02"
+    },
+    {
+      "case_id": "v6-academic-03",
+      "category": "academic",
+      "topic": "a chemistry class describing a reversible change of phase",
+      "group_id": "v6-academic-03"
+    },
+    {
+      "case_id": "v6-academic-04",
+      "category": "academic",
+      "topic": "a biology class discussing the function of a membrane",
+      "group_id": "v6-academic-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-academic-01\",\n      \"english\": \"The sample mean can differ from the population mean, but it estimates it.\",\n      \"chinese\": \"样本均值可能与总体均值不同，但它用于估计总体均值。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-02\",\n      \"english\": \"Distance is the total path length traveled, while displacement is the straight-line distance from start to finish.\",\n      \"chinese\": \"距离是行进的总路径长度，而位移是从起点到终点的直线距离。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-03\",\n      \"english\": \"A phase change is reversible if the substance returns to its original state.\",\n      \"chinese\": \"如果物质能回到其原始状态，这种相变就是可逆的。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-04\",\n      \"english\": \"The cell membrane controls what enters and exits the cell.\",\n      \"chinese\": \"细胞膜控制进出细胞的物质。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 381,
+    "total_tokens": 648,
+    "completion_tokens": 267,
+    "estimated_cost": 0.00010524,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-30T23:48:03.289415+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "candidate_rows": 200,
+  "source_groups": 100,
+  "candidate_hash": "576ee553b5b23e99c26e8d6d7eb7c9022249e781c4624856dbb4ca86f5e08c22",
+  "exclusions": [],
+  "quality_status": "Pending source, translation, near-duplicate and provenance review; not training-ready",
+  "usage": {
+    "prompt_tokens": 11770,
+    "completion_tokens": 10103
+  }
+}

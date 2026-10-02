@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-01T07:10:04.396859+00:00",
+  "base": {
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "completed_at": "2026-09-30T09:16:22.165833+00:00",
+    "status": "complete"
+  },
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "seed": 42,
+  "updates": 64,
+  "tokens_per_update": 4096,
+  "training_input_tokens_per_arm": 262144,
+  "learning_rate": 2e-05,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "max_length": 1024,
+  "quantization": "nf4",
+  "checkpoints": [
+    32,
+    64
+  ],
+  "loss": "Answer/EOS cross entropy averaged over supervised tokens in each update; prompt ignored",
+  "selection": "Equal-weight mean of known DEV200 NLL and public auxiliary DEV116 NLL; lowest among checkpoint32/64. Semantic gates remain mandatory.",
+  "budget_scope": "Exact prompt+answer+EOS input tokens, no truncation or padding, microbatch1. Mixed arm uses2048 old+2048 public tokens each update. Supervised tokens and sequence-length attention costs differ; not identical FLOPs.",
+  "starting_adapter": "models/witrans-4b-v7-critical-cpo",
+  "starting_adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424",
+  "dev": {
+    "path": "data\\prepared\\v12-factorial\\dev.jsonl",
+    "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+  },
+  "public_dev": {
+    "path": "data\\prepared\\v12-factorial\\public-dev.jsonl",
+    "hash": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0"
+  },
+  "datasets": {
+    "old": {
+      "path": "data\\prepared\\v12-factorial\\old-train.jsonl",
+      "hash": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe",
+      "schedule_path": "data\\prepared\\v12-factorial\\old-schedule.json",
+      "schedule_hash": "fc2f17393d41007bc66d014c60959fda0633975cbf316574fd817d2f869df7b4",
+      "record_visits": 1086,
+      "unique_visited_rows": 642,
+      "max_repetition": 10,
+      "visited_strata": {
+        "hard/zh-CN": 112,
+        "academic/zh-CN": 130,
+        "daily/en": 119,
+        "academic/en": 141,
+        "hard/en": 108,
+        "daily/zh-CN": 126,
+        "food/en": 90,
+        "travel/zh-CN": 79,
+        "travel/en": 84,
+        "food/zh-CN": 97
+      },
+      "supervised_tokens": 26886
+    },
+    "mixed": {
+      "path": "data\\prepared\\v12-factorial\\mixed-train.jsonl",
+      "hash": "3ed8cbe5968a6ec7b6df612005b67db6a438616a870ccb52229bc01997843615",
+      "schedule_path": "data\\prepared\\v12-factorial\\mixed-schedule.json",
+      "schedule_hash": "2af6741328cf4e187aa281736c6a945c96fc476e943f6013a35d6bcb91e12c8f",
+      "record_visits": 1104,
+      "unique_visited_rows": 582,
+      "max_repetition": 150,
+      "visited_strata": {
+        "hard/zh-CN": 47,
+        "academic/zh-CN": 89,
+        "daily/en": 331,
+        "academic/en": 87,
+        "food/zh-CN": 57,
+        "daily/zh-CN": 296,
+        "food/en": 46,
+        "travel/zh-CN": 48,
+        "hard/en": 53,
+        "travel/en": 50
+      },
+      "supervised_tokens": 25604
+    }
+  },
+  "arms": [
+    {
+      "name": "base-old",
+      "start": "base",
+      "dataset": "old",
+      "output": "models/witrans-4b-v12-base-old",
+      "selection_output": "runs/v12-base-old-selection.json"
+    },
+    {
+      "name": "v7-old",
+      "start": "v7",
+      "dataset": "old",
+      "output": "models/witrans-4b-v12-v7-old",
+      "selection_output": "runs/v12-v7-old-selection.json"
+    },
+    {
+      "name": "base-mixed",
+      "start": "base",
+      "dataset": "mixed",
+      "output": "models/witrans-4b-v12-base-mixed",
+      "selection_output": "runs/v12-base-mixed-selection.json"
+    },
+    {
+      "name": "v7-mixed",
+      "start": "v7",
+      "dataset": "mixed",
+      "output": "models/witrans-4b-v12-v7-mixed",
+      "selection_output": "runs/v12-v7-mixed-selection.json"
+    }
+  ],
+  "release_approved": false,
+  "limits": "Single seed screening with common LR; fresh LoRA and continued adapter may have different optimum LR. Public pool mostly daily, so all ten known strata must be inspected before promotion. Masked review is not independent blinding."
+}

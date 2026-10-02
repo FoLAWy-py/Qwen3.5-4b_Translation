@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:54.344031+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-hard-05",
+      "category": "hard",
+      "topic": "field: a database administrator inspecting a record field",
+      "group_id": "v5-seed-23"
+    },
+    {
+      "case_id": "v6-hard-06",
+      "category": "hard",
+      "topic": "field: a farmer discussing a recently planted field",
+      "group_id": "v5-seed-23"
+    },
+    {
+      "case_id": "v6-hard-07",
+      "category": "hard",
+      "topic": "induction: a manager arranging an employee induction session",
+      "group_id": "v5-seed-24"
+    },
+    {
+      "case_id": "v6-hard-08",
+      "category": "hard",
+      "topic": "induction: a mathematics student reviewing a proof by induction",
+      "group_id": "v5-seed-24"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-hard-05\",\n      \"english\": \"Check if the field contains the correct data type.\",\n      \"chinese\": \"检查该字段是否包含正确的数据类型。\",\n      \"context\": \"A database administrator is reviewing a record in a relational database.\"\n    },\n    {\n      \"case_id\": \"v6-hard-06\",\n      \"english\": \"This field will need extra irrigation next week.\",\n      \"chinese\": \"这块田下周需要额外灌溉。\",\n      \"context\": \"A farmer is discussing planting progress with a colleague.\"\n    },\n    {\n      \"case_id\": \"v6-hard-07\",\n      \"english\": \"The induction will include safety protocols and company policies.\",\n      \"chinese\": \"入职培训将包括安全规程和公司政策。\",\n      \"context\": \"A manager is preparing for a new employee onboarding session.\"\n    },\n    {\n      \"case_id\": \"v6-hard-08\",\n      \"english\": \"The proof relies on the induction step to establish the pattern.\",\n      \"chinese\": \"该证明依赖于归纳步骤来建立模式。\",\n      \"context\": \"A student is studying a mathematical proof for a theorem.\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 384,
+    "total_tokens": 648,
+    "completion_tokens": 264,
+    "estimated_cost": 0.00010464000000000001,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

@@ -1,0 +1,16 @@
+{
+  "public-short-0190-en": ["pass", "所说任何话可能在法庭作不利证据，范围位置正确。", true],
+  "public-short-0292-zh-CN": ["pass", "汤姆转述确实无人帮助而做，确实与任何人的范围完整。", true],
+  "public-short-0292-en": ["pass", "全靠自己无任何帮助做成，did it 断言完成且没有改事实。", true],
+  "public-short-0257-zh-CN": ["pass", "希望旅途愉快，自然祝福同义。", true],
+  "public-short-0257-en": ["pass", "Good luck on your journey 为一路顺风的合理祝语。", true],
+  "public-short-0493-zh-CN": ["pass", "士兵已做好战斗准备，状态准确。", true],
+  "public-short-0500-zh-CN": ["pass", "他看似乖孩子，he 保留男性，good boy 的常用评价合理。", true],
+  "public-short-0578-zh-CN": ["pass", "比汤姆早一点到，到场位置语境默认此处，比较和程度完整。", true],
+  "public-short-0477-en": ["pass", "询问对方要试试，原文未有明示 it，省宾语合理。", true],
+  "public-short-0033-zh-CN": ["pass", "再一瓶葡萄酒，please 转谢谢礼貌请求等效。", true],
+  "public-short-0033-en": ["pass", "再给一瓶葡萄酒，another 单瓶且礼貌完整。", true],
+  "public-short-0230-zh-CN": ["pass", "永不再见到他，否定与再见准确。", true],
+  "public-short-0133-zh-CN": ["pass", "礼貌问对方正在做什么，未回答问题。", true],
+  "public-short-0133-en": ["pass", "May I ask 自然对应请问，进行问句正确。", true]
+}

@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-01T06:48:42.936223+00:00",
+  "candidate_hash": "a281945a0606851f99626f299b5165683176d3c8f89e564512becfa71fbd6dd8",
+  "total_pending_candidates": 1000,
+  "individually_read": 600,
+  "remaining_unread": 400,
+  "verdicts": {
+    "revised": 379,
+    "accepted": 203,
+    "rejected": 18
+  },
+  "retained_groups": 582,
+  "categories": {
+    "daily": 449,
+    "travel": 50,
+    "food": 33,
+    "academic": 39,
+    "hard": 11
+  },
+  "training_ready": false,
+  "release_approved": false,
+  "scope": "Explicit Codex reading only; further family audit, tokenizer budget validation and frozen split required. Both directions remain in the same family."
+}

@@ -1,0 +1,8 @@
+{
+  "public-short-0507-zh-CN": ["pass", "对艺术完全无兴趣，at all 否定程度完整。", true],
+  "public-short-0507-en": ["pass", "not interested at all 与原文完全否定一致。", true],
+  "public-short-0170-zh-CN": ["pass", "农场干活整天，地点时长准确。", true],
+  "public-short-0170-en": ["pass", "农场工作一整天，at/on 不改变地点。", true],
+  "public-short-0248-zh-CN": ["minor", "年轻却有经验正确，但很有经验增加经验丰富程度。", true],
+  "public-short-0248-en": ["pass", "年轻但有经验，experienced 合理同义。", true]
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:09.097948+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-food-05",
+      "category": "food",
+      "topic": "A customer asks for tofu to replace meat in one serving, while the second serving remains unchanged; no unsupported claim of vegan preparation.",
+      "group_id": "v10-food-05"
+    },
+    {
+      "case_id": "v10-food-06",
+      "category": "food",
+      "topic": "A recipe uses toasted breadcrumbs as a topping, not as a binding ingredient inside the mixture; preserve location and timing.",
+      "group_id": "v10-food-06"
+    },
+    {
+      "case_id": "v10-food-07",
+      "category": "food",
+      "topic": "A diner asks whether a broth contains shellfish before choosing a dish; translate the question without answering or offering a safety guarantee.",
+      "group_id": "v10-food-07"
+    },
+    {
+      "case_id": "v10-food-08",
+      "category": "food",
+      "topic": "A cook rinses salted olives before chopping them and adjusts seasoning only after tasting the mixture; do not add a numeric amount of salt.",
+      "group_id": "v10-food-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-food-05\",\n      \"english\": \"The customer ordered two servings of the same dish but requested tofu instead of meat in one of them. The other portion was prepared as usual with no changes.\",\n      \"chinese\": \"顾客点了两份同样的菜品，但要求其中一份用豆腐代替肉类。另一份则照常准备，没有任何改动。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-06\",\n      \"english\": \"The recipe calls for toasted breadcrumbs sprinkled over the finished dish, not mixed into the base. This step happens after the mixture is fully cooked.\",\n      \"chinese\": \"食谱要求在成品菜肴上撒上烤过的面包屑，而不是混入基料中。这一步骤是在混合物完全煮熟后进行的。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-07\",\n      \"english\": \"Before ordering, the diner politely asked if the broth included any shellfish. They wanted to ensure it fit their dietary restrictions.\",\n      \"chinese\": \"点餐前，食客礼貌地询问高汤中是否含有贝类。他们想确认这是否符合自己的饮食限制。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-08\",\n      \"english\": \"The cook first rinsed the salted olives under cold water, then chopped them. After mixing, they tasted and adjusted the seasoning accordingly.\",\n      \"chinese\": \"厨师首先用冷水冲洗了咸橄榄，然后将其切碎。混合后，他们尝了尝并相应地调整了调味。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 469,
+    "total_tokens": 844,
+    "completion_tokens": 375,
+    "estimated_cost": 0.00014252,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

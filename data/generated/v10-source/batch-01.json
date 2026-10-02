@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:41.678459+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-daily-01",
+      "category": "daily",
+      "topic": "A tenant coordinates replacing a cracked window latch: the landlord supplies the part, the tenant returns the old part, and approval is not a completed repair.",
+      "group_id": "v10-daily-01"
+    },
+    {
+      "case_id": "v10-daily-02",
+      "category": "daily",
+      "topic": "A library patron renews two books but one reservation prevents renewal; distinguish the renewal request from confirmation.",
+      "group_id": "v10-daily-02"
+    },
+    {
+      "case_id": "v10-daily-03",
+      "category": "daily",
+      "topic": "A household sorts a bag of donated clothes: clean items go into one box, items needing repair are kept separately, and nothing has been collected yet.",
+      "group_id": "v10-daily-03"
+    },
+    {
+      "case_id": "v10-daily-04",
+      "category": "daily",
+      "topic": "A colleague lends a charger but keeps the cable belonging to a different device; preserve what is borrowed and what stays.",
+      "group_id": "v10-daily-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-daily-01\",\n      \"english\": \"The tenant contacted the landlord about the broken window latch. The landlord will provide a new part, and the tenant will return the old one once installed. However, the repair still needs approval before completion.\",\n      \"chinese\": \"房客联系了房东，报告窗锁的损坏问题。房东将提供新零件，房客会在安装后归还旧零件。但维修仍需批准后才能完成。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-02\",\n      \"english\": \"The library user requested to renew two books. The system allowed one but denied the other due to an active reservation. The user needs to clarify which title remains reserved.\",\n      \"chinese\": \"图书馆用户申请续借两本书。系统允许续借一本，但另一本由于有预约而被拒绝。用户需要明确哪本书仍被预约。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-03\",\n      \"english\": \"The family sorted through a bag of donated clothes. Clean items were placed in a donation box, while those needing mending were set aside. Nothing has been collected yet.\",\n      \"chinese\": \"这个家庭整理了一袋捐赠的衣物。干净的衣服被放入捐赠箱，而需要修补的则被放在一边。目前还没有进行任何收集。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-04\",\n      \"english\": \"A colleague offered to lend a power bank, but kept the cable for another device. The borrower received the charger, but not the matching cable.\",\n      \"chinese\": \"一位同事主动借出一个充电宝，但留用了另一台设备的数据线。借入者拿到了充电器，但没有拿到配套的数据线。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 477,
+    "total_tokens": 897,
+    "completion_tokens": 420,
+    "estimated_cost": 0.00015575999999999999,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

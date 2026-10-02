@@ -1,0 +1,24 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "completed_at": "2026-10-01T11:53:40.902389+00:00",
+  "status": "complete",
+  "license": "apache-2.0",
+  "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+  "files": [
+    {
+      "file": "model.safetensors-00001-of-00002.safetensors",
+      "bytes": 5329398688,
+      "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+      "verified_official_lfs": true
+    },
+    {
+      "file": "model.safetensors-00002-of-00002.safetensors",
+      "bytes": 3990429408,
+      "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+      "verified_official_lfs": true
+    }
+  ],
+  "transport": "Shard2 completed original HTTP; shard1 assembled from official cache-busted Range chunks. Both official LFS hashes verified. Original stalled download and range duplicate-file guard preserved.",
+  "terminology": "Official post-trained checkpoint before project fine-tuning, not a pretraining-only Base checkpoint."
+}

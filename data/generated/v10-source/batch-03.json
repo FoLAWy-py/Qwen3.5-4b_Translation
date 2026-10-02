@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:36.393950+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-daily-09",
+      "category": "daily",
+      "topic": "A customer asks to collect a repaired watch without buying a new strap; distinguish the repair charge from the optional item.",
+      "group_id": "v10-daily-09"
+    },
+    {
+      "case_id": "v10-daily-10",
+      "category": "daily",
+      "topic": "A resident retrieves an umbrella from a shared hallway and leaves someone else’s walking stick where it was; do not infer ownership from location.",
+      "group_id": "v10-daily-10"
+    },
+    {
+      "case_id": "v10-daily-11",
+      "category": "daily",
+      "topic": "An organiser marks one seat as reserved but offers the other seat to a late arrival; preserve the contrast and time sequence.",
+      "group_id": "v10-daily-11"
+    },
+    {
+      "case_id": "v10-daily-12",
+      "category": "daily",
+      "topic": "A parent separates a child’s old notebooks from blank notebooks for next term; the child chooses what to keep before anything is recycled.",
+      "group_id": "v10-daily-12"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-daily-09\",\n      \"english\": \"The customer came to pick up their repaired watch but declined the new strap offer. They paid only the repair fee, leaving the strap untouched on the counter.\",\n      \"chinese\": \"顾客来取回修好的手表，但拒绝了新表带的提议。他们仅支付了维修费用，没有拿走柜台上的表带。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-10\",\n      \"english\": \"The resident found their own umbrella by the door but left the walking stick still near the stairs. No one had claimed it, so it stayed where it was.\",\n      \"chinese\": \"住户在门边找到了自己的伞，但拐杖仍然留在楼梯附近。没有人认领，它就留在原处。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-11\",\n      \"english\": \"The organiser reserved one seat for a guest but offered the second to the latecomer. The guest had already taken their reserved spot when the latecomer arrived.\",\n      \"chinese\": \"组织者为一位客人预留了一个座位，但把第二个座位提供给了迟到的人。当迟到者到达时，预留座位已经被客人坐上了。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-12\",\n      \"english\": \"The parent sorted the child’s old notebooks from the blank ones for next year. The child went through each notebook to decide which to keep before recycling.\",\n      \"chinese\": \"家长把孩子旧的笔记本和明年的空白笔记本分开了。孩子逐本检查，决定保留哪些后再进行回收。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 475,
+    "total_tokens": 867,
+    "completion_tokens": 392,
+    "estimated_cost": 0.00014775999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

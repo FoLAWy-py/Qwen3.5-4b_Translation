@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:26.440077+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-academic-01",
+      "category": "academic",
+      "topic": "A data table uses an empty cell for an unrecorded measurement and the value0 for an observed zero; preserve the distinction in an export.",
+      "group_id": "v10-academic-01"
+    },
+    {
+      "case_id": "v10-academic-02",
+      "category": "academic",
+      "topic": "A code example describes an optional argument whose default applies only when the argument is omitted, not when an explicit null is supplied.",
+      "group_id": "v10-academic-02"
+    },
+    {
+      "case_id": "v10-academic-03",
+      "category": "academic",
+      "topic": "A report separates a measured temperature from the temperature used to calibrate a sensor; later calibration does not change the earlier recorded value.",
+      "group_id": "v10-academic-03"
+    },
+    {
+      "case_id": "v10-academic-04",
+      "category": "academic",
+      "topic": "A graph plots cumulative counts, so a horizontal segment means no new observations during that interval, not that the total count is zero.",
+      "group_id": "v10-academic-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-academic-01\",\n      \"english\": \"The dataset includes missing values as blank cells, while a zero indicates an actual recorded value. Confusing these could lead to incorrect analysis if the software misinterprets the absence of data as a measurement of zero.\",\n      \"chinese\": \"数据表中缺失值显示为空单元格，而零值表示实际记录的数值。如果软件将数据缺失误认为是零值测量，可能会导致分析错误。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-02\",\n      \"english\": \"The function's optional parameter has a default value that applies only if the parameter is omitted from the call. If null is explicitly passed, the default is not used, and the parameter behaves differently.\",\n      \"chinese\": \"函数的可选参数具有默认值，仅当调用时省略该参数时才适用。如果显式传递了null，则不会使用默认值，参数的行为会不同。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-03\",\n      \"english\": \"The sensor's calibration temperature is recorded separately from the actual measurement. Updating the calibration later does not alter the historical data that was recorded using the previous calibration.\",\n      \"chinese\": \"传感器的校准温度与实际测量值分开记录。即使之后更新了校准，也不会更改之前使用旧校准记录的历史数据。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-04\",\n      \"english\": \"A horizontal line in the graph indicates no new events during that time period, not that the total count is unchanged. This distinction is important for interpreting the rate of occurrence accurately.\",\n      \"chinese\": \"图中的水平线表示该时间段内没有新事件发生，而不是总数没有变化。这一区别对于准确解读事件发生率很重要。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 480,
+    "total_tokens": 910,
+    "completion_tokens": 430,
+    "estimated_cost": 0.00015879999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

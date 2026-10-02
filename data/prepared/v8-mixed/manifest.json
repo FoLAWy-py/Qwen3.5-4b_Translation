@@ -1,0 +1,49 @@
+{
+  "at": "2026-09-30T23:12:17.563084+00:00",
+  "lineage": [
+    {
+      "path": "data\\prepared\\v5-mixed\\train.jsonl",
+      "rows": 678,
+      "hash": "9757eaf8a0a666c317326a069dea258fc8271a46e6c6ac12f3fcf9bfafff4c5f"
+    },
+    {
+      "path": "data\\prepared\\v8-multisentence\\train.jsonl",
+      "rows": 80,
+      "hash": "28b9b54e5eb122af77a8c90fc2f6c5b217228adbcafeb72f2fedd8a80a8b6245"
+    }
+  ],
+  "train": {
+    "rows": 758,
+    "groups": 346,
+    "hash": "3096225c7aa6025697354ea24ebde4222d3bf6f6c6f528b32b50a5d723c44390",
+    "categories": {
+      "travel": 114,
+      "food": 118,
+      "daily": 170,
+      "hard": 150,
+      "academic": 206
+    }
+  },
+  "dev": {
+    "rows": 200,
+    "groups": 100,
+    "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+  },
+  "configuration": {
+    "method": "Full multi-sentence positive SFT with reviewed replay from v7",
+    "starting_adapter": "models\\witrans-4b-v7-critical-cpo",
+    "starting_adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424",
+    "lr": 1e-05,
+    "steps": 48,
+    "accumulation": 16,
+    "seed": 42,
+    "checkpoint_steps": [
+      24,
+      48
+    ],
+    "selection": "Lowest known development answer/EOS NLL before new generation; no release claim",
+    "record_visits": 768,
+    "nominal_epochs": 1.0131926121372032
+  },
+  "policy": "Training-only full approved80-row addition. Known development reused adaptively for screening; all prepared held-out groups and exact sources excluded, no full semantic near-duplicate guarantee. No new release test."
+}

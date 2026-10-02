@@ -1,0 +1,13 @@
+{
+  "public-short-0011-en": ["pass", "包裹地址错误，package 与 parcel 同义。", true],
+  "public-short-0306-zh-CN": ["major", "if I were you 应我若是你，译为你若是我，假设角色倒置。", true],
+  "public-short-0402-zh-CN": ["minor", "感谢来见我正确，但新增愿意并将已来的感谢弱化为意愿感谢。", true],
+  "public-short-0402-en": ["pass", "感谢来见我，see/meet 为自然同义。", true],
+  "public-short-0104-zh-CN": ["pass", "无家可归期间常睡那长椅，条件位置频次准确。", true],
+  "public-short-0442-zh-CN": ["pass", "询问论文写完，正确问句。", true],
+  "public-short-0442-en": ["pass", "中文论文未限定学位论文，paper 合理，成品完成对应写完。", true],
+  "public-short-0052-zh-CN": ["pass", "不要对批评过分敏感，别太在意为合理口语同义。", true],
+  "public-short-0174-zh-CN": ["pass", "定期牙医故少牙痛，频次与因果准确。", true],
+  "public-short-0205-zh-CN": ["pass", "我家距公园很近，位置程度完整。", true],
+  "public-short-0205-en": ["pass", "家与公园非常近，完整。", true]
+}

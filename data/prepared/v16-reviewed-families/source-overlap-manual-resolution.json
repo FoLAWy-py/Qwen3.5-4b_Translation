@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-01T10:47:44.434961+00:00",
+  "retrieval_hash": "cab21d351d792f433b990ce93f7fd13ab8e4142ce98711bcb62c754d9c261773",
+  "decisions": [
+    {
+      "train_id": "v5-seed-019-zh-CN",
+      "heldout_id": "v4-dev-091-zh-CN",
+      "train_group": "v5-seed-18",
+      "train_input_hash": "466bc1645cca94ab60c65bfc47872abe7f6e60d887a71c6d600591de13215ce5",
+      "heldout_input_hash": "feb5018853a6bc0dbd5f04728e5de4d9cfe878c518d049dc18c8336c9f079059",
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:47:44.433950+00:00",
+      "decision": "distinct_sources_release_train_family",
+      "note": "TRAIN cast为手腕石膏拆除或戏剧演员撤下，DEV issue为有印刷错误杂志期号召回；对象、动作及语境不同，只共享The ... has been ...句式，不是同原文或近似改写。"
+    },
+    {
+      "train_id": "v5-seed-020-zh-CN",
+      "heldout_id": "v4-dev-091-zh-CN",
+      "train_group": "v5-seed-18",
+      "train_input_hash": "6b283ce252c023bfa35edc92b5006381a579f418ea4e8dca8c58c957f40524af",
+      "heldout_input_hash": "feb5018853a6bc0dbd5f04728e5de4d9cfe878c518d049dc18c8336c9f079059",
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:47:44.434961+00:00",
+      "decision": "distinct_sources_release_train_family",
+      "note": "TRAIN cast为手腕石膏拆除或戏剧演员撤下，DEV issue为有印刷错误杂志期号召回；对象、动作及语境不同，只共享The ... has been ...句式，不是同原文或近似改写。"
+    },
+    {
+      "train_id": "v7-context-017-zh-CN",
+      "heldout_id": "v4-dev-095-zh-CN",
+      "train_group": "v7-context-09",
+      "train_input_hash": "1e065901dcce325a87b03c06df3d33295032f138d098971c4564520ecb09c9e6",
+      "heldout_input_hash": "f461d5c42cb54c19606530640c50d2da2a71cfc91401a7853a244ce140368e22",
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:47:44.434961+00:00",
+      "decision": "distinct_sources_release_train_family",
+      "note": "TRAIN mole为花园鼹鼠/组织内间谍难发现，DEV chord为吉他和弦难按；对象、动作及语境不同，只共享is difficult to句式，不是同来源或近似改写。"
+    },
+    {
+      "train_id": "v7-context-018-zh-CN",
+      "heldout_id": "v4-dev-095-zh-CN",
+      "train_group": "v7-context-09",
+      "train_input_hash": "973817139434071c908e965fa753e096472057bf87bc1ad74455ebd07158544b",
+      "heldout_input_hash": "f461d5c42cb54c19606530640c50d2da2a71cfc91401a7853a244ce140368e22",
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:47:44.434961+00:00",
+      "decision": "distinct_sources_release_train_family",
+      "note": "TRAIN mole为花园鼹鼠/组织内间谍难发现，DEV chord为吉他和弦难按；对象、动作及语境不同，只共享is difficult to句式，不是同来源或近似改写。"
+    }
+  ],
+  "scope": "Source-only comparison, no DEV answers used for training or authoring; original quarantine and manifests retained."
+}

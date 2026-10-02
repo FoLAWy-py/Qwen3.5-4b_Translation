@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:28.211736+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-travel-01",
+      "category": "travel",
+      "topic": "a visitor asking where to leave a stroller during a tour",
+      "group_id": "v6-travel-01"
+    },
+    {
+      "case_id": "v6-travel-02",
+      "category": "travel",
+      "topic": "a passenger checking the luggage allowance for an excursion",
+      "group_id": "v6-travel-02"
+    },
+    {
+      "case_id": "v6-travel-03",
+      "category": "travel",
+      "topic": "a traveler asking about luggage delivery to accommodation",
+      "group_id": "v6-travel-03"
+    },
+    {
+      "case_id": "v6-travel-04",
+      "category": "travel",
+      "topic": "a guest arranging an early breakfast before leaving",
+      "group_id": "v6-travel-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-travel-01\",\n      \"english\": \"Excuse me, can I leave the stroller here during the tour?\",\n      \"chinese\": \"请问，在游览期间我可以把婴儿车留在这里吗？\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-02\",\n      \"english\": \"Could you please confirm the luggage allowance for the excursion?\",\n      \"chinese\": \"请问可以确认一下这次短途旅行的行李限额吗？\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-03\",\n      \"english\": \"Is it possible to have my luggage delivered directly to the hotel?\",\n      \"chinese\": \"我的行李可以直达酒店吗？\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-04\",\n      \"english\": \"I’d like to arrange for an early breakfast before I leave tomorrow.\",\n      \"chinese\": \"我想在明天离开前安排一顿早饭。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 385,
+    "total_tokens": 629,
+    "completion_tokens": 244,
+    "estimated_cost": 9.911999999999999e-05,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

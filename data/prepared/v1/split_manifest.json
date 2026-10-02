@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-30T09:44:56.542582+00:00",
+  "method": "Frozen stratified source-family split before labeling",
+  "source_families": 125,
+  "total_records": 5000,
+  "independent_family_split": true,
+  "limitations": "Controlled templates, 20 numeric variants; row count is not independent semantic diversity",
+  "splits": {
+    "train": {
+      "count": 3000,
+      "family_count": 75,
+      "categories": {
+        "academic": 1040,
+        "travel": 440,
+        "daily": 760,
+        "hard": 320,
+        "food": 440
+      },
+      "directions": {
+        "zh-CN": 1500,
+        "en": 1500
+      },
+      "sha256": "3813f2391c67d528ee4252ce6f8c4f651a7637deca1caa34b69e03851529c566"
+    },
+    "dev": {
+      "count": 1000,
+      "family_count": 25,
+      "categories": {
+        "daily": 240,
+        "travel": 160,
+        "academic": 360,
+        "food": 160,
+        "hard": 80
+      },
+      "directions": {
+        "zh-CN": 500,
+        "en": 500
+      },
+      "sha256": "89270e6f6b754f18f57b905c8623108270723734546892d2fa8864f8531318f9"
+    },
+    "test": {
+      "count": 1000,
+      "family_count": 25,
+      "categories": {
+        "daily": 240,
+        "academic": 360,
+        "hard": 80,
+        "food": 160,
+        "travel": 160
+      },
+      "directions": {
+        "zh-CN": 500,
+        "en": 500
+      },
+      "sha256": "364ed8a892e249c7cbe6da90c186c4eb5b56a6a122ac636b461ea05620b35bf3"
+    }
+  },
+  "family_hash": "478003bc549cbceb54c27b1644ffba562704cae79ce2659ccd71042cf6203380",
+  "references_hash": "21f7e33c1b98ef19b57e48d86d22d27ef56b7d2aafdb2c1be29289dbbc2537c8",
+  "training_labels_accepted_at": "2026-09-30T09:57:09.588911+00:00"
+}

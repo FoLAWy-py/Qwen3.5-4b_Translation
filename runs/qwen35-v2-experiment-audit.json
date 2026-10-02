@@ -1,0 +1,1033 @@
+{
+  "at": "2026-10-01T13:51:44.756334+00:00",
+  "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+  "conclusion_hash": "4868d91a52877134d944abb9e91ac2dce4fc2f45345c6fb9f2559f148e4ef611",
+  "phases": {
+    "sft": {
+      "sha256": "81e6fbd693d5541d903943a0eb927e7b48311880f15652cfa2d3c29f4fc0992b",
+      "metrics": {
+        "at": "2026-10-01T12:45:29.330067+00:00",
+        "phase": "sft",
+        "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+        "history": [
+          {
+            "step": 1,
+            "loss": 0.49533856101334095,
+            "gradient_norm_before_clip": 4.3479461669921875,
+            "forward_calls": 16,
+            "backward_calls": 16,
+            "full_tokens": 3800,
+            "peak_reserved_gib": 3.94140625
+          },
+          {
+            "step": 2,
+            "loss": 0.6956760557368398,
+            "gradient_norm_before_clip": 5.314576625823975,
+            "forward_calls": 32,
+            "backward_calls": 32,
+            "full_tokens": 7558,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 3,
+            "loss": 0.6123748514801264,
+            "gradient_norm_before_clip": 3.653348445892334,
+            "forward_calls": 48,
+            "backward_calls": 48,
+            "full_tokens": 11311,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 4,
+            "loss": 0.36548623791895807,
+            "gradient_norm_before_clip": 2.7297866344451904,
+            "forward_calls": 64,
+            "backward_calls": 64,
+            "full_tokens": 15074,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 5,
+            "loss": 0.4101630784571171,
+            "gradient_norm_before_clip": 2.3670461177825928,
+            "forward_calls": 80,
+            "backward_calls": 80,
+            "full_tokens": 18865,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 6,
+            "loss": 0.5597826887387782,
+            "gradient_norm_before_clip": 1.9522963762283325,
+            "forward_calls": 96,
+            "backward_calls": 96,
+            "full_tokens": 22645,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 7,
+            "loss": 0.577904473990202,
+            "gradient_norm_before_clip": 2.153928518295288,
+            "forward_calls": 112,
+            "backward_calls": 112,
+            "full_tokens": 26467,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 8,
+            "loss": 0.3992918026051484,
+            "gradient_norm_before_clip": 1.7447373867034912,
+            "forward_calls": 128,
+            "backward_calls": 128,
+            "full_tokens": 30245,
+            "peak_reserved_gib": 4.005859375
+          },
+          {
+            "step": 9,
+            "loss": 0.4101818446069956,
+            "gradient_norm_before_clip": 1.4597628116607666,
+            "forward_calls": 144,
+            "backward_calls": 144,
+            "full_tokens": 34065,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 10,
+            "loss": 0.47179456951562315,
+            "gradient_norm_before_clip": 1.4984649419784546,
+            "forward_calls": 160,
+            "backward_calls": 160,
+            "full_tokens": 37860,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 11,
+            "loss": 0.42146019195206463,
+            "gradient_norm_before_clip": 1.6926864385604858,
+            "forward_calls": 176,
+            "backward_calls": 176,
+            "full_tokens": 41629,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 12,
+            "loss": 0.2810986792901531,
+            "gradient_norm_before_clip": 1.4167914390563965,
+            "forward_calls": 192,
+            "backward_calls": 192,
+            "full_tokens": 45321,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 13,
+            "loss": 0.43171665887348354,
+            "gradient_norm_before_clip": 1.562557339668274,
+            "forward_calls": 208,
+            "backward_calls": 208,
+            "full_tokens": 49102,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 14,
+            "loss": 0.36116198915988207,
+            "gradient_norm_before_clip": 1.2850595712661743,
+            "forward_calls": 224,
+            "backward_calls": 224,
+            "full_tokens": 52901,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 15,
+            "loss": 0.43777015688829124,
+            "gradient_norm_before_clip": 1.7230174541473389,
+            "forward_calls": 240,
+            "backward_calls": 240,
+            "full_tokens": 56674,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 16,
+            "loss": 0.42757692374289036,
+            "gradient_norm_before_clip": 1.736430048942566,
+            "forward_calls": 256,
+            "backward_calls": 256,
+            "full_tokens": 60420,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 17,
+            "loss": 0.4400095846503973,
+            "gradient_norm_before_clip": 1.6117963790893555,
+            "forward_calls": 272,
+            "backward_calls": 272,
+            "full_tokens": 64155,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 18,
+            "loss": 0.34197741094976664,
+            "gradient_norm_before_clip": 1.180912971496582,
+            "forward_calls": 288,
+            "backward_calls": 288,
+            "full_tokens": 67914,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 19,
+            "loss": 0.43528000451624393,
+            "gradient_norm_before_clip": 1.590254545211792,
+            "forward_calls": 304,
+            "backward_calls": 304,
+            "full_tokens": 71663,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 20,
+            "loss": 0.4152667033486068,
+            "gradient_norm_before_clip": 1.692292332649231,
+            "forward_calls": 320,
+            "backward_calls": 320,
+            "full_tokens": 75455,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 21,
+            "loss": 0.3329344177618623,
+            "gradient_norm_before_clip": 1.168947696685791,
+            "forward_calls": 336,
+            "backward_calls": 336,
+            "full_tokens": 79212,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 22,
+            "loss": 0.3194980905391276,
+            "gradient_norm_before_clip": 1.595138669013977,
+            "forward_calls": 352,
+            "backward_calls": 352,
+            "full_tokens": 82992,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 23,
+            "loss": 0.5693423639750108,
+            "gradient_norm_before_clip": 1.4834836721420288,
+            "forward_calls": 368,
+            "backward_calls": 368,
+            "full_tokens": 86819,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 24,
+            "loss": 0.3809009399265051,
+            "gradient_norm_before_clip": 1.420276403427124,
+            "forward_calls": 384,
+            "backward_calls": 384,
+            "full_tokens": 90577,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 25,
+            "loss": 0.406293724430725,
+            "gradient_norm_before_clip": 2.0025651454925537,
+            "forward_calls": 400,
+            "backward_calls": 400,
+            "full_tokens": 94336,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 26,
+            "loss": 0.36616649432107806,
+            "gradient_norm_before_clip": 1.3133116960525513,
+            "forward_calls": 416,
+            "backward_calls": 416,
+            "full_tokens": 98107,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 27,
+            "loss": 0.3892153399065137,
+            "gradient_norm_before_clip": 1.3903826475143433,
+            "forward_calls": 432,
+            "backward_calls": 432,
+            "full_tokens": 101842,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 28,
+            "loss": 0.32254782714881003,
+            "gradient_norm_before_clip": 1.1711924076080322,
+            "forward_calls": 448,
+            "backward_calls": 448,
+            "full_tokens": 105636,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 29,
+            "loss": 0.33256878599058837,
+            "gradient_norm_before_clip": 1.6623996496200562,
+            "forward_calls": 464,
+            "backward_calls": 464,
+            "full_tokens": 109394,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 30,
+            "loss": 0.4638344896957278,
+            "gradient_norm_before_clip": 1.544909954071045,
+            "forward_calls": 480,
+            "backward_calls": 480,
+            "full_tokens": 113180,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 31,
+            "loss": 0.5580374530982226,
+            "gradient_norm_before_clip": 1.7773551940917969,
+            "forward_calls": 496,
+            "backward_calls": 496,
+            "full_tokens": 116944,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 32,
+            "loss": 0.39475752832368016,
+            "gradient_norm_before_clip": 1.411731481552124,
+            "forward_calls": 512,
+            "backward_calls": 512,
+            "full_tokens": 120725,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 33,
+            "loss": 0.4419094705954194,
+            "gradient_norm_before_clip": 1.2847968339920044,
+            "forward_calls": 528,
+            "backward_calls": 528,
+            "full_tokens": 124549,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 34,
+            "loss": 0.31837059097597376,
+            "gradient_norm_before_clip": 1.6271016597747803,
+            "forward_calls": 544,
+            "backward_calls": 544,
+            "full_tokens": 128385,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 35,
+            "loss": 0.23239928088150918,
+            "gradient_norm_before_clip": 1.9919712543487549,
+            "forward_calls": 560,
+            "backward_calls": 560,
+            "full_tokens": 132127,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 36,
+            "loss": 0.528654491296038,
+            "gradient_norm_before_clip": 1.7055832147598267,
+            "forward_calls": 576,
+            "backward_calls": 576,
+            "full_tokens": 135931,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 37,
+            "loss": 0.34120067628100514,
+            "gradient_norm_before_clip": 1.161428689956665,
+            "forward_calls": 592,
+            "backward_calls": 592,
+            "full_tokens": 139721,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 38,
+            "loss": 0.4236828852444887,
+            "gradient_norm_before_clip": 1.3391245603561401,
+            "forward_calls": 608,
+            "backward_calls": 608,
+            "full_tokens": 143493,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 39,
+            "loss": 0.362095522810705,
+            "gradient_norm_before_clip": 1.2569465637207031,
+            "forward_calls": 624,
+            "backward_calls": 624,
+            "full_tokens": 147285,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 40,
+            "loss": 0.3993337810970843,
+            "gradient_norm_before_clip": 1.9863134622573853,
+            "forward_calls": 640,
+            "backward_calls": 640,
+            "full_tokens": 151045,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 41,
+            "loss": 0.484615714289248,
+            "gradient_norm_before_clip": 1.5722527503967285,
+            "forward_calls": 656,
+            "backward_calls": 656,
+            "full_tokens": 154815,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 42,
+            "loss": 0.45233612903393805,
+            "gradient_norm_before_clip": 1.3803766965866089,
+            "forward_calls": 672,
+            "backward_calls": 672,
+            "full_tokens": 158557,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 43,
+            "loss": 0.2871956117451191,
+            "gradient_norm_before_clip": 1.1641427278518677,
+            "forward_calls": 688,
+            "backward_calls": 688,
+            "full_tokens": 162340,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 44,
+            "loss": 0.3845790410414338,
+            "gradient_norm_before_clip": 1.4669827222824097,
+            "forward_calls": 704,
+            "backward_calls": 704,
+            "full_tokens": 166111,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 45,
+            "loss": 0.41919066198170185,
+            "gradient_norm_before_clip": 1.3744897842407227,
+            "forward_calls": 720,
+            "backward_calls": 720,
+            "full_tokens": 169851,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 46,
+            "loss": 0.366202809556853,
+            "gradient_norm_before_clip": 1.1067630052566528,
+            "forward_calls": 736,
+            "backward_calls": 736,
+            "full_tokens": 173644,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 47,
+            "loss": 0.2765155036468059,
+            "gradient_norm_before_clip": 1.1997514963150024,
+            "forward_calls": 752,
+            "backward_calls": 752,
+            "full_tokens": 177370,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 48,
+            "loss": 0.390987477498129,
+            "gradient_norm_before_clip": 1.2092052698135376,
+            "forward_calls": 768,
+            "backward_calls": 768,
+            "full_tokens": 181173,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 49,
+            "loss": 0.47001341194845736,
+            "gradient_norm_before_clip": 1.5513346195220947,
+            "forward_calls": 784,
+            "backward_calls": 784,
+            "full_tokens": 184984,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 50,
+            "loss": 0.39453580463305116,
+            "gradient_norm_before_clip": 1.5345535278320312,
+            "forward_calls": 800,
+            "backward_calls": 800,
+            "full_tokens": 188825,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 51,
+            "loss": 0.32847128284629434,
+            "gradient_norm_before_clip": 1.1562488079071045,
+            "forward_calls": 816,
+            "backward_calls": 816,
+            "full_tokens": 192624,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 52,
+            "loss": 0.3791790206450969,
+            "gradient_norm_before_clip": 1.179959774017334,
+            "forward_calls": 832,
+            "backward_calls": 832,
+            "full_tokens": 196389,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 53,
+            "loss": 0.30566894612275064,
+            "gradient_norm_before_clip": 1.1491965055465698,
+            "forward_calls": 848,
+            "backward_calls": 848,
+            "full_tokens": 200163,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 54,
+            "loss": 0.31650902540422976,
+            "gradient_norm_before_clip": 1.2677404880523682,
+            "forward_calls": 864,
+            "backward_calls": 864,
+            "full_tokens": 203907,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 55,
+            "loss": 0.35252636624500155,
+            "gradient_norm_before_clip": 1.1715632677078247,
+            "forward_calls": 880,
+            "backward_calls": 880,
+            "full_tokens": 207651,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 56,
+            "loss": 0.24686446995474398,
+            "gradient_norm_before_clip": 1.1354261636734009,
+            "forward_calls": 896,
+            "backward_calls": 896,
+            "full_tokens": 211428,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 57,
+            "loss": 0.4552779602818191,
+            "gradient_norm_before_clip": 1.5786588191986084,
+            "forward_calls": 912,
+            "backward_calls": 912,
+            "full_tokens": 215234,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 58,
+            "loss": 0.2590839610202238,
+            "gradient_norm_before_clip": 1.1996225118637085,
+            "forward_calls": 928,
+            "backward_calls": 928,
+            "full_tokens": 218972,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 59,
+            "loss": 0.4788109129294753,
+            "gradient_norm_before_clip": 1.6370110511779785,
+            "forward_calls": 944,
+            "backward_calls": 944,
+            "full_tokens": 222733,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 60,
+            "loss": 0.2771495380438864,
+            "gradient_norm_before_clip": 1.1880602836608887,
+            "forward_calls": 960,
+            "backward_calls": 960,
+            "full_tokens": 226476,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 61,
+            "loss": 0.39010157040320337,
+            "gradient_norm_before_clip": 1.9030587673187256,
+            "forward_calls": 976,
+            "backward_calls": 976,
+            "full_tokens": 230212,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 62,
+            "loss": 0.2782609690912068,
+            "gradient_norm_before_clip": 1.119442105293274,
+            "forward_calls": 992,
+            "backward_calls": 992,
+            "full_tokens": 233991,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 63,
+            "loss": 0.36317371716722846,
+            "gradient_norm_before_clip": 1.3284443616867065,
+            "forward_calls": 1008,
+            "backward_calls": 1008,
+            "full_tokens": 237772,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 64,
+            "loss": 0.2925918400287628,
+            "gradient_norm_before_clip": 1.3441638946533203,
+            "forward_calls": 1024,
+            "backward_calls": 1024,
+            "full_tokens": 241532,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 65,
+            "loss": 0.25734707806259394,
+            "gradient_norm_before_clip": 0.9843650460243225,
+            "forward_calls": 1040,
+            "backward_calls": 1040,
+            "full_tokens": 245344,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 66,
+            "loss": 0.5422004454303533,
+            "gradient_norm_before_clip": 1.564803123474121,
+            "forward_calls": 1056,
+            "backward_calls": 1056,
+            "full_tokens": 249149,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 67,
+            "loss": 0.2838967477437109,
+            "gradient_norm_before_clip": 1.2948216199874878,
+            "forward_calls": 1072,
+            "backward_calls": 1072,
+            "full_tokens": 252883,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 68,
+            "loss": 0.3210265766829252,
+            "gradient_norm_before_clip": 1.3774981498718262,
+            "forward_calls": 1088,
+            "backward_calls": 1088,
+            "full_tokens": 256639,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 69,
+            "loss": 0.4099236240144819,
+            "gradient_norm_before_clip": 1.6795086860656738,
+            "forward_calls": 1104,
+            "backward_calls": 1104,
+            "full_tokens": 260407,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 70,
+            "loss": 0.28970470814965665,
+            "gradient_norm_before_clip": 1.1681534051895142,
+            "forward_calls": 1120,
+            "backward_calls": 1120,
+            "full_tokens": 264191,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 71,
+            "loss": 0.20981869555544108,
+            "gradient_norm_before_clip": 1.1155544519424438,
+            "forward_calls": 1136,
+            "backward_calls": 1136,
+            "full_tokens": 267944,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 72,
+            "loss": 0.3962211094330996,
+            "gradient_norm_before_clip": 1.7140392065048218,
+            "forward_calls": 1152,
+            "backward_calls": 1152,
+            "full_tokens": 271715,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 73,
+            "loss": 0.4962556008249521,
+            "gradient_norm_before_clip": 1.9549705982208252,
+            "forward_calls": 1168,
+            "backward_calls": 1168,
+            "full_tokens": 275502,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 74,
+            "loss": 0.4054227317683399,
+            "gradient_norm_before_clip": 1.5225690603256226,
+            "forward_calls": 1184,
+            "backward_calls": 1184,
+            "full_tokens": 279266,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 75,
+            "loss": 0.40070046903565526,
+            "gradient_norm_before_clip": 1.4198726415634155,
+            "forward_calls": 1200,
+            "backward_calls": 1200,
+            "full_tokens": 283087,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 76,
+            "loss": 0.29044563640491106,
+            "gradient_norm_before_clip": 1.3259638547897339,
+            "forward_calls": 1216,
+            "backward_calls": 1216,
+            "full_tokens": 286868,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 77,
+            "loss": 0.2345335086574778,
+            "gradient_norm_before_clip": 1.0744739770889282,
+            "forward_calls": 1232,
+            "backward_calls": 1232,
+            "full_tokens": 290680,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 78,
+            "loss": 0.41513247101102024,
+            "gradient_norm_before_clip": 1.656194806098938,
+            "forward_calls": 1248,
+            "backward_calls": 1248,
+            "full_tokens": 294498,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 79,
+            "loss": 0.34218870545737445,
+            "gradient_norm_before_clip": 1.374504566192627,
+            "forward_calls": 1264,
+            "backward_calls": 1264,
+            "full_tokens": 298245,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 80,
+            "loss": 0.3702459065243602,
+            "gradient_norm_before_clip": 1.5261577367782593,
+            "forward_calls": 1280,
+            "backward_calls": 1280,
+            "full_tokens": 302054,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 81,
+            "loss": 0.2913756286143325,
+            "gradient_norm_before_clip": 1.390363335609436,
+            "forward_calls": 1296,
+            "backward_calls": 1296,
+            "full_tokens": 305791,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 82,
+            "loss": 0.41104966937564313,
+            "gradient_norm_before_clip": 1.817470908164978,
+            "forward_calls": 1312,
+            "backward_calls": 1312,
+            "full_tokens": 309604,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 83,
+            "loss": 0.34144245460629463,
+            "gradient_norm_before_clip": 1.7027403116226196,
+            "forward_calls": 1328,
+            "backward_calls": 1328,
+            "full_tokens": 313353,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 84,
+            "loss": 0.431196958059445,
+            "gradient_norm_before_clip": 1.5972477197647095,
+            "forward_calls": 1344,
+            "backward_calls": 1344,
+            "full_tokens": 317116,
+            "peak_reserved_gib": 4.255859375
+          },
+          {
+            "step": 85,
+            "loss": 0.27954378188587725,
+            "gradient_norm_before_clip": 1.3230268955230713,
+            "forward_calls": 1360,
+            "backward_calls": 1360,
+            "full_tokens": 320848,
+            "peak_reserved_gib": 4.255859375
+          }
+        ],
+        "seconds": 2767.194342499999,
+        "full_tokens": 320848,
+        "forward_calls": 1360,
+        "backward_calls": 1360,
+        "cpu_parameter_count": 0,
+        "peak_reserved_gib": 4.255859375,
+        "release_approved": false
+      },
+      "metadata": {
+        "base_model_id": "Qwen/Qwen3.5-4B",
+        "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+        "adapter_sha256": "81e6fbd693d5541d903943a0eb927e7b48311880f15652cfa2d3c29f4fc0992b",
+        "parent_adapter_sha256": null,
+        "created_at": "2026-10-01T12:45:29.327865+00:00",
+        "smoke_only": false,
+        "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+        "recommended_quantization": "nf4",
+        "training_method": "Transfer current validated v7 recipe: supervised translation then reviewed critical-span CPO.",
+        "quality_status": "Experimental; matched semantic comparison pending"
+      }
+    },
+    "cpo": {
+      "sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+      "metrics": {
+        "at": "2026-10-01T12:58:00.579533+00:00",
+        "phase": "cpo",
+        "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+        "history": [
+          {
+            "step": 1,
+            "loss": 1.5582956746220589,
+            "gradient_norm_before_clip": 7.592231750488281,
+            "forward_calls": 16,
+            "backward_calls": 8,
+            "full_tokens": 3824,
+            "peak_reserved_gib": 4.078125
+          },
+          {
+            "step": 2,
+            "loss": 0.6129466202110052,
+            "gradient_norm_before_clip": 3.099393606185913,
+            "forward_calls": 32,
+            "backward_calls": 16,
+            "full_tokens": 7568,
+            "peak_reserved_gib": 4.138671875
+          },
+          {
+            "step": 3,
+            "loss": 1.2658456582576036,
+            "gradient_norm_before_clip": 6.227393627166748,
+            "forward_calls": 48,
+            "backward_calls": 24,
+            "full_tokens": 11402,
+            "peak_reserved_gib": 4.138671875
+          },
+          {
+            "step": 4,
+            "loss": 0.6270080152899027,
+            "gradient_norm_before_clip": 5.0517354011535645,
+            "forward_calls": 64,
+            "backward_calls": 32,
+            "full_tokens": 15119,
+            "peak_reserved_gib": 4.138671875
+          },
+          {
+            "step": 5,
+            "loss": 0.7663823738694191,
+            "gradient_norm_before_clip": 3.792686700820923,
+            "forward_calls": 80,
+            "backward_calls": 40,
+            "full_tokens": 18934,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 6,
+            "loss": 0.4920499436557293,
+            "gradient_norm_before_clip": 2.792703151702881,
+            "forward_calls": 96,
+            "backward_calls": 48,
+            "full_tokens": 22601,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 7,
+            "loss": 0.7963497079908848,
+            "gradient_norm_before_clip": 4.000733375549316,
+            "forward_calls": 112,
+            "backward_calls": 56,
+            "full_tokens": 26441,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 8,
+            "loss": 0.46553049609065056,
+            "gradient_norm_before_clip": 3.2461578845977783,
+            "forward_calls": 128,
+            "backward_calls": 64,
+            "full_tokens": 30233,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 9,
+            "loss": 1.6908236537128687,
+            "gradient_norm_before_clip": 8.287210464477539,
+            "forward_calls": 144,
+            "backward_calls": 72,
+            "full_tokens": 34149,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 10,
+            "loss": 1.0431942008435726,
+            "gradient_norm_before_clip": 5.218597412109375,
+            "forward_calls": 160,
+            "backward_calls": 80,
+            "full_tokens": 37928,
+            "peak_reserved_gib": 4.140625
+          },
+          {
+            "step": 11,
+            "loss": 0.5460750386118889,
+            "gradient_norm_before_clip": 2.948221206665039,
+            "forward_calls": 176,
+            "backward_calls": 88,
+            "full_tokens": 41738,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 12,
+            "loss": 1.1692696288228035,
+            "gradient_norm_before_clip": 6.165645122528076,
+            "forward_calls": 192,
+            "backward_calls": 96,
+            "full_tokens": 45619,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 13,
+            "loss": 0.7523361053317785,
+            "gradient_norm_before_clip": 4.485637187957764,
+            "forward_calls": 208,
+            "backward_calls": 104,
+            "full_tokens": 49415,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 14,
+            "loss": 0.7177802789956331,
+            "gradient_norm_before_clip": 4.011867046356201,
+            "forward_calls": 224,
+            "backward_calls": 112,
+            "full_tokens": 53168,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 15,
+            "loss": 0.6169975195080042,
+            "gradient_norm_before_clip": 3.1999247074127197,
+            "forward_calls": 240,
+            "backward_calls": 120,
+            "full_tokens": 56918,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 16,
+            "loss": 0.447397593408823,
+            "gradient_norm_before_clip": 2.5905985832214355,
+            "forward_calls": 256,
+            "backward_calls": 128,
+            "full_tokens": 60652,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 17,
+            "loss": 0.5940048657357693,
+            "gradient_norm_before_clip": 3.608628034591675,
+            "forward_calls": 272,
+            "backward_calls": 136,
+            "full_tokens": 64413,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 18,
+            "loss": 0.5434324480593204,
+            "gradient_norm_before_clip": 3.0235836505889893,
+            "forward_calls": 288,
+            "backward_calls": 144,
+            "full_tokens": 68191,
+            "peak_reserved_gib": 4.40234375
+          },
+          {
+            "step": 19,
+            "loss": 0.39035679772496223,
+            "gradient_norm_before_clip": 2.4367151260375977,
+            "forward_calls": 304,
+            "backward_calls": 152,
+            "full_tokens": 72018,
+            "peak_reserved_gib": 4.404296875
+          },
+          {
+            "step": 20,
+            "loss": 1.658787403255701,
+            "gradient_norm_before_clip": 9.096586227416992,
+            "forward_calls": 320,
+            "backward_calls": 160,
+            "full_tokens": 75908,
+            "peak_reserved_gib": 4.404296875
+          },
+          {
+            "step": 21,
+            "loss": 0.6317984499037266,
+            "gradient_norm_before_clip": 3.396869659423828,
+            "forward_calls": 336,
+            "backward_calls": 168,
+            "full_tokens": 79672,
+            "peak_reserved_gib": 4.404296875
+          },
+          {
+            "step": 22,
+            "loss": 0.5639384426176548,
+            "gradient_norm_before_clip": 3.3317720890045166,
+            "forward_calls": 352,
+            "backward_calls": 176,
+            "full_tokens": 83507,
+            "peak_reserved_gib": 4.404296875
+          }
+        ],
+        "seconds": 722.6179159999992,
+        "full_tokens": 83507,
+        "forward_calls": 352,
+        "backward_calls": 176,
+        "cpu_parameter_count": 0,
+        "peak_reserved_gib": 4.404296875,
+        "release_approved": false
+      },
+      "metadata": {
+        "base_model_id": "Qwen/Qwen3.5-4B",
+        "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+        "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+        "parent_adapter_sha256": "81e6fbd693d5541d903943a0eb927e7b48311880f15652cfa2d3c29f4fc0992b",
+        "created_at": "2026-10-01T12:58:00.577504+00:00",
+        "smoke_only": false,
+        "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+        "recommended_quantization": "nf4",
+        "training_method": "Transfer current validated v7 recipe: supervised translation then reviewed critical-span CPO.",
+        "quality_status": "Experimental; matched semantic comparison pending"
+      }
+    }
+  },
+  "all_owned_jobs_finished_successfully": true,
+  "stage_goal_complete": false,
+  "release_approved": false
+}

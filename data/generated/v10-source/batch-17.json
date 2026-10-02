@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:40.998635+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-academic-05",
+      "category": "academic",
+      "topic": "An experiment changes two factors together and therefore cannot identify either factor’s separate effect from that comparison alone.",
+      "group_id": "v10-academic-05"
+    },
+    {
+      "case_id": "v10-academic-06",
+      "category": "academic",
+      "topic": "A dataset is shuffled before a split, but records from one source document must still remain in the same subset; random order does not imply independence.",
+      "group_id": "v10-academic-06"
+    },
+    {
+      "case_id": "v10-academic-07",
+      "category": "academic",
+      "topic": "A function returns a new array while leaving its input array unchanged; distinguish returning a value from modifying an argument.",
+      "group_id": "v10-academic-07"
+    },
+    {
+      "case_id": "v10-academic-08",
+      "category": "academic",
+      "topic": "A proof establishes that a condition is sufficient without establishing necessity; a counterexample to necessity does not refute sufficiency.",
+      "group_id": "v10-academic-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-academic-05\",\n      \"english\": \"The researchers varied both temperature and light intensity in the same trial, so the observed growth difference could be due to either factor alone or their interaction. Without a separate control for one variable, the individual impact remains unclear.\",\n      \"chinese\": \"研究人员在同一试验中同时改变了温度和光照强度，因此观察到的生长差异可能是任一因素单独作用或它们相互作用的结果。由于未对其中一个变量单独控制，个体影响仍不明确。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-06\",\n      \"english\": \"Although the dataset was randomly shuffled before splitting, all records from the same source document were grouped together in one subset. Random order does not eliminate the possibility of structural bias within the data.\",\n      \"chinese\": \"尽管在划分数据集之前进行了随机打乱，但来自同一源文档的所有记录仍被分组到一个子集中。随机顺序并不能消除数据中结构偏差的可能性。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-07\",\n      \"english\": \"The function generates a new array from the input but does not alter the original. Returning a modified copy is different from changing the input parameter in place.\",\n      \"chinese\": \"该函数从输入生成一个新的数组，但不会改变原始数组。返回修改后的副本与就地更改输入参数是不同的。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-08\",\n      \"english\": \"The proof shows that the condition is enough for the theorem to hold, but not that it is the only possible condition. A single counterexample where the condition fails but the theorem still holds does not contradict the sufficiency.\",\n      \"chinese\": \"该证明表明该条件足以使定理成立，但并未说明这是唯一的条件。一个条件不成立但定理仍成立的反例，并不反驳条件的充分性。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 468,
+    "total_tokens": 917,
+    "completion_tokens": 449,
+    "estimated_cost": 0.00016316,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

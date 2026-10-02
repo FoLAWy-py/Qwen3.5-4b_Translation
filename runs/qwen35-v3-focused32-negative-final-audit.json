@@ -1,0 +1,81 @@
+{
+  "at": "2026-10-02T05:50:15.622645+00:00",
+  "reviewer": "Codex AI; not independent human review",
+  "draft_path": "data/prepared/qwen35-v3-reviewed32-current-errors/pairs.jsonl",
+  "draft_hash": "b9acee16f2c374e07466aa77cd7ebef2338adba7e20092733af037433a41f68b",
+  "actual_hash": "4157c8242c57973710f84f0e5dac721f8efb35277922359fcd28a5fdf2c809c0",
+  "individual_readings_path": "runs/qwen35-v3-focused32-negative-quality-rereview.jsonl",
+  "individual_readings_hash": "163fd84076c8411b82d9a91e75a74c965975166c9f50378de5c670a668fea637",
+  "corrections": [
+    {
+      "id": "public-short-0056-en",
+      "prior_reading_hash": "c29133a444ea35f74aeaf198bdacc5f8f14bae6a66ae6ebb2c7d308543521861",
+      "new_reading_hash": "1e5a20c8df7bb332a81d977824dfdb655493acf88a4c2b621d171db461446fc8",
+      "verdict": "minor",
+      "note": "大部分人写的东西存在大部分人/大部分人写的东西两种作用域解析；无context/glossary限定。Most of what people write采用文本数量解析，参考采用人数解析，不能用模型看不到的原始英文消除中文源歧义。撤回先前稳定major判断，排除，不改历史记录。"
+    },
+    {
+      "id": "public-short-0356-en",
+      "prior_reading_hash": "82fa068c75eef78d67dd6f4e226ff1d795c8d1804fe291c78bda31b3630b69c0",
+      "new_reading_hash": "5352f2a2b92fa1818fd66a88ded754be86291d8f277925e81e4a1db8a2e3bfdb",
+      "verdict": "minor",
+      "note": "must have been是强推断而非无条件事实陈述，比可能吧更确定，但事故仍以推断方式陈述。主要事件与推断性质保留，置信程度偏强按保守minor；不用轻微情态强度差形成不稳定major负例，撤回前条major并排除。"
+    },
+    {
+      "id": "v2-replay-v1-travel-015-02-en",
+      "prior_reading_hash": "d94a11a79ab52d2bce8f2f325da7ba970ad1f8e3f6cae182789571f13ed9f110",
+      "new_reading_hash": "ac2a012d0eecfd027218220557e0e85fb269c7325006a9181c62cba18c838e62",
+      "verdict": "minor",
+      "note": "guests include breakfast是不自然的服务包含关系表达，但问句保留这间房的全部四位房客和包含早餐，中文原文同样把客人作包含早餐主语。虽应改Is breakfast included for...，没有充分证据判为把服务实际归属换成另一方，按关系表达不自然minor，排除。"
+    }
+  ],
+  "previous_view_path": "runs/qwen35-v3-train-discovery-sweetener-corrected-manual.jsonl",
+  "previous_view_hash": "c6f0497b33af1490f3e44ea9c9bdd86cfeb8bf98db3dce5f6b99d460b70eefcb",
+  "outputs": {
+    "view": "runs/qwen35-v3-train-discovery-focused-corrected-manual.jsonl",
+    "effective_readings": "runs/qwen35-v3-focused32-negative-effective-readings.jsonl",
+    "pairs": "data/prepared/qwen35-v3-reviewed23-current-errors/pairs.jsonl",
+    "gradient": "runs/qwen35-v3-reviewed23-gradient-diagnosis.json"
+  },
+  "hashes": {
+    "view": "b44f15327dface7c5594a302ac6b145773474a4e494c29ffa8300e29dd638eed",
+    "effective_readings": "c34b4e678182bc350076fd27fed0be142429f6ecca9921b971aeecf045aaf5a5",
+    "pairs": "e0ed2caf14c04d5cbecd48c9f740e154e6cfb07bcf411278aabed2d2cc7347c1",
+    "gradient": "8f90bc481c673deca81bf9d0a3a433e51d7f763a8baad29ec80998430282d680"
+  },
+  "reviewed": 32,
+  "retained_major_negatives": 23,
+  "groups": 23,
+  "excluded_ids": [
+    "public-short-0356-en",
+    "public-short-0056-en",
+    "v10-travel-09-zh-CN",
+    "v2-replay-v1-travel-006-02-zh-CN",
+    "v2-replay-v1-travel-015-02-en",
+    "v3-train-015-zh-CN",
+    "v2-train-056-zh-CN",
+    "v2-train-083-zh-CN",
+    "v2-train-114-zh-CN"
+  ],
+  "counts": {
+    "pass": 328,
+    "minor": 65,
+    "major": 23
+  },
+  "effective_negative_counts": {
+    "major": 23,
+    "minor": 9
+  },
+  "original416_positive_reference_unchanged": true,
+  "dictionary_support": [
+    "https://dictionary.cambridge.org/us/dictionary/english-chinese-simplified/speed",
+    "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/tart",
+    "https://dictionary.cambridge.org/dictionary/english/frog-in-throat"
+  ],
+  "historical_trials_remain_quarantined": true,
+  "new_trial_frozen": false,
+  "scope": "Reconciled TRAIN diagnostic view only. No historical outputs/reviews changed; no new independently confirmed quality or valid optimization round claimed.",
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "default_promoted": false
+}

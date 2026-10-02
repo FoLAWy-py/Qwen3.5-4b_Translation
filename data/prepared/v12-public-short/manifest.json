@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-01T06:52:55.480285+00:00",
+  "seed": 20261001,
+  "candidate_hash": "a281945a0606851f99626f299b5165683176d3c8f89e564512becfa71fbd6dd8",
+  "reviewed_hash": "4e327d9b54366b6ae9fc064d4c5d6b7abe3658084fad820ffb3812bcd17cef65",
+  "family_audit_hash": "0a7df481a75301b29738ba59137985b3b380874c52277c317f3dd052b54e18a4",
+  "audited_family_links": [
+    [
+      "public-short-0148",
+      "public-short-0005"
+    ],
+    [
+      "public-short-0457",
+      "public-short-0052"
+    ],
+    [
+      "public-short-0478",
+      "public-short-0230"
+    ]
+  ],
+  "manual_family_links": [
+    {
+      "a": "public-short-0382",
+      "b": "public-short-0421",
+      "reason": "Same evening eating-out event; invitation versus negative inclination."
+    }
+  ],
+  "excluded_candidate_ids": [
+    "public-short-0350"
+  ],
+  "reviewed_candidate_count": 600,
+  "retained_source_families": 577,
+  "representative_policy": "Lexicographically first accepted pair per family; both translation directions stay together",
+  "splits": {
+    "train": {
+      "rows": 1038,
+      "groups": 519,
+      "hash": "0c3098fbbc3708c153975e21bc300cd5afc9d646b7813d42e49d004a321f0f9c",
+      "categories": {
+        "daily": 800,
+        "food": 56,
+        "academic": 74,
+        "travel": 88,
+        "hard": 20
+      }
+    },
+    "dev": {
+      "rows": 116,
+      "groups": 58,
+      "hash": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+      "categories": {
+        "daily": 90,
+        "travel": 12,
+        "academic": 4,
+        "hard": 2,
+        "food": 8
+      }
+    }
+  },
+  "tokenizer": "Local frozen original Qwen3-4B; shared JSON chat prompt; answer and EOS included",
+  "token_budget": {
+    "limit": 1024,
+    "max_encoded_tokens": 239,
+    "total_encoded_tokens": 249864,
+    "total_supervised_tokens": 15264,
+    "truncated_rows": 0
+  },
+  "training_ready": true,
+  "release_approved": false,
+  "scope": "Public training/auxiliary development pilot only. Not a release test. Source family review is conservative, not exhaustive semantic or pretraining decontamination.",
+  "limitations": "Archive links do not include the full multilingual Tatoeba graph; lexical retrieval cannot prove absence of semantic or pretraining overlap. Chinese script differences may escape retrieval."
+}

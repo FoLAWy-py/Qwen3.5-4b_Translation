@@ -1,0 +1,64 @@
+{"id": "v3-train-001-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "84dfa99409cbfc34b3ee740140e8f730afc567900235e6576ede1933df1303e3"}
+{"id": "v3-train-001-en", "action": "correct", "note": "未说明耳机所有权，去掉 her。", "reviewed_hash": "439ac510ad038f0354beaf8898c3ecc7cd803bc9317f45271ed6287dd687d5b4"}
+{"id": "v3-train-002-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "200f39eebc8ae83a666ecbea50b28442b2f4c90696e9a41340f42df9cea8c6e2"}
+{"id": "v3-train-002-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "12e4dcd1fd792110d27a78ca26e7b7e10215b3f6a0a307185e247e88b4072fd4"}
+{"id": "v3-train-003-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "3bf5da5862cbcd3ae26d4213debfbac0dade5073f8e922b734408aeb62bcb2b7"}
+{"id": "v3-train-003-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "4f80f66de1c322cbc37a85104140e5b86e337987d191fbc4792addfebfb00318"}
+{"id": "v3-train-004-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "a2ab208ef2a474b7547573bcf5f930bdd7697012d6401d2464d8c325e9896700"}
+{"id": "v3-train-004-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "216da3180cd64996656830b865e9d20f3c342b9a91107eba183bd1c1c387212f"}
+{"id": "v3-train-005-zh-CN", "action": "correct", "note": "省略比较对象的照片容易理解为实物橱柜，明确两边都是照片。", "reviewed_hash": "a3e5f2005e0e7e8b2895de427d37b56275fc4aaa8137d662b5272ac8477a8f96"}
+{"id": "v3-train-005-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "c776ef85f5af264d7715fbd19824c34659b859950a524a9b8f03f19cd4cd8934"}
+{"id": "v3-train-006-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "b1fdb8eddd21467a4b35c599607945cd3cc752f2930a98227a424e1873113091"}
+{"id": "v3-train-006-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "6e2938ad6beabdd4a38b311a09795a392cfee94c44561b320aa760b315e448a8"}
+{"id": "v3-train-007-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "691c0b00a5f4b57d2782b0000be2ea1248e7ee3c222577468409a273be599867"}
+{"id": "v3-train-007-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "ae98b5cf9a3b097d7f3572cce5744db39958d42e22a5671022cfc9dded51bcd3"}
+{"id": "v3-train-008-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "ca13196b1f6a3cc624f2f4daec209b2581010ace52f3c47f6572d0373955f305"}
+{"id": "v3-train-008-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "ba0562c7b07bd9dc1a50ca9b9da917a1baf8db635d7f630e541247744a59b2c9"}
+{"id": "v3-train-009-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "6091bd46141ca0f97d75e988e8558d3d69cd9dfe47df37e055089c807bb07a18"}
+{"id": "v3-train-009-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "1483ccc2e100a899583d92c5971836c04652168b68ba10146e7d1c24e6e69d79"}
+{"id": "v3-train-010-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "9435033229aa6f9b2039d979dc9022763f259154d31687f80377cc2823eb2f28"}
+{"id": "v3-train-010-en", "action": "correct", "note": "接驳车未明确是bus，保留shuttle。", "reviewed_hash": "a1d927760b719f5a7da7c5b16a7f244ab793383d706adca32bac60491762879e"}
+{"id": "v3-train-011-zh-CN", "action": "correct", "note": "platform/concourse被误译为平台/站台层，恢复站台/大厅位置关系。", "reviewed_hash": "39c4189196f110eb42711abcdbf5c193dc388e5348ce1999b123343bac83aee1"}
+{"id": "v3-train-011-en", "action": "correct", "note": "大厅未明确是atrium中庭，使用hall。", "reviewed_hash": "2e3c2e9089ba1cb93011654ad315294d1403773d8f8a042db16271d53952101b"}
+{"id": "v3-train-012-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "fb63366d4bbeb6f11eca02c45fe7201273ac9240f218444d1f458f7d6eda49f7"}
+{"id": "v3-train-012-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "4455ef1beee928b0fc7989319a361782518ee69aee35bda08af02615d60a5935"}
+{"id": "v3-train-013-zh-CN", "action": "correct", "note": "departure time保留出发时间，不改成起飞时间。", "reviewed_hash": "78782f76ad43e46ccdf6fb67d96a401dc77f12e57fad2418e1a0dd993fc1a043"}
+{"id": "v3-train-013-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "a76759bca7521375856d846cbf26ad3a971a4acfa88224295778a2e7526d2cd1"}
+{"id": "v3-train-014-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "a02f5677e735bde14411a77fb537214cdc6158b5e0d05c85f84a9bb58b1429a1"}
+{"id": "v3-train-014-en", "action": "correct", "note": "小壶应为small jug，不泛化为pot。", "reviewed_hash": "20eb4175debfb111b63a526e5a2a212a03e72260ad8077757c4b05ef6eb8f1f2"}
+{"id": "v3-train-015-zh-CN", "action": "correct", "note": "visible pieces未明确是贝壳碎片，去掉无依据限定。", "reviewed_hash": "aa3483417cc18781366c59481c48aa690d58c8d17e14640fa0f6bf7098819f49"}
+{"id": "v3-train-015-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "7b344d99d2bae1e9e65d69140b420dd033a53bf8404f913debff1cc38d4b75b0"}
+{"id": "v3-train-016-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "09c00530cbcaab9e0032f5fd52ac2b13f743cf9da0a4ddccae74315866182af1"}
+{"id": "v3-train-016-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "acbcce42425c994cbd9f9c941b5f029c12bdcf5da701735bd97df62e1938b246"}
+{"id": "v3-train-017-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "f0df41f23d295280325bb3296b7d85cad33f4b0472a5a9bb203e25603bd9c709"}
+{"id": "v3-train-017-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "cc7dca9e9348d3ef0a792cb373c368050a17aa1efd0b0e3a277e522e742d9060"}
+{"id": "v3-train-018-zh-CN", "action": "correct", "note": "crust未明确是酥皮，保留泛指外皮。", "reviewed_hash": "c1906e626bb66c59a780195181bf3dab73ec68337a4fa5f0cf893b953cea58c3"}
+{"id": "v3-train-018-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "dc3f4dab9eab71b0748329d932ee267e0d3f3cbf7ad2d8487ccd3fddb606897a"}
+{"id": "v3-train-019-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "e04b70ae1d69bf13c243560a4c05668bd420fbb05688eae84f6b966f15e34fb7"}
+{"id": "v3-train-019-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "7c936676875dfe039037c1a9408ced006e347934177b59ca137a4429ec431892"}
+{"id": "v3-train-020-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "590d6a07bc35fa4ae20a381752356af3c8182c6bf24f0b9e44e07205588eba61"}
+{"id": "v3-train-020-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "ca73ddd5aa83fa4787cdfc860f596801612abe47c8b27e4b09f1da951dfd4913"}
+{"id": "v3-train-021-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "2cc393373a1c5fbad119e13de6ae95ddd27367f29aac212bfe23469245ea49a8"}
+{"id": "v3-train-021-en", "action": "correct", "note": "物理量质量是mass，不能用quality。", "reviewed_hash": "93021ba62205f5bd18902b1300524017f9fbde16bc14552d748af94ca7019a43"}
+{"id": "v3-train-022-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "679c44bb845e258ca428e8f64ca6b76d93adab181c789bd4de09eab93f26872e"}
+{"id": "v3-train-022-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "2ca6e82923858a6eada4419c486e8b3cdcb5792b565c89ebaf66d32690d53575"}
+{"id": "v3-train-023-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "913c917e0e5e2b0c21730e24bc2e1e999bc10427ba8e9c761a4ea75a48b92fff"}
+{"id": "v3-train-023-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "150f9f9614c88bbdcc1a7f5f1a41b2285939ff02e91f78cb96b45e56fcc978c5"}
+{"id": "v3-train-024-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "cbb3303a8bdc37bcdf19b5370aefb97b4ac4131c9022b9e684b29b51bea4025d"}
+{"id": "v3-train-024-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "16784c1631548ba5960ccf2a6f6db0e3fc276e15b0b95e8c687131b9e8acd11f"}
+{"id": "v3-train-025-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "8c05abc427eeed59182c6b42f3121c0653d508ce20287ba1b77f3882e41a4b60"}
+{"id": "v3-train-025-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "0319685e8cecd189a2c8245ecd590d03ae9cb4b93d6274ef2635f30de0e5ed44"}
+{"id": "v3-train-026-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "83a30bd6447d41bc3bbf854154c72b2dd810598df44f2c96d3507a7652abe8ed"}
+{"id": "v3-train-026-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "bbfc471791fa0771911522ec2ae7a6601fe5248168a0ce298e085a0ac803a13c"}
+{"id": "v3-train-027-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "6ea0e916196d3dd99c78e3379d418e179832518512aa34edd33aaacdfbdf6d71"}
+{"id": "v3-train-027-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "de3886653678880153e09a04922b15978aeb1a7bbade666cd1fb3765520f6e71"}
+{"id": "v3-train-028-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "a3678edbff55ca8181075901edde3f2128b33d82effb5bfe8093283a9921d731"}
+{"id": "v3-train-028-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "344f27bde05453240404e90fcd4b3d27545da4951a44826e1f2567ea1cfcbfb1"}
+{"id": "v3-train-029-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "4959180984967667400ad8eb0481098a92172ae85b8f2889824a9ea63fc2d5b4"}
+{"id": "v3-train-029-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "b4cba35a9d01bad8bd292e74ca850c93af3e81fc6759e544e053278606311a4a"}
+{"id": "v3-train-030-zh-CN", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "61e518483231993e5f6b07e6156e40b2d14bc9b4825b943b7bf102010351276d"}
+{"id": "v3-train-030-en", "action": "accept_teacher", "note": "逐条阅读并核对原文和语境，接受等义措辞。", "reviewed_hash": "c83b384fafabc919304a095ca99f4a6e4d2b5d735d1fa41d0a817233673bdf21"}
+{"id": "v3-train-031-zh-CN", "action": "exclude_preference_pair", "note": "拒绝负例：错误词义导致表述不自然，可能让模型只学流畅度；教师正例本身可接受，原记录保留。"}
+{"id": "v3-train-031-en", "action": "exclude_preference_pair", "note": "拒绝负例：错误词义导致表述不自然，可能让模型只学流畅度；教师正例本身可接受，原记录保留。"}
+{"id": "v3-train-032-zh-CN", "action": "exclude_preference_pair", "note": "拒绝负例：错误词义导致表述不自然，可能让模型只学流畅度；教师正例本身可接受，原记录保留。"}
+{"id": "v3-train-032-en", "action": "exclude_preference_pair", "note": "拒绝负例：错误词义导致表述不自然，可能让模型只学流畅度；教师正例本身可接受，原记录保留。"}

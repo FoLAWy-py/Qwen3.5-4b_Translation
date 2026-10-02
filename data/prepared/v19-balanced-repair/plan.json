@@ -1,0 +1,1868 @@
+{
+  "starting_adapter": "models\\witrans-4b-v7-critical-cpo",
+  "starting_adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424",
+  "base": {
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "completed_at": "2026-09-30T09:16:22.165833+00:00",
+    "status": "complete"
+  },
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "at": "2026-10-01T11:23:45.746914+00:00",
+  "pairs_path": "data\\prepared\\v19-balanced-repair\\pairs.jsonl",
+  "pairs_hash": "03c3a693dd26d4ae8e15d67051b82c0147dfb3ef55dd9c24ce5e8fb7c0fa472c",
+  "replay_path": "data\\prepared\\v19-balanced-repair\\replay.jsonl",
+  "replay_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "critical_annotations": "data\\prepared\\v19-balanced-repair\\annotations.json",
+  "critical_annotations_hash": "1dfa24679cec8866b85eb3962a2c4cb1ab48b23f04289c1de9c3e1b5dd46e088",
+  "schedule": [
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "public-short-0451-zh-CN",
+        "public-short-0356-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-food-20-en",
+        "v2-replay-v1-academic-041-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0357-zh-CN",
+        "public-short-0463-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "public-short-0066-zh-CN",
+        "public-short-0510-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0168-en",
+        "public-short-0210-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-004-02-zh-CN",
+        "v8-multi-013-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v4-mining-005-zh-CN",
+        "v10-travel-07-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "public-short-0162-zh-CN",
+        "v9-constraint-015-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-004-02-en",
+        "v10-food-15-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0196-en",
+        "public-short-0557-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v8-multi-027-zh-CN",
+        "v10-hard-04-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "public-short-0074-en",
+        "v10-travel-06-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v10-travel-20-zh-CN",
+        "v2-train-059-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "public-short-0455-zh-CN",
+        "v5-seed-020-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "public-short-0062-zh-CN",
+        "v10-hard-01-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "public-short-0048-zh-CN",
+        "v8-multi-011-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v4-mining-011-en",
+        "v10-academic-12-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-036-02-en",
+        "v6-academic-05-en"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v8-multi-036-en",
+        "v8-multi-034-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v7-context-010-en",
+        "public-short-0301-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "v10-travel-16-zh-CN",
+        "public-short-0509-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v6-travel-02-zh-CN",
+        "v9-constraint-006-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v8-multi-021-zh-CN",
+        "public-short-0208-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v10-food-15-zh-CN",
+        "v8-multi-034-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "public-short-0309-en",
+        "v10-academic-14-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v6-travel-02-en",
+        "v7-context-017-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v9-constraint-018-zh-CN",
+        "v8-multi-023-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v9-constraint-022-zh-CN",
+        "v5-seed-005-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-food-01-en",
+        "v10-hard-15-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "public-short-0265-zh-CN",
+        "v4-mining-017-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v7-context-020-en",
+        "public-short-0182-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v10-hard-07-en",
+        "public-short-0446-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v2-train-037-en",
+        "public-short-0520-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0499-en",
+        "public-short-0495-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v2-replay-v1-hard-008-02-zh-CN",
+        "v2-replay-v1-food-017-02-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0470-zh-CN",
+        "v2-replay-v1-travel-005-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "public-short-0064-zh-CN",
+        "v2-train-053-en"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "public-short-0055-zh-CN",
+        "public-short-0569-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v9-constraint-013-en",
+        "public-short-0469-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v10-food-13-zh-CN",
+        "public-short-0571-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v9-constraint-006-en",
+        "v10-travel-01-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v2-replay-v1-food-010-02-zh-CN",
+        "v9-constraint-026-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v2-train-095-zh-CN",
+        "v8-multi-031-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v10-academic-09-zh-CN",
+        "public-short-0463-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v10-travel-13-zh-CN",
+        "public-short-0062-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v9-constraint-009-zh-CN",
+        "v2-replay-v1-food-007-02-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-039-02-en",
+        "v10-travel-12-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-hard-13-en",
+        "public-short-0513-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0555-en",
+        "v2-train-083-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0504-zh-CN",
+        "v10-travel-20-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "public-short-0447-zh-CN",
+        "v10-academic-15-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v9-constraint-030-zh-CN",
+        "v10-travel-08-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v10-hard-12-en",
+        "v9-constraint-013-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v4-mining-010-zh-CN",
+        "v10-food-08-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "public-short-0021-en",
+        "v10-hard-12-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0054-en",
+        "public-short-0451-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v9-constraint-024-zh-CN",
+        "v4-mining-018-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v8-multi-031-en",
+        "public-short-0045-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "public-short-0399-en",
+        "v5-seed-005-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v9-constraint-025-zh-CN",
+        "public-short-0462-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v10-academic-11-en",
+        "public-short-0555-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "public-short-0141-zh-CN",
+        "v10-food-03-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0456-en",
+        "public-short-0175-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v10-food-14-zh-CN",
+        "v9-constraint-004-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0048-en",
+        "public-short-0141-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v4-mining-019-en",
+        "v10-food-03-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v7-context-020-zh-CN",
+        "v9-constraint-027-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-travel-12-en",
+        "v10-travel-06-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-hard-10-zh-CN",
+        "v10-food-13-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-039-02-zh-CN",
+        "v9-constraint-004-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-academic-15-zh-CN",
+        "v8-multi-039-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-010-02-zh-CN",
+        "v8-multi-020-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v10-daily-11-en",
+        "public-short-0275-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v9-constraint-022-en",
+        "v10-academic-16-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "public-short-0196-zh-CN",
+        "public-short-0520-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v2-train-114-zh-CN",
+        "public-short-0392-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v9-constraint-012-en",
+        "v10-travel-04-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v10-academic-16-zh-CN",
+        "v6-academic-05-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0516-en",
+        "v9-constraint-024-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v4-mining-023-zh-CN",
+        "v10-academic-08-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v2-replay-v1-travel-003-02-en",
+        "v9-constraint-023-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v8-multi-021-en",
+        "public-short-0503-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v10-hard-01-en",
+        "v2-train-114-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v10-food-01-zh-CN",
+        "v10-hard-09-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "public-short-0173-zh-CN",
+        "public-short-0446-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0066-en",
+        "v10-academic-08-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0056-zh-CN",
+        "v6-travel-04-en"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-005-02-en",
+        "v10-hard-03-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v8-multi-018-en",
+        "public-short-0587-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "public-short-0504-en",
+        "public-short-0509-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "public-short-0411-zh-CN",
+        "public-short-0301-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v10-travel-02-zh-CN",
+        "v6-food-05-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-food-18-en",
+        "v2-train-101-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v10-travel-07-zh-CN",
+        "v10-hard-10-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v4-mining-023-en",
+        "v2-replay-v1-hard-008-02-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v9-constraint-027-zh-CN",
+        "v5-seed-019-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0569-en",
+        "public-short-0210-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v2-train-059-en",
+        "public-short-0557-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-food-20-zh-CN",
+        "v10-food-08-en"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v5-seed-010-zh-CN",
+        "v9-constraint-018-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0357-en",
+        "public-short-0326-en"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v10-hard-15-en",
+        "v9-constraint-012-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0056-en",
+        "v4-mining-011-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "v8-multi-022-en",
+        "v10-hard-02-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "public-short-0415-zh-CN",
+        "v10-food-07-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0320-zh-CN",
+        "public-short-0411-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v4-mining-005-en",
+        "v4-mining-009-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-004-02-zh-CN",
+        "public-short-0593-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v9-constraint-026-en",
+        "public-short-0208-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v10-hard-04-zh-CN",
+        "public-short-0224-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v3-train-015-en",
+        "public-short-0398-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v8-multi-001-zh-CN",
+        "v4-mining-018-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0182-en",
+        "v2-train-062-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "public-short-0041-en",
+        "public-short-0021-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v10-food-02-en",
+        "v9-constraint-025-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-academic-01-en",
+        "public-short-0398-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v4-mining-019-zh-CN",
+        "v2-train-056-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v4-mining-017-en",
+        "v10-daily-19-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v10-travel-17-en",
+        "v6-food-04-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "public-short-0275-en",
+        "v10-food-16-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "public-short-0081-zh-CN",
+        "v10-hard-13-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v8-multi-024-en",
+        "public-short-0471-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v2-train-062-zh-CN",
+        "v10-hard-16-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v2-replay-v1-daily-003-02-zh-CN",
+        "v9-constraint-015-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-003-02-zh-CN",
+        "v7-context-009-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v7-context-010-zh-CN",
+        "public-short-0055-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v8-multi-039-en",
+        "v4-mining-007-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v7-context-018-zh-CN",
+        "v2-replay-v1-food-007-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0345-zh-CN",
+        "v10-hard-16-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v8-multi-036-zh-CN",
+        "v8-multi-020-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v7-context-019-zh-CN",
+        "v8-multi-023-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-004-02-en",
+        "public-short-0337-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "public-short-0064-en",
+        "v8-multi-024-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "public-short-0265-en",
+        "public-short-0469-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "public-short-0168-zh-CN",
+        "v10-daily-11-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v2-replay-v1-hard-005-02-en",
+        "public-short-0593-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v2-train-100-zh-CN",
+        "v6-food-05-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v2-replay-v1-hard-005-02-zh-CN",
+        "v10-travel-04-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v2-replay-v1-travel-018-02-en",
+        "public-short-0159-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-food-02-zh-CN",
+        "v7-context-018-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "public-short-0356-zh-CN",
+        "v2-replay-v1-travel-010-02-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-hard-07-zh-CN",
+        "v4-mining-020-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "public-short-0224-zh-CN",
+        "public-short-0516-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0309-zh-CN",
+        "public-short-0083-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v8-multi-035-en",
+        "v10-hard-09-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v4-mining-010-en",
+        "v10-travel-16-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-015-02-en",
+        "v10-travel-08-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v10-hard-11-en",
+        "v2-train-100-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "public-short-0074-zh-CN",
+        "public-short-0415-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "v2-train-101-zh-CN",
+        "public-short-0499-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "public-short-0345-en",
+        "public-short-0573-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0571-en",
+        "public-short-0080-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v10-academic-05-zh-CN",
+        "public-short-0587-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-041-02-en",
+        "v6-food-04-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-hard-02-zh-CN",
+        "v2-replay-v1-travel-015-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v2-train-056-zh-CN",
+        "v2-train-037-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v10-hard-06-en",
+        "v3-train-015-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "public-short-0573-en",
+        "v5-seed-019-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "public-short-0083-en",
+        "public-short-0399-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v6-academic-01-en",
+        "public-short-0080-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0416-en",
+        "v6-academic-08-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v10-academic-12-zh-CN",
+        "public-short-0175-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "public-short-0054-zh-CN",
+        "public-short-0162-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0513-zh-CN",
+        "v8-multi-022-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v10-travel-02-en",
+        "public-short-0159-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v10-food-07-zh-CN",
+        "v4-mining-020-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v8-multi-011-zh-CN",
+        "v7-context-009-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v10-travel-17-zh-CN",
+        "v10-travel-13-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v2-train-058-en",
+        "public-short-0392-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v6-academic-08-en",
+        "public-short-0448-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-hard-03-zh-CN",
+        "v2-train-053-zh-CN"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v10-hard-14-en",
+        "v8-multi-027-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0337-zh-CN",
+        "v10-hard-06-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v4-mining-024-zh-CN",
+        "v2-replay-v1-travel-006-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-036-02-zh-CN",
+        "public-short-0471-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v10-food-16-zh-CN",
+        "v9-constraint-008-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v7-context-019-en",
+        "public-short-0068-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v10-academic-11-zh-CN",
+        "public-short-0068-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v10-travel-01-en",
+        "v8-multi-001-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v2-train-083-zh-CN",
+        "v10-hard-17-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "public-short-0456-zh-CN",
+        "v10-academic-05-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "public-short-0455-en",
+        "v10-academic-01-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0448-en",
+        "v9-constraint-030-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "v4-mining-024-en",
+        "v2-train-058-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "public-short-0355-en",
+        "public-short-0484-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v2-train-095-en",
+        "public-short-0045-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "public-short-0503-en",
+        "v9-constraint-009-en"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "public-short-0462-en",
+        "public-short-0320-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v2-train-105-en",
+        "v10-hard-17-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "v8-multi-035-zh-CN",
+        "v10-academic-14-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v10-hard-11-zh-CN",
+        "v10-hard-14-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "public-short-0326-zh-CN",
+        "v6-travel-04-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0041-zh-CN",
+        "v2-replay-v1-travel-018-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v2-replay-v1-food-010-02-en",
+        "public-short-0173-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v8-multi-018-zh-CN",
+        "v10-travel-09-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "public-short-0355-zh-CN",
+        "public-short-0081-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "public-short-0495-en",
+        "v9-constraint-023-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v2-train-105-zh-CN",
+        "v4-mining-009-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-travel-09-en",
+        "v9-constraint-008-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v7-context-017-en",
+        "public-short-0510-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-daily-19-en",
+        "public-short-0484-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v5-seed-020-zh-CN",
+        "public-short-0447-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "public-short-0416-zh-CN",
+        "v10-academic-09-en"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v5-seed-010-en",
+        "v2-replay-v1-daily-003-02-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v2-replay-v1-travel-006-02-en",
+        "v2-replay-v1-food-017-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v4-mining-007-zh-CN",
+        "v8-multi-013-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-food-18-zh-CN",
+        "public-short-0470-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v10-food-14-en",
+        "v6-academic-01-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0462-zh-CN",
+        "v10-academic-01-en"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "public-short-0064-en",
+        "v5-seed-010-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v8-multi-021-en",
+        "public-short-0162-en"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "v9-constraint-018-zh-CN",
+        "v10-hard-11-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v8-multi-022-zh-CN",
+        "public-short-0175-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "v2-replay-v1-food-010-02-en",
+        "v8-multi-023-en"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "public-short-0447-zh-CN",
+        "v8-multi-023-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "public-short-0224-en",
+        "v10-travel-01-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "v2-train-083-en",
+        "public-short-0510-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "public-short-0326-zh-CN",
+        "v9-constraint-025-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v10-travel-20-en",
+        "public-short-0470-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "v2-replay-v1-academic-036-02-en",
+        "v4-mining-011-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v7-context-019-en",
+        "v10-travel-04-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0509-zh-CN",
+        "v6-travel-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v7-context-019-zh-CN",
+        "public-short-0571-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v2-replay-v1-travel-006-02-en",
+        "v9-constraint-015-en"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "v10-food-02-en",
+        "v2-train-059-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0355-zh-CN",
+      "replay": [
+        "public-short-0048-en",
+        "public-short-0173-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v10-daily-19-en",
+        "v10-food-16-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v10-academic-11-zh-CN",
+        "v2-train-062-en"
+      ]
+    },
+    {
+      "pair": "v2-replay-v1-travel-005-02-zh-CN",
+      "replay": [
+        "v10-academic-09-zh-CN",
+        "v8-multi-027-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0357-en",
+        "v10-hard-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v10-hard-12-en",
+        "public-short-0045-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v10-hard-09-en",
+        "public-short-0573-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "public-short-0056-zh-CN",
+        "v2-replay-v1-daily-003-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v2-train-083-zh-CN",
+      "replay": [
+        "v10-academic-05-zh-CN",
+        "public-short-0520-en"
+      ]
+    },
+    {
+      "pair": "v7-context-020-zh-CN",
+      "replay": [
+        "public-short-0062-zh-CN",
+        "v10-travel-16-en"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v2-train-053-zh-CN",
+        "v10-travel-17-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "public-short-0455-zh-CN",
+        "v10-hard-02-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v8-multi-035-zh-CN",
+        "v10-academic-14-en"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "public-short-0398-zh-CN",
+        "v6-academic-05-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "v10-academic-05-en",
+        "v9-constraint-018-en"
+      ]
+    },
+    {
+      "pair": "v2-train-058-zh-CN",
+      "replay": [
+        "public-short-0448-zh-CN",
+        "public-short-0320-en"
+      ]
+    },
+    {
+      "pair": "v8-multi-031-zh-CN",
+      "replay": [
+        "v8-multi-036-en",
+        "v2-replay-v1-travel-004-02-en"
+      ]
+    },
+    {
+      "pair": "v10-food-13-zh-CN",
+      "replay": [
+        "v10-travel-09-zh-CN",
+        "public-short-0048-zh-CN"
+      ]
+    },
+    {
+      "pair": "v5-seed-020-zh-CN",
+      "replay": [
+        "public-short-0054-zh-CN",
+        "v6-food-04-zh-CN"
+      ]
+    },
+    {
+      "pair": "public-short-0080-zh-CN",
+      "replay": [
+        "v10-academic-01-zh-CN",
+        "v2-replay-v1-travel-018-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-20-zh-CN",
+      "replay": [
+        "public-short-0083-zh-CN",
+        "v2-replay-v1-travel-005-02-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-food-02-zh-CN",
+      "replay": [
+        "public-short-0456-zh-CN",
+        "v10-academic-08-en"
+      ]
+    },
+    {
+      "pair": "v10-academic-01-zh-CN",
+      "replay": [
+        "v7-context-018-zh-CN",
+        "public-short-0503-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-travel-08-en",
+      "replay": [
+        "v2-replay-v1-academic-039-02-en",
+        "v10-hard-16-en"
+      ]
+    },
+    {
+      "pair": "v5-seed-005-zh-CN",
+      "replay": [
+        "v9-constraint-026-en",
+        "v4-mining-017-en"
+      ]
+    },
+    {
+      "pair": "v2-train-053-en",
+      "replay": [
+        "v8-multi-027-zh-CN",
+        "public-short-0182-zh-CN"
+      ]
+    },
+    {
+      "pair": "v8-multi-035-zh-CN",
+      "replay": [
+        "public-short-0456-en",
+        "v10-hard-15-zh-CN"
+      ]
+    },
+    {
+      "pair": "v10-daily-19-zh-CN",
+      "replay": [
+        "v9-constraint-009-en",
+        "public-short-0356-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-024-zh-CN",
+      "replay": [
+        "v2-replay-v1-hard-005-02-zh-CN",
+        "v4-mining-005-en"
+      ]
+    },
+    {
+      "pair": "v9-constraint-022-en",
+      "replay": [
+        "v10-hard-06-zh-CN",
+        "public-short-0159-zh-CN"
+      ]
+    },
+    {
+      "pair": "v9-constraint-012-zh-CN",
+      "replay": [
+        "public-short-0471-zh-CN",
+        "public-short-0356-zh-CN"
+      ]
+    }
+  ],
+  "output": "models/witrans-4b-v19-balanced-error-cpo",
+  "seed": 42,
+  "updates": 64,
+  "accumulation": 4,
+  "learning_rate": 5e-06,
+  "beta": 0.1,
+  "pair_weight": 0.5,
+  "replay_weight": 0.5,
+  "selected_checkpoint": 64,
+  "quantization": "nf4",
+  "max_length": 1024,
+  "memory_cap_gib": 6.5,
+  "full_token_budget": 248760,
+  "method": "reviewed_broader_actual_errors_and_balanced_replay_critical_span_cpo",
+  "repair_objective": "cpo",
+  "hypothesis": "Broader source-grounded errors in both directions and complete balanced200-family replay, with more repeated supervision at lower per-step strength, repair at least6 of20 actual TRAIN errors without a critical reversal; development gates still decide generalization.",
+  "changed_factor": "One diagnostic engineering package: broader reviewed errors and balanced replay with64 lower-rate updates. Multiple implementation factors change; no causal component or stable algorithm claim.",
+  "selection": "Predeclared final64 only; no loss-based DEV checkpoint selection.",
+  "budget_scope": "Frozen full prompt+chosen+rejected+replay+EOS tokens;1024 forwards,768 backward invocations,64 updates. Every one of416 replay rows and200 families visited. No adaptive budget.",
+  "screening_rule": {
+    "train_recall_pass_at_least": 6,
+    "train_recall_critical": 0,
+    "format_direction_eos_all": true,
+    "original11_pass_at_least": 3,
+    "new9_pass_at_least": 2,
+    "if_failed": "Preserve evidence and diagnose remaining TRAIN errors; no automatic DEV generation.",
+    "if_passed": "Freeze candidate weights and decode known200/public116 once, then individually grade all changed translations and enforce stage regression gates."
+  },
+  "gpu_predecessor_job": "runs/v19-new-error-triage-job.json",
+  "source_audit_manifest_hash": "e91dbef962f7db299a063d7a2933d41f4dc84a71950b0a950b855357def2b3ea",
+  "triage_decisions_hash": "8114b536e59b83bb579d73bef64c983cf579e889fc58eaca6e4079eba15c92f8",
+  "replay_strata": {
+    "daily/zh-CN": 51,
+    "daily/en": 50,
+    "food/en": 49,
+    "academic/zh-CN": 50,
+    "travel/zh-CN": 48,
+    "food/zh-CN": 50,
+    "travel/en": 49,
+    "academic/en": 51,
+    "hard/en": 55,
+    "hard/zh-CN": 59
+  },
+  "pair_strata": {
+    "daily/zh-CN": 2,
+    "travel/zh-CN": 4,
+    "food/zh-CN": 3,
+    "academic/zh-CN": 4,
+    "hard/zh-CN": 4,
+    "travel/en": 1,
+    "food/en": 1,
+    "academic/en": 1
+  },
+  "original_base_comparison": false,
+  "scope": "TRAIN-only semantic diagnosis then one candidate regression screen; knownDEV is repeatedly used, no independent confirmation yet.",
+  "release_approved": false
+}

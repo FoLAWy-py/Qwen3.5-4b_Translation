@@ -1,0 +1,28 @@
+"""Training-only genuine same-source context contrasts, authored by Codex."""
+# family, English source shared by both senses, Chinese, English context
+PAIRS = [
+('01','Which branch are you using?','你用的是哪家分行？','We are discussing a customer choosing a branch of a bank.'),
+('01','Which branch are you using?','你用的是哪个分支？','We are discussing a developer checking out a branch in Git.'),
+('02','Keep this channel open.','保持这条水道畅通。','We are discussing a water channel that boats need to pass through.'),
+('02','Keep this channel open.','保持这个频道开放。','We are discussing a chat channel in an online community.'),
+('03','Is the joint damaged?','这个接头受损了吗？','We are inspecting the threaded joint between two sections of a water pipe.'),
+('03','Is the joint damaged?','这个关节受损了吗？','We are discussing the knee joint of a character in a fictional story.'),
+('04','I could not find the bass.','我找不到鲈鱼。','We are looking for sea bass at a fish stall.'),
+('04','I could not find the bass.','我找不到贝斯。','We are looking for a bass guitar in a rehearsal room.'),
+('05','The sole looks good.','鞋底看起来不错。','We are examining the sole of a repaired shoe.'),
+('05','The sole looks good.','鳎鱼看起来不错。','We are looking at a sole, a flatfish, at a fish counter.'),
+('06','The terminal is busy.','航站楼很繁忙。','We are discussing passenger crowds at an airport terminal.'),
+('06','The terminal is busy.','终端正忙。','We are discussing a computer terminal currently running commands.'),
+('07','This fan is noisy.','这个风扇很吵。','We are discussing an electric fan beside a desk.'),
+('07','This fan is noisy.','这名球迷很吵。','We are discussing a football supporter in the stands.'),
+('08','The bat is missing.','球棒不见了。','We are checking the equipment in a baseball locker.'),
+('08','The bat is missing.','蝙蝠不见了。','We are discussing a bat, a nocturnal mammal, absent from its enclosure.'),
+('09','The mole is difficult to detect.','鼹鼠很难发现。','We are searching for a burrowing mole in a garden.'),
+('09','The mole is difficult to detect.','卧底很难发现。','We are discussing a fictional spy who secretly infiltrates an organization.'),
+('10','The bark was removed.','树皮被剥掉了。','We are discussing the outer bark stripped from a piece of timber.'),
+('10','The bark was removed.','吠叫声被去掉了。','We are discussing an audio editor removing a dog bark from a recording.'),
+('11','The letter is unclear.','这封信的意思不明确。','We are discussing a letter whose message the reader cannot understand.'),
+('11','The letter is unclear.','这个字母看不清。','We are looking at a single printed alphabetical character in a blurry image.'),
+('12','The pool is nearly empty.','泳池几乎没水了。','We are discussing the water being drained from a swimming pool.'),
+('12','The pool is nearly empty.','连接池几乎空了。','We are discussing the available connections in a database connection pool.'),
+]

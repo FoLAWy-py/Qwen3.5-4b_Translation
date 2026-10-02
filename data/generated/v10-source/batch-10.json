@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:06.583653+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-travel-17",
+      "category": "travel",
+      "topic": "A traveller requests a seat facing the direction of travel without requesting a window seat; preserve the distinction between preferences.",
+      "group_id": "v10-travel-17"
+    },
+    {
+      "case_id": "v10-travel-18",
+      "category": "travel",
+      "topic": "A rental agency returns a deposit after checking an item, not immediately when it is placed on the counter; a receipt confirms handover only.",
+      "group_id": "v10-travel-18"
+    },
+    {
+      "case_id": "v10-travel-19",
+      "category": "travel",
+      "topic": "A visitor can exchange a paper ticket for a wristband but must retain the ticket for a separately booked activity.",
+      "group_id": "v10-travel-19"
+    },
+    {
+      "case_id": "v10-travel-20",
+      "category": "travel",
+      "topic": "A road detour adds walking distance but does not require changing the destination; avoid inventing transport or accessibility guarantees.",
+      "group_id": "v10-travel-20"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-travel-17\",\n      \"english\": \"The passenger asked for a seat facing forward, not necessarily by the window. The booking agent confirmed the request and noted the preference in the system.\",\n      \"chinese\": \"旅客要求坐朝向行驶方向的座位，但并非一定要靠窗。预订代理确认了这一要求，并在系统中记录了该偏好。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-18\",\n      \"english\": \"The rental company examined the returned item before processing the deposit refund. A receipt was issued to confirm the item had been properly handed over.\",\n      \"chinese\": \"租赁公司在处理押金退款前检查了归还的物品。开具收据以确认物品已妥善交接。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-19\",\n      \"english\": \"At the ticket office, the visitor was told they could exchange the printed ticket for a wristband but must keep the original for the second activity.\",\n      \"chinese\": \"在票务处，访客被告知可以将纸质票换成腕带，但必须保留原票用于第二个活动。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-20\",\n      \"english\": \"The detour added a mile of walking to the journey but did not change the final destination. No guarantees were made about public transport or accessibility along the route.\",\n      \"chinese\": \"绕行路线使行程增加了半英里的步行路程，但并未改变最终目的地。未对沿途公共交通或无障碍设施做出任何保证。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 469,
+    "total_tokens": 845,
+    "completion_tokens": 376,
+    "estimated_cost": 0.0001428,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

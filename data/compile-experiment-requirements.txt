@@ -1,0 +1,1 @@
+triton-windows==3.6.0.post26

@@ -1,0 +1,71 @@
+{
+  "plan_hash": "df40f66c1e2ed4049cab50f006a5e63a94c41a44b68350fd94890a7c2ffc8f4d",
+  "coverage": [
+    {
+      "id": "v10-daily-19-zh-CN",
+      "full_tokens": 269,
+      "supervised_tokens": 41,
+      "weighted_tokens": 3
+    },
+    {
+      "id": "v5-seed-005-zh-CN",
+      "full_tokens": 259,
+      "supervised_tokens": 34,
+      "weighted_tokens": 3
+    },
+    {
+      "id": "v10-travel-20-zh-CN",
+      "full_tokens": 261,
+      "supervised_tokens": 34,
+      "weighted_tokens": 6
+    },
+    {
+      "id": "v2-train-058-zh-CN",
+      "full_tokens": 238,
+      "supervised_tokens": 25,
+      "weighted_tokens": 10
+    },
+    {
+      "id": "v10-food-13-zh-CN",
+      "full_tokens": 271,
+      "supervised_tokens": 38,
+      "weighted_tokens": 7
+    },
+    {
+      "id": "v10-food-02-zh-CN",
+      "full_tokens": 251,
+      "supervised_tokens": 27,
+      "weighted_tokens": 7
+    },
+    {
+      "id": "v10-academic-01-zh-CN",
+      "full_tokens": 278,
+      "supervised_tokens": 41,
+      "weighted_tokens": 2
+    },
+    {
+      "id": "v8-multi-031-zh-CN",
+      "full_tokens": 270,
+      "supervised_tokens": 38,
+      "weighted_tokens": 4
+    },
+    {
+      "id": "public-short-0080-zh-CN",
+      "full_tokens": 214,
+      "supervised_tokens": 10,
+      "weighted_tokens": 4
+    },
+    {
+      "id": "v5-seed-020-zh-CN",
+      "full_tokens": 223,
+      "supervised_tokens": 11,
+      "weighted_tokens": 2
+    },
+    {
+      "id": "v8-multi-035-zh-CN",
+      "full_tokens": 250,
+      "supervised_tokens": 23,
+      "weighted_tokens": 6
+    }
+  ]
+}

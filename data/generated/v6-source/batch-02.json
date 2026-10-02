@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:28.836713+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-daily-05",
+      "category": "daily",
+      "topic": "a customer explaining a printing request",
+      "group_id": "v6-daily-05"
+    },
+    {
+      "case_id": "v6-daily-06",
+      "category": "daily",
+      "topic": "a volunteer allocating tasks for a community event",
+      "group_id": "v6-daily-06"
+    },
+    {
+      "case_id": "v6-daily-07",
+      "category": "daily",
+      "topic": "a friend arranging collection of a repaired bicycle",
+      "group_id": "v6-daily-07"
+    },
+    {
+      "case_id": "v6-daily-08",
+      "category": "daily",
+      "topic": "a family comparing two ways to organize a shared calendar",
+      "group_id": "v6-daily-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-daily-05\",\n      \"english\": \"I need to print 50 copies of this document, double-sided, in color.\",\n      \"chinese\": \"我需要打印这份文件的50份双面彩色副本。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-06\",\n      \"english\": \"Can someone handle the sign-up desk, and another manage the food station?\",\n      \"chinese\": \"有人能负责签到台，另一个人能负责餐饮站吗？\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-07\",\n      \"english\": \"Your bike is ready for pickup on Thursday after 3 PM.\",\n      \"chinese\": \"你的自行车星期四下午3点后可以来取。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-daily-08\",\n      \"english\": \"Should we use one shared calendar or individual ones?\",\n      \"chinese\": \"我们应该使用一个共享的日历还是各自独立的日历？\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 380,
+    "total_tokens": 637,
+    "completion_tokens": 257,
+    "estimated_cost": 0.00010236,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:39.211331+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-academic-13",
+      "category": "academic",
+      "topic": "A measured increase in concentration can follow a decrease in volume even when the amount of solute is unchanged; preserve quantities and qualification.",
+      "group_id": "v10-academic-13"
+    },
+    {
+      "case_id": "v10-academic-14",
+      "category": "academic",
+      "topic": "A comparison averages performance across source groups rather than across all individual observations; unequal group sizes matter.",
+      "group_id": "v10-academic-14"
+    },
+    {
+      "case_id": "v10-academic-15",
+      "category": "academic",
+      "topic": "A list is sorted using a stable algorithm, so equal keys retain their previous relative order; stability is not a claim about execution time.",
+      "group_id": "v10-academic-15"
+    },
+    {
+      "case_id": "v10-academic-16",
+      "category": "academic",
+      "topic": "A model is evaluated with a fixed random seed but results on another dataset are not thereby guaranteed to match; reproducibility has a specified scope.",
+      "group_id": "v10-academic-16"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-academic-13\",\n      \"english\": \"When 25 mL of a 0.5 M solution is diluted to 50 mL, the concentration becomes 0.25 M. The total solute amount stays constant at 0.0125 moles.\",\n      \"chinese\": \"当 25 毫升 0.5 M 的溶液被稀释至 50 毫升时，浓度变为 0.25 M。溶质的总量保持不变，仍为 0.0125 摩尔。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-14\",\n      \"english\": \"The study compared three groups of 10, 15, and 20 students. Averaging by group first may skew results due to unequal sizes.\",\n      \"chinese\": \"该研究比较了由 10 名、15 名和 20 名学生组成的三组。先按组求平均值可能会因组大小不同而产生偏差。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-15\",\n      \"english\": \"Merge sort is a stable algorithm. When sorting by name, equal names will appear in the same order as before sorting.\",\n      \"chinese\": \"归并排序是一种稳定算法。按姓名排序时，同名的条目将保持排序前的相对顺序。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-16\",\n      \"english\": \"Experiments were run with random seed 42 for reproducibility. Still, new data may yield different results despite identical code.\",\n      \"chinese\": \"实验使用随机种子 42 以确保可重复性。尽管代码相同，新数据仍可能导致不同结果。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 475,
+    "total_tokens": 905,
+    "completion_tokens": 430,
+    "estimated_cost": 0.0001584,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

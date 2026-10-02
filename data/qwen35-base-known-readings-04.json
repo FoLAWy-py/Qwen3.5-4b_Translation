@@ -1,0 +1,23 @@
+{
+  "v4-dev-035-en": ["pass", "原始营地供饮用水且须自带燃料准确，额外键格式失败。", true],
+  "v4-dev-036-zh-CN": ["pass", "能见度持续差则可能推迟，条件可能性准确。", true],
+  "v4-dev-036-en": ["pass", "原始低能见度可能推迟正确，field/value 额外键格式失败。", true],
+  "v4-dev-037-zh-CN": ["major", "机场接驳 shuttle 错航天飞机，无视楼层出发语境，与微调同类错义。", true],
+  "v4-dev-037-en": ["pass", "接驳巴士到达层出发、低一层，完整。", true],
+  "v4-dev-038-zh-CN": ["pass", "兑换台比信息柜台早关闭，比较完整。", true],
+  "v4-dev-039-en": ["pass", "相邻房间无内部连接门，完整。", true],
+  "v4-dev-040-zh-CN": ["minor", "返券不自然且未明确返程凭券，时间例外正确；原文 return 缺 context，另作敏感性分析。", true],
+  "v4-dev-041-zh-CN": ["pass", "短烤孜然籽后磨，toast 合理表达。", true],
+  "v4-dev-041-en": ["pass", "孜然籽先短时 roasted 后 ground，烘炒同义合理。", true],
+  "v4-dev-042-zh-CN": ["major", "diced beef 牛肉丁错为碎牛肉，切丁与绞碎形态不同；正例碎羊肉正确。", true],
+  "v4-dev-042-en": ["minor", "羊肉馅非牛肉丁保留，但 mutton 未明确绞碎形态，与微调同口径。", true],
+  "v4-dev-043-zh-CN": ["pass", "刮外层果皮而不带苦白层，层次否定准确。", true],
+  "v4-dev-043-en": ["pass", "外皮取而白内皮不取，正确。", true],
+  "v4-dev-044-zh-CN": ["pass", "大部分液体蒸发前无盖炖煮，炖隐含小火，持续时段明确。", true],
+  "v4-dev-044-en": ["major", "Do not cover the lid 未正确表达不盖锅盖，关键操作错误，与微调同误。", true],
+  "v4-dev-045-zh-CN": ["pass", "炖菜主菜非配菜，准确。", true],
+  "v4-dev-045-en": ["pass", "菜单主菜非配菜，准确。", true],
+  "v4-dev-046-zh-CN": ["pass", "面包切片不完全分开，完整。", true],
+  "v4-dev-046-en": ["pass", "切片不切透，完整。", true],
+  "v4-dev-047-zh-CN": ["minor", "变稠前打蛋器打散动作正确，但其指混合物，未明确结块为打散对象。", true]
+}

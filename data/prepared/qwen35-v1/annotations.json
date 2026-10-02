@@ -1,0 +1,288 @@
+{
+  "at": "2026-09-30T22:18:38.268768+00:00",
+  "train_hash": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826",
+  "annotations": [
+    {
+      "id": "v8-multi-001-zh-CN",
+      "critical_spans": [
+        "只有我们两个人都不能在你到达之前回到家时"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.252302+00:00",
+      "content_hash": "23cd72b78013cc04fb55cda78906482db212fba21210df065118837ff6975886",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-004-en",
+      "critical_spans": [
+        "When I tighten the screws"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.253305+00:00",
+      "content_hash": "640a6c670a73f810d6038978a88f8923e0feeb2a8c62b2ca8b26c21c1a7d0911",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-010-zh-CN",
+      "critical_spans": [
+        "闭馆前一小时停止接待游客"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.254722+00:00",
+      "content_hash": "2bd8f1e8edd601cf6f10aa996429befa9c06baaa190f3c77e42782b0ccb85a9a",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-011-zh-CN",
+      "critical_spans": [
+        "在小路分岔之前",
+        "通向坡上"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.256087+00:00",
+      "content_hash": "40788627e40ca8e7505803ce165811ec8abeb74fa02f6514df1e32af3d3f0bdc",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-012-zh-CN",
+      "critical_spans": [
+        "多一晚"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.257117+00:00",
+      "content_hash": "5e92ed58a41ba0932e29c7d5e4bba4200a92317cf9e69337e002204e1e0415b9",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-012-en",
+      "critical_spans": [
+        "even if breakfast is more expensive"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.258131+00:00",
+      "content_hash": "c36aacd58aebed3d153f131ceb34668af75153fc565c0074b27e90f7940db366",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-013-zh-CN",
+      "critical_spans": [
+        "两班出发时间",
+        "接续班次"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.259151+00:00",
+      "content_hash": "48b3b4c0d89a692a703767723df1768e1e599d128636011b2d97a2b13a5c6f39",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-013-en",
+      "critical_spans": [
+        "connecting service"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.260154+00:00",
+      "content_hash": "4aa5bc305a241df045360b57f6b56909c3a9df30a7ed4cd6a92fed4fcf98117f",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-014-zh-CN",
+      "critical_spans": [
+        "它不包括导览步行，导览步行必须另行预订"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.261218+00:00",
+      "content_hash": "219d7ea69774ea62313086df93f18b93c7f6eefbee0b031109e87c0c7e8e10af",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-015-zh-CN",
+      "critical_spans": [
+        "沿着雪松环线行进"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.262220+00:00",
+      "content_hash": "38160e0ea6bc968311ef882c544188b9cafd5add340354160aaeee36ce4c1fcd",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-024-zh-CN",
+      "critical_spans": [
+        "馅饼",
+        "把它从托盘上移走可能会弄碎底部"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.263222+00:00",
+      "content_hash": "96738da09b2506770b4a7f7af7d2ec7b6d30d7e53ad4181745f2af8c00c68653",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-031-zh-CN",
+      "critical_spans": [
+        "这个指标",
+        "如果可能与另一个指标混淆，就不要把它缩写成保留度"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.264240+00:00",
+      "content_hash": "75fac9dd7ddb02ddc8eec2fb2f1bb722d560ce75a44786e1ee4ee71d5f7cb493",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-031-en",
+      "critical_spans": [
+        "if it could be confused with another metric, do not abbreviate it to retention"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.265252+00:00",
+      "content_hash": "f14197265f35ba912e21bed68016d510f135aae803314e0cae6601aa8a3ac38d",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-034-zh-CN",
+      "critical_spans": [
+        "我们说好了等所有人到齐"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.266753+00:00",
+      "content_hash": "bc4a4f8fd581646a5ae1641c2d24d63b10fe24da5ca9e30034b45fdde0493d2f",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-035-zh-CN",
+      "critical_spans": [
+        "现在该由你来决定了"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.267757+00:00",
+      "content_hash": "1df29c636ec26d051d069398d5d7fd8284287441b2ba8f909070dcfd52bdb1cc",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    },
+    {
+      "id": "v8-multi-040-zh-CN",
+      "critical_spans": [
+        "她对自己的想法守口如瓶"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-09-30T22:18:38.268768+00:00",
+      "content_hash": "2105b8008200664d45f92b2417ae118be2ac0440bcb3fb843a532e06656b20e0",
+      "note": "Individually selected positive spans preserving role, condition, concept, quantity, or contextual sense; absent unwanted words cannot be annotated."
+    }
+  ],
+  "annotation_hash": "027926bc8a91de7d1dc011cba89bcf1885b87a026403ae530d7f2f433b8de7a4",
+  "encoding_probe": [
+    {
+      "id": "v8-multi-001-zh-CN",
+      "supervised_tokens": 31,
+      "upweighted_tokens": 10,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-004-en",
+      "supervised_tokens": 32,
+      "upweighted_tokens": 5,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-010-zh-CN",
+      "supervised_tokens": 31,
+      "upweighted_tokens": 8,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-011-zh-CN",
+      "supervised_tokens": 40,
+      "upweighted_tokens": 10,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-012-zh-CN",
+      "supervised_tokens": 28,
+      "upweighted_tokens": 3,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-012-en",
+      "supervised_tokens": 33,
+      "upweighted_tokens": 6,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-013-zh-CN",
+      "supervised_tokens": 38,
+      "upweighted_tokens": 8,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-013-en",
+      "supervised_tokens": 31,
+      "upweighted_tokens": 2,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-014-zh-CN",
+      "supervised_tokens": 26,
+      "upweighted_tokens": 13,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-015-zh-CN",
+      "supervised_tokens": 35,
+      "upweighted_tokens": 7,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-024-zh-CN",
+      "supervised_tokens": 34,
+      "upweighted_tokens": 13,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-031-zh-CN",
+      "supervised_tokens": 38,
+      "upweighted_tokens": 17,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-031-en",
+      "supervised_tokens": 42,
+      "upweighted_tokens": 16,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-034-zh-CN",
+      "supervised_tokens": 17,
+      "upweighted_tokens": 7,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-035-zh-CN",
+      "supervised_tokens": 23,
+      "upweighted_tokens": 6,
+      "eos_weight": 1.0
+    },
+    {
+      "id": "v8-multi-040-zh-CN",
+      "supervised_tokens": 22,
+      "upweighted_tokens": 7,
+      "eos_weight": 1.0
+    }
+  ],
+  "method": "Only chosen-answer normalized NLL uses weight3 on explicit spans; unweighted summed preference log-likelihood, prompt masking and EOS supervision unchanged.",
+  "scope": "16 approved training-only natural-error pairs. Other69 pairs use uniform NLL. No dev/test spans, no automatic error inference, no efficacy claim.",
+  "release_approved": false
+}

@@ -1,0 +1,11 @@
+public-short-0015-zh-CN|pass|上错火车与坐错火车等义，交通类型和错误状态完整。|我坐错了火车。
+public-short-0395-zh-CN|minor|原文只有没有零钱，译成找不开零钱增加找零情境，常见解释但范围缩窄。|抱歉，我找不开零钱。
+public-short-0527-en|pass|每隔一天洗澡为every other day，频率和动作正确。|I take a bath every other day.
+public-short-0391-en|pass|不介意对方在自己回家前先睡觉，否定和时间关系完整。|I don't mind if you go to sleep before I get home.
+public-short-0597-en|pass|汤姆说自己觉得可能只有自己必须做，概率、排他范围和义务完整。|Tom said he felt that it might be only himself who had to do that.
+public-short-0492-en|pass|问能否去对方那里，come to your place符合对话方向。|Can I come to your place?
+public-short-0477-zh-CN|pass|礼貌询问是否愿意试试，动作与疑问完整。|你愿意试试看吗？
+public-short-0307-en|pass|他送我不错礼物，good gift与不错礼物等义，角色完整。|He gave me a good gift.
+public-short-0099-zh-CN|pass|汤姆认为300美元买不齐所需物品，金额、否定和全部范围完整。|汤姆说他觉得 $300 买不到他需要的所有东西。
+public-short-0226-zh-CN|pass|想谈对方情况，主体、对象和意愿完整。|我想谈谈你的情况。
+public-short-0306-zh-CN|major|若我是你便会去的建议，变为如果你是我在，角色反转且句意破损。|如果你是我在，我就会去。

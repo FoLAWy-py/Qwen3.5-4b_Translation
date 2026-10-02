@@ -1,0 +1,31 @@
+v4-dev-001-en|major|钥匙应粘在花盆底下，in the pot改成盆内，位置错误。|The spare key is stuck in the pot with tape.
+v4-dev-005-en|minor|冲洗海绵与放置动作正确，但沥水板变成沥水架，器具偏差。|Please rinse the sponge and place it on a draining rack.
+v4-dev-006-zh-CN|pass|周二照看狗及带来食物的前提完整，狗粮为本语境自然表达。|只要您带狗粮，我周二可以照顾您的狗。
+v4-dev-008-en|major|配送费范围保留，但split未明确平分，数量约束丢失。|We agreed to split the bill, including delivery charges.
+v4-dev-009-en|pass|污渍变淡但未完全消失，程度和转折一致。|The stain has lightened, but it has not yet disappeared completely.
+v4-dev-017-en|pass|自动续订及提前取消例外完整，泛指复数可接受。|Subscriptions will auto-renew, unless you cancel in advance.
+v4-dev-022-zh-CN|major|贵贱比较等价，但on board无依据变成飞机上，交通情境被新增。|在柜台购买的票比在飞机上购买的票更便宜。
+v4-dev-030-en|pass|一辆折叠自行车及装袋条件完整，carry为可接受表达。|You can carry a folding bike, provided that you put it in a bag.
+v4-dev-033-zh-CN|minor|下车再次刷卡和否则最高票价保留，但按一下卡不自然。|下车时再按一下卡，否则会按最高票价收费。
+v4-dev-034-en|pass|仅最后一节车厢继续到终点，排他范围和目的地完整。|Only the last carriage continues to the end.
+v4-dev-040-en|pass|返程凭券工作日有效、法定假日例外一致，ticket可接受。|The return ticket is valid on weekdays, but not on public holidays.
+v4-dev-043-zh-CN|major|刮取柠檬外皮变成榨出果肉，食材部位和动作均错误；白色苦瓤排除仍保留。|用柠檬榨出果肉，但不要带出苦味的白皮。
+v4-dev-044-zh-CN|minor|揭盖慢煮至大部分液体蒸发正确，lentils泛化为豆子，术语精度不足。|让豆子在揭开盖子的情况下慢慢煮，直到大部分液体都蒸发了。
+v4-dev-047-zh-CN|major|打散结块应在混合物变稠之前，译成防止变稠，时间条件变成未经支持的目的。|我们需要用打蛋器把混合物中的结块打碎，防止它变稠。
+v4-dev-048-en|minor|酱冷馅热的对比保留，但hot弱化滚烫程度。|The sauce should be cold, but the filling should be hot.
+v4-dev-049-zh-CN|major|capers应为刺山柑花蕾，误为沙葱，主要食材错误。|罐子里装的是腌渍的沙葱，而不是青色的胡椒粒。
+v4-dev-051-zh-CN|major|装饰配料garnish无依据具体化为香草；另放与分享汤保留。|请把香草放在一边，这样我们就可以分享汤了。
+v4-dev-051-en|major|分喝这碗汤改成每人一碗，数量与分享关系改变。|Please put the decorative ingredients aside, so we can each have a bowl of soup.
+v4-dev-053-zh-CN|major|高汤stock对象被漏成这股味道，未加调味已经咸的关系保留。|即使还没加任何调味料，这股味道也显得很咸。
+v4-dev-066-zh-CN|pass|蒸腾期间叶片经气孔失水，术语与过程一致。|蒸腾作用期间，叶片通过气孔失水。
+v4-dev-069-zh-CN|major|hindsight事后认识偏差被泛化为事后回顾，认识时点的主要概念未表达。|这份文件是在事件发生之后撰写的，可能反映了事后回顾。
+v4-dev-071-zh-CN|pass|校验和检测某些错误但不能纠正，能力和限制完整。|校验和可以检测一些传输错误，但不能纠正它们。
+v4-dev-071-en|major|校验和checksum被换成parity checks奇偶校验，方法术语错误。|Parity checks can detect certain transmission errors, but cannot correct them.
+v4-dev-074-zh-CN|major|quadruples应变成原来四倍，增加四倍表示原来五倍，数量关系错误。|将半径加倍，圆的面积会增加四倍。
+v4-dev-077-en|pass|对照组同样指导而没有额外练习，角色及否定完整。|The control group received the same guidance, but no additional practice.
+v4-dev-079-zh-CN|pass|化石给岩层年龄下限，边界方向和研究对象完整。|化石提供了岩层年龄的下限。
+v4-dev-082-zh-CN|pass|金属弹簧语境消歧正确，拉伸状态表达受张力。|弹簧处于拉伸状态。
+v4-dev-085-zh-CN|pass|种植土地语境正确，尚未清理的否定与时态完整。|这块地还没清理。
+v4-dev-087-en|pass|眼睛瞳孔语境正确，反应缓慢一致。|The pupil reacts slowly.
+v4-dev-088-zh-CN|pass|烧杯中的化学溶液消歧正确，不稳定性质保留。|这个溶液是不稳定的。
+v4-dev-090-zh-CN|minor|语境避免了文件误译，但file具体锉刀被泛化为工具，磨利变为打磨，术语精度不足。|这个工具需要打磨。

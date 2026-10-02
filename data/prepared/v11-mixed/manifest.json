@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-01T05:10:50.263501+00:00",
+  "lineage": [
+    {
+      "path": "data\\prepared\\v8-mixed\\train.jsonl",
+      "rows": 758,
+      "hash": "3096225c7aa6025697354ea24ebde4222d3bf6f6c6f528b32b50a5d723c44390"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints-context-checked\\train.jsonl",
+      "rows": 58,
+      "hash": "eb0e98c3875e5972d5391fd80f7614e9e5d62d5e0693a1f43db23ec1de630c90"
+    },
+    {
+      "path": "data\\prepared\\v10-source-family-checked\\train.jsonl",
+      "rows": 176,
+      "hash": "9cd15e368ef3837562a002f6b32ebc1e8c22bacb9d5ddc8901328c4d6103341a"
+    }
+  ],
+  "train": {
+    "rows": 992,
+    "groups": 459,
+    "hash": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe",
+    "categories": {
+      "travel": 160,
+      "food": 168,
+      "daily": 210,
+      "hard": 202,
+      "academic": 252
+    }
+  },
+  "dev": {
+    "rows": 200,
+    "groups": 100,
+    "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+  },
+  "configuration": {
+    "method": "Broader source-grounded SFT with reviewed replay; reduced LR trial",
+    "starting_adapter": "models\\witrans-4b-v7-critical-cpo",
+    "starting_adapter_sha256": "2f62f2610b99fe455b9ae4293f2e5d40e026884dfd0547fefc374974f36e3424",
+    "lr": 5e-06,
+    "steps": 64,
+    "accumulation": 16,
+    "seed": 42,
+    "checkpoint_steps": [
+      32,
+      64
+    ],
+    "selection": "Lowest known development answer/EOS NLL before new generation; no release claim",
+    "record_visits": 1024,
+    "nominal_epochs": 1.032258064516129
+  },
+  "policy": "Training-only broadening. All992 labels previously individually accepted; v10 held-out retrieval families conservatively excluded, training near-families joined. Known DEV screening only. No full global semantic near-duplicate guarantee or new release test. More data and lower LR both change, so not a causal algorithm comparison."
+}

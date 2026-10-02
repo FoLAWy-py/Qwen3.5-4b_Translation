@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-30T15:24:38.541215+00:00",
+  "rows": 48,
+  "groups": 20,
+  "categories": {
+    "daily": 8,
+    "travel": 8,
+    "food": 8,
+    "academic": 8,
+    "hard": 16
+  },
+  "data_hash": "70b94c789b9b37ef0f2be53c9003c0215ce43116c6fb1a5d372ac139953f5fc9",
+  "scope": "Training-only mining; exact old-source exclusion, not semantic near-duplicate guarantee; no release evaluation",
+  "starting_adapter": "models/witrans-4b-v2-selected/adapter",
+  "quantization": "nf4",
+  "selection": "Codex must individually inspect real outputs; only genuine semantic errors become rejected translations"
+}

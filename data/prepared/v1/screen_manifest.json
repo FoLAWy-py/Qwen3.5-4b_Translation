@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "count": 100,
+    "family_count": 25,
+    "sha256": "0d245ecf1c8fa385f6e40f11bbd3a3371563f9c5b813959f11a8cc685df1ed5f"
+  },
+  "test": {
+    "count": 100,
+    "family_count": 25,
+    "sha256": "995d0cc6080642c6b8c089964e550550e71a540080ca12ff3bf9b22ca352d243"
+  }
+}

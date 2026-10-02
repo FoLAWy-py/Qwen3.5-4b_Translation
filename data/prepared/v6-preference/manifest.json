@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-30T21:55:22.694939+00:00",
+  "lineage": [
+    {
+      "path": "data\\prepared\\v3\\train.jsonl",
+      "rows": 60,
+      "hash": "9cf69600f666ce18920ba4cfc26d9298df8900f2b27a613a035f501b47b9d601"
+    },
+    {
+      "path": "data\\prepared\\v4-mining\\preferences.jsonl",
+      "rows": 9,
+      "hash": "3decd41683c8978119c1fd7c47488b7f5e26f46f0bcb6f5e9e52407403f0ab13"
+    },
+    {
+      "path": "data\\prepared\\v8-mining\\preferences.jsonl",
+      "rows": 16,
+      "hash": "9957220beeb1f6b146dcba74de9edd57f4b77c40810661b19c95a6e3f0539dec"
+    }
+  ],
+  "train": {
+    "rows": 85,
+    "groups": 51,
+    "hash": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826"
+  },
+  "dev": {
+    "rows": 16,
+    "hash": "5acb4ed45d4192094b8cee38a6a600029821157822756ffb094e3c77ceb2511f"
+  },
+  "protocol": {
+    "starting_adapter": "models/witrans-4b-v5-sft/checkpoint-85",
+    "starting_adapter_sha256": "1ed0446f66cdbcec444c95233355e31e7645c8c3bc70a70fe5759a79723b9736",
+    "modes": [
+      "cpo",
+      "sft_control"
+    ],
+    "steps": 22,
+    "accumulation": 8,
+    "lr": 1e-05,
+    "seed": 42,
+    "record_visits": 176,
+    "beta": 0.1,
+    "screening": "Known 16-pair dev objective auxiliary. Both candidates must undergo 200-row semantic development screening; no automatic NLL promotion.",
+    "release_approved": false
+  },
+  "limitations": "Synthetic sources, small real-negative pool; old training positives are replay. Matched updates/two forwards, not equal FLOPs. No efficacy claim before semantic review."
+}

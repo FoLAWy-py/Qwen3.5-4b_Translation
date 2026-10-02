@@ -1,0 +1,40 @@
+public-short-0074-en|pass|接到她的电话完整，received her call为合理同义。|I received her call.
+public-short-0593-en|pass|销售部门及负责者疑问完整。|Who is in charge of the sales department?
+public-short-0182-en|pass|源句无明确过去时，当前表达容易找到住房可接受，不按参考过去时强判错。|It's easy to find your house.
+public-short-0470-en|pass|始终正确行为、一些人满意及其他人惊讶均完整。|Always do the right thing. This will please some and surprise others.
+public-short-0224-zh-CN|minor|昨晚汤姆在电视上可理解其上电视，但在电视上句式稍生硬，需小修为出现在电视上。|昨晚，汤姆在电视上。
+public-short-0045-zh-CN|pass|阳光与寒冷的转折完整。|阳光明媚，但天气却很冷。
+public-short-0355-zh-CN|major|between you and me限制只向对方私下讲，译文我跟你说丢失保密限定。|我跟你说，我觉得我们的老板很蠢。
+public-short-0520-zh-CN|minor|似乎什么都知道保留，但说话的表现这一限定被省略，需补你说起话来。|你好像什么都知道。
+v2-train-037-en|pass|停在的源句允许is parked，接驳车与位置关系完整。|The shuttle bus is parked outside the terminal, next to the information desk.
+public-short-0516-en|pass|同时开车听广播音乐完整，中文无明确时态，过去进行可接受。|He was listening to music on the radio while driving.
+v10-travel-13-en|pass|中文徒步者可为复数；路径经过喷泉、岩石黄线及入口仍在数百米外完整，时态变换符合叙事接当前地点说明。|Hikers were told to proceed past the fountain and look for a yellow paint line on a rock. The fountain is the starting point, but the actual trail entrance is still several hundred meters away.
+v10-travel-08-en|major|帐篷地点与设备租赁排除保留，但抵达讯息改为confirmation message，混淆抵达通知与确认预订的信息类型。|Your campsite reservation includes a tent location, but does not include equipment rental. Sending a confirmation message does not mean that the campsite will provide a tent for you.
+v10-travel-01-zh-CN|minor|自行车须另订及旅客确认不保证存放完整，但预订单独的自行车预订重复生硬，需小修而非改变意义。|旅行者必须预订单独的自行车预订，因为乘客票不自动包含自行车的空间。乘客预订确认并不保证可以进入自行车存储区。
+v2-replay-v1-travel-005-02-zh-CN|major|4件全未到的量词否定保留，但checked托运属性缺失，行李箱也将bags缩窄，末句到达航班关系表达不正确。|我们这 4 个行李箱中没有一个到达了这趟航班。
+v9-constraint-012-zh-CN|major|条件和可能性及未改时间保留，但guide说话女性导游误成指南，角色指代错误。|指南说，如果水位下降，返程的船可能更早出发。她没有说已经重新安排了时间，因此请在更改计划前确认。
+v10-travel-17-zh-CN|pass|座位朝前、不一定靠窗、确认记录偏好均完整。|乘客要求座位朝前，不一定是靠窗的。预订代理确认了这个请求，并在系统中记录了这个偏好。
+v2-replay-v1-food-010-02-en|minor|四份沙拉和酱分开大意保留，但be separated没有清楚表示另盛，需小修为served separately。|Can the salad dressings for these 4 salads be separated?
+v2-train-053-en|major|主菜共用完整，但每人要一份甜点的需求改成had已吃一份，意愿与发生事实错误。|We split the main course, but each of us had a serving of dessert.
+v10-food-14-en|pass|蘑菇平铺间距、均匀烹饪和不堆叠目的完整。|The chef laid the mushroom slices flat on the tray, ensuring spacing between them for even cooking. He avoided stacking them to preserve the texture and flavor.
+v10-food-07-en|pass|点餐前食客询问汤中贝类并确认饮食限制，中文无强制过去时，叙事现在可接受。|Before ordering, diners politely ask whether the broth contains shellfish. They want to confirm that this is in line with their dietary restrictions.
+v3-train-015-zh-CN|minor|移除可见部分仍含贝类的核心正确，但pieces译碎屑不如食材块准确，轻微词义偏差需小修。|即使去除了可见的碎屑，汤中仍含有贝类。
+v2-replay-v1-food-007-02-zh-CN|pass|四份完全禁加辣椒含一点点的范围完整。|请不要往这 4 份里加辣椒，哪怕一点点。
+v8-multi-020-zh-CN|pass|底部微脆非烧焦、轻轻铲起与不刮锅涂层完整，刮掉为本句合理表达。|底部的米饭略带脆感，没有烧焦。用铲子轻轻提起，而不是刮掉锅底的涂层。
+v9-constraint-013-zh-CN|pass|不可见仍含芝麻、去皮不能排除和过敏客人禁供完整，未产生安全反转。|即使面包表面看不到芝麻籽，它仍然含有芝麻籽。去除面包皮不会让它变得不含芝麻籽；请不要给有芝麻过敏的客人提供这种面包。
+v10-academic-09-en|pass|允许多选重叠及百分比超100的因果完整。|The survey allows participants to select any number of options, so the options can overlap. Since multiple selections are allowed, the final percentage total exceeds 100%.
+public-short-0571-en|pass|发现令人吃惊事实完整，源句医生未限定单复数，singular doctor合理。|The doctor discovered some surprising facts.
+v10-academic-14-en|pass|三组10/15/20学生及按组平均可能导致大小偏差完整。|This study compared three groups of 10, 15, and 20 students. Taking the average within each group may introduce bias due to differences in group size.
+v9-constraint-022-en|major|概率0.8保留，但否认事件发生了百分之八十改为否认80%时间发生，事件完成份额与重复频率概念混淆。|The model assigns a 0.8 probability to the observed event. This number does not mean that the event occurred 80 percent of the time.
+v2-train-083-zh-CN|major|speed需区分速率与速度矢量，速度保持不变仍在加速会改变物理含义，未表达速率恒定而方向变化仍有加速度。|尽管速度保持不变，物体仍在加速。
+public-short-0392-zh-CN|pass|水沸腾转蒸汽完整。|水在沸腾时会变成蒸汽。
+v9-constraint-024-zh-CN|major|测量后校准和不能追溯验证保留，但仪器读数一致agreement误成协议，词义未按测量语境消歧。|该仪器在第一次测量后进行了校准。因此，后续仪器之间的协议不能回溯地验证第一次测量。
+v10-academic-05-zh-CN|pass|同时调两变量、单一作用或交互两种解释、未单独对照不能确定单独影响均保留，单一因素为任一因素合理概括。|研究人员在同一试验中同时调整了温度和光照强度，因此观察到的生长差异可能是单一因素造成的，也可能是两个因素的相互作用。如果没有对其中一个变量进行单独的对照，该因素的单独影响就难以确定。
+v4-mining-024-en|pass|机加工语境中螺距过大完整，thread pitch比参考pitch更明确且合理。|The thread pitch is too large for this part.
+public-short-0301-en|minor|最后时刻命令暂缓执行的大意完整，但英文缺主句主语，需补an order was given或被动完整句。|Ordered to delay the execution at the last minute.
+v10-hard-04-en|pass|怀疑评论、核对官方报告和未验证不行动完整，不要求改为参考习语。|He approached the comment with skepticism and compared it to the official report. He did not want to take action without verification.
+v10-hard-17-en|pass|偶遇多年未见人物、简短寒暄并各自继续完整，ran into与bumped into同义。|Mia ran into Jordan by chance while touring the art gallery; they hadn't seen each other in years. They exchanged a few brief greetings, then went their separate ways.
+v7-context-020-zh-CN|major|录音编辑移除狗叫的明确语境被忽略，bark误成树皮。|树皮被去掉了。
+v8-multi-036-zh-CN|pass|按提案语境译搁置、数据核实后再处理完整，未直译冰冻。|我们先把这个问题放一放。等数据核实之后，我们再回来讨论。
+v9-constraint-026-zh-CN|minor|收支平衡覆盖成本非赚大钱完整，覆盖了成本及赚了大利润搭配稍生硬，需小修为弥补成本和大笔利润。|这家修理店终于在这个月实现了收支平衡。这表示它覆盖了成本，而不是意味着它赚了大利润。
+v8-multi-034-zh-CN|pass|保密及等所有人到齐完整，再公布由惊喜语境合理补足。|别泄露秘密。我们约定等所有人都到齐了再公布。

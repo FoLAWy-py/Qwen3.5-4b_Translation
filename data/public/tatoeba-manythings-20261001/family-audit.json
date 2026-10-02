@@ -1,0 +1,292 @@
+{
+  "at": "2026-10-01T06:50:09.407885+00:00",
+  "reviewed_hash": "4e327d9b54366b6ae9fc064d4c5d6b7abe3658084fad820ffb3812bcd17cef65",
+  "reviewed_pairs": 582,
+  "prior_unique_sources": 6305,
+  "scanned_source_snapshots": [
+    {
+      "path": "data\\prepared\\pilot-v1\\dev.jsonl",
+      "source_fields_hash": "98f94e0d91b73eece0a19b316fb5c67929d9d943c1dd64fe61b6c8d8ed05a3e9"
+    },
+    {
+      "path": "data\\prepared\\pilot-v1\\test.jsonl",
+      "source_fields_hash": "fe49cdf8d54211be75795e0c91810c5e0a94734eb6a46dd4b336395346bd0d1e"
+    },
+    {
+      "path": "data\\prepared\\pilot-v1\\train.jsonl",
+      "source_fields_hash": "02c8430592113599757967f792238d9a95be795bd5f5b901ce8cc35ad9b1ec4a"
+    },
+    {
+      "path": "data\\prepared\\short-benchmark-v1\\inputs.jsonl",
+      "source_fields_hash": "cce6dc07caf849d67d39775903faa8c51d006e210b75629564cf4683ec9de9f1"
+    },
+    {
+      "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+      "source_fields_hash": "c3f3f3adfd403950925aa8554bdf5f2a939cf1548a24d6d63ce292706815ead1"
+    },
+    {
+      "path": "data\\prepared\\v1\\challenges.jsonl",
+      "source_fields_hash": "e07339fb159db7b5f84b8d19a43dd06cda666d1380dbc8a7445fc8de5880573c"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev.jsonl",
+      "source_fields_hash": "7332aabecb39e655e75afd30abecd7b410ec1373c077602646b87d74f3b0bcfe"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev_screen.jsonl",
+      "source_fields_hash": "a6cd7557d70f90d497bc548836d67dcead467a690c42549f63aa57fee57ab369"
+    },
+    {
+      "path": "data\\prepared\\v1\\test.jsonl",
+      "source_fields_hash": "233d4315500e8bfc8d025c280167ca6344cf4b4979b1729c2f326c980047a628"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_corrected.jsonl",
+      "source_fields_hash": "233d4315500e8bfc8d025c280167ca6344cf4b4979b1729c2f326c980047a628"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen.jsonl",
+      "source_fields_hash": "5e5a1e8cc51ce9b77268b2b064dbc9b5df62148a637403a1a9afe3686eb6cb29"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen_corrected.jsonl",
+      "source_fields_hash": "5e5a1e8cc51ce9b77268b2b064dbc9b5df62148a637403a1a9afe3686eb6cb29"
+    },
+    {
+      "path": "data\\prepared\\v1\\train.jsonl",
+      "source_fields_hash": "f531e03ff4b0cf9db33407f8fac8a83ec585b1e789eca3927dab88a491c75cdf"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\candidates.jsonl",
+      "source_fields_hash": "9691c8ab4a0be06f9a436bdb5c071670aed38b916a5798d3c9c1ffbecf2f52ad"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\pending-review.jsonl",
+      "source_fields_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\reviewed-partial.jsonl",
+      "source_fields_hash": "11b8db86e907c70c33f50c66319c990f91401ebd49d07f7163264dab1508c458"
+    },
+    {
+      "path": "data\\prepared\\v10-source-family-checked\\train.jsonl",
+      "source_fields_hash": "747ff8df9974cff5433e356ac81d6eeabc7f48067a5ee3ea748f23031e79485a"
+    },
+    {
+      "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+      "source_fields_hash": "3c372c37ff3499fe12e89fb12ed9fccfef4fe939242aaef17c59dc4edaa2aa73"
+    },
+    {
+      "path": "data\\prepared\\v11-mixed\\train.jsonl",
+      "source_fields_hash": "0b8aa93d890ef4bfc6d08cb41a816f6dd29727ecb93bb42eee89d47da9e9b245"
+    },
+    {
+      "path": "data\\prepared\\v2\\bf16_test.jsonl",
+      "source_fields_hash": "149778344367394ea58ee003236249407e49af7e8bba0f67f3cb33fb1f31c50f"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev.jsonl",
+      "source_fields_hash": "530024fa4b3e2433c88b12334bc0079157c81a33f7966872841ab31e8a453c10"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_corrected.jsonl",
+      "source_fields_hash": "f84e4ee9d55be53946f61d9a49e3f0bc5fe05ac2095dc81562c758303430f88d"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen.jsonl",
+      "source_fields_hash": "530024fa4b3e2433c88b12334bc0079157c81a33f7966872841ab31e8a453c10"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen_corrected.jsonl",
+      "source_fields_hash": "f84e4ee9d55be53946f61d9a49e3f0bc5fe05ac2095dc81562c758303430f88d"
+    },
+    {
+      "path": "data\\prepared\\v2\\precision_test.jsonl",
+      "source_fields_hash": "6bb7f062906960a9872359953eda13ee32cbab6e26810d3249cd03b3ec496b30"
+    },
+    {
+      "path": "data\\prepared\\v2\\replay.jsonl",
+      "source_fields_hash": "ffcfe9d390dbc14fe9f55c2a264ec59dc12e6587dd2241740febef908f726d11"
+    },
+    {
+      "path": "data\\prepared\\v2\\test.jsonl",
+      "source_fields_hash": "16a3bbb51fd20ca0ac2442588258189cdc81b593bd4541753aacf27f2e8546f6"
+    },
+    {
+      "path": "data\\prepared\\v2\\train.jsonl",
+      "source_fields_hash": "2a93203ecb51bdb4cd70cbd85b9883840606ba15b59584e8431fc53191dc6c6a"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev.jsonl",
+      "source_fields_hash": "a169adcc4fdc6224f835e44bc675514d8946f86a458f374adcffe898af5ab842"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev_references.jsonl",
+      "source_fields_hash": "a169adcc4fdc6224f835e44bc675514d8946f86a458f374adcffe898af5ab842"
+    },
+    {
+      "path": "data\\prepared\\v3\\test.jsonl",
+      "source_fields_hash": "6511eaf72142ad0414fe86fb7a791a0db0c4da17106ef371ffe94a962572fb40"
+    },
+    {
+      "path": "data\\prepared\\v3\\test_references.jsonl",
+      "source_fields_hash": "6511eaf72142ad0414fe86fb7a791a0db0c4da17106ef371ffe94a962572fb40"
+    },
+    {
+      "path": "data\\prepared\\v3\\train.jsonl",
+      "source_fields_hash": "73dca3ee14f7523b5d8466fd4161d54e35a228097e721cbcccd4d25779405376"
+    },
+    {
+      "path": "data\\prepared\\v3\\train_references.jsonl",
+      "source_fields_hash": "af54ae9af27469e18f0ce1bda46eb81d66c36db9299dda3823c82f7e2677a243"
+    },
+    {
+      "path": "data\\prepared\\v4\\dev.jsonl",
+      "source_fields_hash": "3c372c37ff3499fe12e89fb12ed9fccfef4fe939242aaef17c59dc4edaa2aa73"
+    },
+    {
+      "path": "data\\prepared\\v4\\train.jsonl",
+      "source_fields_hash": "bc327519a6ebd7db3ef4cb93eaa9701684a5455f2910883d4d6d44c595dcf573"
+    },
+    {
+      "path": "data\\prepared\\v4-mining\\pool.jsonl",
+      "source_fields_hash": "87569fdaf1946921afc32bed888f24e23a56d60f13fff024cd55a4d1c3a7531d"
+    },
+    {
+      "path": "data\\prepared\\v4-mining\\preferences.jsonl",
+      "source_fields_hash": "00983ee84ed1c288674e893fa12dc8571bf9fdb98b3f7609c01f94b96183d350"
+    },
+    {
+      "path": "data\\prepared\\v5-mixed\\dev.jsonl",
+      "source_fields_hash": "3c372c37ff3499fe12e89fb12ed9fccfef4fe939242aaef17c59dc4edaa2aa73"
+    },
+    {
+      "path": "data\\prepared\\v5-mixed\\train.jsonl",
+      "source_fields_hash": "275fddaccccc86ba2645c47cd79c787b65588907219c7c4766731274eaaa805e"
+    },
+    {
+      "path": "data\\prepared\\v5-seed\\references.jsonl",
+      "source_fields_hash": "e8102f60d237b444f650a3c2f2674dc6203ff03b09b32025ca1020e3de0748cb"
+    },
+    {
+      "path": "data\\prepared\\v5-seed\\train.jsonl",
+      "source_fields_hash": "e8102f60d237b444f650a3c2f2674dc6203ff03b09b32025ca1020e3de0748cb"
+    },
+    {
+      "path": "data\\prepared\\v6-preference\\dev.jsonl",
+      "source_fields_hash": "a169adcc4fdc6224f835e44bc675514d8946f86a458f374adcffe898af5ab842"
+    },
+    {
+      "path": "data\\prepared\\v6-preference\\train.jsonl",
+      "source_fields_hash": "999ecf385faca442651af3558a45d6f2de2fe0ebd4fc3f7cca2c3472d541e1b8"
+    },
+    {
+      "path": "data\\prepared\\v6-source\\candidates.jsonl",
+      "source_fields_hash": "84ec735f45d1a1a156a82c0124cf1be8d94f58b08a87112babe11034a362b76d"
+    },
+    {
+      "path": "data\\prepared\\v6-source\\train.jsonl",
+      "source_fields_hash": "5cda5df8b5a1c0c93108ba511cbf9ad66a4fa51ae2270e9be9867e5537242d0b"
+    },
+    {
+      "path": "data\\prepared\\v7-context\\references.jsonl",
+      "source_fields_hash": "14cc301416ea77fbed7efc7370f48ecdf7ae766aea6882fd6ae4c9ed5792fec0"
+    },
+    {
+      "path": "data\\prepared\\v7-context\\train.jsonl",
+      "source_fields_hash": "14cc301416ea77fbed7efc7370f48ecdf7ae766aea6882fd6ae4c9ed5792fec0"
+    },
+    {
+      "path": "data\\prepared\\v8-mining\\preferences.jsonl",
+      "source_fields_hash": "2104f3979eb76484523701440c341950ef8e9706797b24f7b33ddba966578928"
+    },
+    {
+      "path": "data\\prepared\\v8-mixed\\dev.jsonl",
+      "source_fields_hash": "3c372c37ff3499fe12e89fb12ed9fccfef4fe939242aaef17c59dc4edaa2aa73"
+    },
+    {
+      "path": "data\\prepared\\v8-mixed\\train.jsonl",
+      "source_fields_hash": "796f88acb66dcf74a936ac04468271082b02166731cc22762e4add34a2e85155"
+    },
+    {
+      "path": "data\\prepared\\v8-multisentence\\references.jsonl",
+      "source_fields_hash": "1503180bcbc4e71b72c7d1b3b87bf53b287f57ce27504a539c1c858bc75b3cf9"
+    },
+    {
+      "path": "data\\prepared\\v8-multisentence\\train.jsonl",
+      "source_fields_hash": "1503180bcbc4e71b72c7d1b3b87bf53b287f57ce27504a539c1c858bc75b3cf9"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints\\references.jsonl",
+      "source_fields_hash": "e697f3c3e90d79865c848a9e9cc4af505adb14eff55262b6bf5074c88a662f25"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints\\train.jsonl",
+      "source_fields_hash": "e697f3c3e90d79865c848a9e9cc4af505adb14eff55262b6bf5074c88a662f25"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints-context-checked\\train.jsonl",
+      "source_fields_hash": "d4853114a4a72165791fd7f0e7736dc23f03603a7083c80c7120a92d851adaa1"
+    }
+  ],
+  "family_links": [
+    {
+      "a": "public-short-0148",
+      "b": "public-short-0005",
+      "reason": "english-fourgram-conservative",
+      "score": 0.722315
+    },
+    {
+      "a": "public-short-0457",
+      "b": "public-short-0052",
+      "reason": "english-fourgram-conservative",
+      "score": 0.807692
+    },
+    {
+      "a": "public-short-0478",
+      "b": "public-short-0230",
+      "reason": "delexicalized-polarity-template"
+    }
+  ],
+  "exclusion_triggers": {
+    "public-short-0350": {
+      "source_matches": [
+        {
+          "language": "en",
+          "score": 0.464582,
+          "heldout": true,
+          "ids": [
+            "v2-test-019-zh-CN"
+          ],
+          "groups": [
+            "v2-28fdd8a53236bf7a"
+          ]
+        }
+      ],
+      "heldout_idiom_families": []
+    }
+  },
+  "excluded_families": 1,
+  "excluded_pairs": 1,
+  "retained_pairs": 581,
+  "retained_families": 578,
+  "multi_pair_families": {
+    "public-short-0005": [
+      "public-short-0005",
+      "public-short-0148"
+    ],
+    "public-short-0052": [
+      "public-short-0052",
+      "public-short-0457"
+    ],
+    "public-short-0230": [
+      "public-short-0230",
+      "public-short-0478"
+    ]
+  },
+  "rules": "Same archive family, exact delexicalized polarity template, English 4gram cosine >=0.70 union. Exclude whole family at prior heldout cosine >=0.45 or prior train >=0.55, or shared heldout idiom. Conservative exclusion is not proof of semantic equivalence.",
+  "limitations": "Archive links do not include the full multilingual Tatoeba graph; lexical retrieval cannot prove absence of semantic or pretraining overlap. Chinese script differences may escape retrieval.",
+  "training_ready": false,
+  "family_review_complete": false,
+  "release_approved": false
+}

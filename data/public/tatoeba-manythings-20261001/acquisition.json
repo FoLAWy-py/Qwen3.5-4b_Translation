@@ -1,0 +1,279 @@
+{
+  "at": "2026-10-01T06:07:30.590355+00:00",
+  "files": [
+    {
+      "url": "https://www.manythings.org/anki/cmn-eng.zip",
+      "resolved_url": "https://www.manythings.org/anki/cmn-eng.zip",
+      "file": "cmn-eng.zip",
+      "bytes": 1386340,
+      "sha256": "d606361aa7312dcdfb15ef4fc51cb1e7ed8bc2dc608a7b192626cd36e8403106",
+      "etag": null,
+      "last_modified": "Fri, 13 Feb 2026 00:33:50 GMT",
+      "at": "2026-10-01T06:07:18.778643+00:00"
+    },
+    {
+      "url": "https://www.manythings.org/anki/",
+      "resolved_url": "https://www.manythings.org/anki/",
+      "file": "manythings-index.html",
+      "bytes": 22252,
+      "sha256": "4d663ac7e21fd563a3f0ac2fb1a3f3a44dcb0e024054fb227f173c654f8d0510",
+      "etag": null,
+      "last_modified": "Fri, 13 Feb 2026 06:15:29 GMT",
+      "at": "2026-10-01T06:07:19.324691+00:00"
+    },
+    {
+      "url": "https://tatoeba.org/en/downloads",
+      "resolved_url": "https://tatoeba.org/en/downloads",
+      "file": "tatoeba-downloads.html",
+      "bytes": 316138,
+      "sha256": "91f1467b65cb57d3a82c956932077c72c43c98fa8e47eca3233166c51ab7c5ff",
+      "etag": null,
+      "last_modified": null,
+      "at": "2026-10-01T06:07:21.909630+00:00"
+    }
+  ],
+  "zip_members": [
+    "cmn.txt",
+    "_about.txt"
+  ],
+  "raw_lines": 32028,
+  "parsed_pairs": 32028,
+  "eligible_pairs": 18535,
+  "pending_groups": 1000,
+  "rejected_filters": {
+    "length_or_language_candidate_filter": 13490,
+    "prior_exact_overlap": 1,
+    "conservative_prior_near_overlap": 2
+  },
+  "prior_source_count": 6305,
+  "prior_snapshots": [
+    {
+      "path": "data\\prepared\\pilot-v1\\dev.jsonl",
+      "hash": "eb7684f2e7c205a0d1c4b2cb0e6747a1243f368f473e4bf99a00e832057a091d"
+    },
+    {
+      "path": "data\\prepared\\pilot-v1\\test.jsonl",
+      "hash": "6d33a4bb25019f0078436c513e9455626ac4cc7c0d4c01175b623a1ec8f872f6"
+    },
+    {
+      "path": "data\\prepared\\pilot-v1\\train.jsonl",
+      "hash": "0577c4b9aab62fb494e98c4ba3c2ed9e3f3fc3f39cbbae40c13214bb57009f2c"
+    },
+    {
+      "path": "data\\prepared\\short-benchmark-v1\\inputs.jsonl",
+      "hash": "e1ada036fae1dcd56d06ea0a1e9f630a8ca4f59e461abe5d9df267de29a3964c"
+    },
+    {
+      "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+      "hash": "63807d80131c0a5b3e3ecabd5020e104eff1d1f1ee51398acd6d93679f96199d"
+    },
+    {
+      "path": "data\\prepared\\v1\\challenges.jsonl",
+      "hash": "a728b55ad78366b2ff4816744e27185980c410677cd7edaeba679851a49851f1"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev.jsonl",
+      "hash": "89270e6f6b754f18f57b905c8623108270723734546892d2fa8864f8531318f9"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev_screen.jsonl",
+      "hash": "0d245ecf1c8fa385f6e40f11bbd3a3371563f9c5b813959f11a8cc685df1ed5f"
+    },
+    {
+      "path": "data\\prepared\\v1\\test.jsonl",
+      "hash": "364ed8a892e249c7cbe6da90c186c4eb5b56a6a122ac636b461ea05620b35bf3"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_corrected.jsonl",
+      "hash": "81bb83b743c915c3d02c17059485e92bc57210972c29f9b0c11bfd17162c21d2"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen.jsonl",
+      "hash": "995d0cc6080642c6b8c089964e550550e71a540080ca12ff3bf9b22ca352d243"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen_corrected.jsonl",
+      "hash": "2829cd96bb48754f370dddc04a72453dc7e65ff659e67ae35668527dc8960e08"
+    },
+    {
+      "path": "data\\prepared\\v1\\train.jsonl",
+      "hash": "3813f2391c67d528ee4252ce6f8c4f651a7637deca1caa34b69e03851529c566"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\candidates.jsonl",
+      "hash": "576ee553b5b23e99c26e8d6d7eb7c9022249e781c4624856dbb4ca86f5e08c22"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\pending-review.jsonl",
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "data\\prepared\\v10-source\\reviewed-partial.jsonl",
+      "hash": "e870ffcab696f6e1984645752af0f73cfc7ce0b560090c11f225a2819f8314c5"
+    },
+    {
+      "path": "data\\prepared\\v10-source-family-checked\\train.jsonl",
+      "hash": "9cd15e368ef3837562a002f6b32ebc1e8c22bacb9d5ddc8901328c4d6103341a"
+    },
+    {
+      "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+      "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+    },
+    {
+      "path": "data\\prepared\\v11-mixed\\train.jsonl",
+      "hash": "fc408b20388c59afabab26d14f481600d54718287a98d0e369b0769b685ddefe"
+    },
+    {
+      "path": "data\\prepared\\v2\\bf16_test.jsonl",
+      "hash": "fc191f063979ff2d2a4880f20297b36ddefd4f1f8cf40cc35c2314d1eaebbe62"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev.jsonl",
+      "hash": "a418fed10b80fd6acd72ed974f7a67d2a67f9b9dcd98227087be5703d2d11a88"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_corrected.jsonl",
+      "hash": "385c64ebe443c49d0bf5eb9ed6933e1a064dcf2559e62d64398825808984cd78"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen.jsonl",
+      "hash": "a418fed10b80fd6acd72ed974f7a67d2a67f9b9dcd98227087be5703d2d11a88"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen_corrected.jsonl",
+      "hash": "385c64ebe443c49d0bf5eb9ed6933e1a064dcf2559e62d64398825808984cd78"
+    },
+    {
+      "path": "data\\prepared\\v2\\precision_test.jsonl",
+      "hash": "e7bfbd5761a078ecd2fb46ab9880e26a1e35edeb8032828c43e2fb4db2647d6d"
+    },
+    {
+      "path": "data\\prepared\\v2\\replay.jsonl",
+      "hash": "72ea5ae8386908eaa98602b6bb986734e81fad8b832fe419549f56610cc8c538"
+    },
+    {
+      "path": "data\\prepared\\v2\\test.jsonl",
+      "hash": "d6de9840504f22fdb1de0c918ee213c3b07af90c6627998be09c6b00cc64a812"
+    },
+    {
+      "path": "data\\prepared\\v2\\train.jsonl",
+      "hash": "99e495898c8282b5925583f0df0e805143c8a3d713612152e1e9ada3ce0c51a4"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev.jsonl",
+      "hash": "5acb4ed45d4192094b8cee38a6a600029821157822756ffb094e3c77ceb2511f"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev_references.jsonl",
+      "hash": "27eb7852e36c70d6b2157936749d3f3245188e3d18ff26f9dda4764aa09f917d"
+    },
+    {
+      "path": "data\\prepared\\v3\\test.jsonl",
+      "hash": "0f1f1784726497f3afcfb2e702cdac4ca614f1f745d208da82e19b05167f93cc"
+    },
+    {
+      "path": "data\\prepared\\v3\\test_references.jsonl",
+      "hash": "f5af5b43d0058521f7afad72421b517fa27a1e206e0c1c589166a467641d823f"
+    },
+    {
+      "path": "data\\prepared\\v3\\train.jsonl",
+      "hash": "9cf69600f666ce18920ba4cfc26d9298df8900f2b27a613a035f501b47b9d601"
+    },
+    {
+      "path": "data\\prepared\\v3\\train_references.jsonl",
+      "hash": "9e3eec819af9c6ad46f91bced54e591b03577a0572c974a080bf769f048247d5"
+    },
+    {
+      "path": "data\\prepared\\v4\\dev.jsonl",
+      "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+    },
+    {
+      "path": "data\\prepared\\v4\\train.jsonl",
+      "hash": "e49ef710eeec2781846368188b1a73ff93e0e6bcf154585d0c3acc9ae98210c3"
+    },
+    {
+      "path": "data\\prepared\\v4-mining\\pool.jsonl",
+      "hash": "70b94c789b9b37ef0f2be53c9003c0215ce43116c6fb1a5d372ac139953f5fc9"
+    },
+    {
+      "path": "data\\prepared\\v4-mining\\preferences.jsonl",
+      "hash": "3decd41683c8978119c1fd7c47488b7f5e26f46f0bcb6f5e9e52407403f0ab13"
+    },
+    {
+      "path": "data\\prepared\\v5-mixed\\dev.jsonl",
+      "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+    },
+    {
+      "path": "data\\prepared\\v5-mixed\\train.jsonl",
+      "hash": "9757eaf8a0a666c317326a069dea258fc8271a46e6c6ac12f3fcf9bfafff4c5f"
+    },
+    {
+      "path": "data\\prepared\\v5-seed\\references.jsonl",
+      "hash": "971c8aa04214d9a1fc463dcb45687c51cf51a3b3b67cbdea3a42b3e7bddf0241"
+    },
+    {
+      "path": "data\\prepared\\v5-seed\\train.jsonl",
+      "hash": "e1fea313ff165d84839d22dd0bb431d0ce510f9a843c87094ec357057054ce58"
+    },
+    {
+      "path": "data\\prepared\\v6-preference\\dev.jsonl",
+      "hash": "5acb4ed45d4192094b8cee38a6a600029821157822756ffb094e3c77ceb2511f"
+    },
+    {
+      "path": "data\\prepared\\v6-preference\\train.jsonl",
+      "hash": "daf077b8c46d389f70192bdb868863425f45e7c494deb2e3609711fe456af826"
+    },
+    {
+      "path": "data\\prepared\\v6-source\\candidates.jsonl",
+      "hash": "beae724f5b5e40b0d7a404d341f46054123efccb4b2c0803e83a679d54c42a74"
+    },
+    {
+      "path": "data\\prepared\\v6-source\\train.jsonl",
+      "hash": "5f7c979ab3f99dc84fd3d4a36dfcb57f2c95244d0de28a2b15c2568808d3dbb6"
+    },
+    {
+      "path": "data\\prepared\\v7-context\\references.jsonl",
+      "hash": "7101b4808b2b68d277e5c0ceccbab8e6a837f28da276fadb937e004a03eb3411"
+    },
+    {
+      "path": "data\\prepared\\v7-context\\train.jsonl",
+      "hash": "097e22e8d55582ad6d751561e6bba343abae50f6c819c469a025b2e8f00a1d05"
+    },
+    {
+      "path": "data\\prepared\\v8-mining\\preferences.jsonl",
+      "hash": "9957220beeb1f6b146dcba74de9edd57f4b77c40810661b19c95a6e3f0539dec"
+    },
+    {
+      "path": "data\\prepared\\v8-mixed\\dev.jsonl",
+      "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237"
+    },
+    {
+      "path": "data\\prepared\\v8-mixed\\train.jsonl",
+      "hash": "3096225c7aa6025697354ea24ebde4222d3bf6f6c6f528b32b50a5d723c44390"
+    },
+    {
+      "path": "data\\prepared\\v8-multisentence\\references.jsonl",
+      "hash": "a8a1c5cc02a10fc9e2a7c2bde0dc159fefc7937812fff97f48b32e48c102b461"
+    },
+    {
+      "path": "data\\prepared\\v8-multisentence\\train.jsonl",
+      "hash": "28b9b54e5eb122af77a8c90fc2f6c5b217228adbcafeb72f2fedd8a80a8b6245"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints\\references.jsonl",
+      "hash": "efb04c87309844fa4c8653a0c2ae82e775bc886a9a577d711603c25c7f7f9163"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints\\train.jsonl",
+      "hash": "25f02c8bca09eae9055632798804568f220070c29210c6163a9b5711f71196b0"
+    },
+    {
+      "path": "data\\prepared\\v9-constraints-context-checked\\train.jsonl",
+      "hash": "eb0e98c3875e5972d5391fd80f7614e9e5d62d5e0693a1f43db23ec1de630c90"
+    }
+  ],
+  "candidate_hash": "a281945a0606851f99626f299b5165683176d3c8f89e564512becfa71fbd6dd8",
+  "training_ready": false,
+  "release_approved": false,
+  "limits": "Pending source/translation/license review. ID/link families and lexical retrieval are not exhaustive semantic clustering. Public corpus may have appeared in base pretraining. No held-out reference labels used."
+}

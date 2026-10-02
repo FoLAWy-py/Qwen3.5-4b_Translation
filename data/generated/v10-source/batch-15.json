@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:24.780546+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-food-17",
+      "category": "food",
+      "topic": "A cook substitutes parsley for a decorative garnish but not for basil mixed into the sauce; preserve the two culinary roles.",
+      "group_id": "v10-food-17"
+    },
+    {
+      "case_id": "v10-food-18",
+      "category": "food",
+      "topic": "A diner requests no alcohol in a dessert, including in the syrup; removing a decorative item alone does not satisfy that request.",
+      "group_id": "v10-food-18"
+    },
+    {
+      "case_id": "v10-food-19",
+      "category": "food",
+      "topic": "A cook uses a spoon kept for a nut-free portion rather than a spoon already used in a sauce containing nuts; explicit cross-contact constraint, no additional medical advice.",
+      "group_id": "v10-food-19"
+    },
+    {
+      "case_id": "v10-food-20",
+      "category": "food",
+      "topic": "A recipe asks for soaked dried beans and separately mentions already-cooked canned beans as an alternative; do not merge the preparation paths.",
+      "group_id": "v10-food-20"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-food-17\",\n      \"english\": \"The cook added chopped parsley on top of the pasta to make it look fresh and colorful. However, he kept the basil mixed into the sauce for flavor, not just decoration.\",\n      \"chinese\": \"厨师在意大利面上撒了切碎的欧芹，让它看起来新鲜又有色彩。但他把罗勒混在酱汁里是为了调味，不只是装饰。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-18\",\n      \"english\": \"The customer asked for a dessert without any alcohol. Even though the waiter removed the maraschino cherry, the syrup still contained brandy and didn't meet the request.\",\n      \"chinese\": \"顾客要求甜点中不含任何酒精。尽管服务员去掉了樱桃，但糖浆中仍然含有白兰地，不符合要求。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-19\",\n      \"english\": \"To avoid cross-contact, the chef used a clean spoon designated for nut-free dishes instead of the one that had been in the walnut sauce.\",\n      \"chinese\": \"为了避免交叉接触，厨师使用了一个专门用于无坚果菜肴的干净勺子，而不是之前用在核桃酱里的那把。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-20\",\n      \"english\": \"The recipe required soaked dried beans, and it also offered cooked canned beans as a shortcut. The two options needed separate handling, not combined into one.\",\n      \"chinese\": \"食谱需要泡发的干豆，同时也提供罐装熟豆作为快捷选择。这两种材料需要分开处理，不能混为一谈。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 474,
+    "total_tokens": 867,
+    "completion_tokens": 393,
+    "estimated_cost": 0.00014796,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

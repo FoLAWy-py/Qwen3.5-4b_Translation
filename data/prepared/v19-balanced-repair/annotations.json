@@ -1,0 +1,235 @@
+{
+  "at": "2026-10-01T11:23:30.943388+00:00",
+  "train_hash": "03c3a693dd26d4ae8e15d67051b82c0147dfb3ef55dd9c24ce5e8fb7c0fa472c",
+  "annotations": [
+    {
+      "id": "v10-daily-19-zh-CN",
+      "critical_spans": [
+        "水的损坏"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "water damage为水造成的损害，不能缩为水渍。",
+      "content_hash": "c3f01a9c15b0cf2e4b73c928823af9dc094540bb30fedadcfc3ea0486c2ff79a"
+    },
+    {
+      "id": "v5-seed-005-zh-CN",
+      "critical_spans": [
+        "地面缆车"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "funicular为轨道上的地面缆车，不是人行道。",
+      "content_hash": "016992e6a0cc42e10e9ae6d9518a319be18d7f2ab674510500344dcc40d2ff1b"
+    },
+    {
+      "id": "v10-travel-20-zh-CN",
+      "critical_spans": [
+        "一英里",
+        "无障碍通行条件"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "保留a mile数值和accessibility通行条件。",
+      "content_hash": "d4708c8bb81df8007d00f2fa41d40c2452de31875b671b22a1044149b8581eef"
+    },
+    {
+      "id": "v2-train-058-zh-CN",
+      "critical_spans": [
+        "这份高汤本身",
+        "甲壳类或贝类"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "询问高汤而非成品，shellfish涵盖甲壳类/贝类。",
+      "content_hash": "15a527f6dd0c4636196a9f355a24a40a01235594dc86065499abf51b414f326c"
+    },
+    {
+      "id": "v10-food-13-zh-CN",
+      "critical_spans": [
+        "食客想要半份",
+        "炒鸡肉"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "diner为食客，chicken stir-fry为炒鸡肉而非炒饭。",
+      "content_hash": "c455f1c0074d5d6917a89d7252545e0f3444b27e7c926d848e285903774f8d24"
+    },
+    {
+      "id": "v10-food-02-zh-CN",
+      "critical_spans": [
+        "用餐者",
+        "花生酱绝不能提供"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "食客角色和严重过敏情境下的完全禁止必须保留。",
+      "content_hash": "12ab453fa7fa529aba70b316ff5a53a2810cbffe99ba4a8b67c21ade13a82a36"
+    },
+    {
+      "id": "v10-academic-01-zh-CN",
+      "critical_spans": [
+        "可能会导致"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "could lead只表示可能性，不是必然发生。",
+      "content_hash": "e2e41f69f3e768916ac1c4a435f21765d3935955d36dd132e12871158356a45b"
+    },
+    {
+      "id": "v8-multi-031-zh-CN",
+      "critical_spans": [
+        "这个指标",
+        "另一个指标"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "两处measure均为研究指标，不是措施。",
+      "content_hash": "796074a4d145f58bde7a429e1e34e1ae5cabe8a7acd7787cabde447c3ce85e05"
+    },
+    {
+      "id": "public-short-0080-zh-CN",
+      "critical_spans": [
+        "我嗓子有点哑"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "frog in throat表达嗓音沙哑而非实体动物。",
+      "content_hash": "22688864626014d882e17f3c8179f2eef96e1dea89742b8cb7b0dced9d1ec80d"
+    },
+    {
+      "id": "v5-seed-020-zh-CN",
+      "critical_spans": [
+        "演员阵容"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "明确戏剧actors语境对应cast演员阵容。",
+      "content_hash": "51a91cd9e770380242383195f1f0a11e65ff50041d6b10a6bbe26ac489087bc8"
+    },
+    {
+      "id": "v8-multi-035-zh-CN",
+      "critical_spans": [
+        "现在该由你来决定了"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "明确决策责任语境对应ball in your court习语。",
+      "content_hash": "56f3a7886e77de7c88ff042ed3fe44f654b35eb06493a861d820f7b00ecce7ae"
+    },
+    {
+      "id": "public-short-0355-zh-CN",
+      "critical_spans": [
+        "这我就只跟你说"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "between you and me限制只向对方私下讲，译文我跟你说丢失保密限定。",
+      "content_hash": "f314a2c926d230928394626f6061779fb73f1e73263d143c29933829fd09b090"
+    },
+    {
+      "id": "v10-travel-08-en",
+      "critical_spans": [
+        "a message about arrival"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "帐篷地点与设备租赁排除保留，但抵达讯息改为confirmation message，混淆抵达通知与确认预订的信息类型。",
+      "content_hash": "7a23652a4de15225090ba032293796e943c1249f3a7ac1dbe48940367b5548f6"
+    },
+    {
+      "id": "v2-replay-v1-travel-005-02-zh-CN",
+      "critical_spans": [
+        "托运行李"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "4件全未到的量词否定保留，但checked托运属性缺失，行李箱也将bags缩窄，末句到达航班关系表达不正确。",
+      "content_hash": "0f0eb4dfb000116419b4277dd62c17e45e5f08c3ce9a3e8a12c8fc8d7d5c3b85"
+    },
+    {
+      "id": "v9-constraint-012-zh-CN",
+      "critical_spans": [
+        "导游"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "条件和可能性及未改时间保留，但guide说话女性导游误成指南，角色指代错误。",
+      "content_hash": "d3731112b25ddbdb22df6e9f5b50e4fd2587e656a43b74372e92fce923570f2f"
+    },
+    {
+      "id": "v2-train-053-en",
+      "critical_spans": [
+        "we'd each like our own dessert"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "主菜共用完整，但每人要一份甜点的需求改成had已吃一份，意愿与发生事实错误。",
+      "content_hash": "6cd32eace1c9bea06bb8c7107ff89568e9b98d5684f5e94326c40e766f5b5284"
+    },
+    {
+      "id": "v9-constraint-022-en",
+      "critical_spans": [
+        "eighty percent of the event happened"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "概率0.8保留，但否认事件发生了百分之八十改为否认80%时间发生，事件完成份额与重复频率概念混淆。",
+      "content_hash": "ad2548b2601ff3fa395936396c792f536b683457fef04f43e75d0abff1b8f3ae"
+    },
+    {
+      "id": "v2-train-083-zh-CN",
+      "critical_spans": [
+        "速率",
+        "有加速度"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "speed需区分速率与速度矢量，速度保持不变仍在加速会改变物理含义，未表达速率恒定而方向变化仍有加速度。",
+      "content_hash": "b7de62f4fe65260583a7ce809652fa92b359edbdb316166a46b6c2eba1c252bf"
+    },
+    {
+      "id": "v9-constraint-024-zh-CN",
+      "critical_spans": [
+        "测量结果一致"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "测量后校准和不能追溯验证保留，但仪器读数一致agreement误成协议，词义未按测量语境消歧。",
+      "content_hash": "8d31294e141b095dab0b98eef42f26a635405289cd36098a93fd7ae52c974bce"
+    },
+    {
+      "id": "v7-context-020-zh-CN",
+      "critical_spans": [
+        "吠叫声"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T11:23:30.943388+00:00",
+      "note": "录音编辑移除狗叫的明确语境被忽略，bark误成树皮。",
+      "content_hash": "ad67ac8fa0194a99b2b23c3ad9fd36d0fa519eec15c616155be8581c8f553031"
+    }
+  ],
+  "annotation_hash": "23aa0430e4c4cd964cd92611abbe4b6a1c756705e1426d0828b31c1f120dc77b",
+  "scope": "Twenty individually inspected actual TRAIN errors only.",
+  "release_approved": false
+}

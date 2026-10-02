@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-02T00:23:57.874783+00:00",
+  "plan_hash": "a8ba251b5f0b48f1dd5d8d536b0599c451c1ec723abb2858d439870da1bbaa79",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "calls": 72,
+  "rounds": 3,
+  "load_seconds": 20.587946699990425,
+  "mean_seconds": 11.683937190277195,
+  "p95_seconds": 14.135241700001643,
+  "generated_tokens_including_eos_max": 38,
+  "valid_json": 72,
+  "ended": 72,
+  "output_tokens_per_second": 2.631818324527511,
+  "peak_allocated_gib": 3.153695583343506,
+  "peak_reserved_gib": 3.322265625,
+  "cpu_parameter_count": 0,
+  "mean_at_most4s": false,
+  "p95_at_most8s": false,
+  "scope": "Frozen current Qwen3.5 candidate; future final candidate must rerun own-weight test. Semantic/direction acceptance separate."
+}

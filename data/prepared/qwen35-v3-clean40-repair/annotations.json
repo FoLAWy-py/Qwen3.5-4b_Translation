@@ -1,0 +1,456 @@
+{
+  "at": "2026-10-02T02:37:12.076846+00:00",
+  "train_hash": "c026c88cf623a3f208bb22ce655d9d8f470b63de06c178cda95c9a7744ce8f2a",
+  "annotations": [
+    {
+      "id": "v9-constraint-006-zh-CN",
+      "critical_spans": [
+        "洗好的衣服还没有取回来"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.178909+00:00",
+      "note": "The laundry指洗好的衣物，译洗衣房还没有取走改变未领取对象和动作主体；通知已备好与顺便取外套及衬衫部分保留。",
+      "content_hash": "ff605b9ddd9d763c65b3fdc2fb09c47bad9fd7a4f208aa7d57c5142d405efc57"
+    },
+    {
+      "id": "public-short-0356-en",
+      "critical_spans": [
+        "There's probably been a traffic accident."
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.179954+00:00",
+      "note": "可能发生了的推测被强化为must have been必然发生的推断，改变原文不确定性强度。",
+      "content_hash": "31fc2fbe37aae43f3da9dca2224e156051e97540fe80ff6eef7c0fef72a7970f"
+    },
+    {
+      "id": "public-short-0224-en",
+      "critical_spans": [
+        "was on television"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.180975+00:00",
+      "note": "上电视指本人出现在节目中，被译成watched TV看电视，行动性质改变。",
+      "content_hash": "165a704938fb76e141c7b2e82a3bb7fd22099d59f40d6dee167fa50787d3eb9f"
+    },
+    {
+      "id": "v8-multi-001-zh-CN",
+      "critical_spans": [
+        "只有我们两个人都不能在你到达之前回到家时"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.180975+00:00",
+      "note": "neither of us 我们两个人译成你们俩，改变被等待的回家者角色；钥匙与时间条件部分保留。",
+      "content_hash": "9f916c88fbbd128904af77c8d83a5708d551a3daf863865260a4c75e0c406b59"
+    },
+    {
+      "id": "public-short-0355-en",
+      "critical_spans": [
+        "Between you and me"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.181985+00:00",
+      "note": "只跟你说限制听者，变成that's the only thing I'm telling you限制说话内容，保密对象与范围改变。",
+      "content_hash": "d2a4d7ef1066041d89089dcf0fd5ce23b60d393422e34a5aa7145ac6610d8029"
+    },
+    {
+      "id": "public-short-0520-en",
+      "critical_spans": [
+        "You talk as if you knew everything"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.182992+00:00",
+      "note": "好像什么都知道变成know everything you say只知道自己说的内容，并将talk泛化为act，知识范围和行为改变。",
+      "content_hash": "a5894be3c39c3a1d5d46b180640a2dc25006433a8e57863e2bdce61246ecc612"
+    },
+    {
+      "id": "public-short-0056-en",
+      "critical_spans": [
+        "Most people"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.182992+00:00",
+      "note": "大部分限定人群，被译成Most of what people write限定所写内容比例，量化范围由多数人改成多数内容。",
+      "content_hash": "e6e9608bdf22d24846a76a0dd8a1bc44e329fc30916b7b309f9167215d752eb6"
+    },
+    {
+      "id": "v9-constraint-004-zh-CN",
+      "critical_spans": [
+        "如果旧套子合适"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.184050+00:00",
+      "note": "把旧套子尺寸合适才继续使用的条件fits泛化成还能用，改变保留旧套子的判断条件；软而不厚及备用新套子正确。",
+      "content_hash": "2eefc6f33daf2d6e18403c939c647bc392c82eaab512aa28488a57c5ece680de"
+    },
+    {
+      "id": "v10-travel-09-zh-CN",
+      "critical_spans": [
+        "自己游览城市期间",
+        "帮忙保管",
+        "这位旅行者"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.184050+00:00",
+      "note": "前台hold行李供旅客游览期间保管译成帮忙拿着，改变寄存服务的动作含义；并将单个旅客的中性they写成他们。",
+      "content_hash": "9ff4e8cfa42308252d049d5cb85900c9cf3d103744087270b7c7f1e60fc1f416"
+    },
+    {
+      "id": "public-short-0411-zh-CN",
+      "critical_spans": [
+        "下周的今天"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.185067+00:00",
+      "note": "a week from today的今天起一周后改成了本周后一周，丢失确定的日期锚点。",
+      "content_hash": "144b5ee794866bed41b54690a22e15f59fca91616eb721e2135907c8fb83a03d"
+    },
+    {
+      "id": "v10-travel-01-zh-CN",
+      "critical_spans": [
+        "另行预订自行车位"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.186072+00:00",
+      "note": "book a separate bicycle reservation指另订自行车运输位，译成单独预订自行车改变预订对象；车票不含车位及确认不保证存放区进入保留。",
+      "content_hash": "4f1781da8b43d693268b05f3e79ecea772a6c8af699fde7ab4c0992308db277d"
+    },
+    {
+      "id": "v10-travel-16-en",
+      "critical_spans": [
+        "either morning of their two-night stay"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.186072+00:00",
+      "note": "任意一个早晨使用误译为any of the two nights，早餐券有效使用时段由早晨变成夜晚，后句day并未消除冲突。",
+      "content_hash": "417b33d83df2755c29fae45089daa3f4988107fc9da729cc87116237f6be1859"
+    },
+    {
+      "id": "v4-mining-005-zh-CN",
+      "critical_spans": [
+        "北行有轨电车"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.187087+00:00",
+      "note": "将northbound tram北行有轨电车译为北行轨道，具体交通方式丢失并改变指示牌目的对象；不出站约束保留。",
+      "content_hash": "05de42096a383f2203f1143eb575e2cd60da50c3cbb73689c7972c6311cb0fbd"
+    },
+    {
+      "id": "v2-train-037-zh-CN",
+      "critical_spans": [
+        "接驳车"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.188093+00:00",
+      "note": "航站楼接驳车shuttle误作穿梭机，交通设施类型从地面接驳车改变；外面及问讯台相对位置保留。",
+      "content_hash": "a7dd1baa74fbbac4fa9348f8b813ca8ed4055a2a9ef48bd53caa169fce80639e"
+    },
+    {
+      "id": "v2-replay-v1-travel-006-02-zh-CN",
+      "critical_spans": [
+        "站台"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.188093+00:00",
+      "note": "旅行问路语境platform应为站台，译成平台丢失交通站台含义；四人数量正确。",
+      "content_hash": "8e9347428552995303c9921e7af7a160cc2a09d27d8580e79150dae76fed9c8f"
+    },
+    {
+      "id": "v8-multi-011-zh-CN",
+      "critical_spans": [
+        "让路标一直位于你的左侧"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.189017+00:00",
+      "note": "trail marker普通名词未翻译且保持左侧的trail marker表达不完整；分岔后宽路与不走上坡窄路正确。",
+      "content_hash": "63fb60dc27b69402b54618bd4613a5a11d400b226abf9219fcb61665c0fe5026"
+    },
+    {
+      "id": "v2-replay-v1-travel-015-02-en",
+      "critical_spans": [
+        "Is breakfast included for all 4 guests staying in this room"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.189528+00:00",
+      "note": "早餐是否对全部四位住客包含在房费中的关系译成guests include breakfast，让客人成为包含早餐的主体，服务涵盖关系错误。",
+      "content_hash": "bb731da368c7c17ba0350848ebe560d5870c7733dcd3e59c52765e0394f92a97"
+    },
+    {
+      "id": "public-short-0587-zh-CN",
+      "critical_spans": [
+        "出发晚了"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.189528+00:00",
+      "note": "got a late start表示开始活动或出发较晚，不足以断定起床晚；译文擅自限定为起床并强化成很晚。",
+      "content_hash": "cbe25330470d04de51137b9677c9155b67c7361581c9aab25a31b93738f3a09f"
+    },
+    {
+      "id": "v2-train-058-zh-CN",
+      "critical_spans": [
+        "甲壳类或贝类",
+        "这份高汤本身"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.191041+00:00",
+      "note": "stock高汤被译为这道菜，询问对象改变且与成品无该食材的让步关系冲突；shellfish仅写甲壳类海鲜亦遗漏贝类范围。",
+      "content_hash": "599388ec3d55e2d2351b4f224e3b568140ac8c1885e1740f546c2e0d68ae684d"
+    },
+    {
+      "id": "v10-food-15-zh-CN",
+      "critical_spans": [
+        "没有加甜味剂",
+        "用蜂蜜增甜"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.191041+00:00",
+      "note": "unsweetened泛化为不加糖，sweetened with honey译成用蜂蜜加糖，混淆蜂蜜增甜与添加糖；后句要求区分糖和任何甜味剂，前句未保留该区分。",
+      "content_hash": "5d74bdc51cf00b8f8498edd03b281fa11d763efd3a12de77fb9365a17ef0a6d0"
+    },
+    {
+      "id": "v4-mining-011-zh-CN",
+      "critical_spans": [
+        "意面沥水之前",
+        "把酱汁调稀"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.192410+00:00",
+      "note": "沥干意面前留煮面水误成煮意面之前，时间步骤改变；loosen调稀酱汁误作使酱汁更易附着，功能也改变。",
+      "content_hash": "584e24ffc0ebb5a2d431e7d3d6f372b9bf6dca20eeda3b0b6aabd52e42d16c83"
+    },
+    {
+      "id": "v10-food-02-zh-CN",
+      "critical_spans": [
+        "用餐者"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.192914+00:00",
+      "note": "diner用餐者误成餐厅，提出禁用花生酱要求的主体改变；严重过敏及完全不提供而非放旁边的安全限制仍保留。",
+      "content_hash": "c2a718f3b1a2d824617d29828437dd22f5bd47089d6ef9bff8538190203cb19f"
+    },
+    {
+      "id": "v3-train-015-zh-CN",
+      "critical_spans": [
+        "汤里仍含有贝类成分"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.193655+00:00",
+      "note": "汤里仍含shellfish的具体贝类成分信息泛化为海鲜；去掉可见食材后仍存在的特定成分识别不足。",
+      "content_hash": "1a7efc70d6c9892b4e4fcf95847a9699e2a3729422dd80e60bf8d30fcbdf1cbf"
+    },
+    {
+      "id": "v2-train-056-en",
+      "critical_spans": [
+        "a serving spoon",
+        "We already have enough forks"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.193655+00:00",
+      "note": "公勺译public spoon未表达分菜用公用勺，叉子已经够了变成The fork is enough，餐具用途及数量满足关系错误。",
+      "content_hash": "de4487ecaddd2af7af618f25e44e2028827c92c352bd0a50726a8ae2732bea80"
+    },
+    {
+      "id": "v2-train-056-zh-CN",
+      "critical_spans": [
+        "公勺"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.194315+00:00",
+      "note": "serving spoon译服务勺，词义错配而未表达公勺或分菜勺；叉子已经足够准确。",
+      "content_hash": "d9c47d0c0de069ffd338c3437ac13cf2a471e7e22464f270dfea666a35a98046"
+    },
+    {
+      "id": "v9-constraint-015-zh-CN",
+      "critical_spans": [
+        "给豆子沥水之前"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.195130+00:00",
+      "note": "draining the beans给豆子沥水译成倒掉豆子，把保留食材沥水变成丢弃食材；两汤匙及仅过干才加入正确。",
+      "content_hash": "67f091ae85c93a32519db6fe945fb6a4ae4988038f07814b3be8cf1b745d488c"
+    },
+    {
+      "id": "v10-food-01-en",
+      "critical_spans": [
+        "fresh green peas"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.196396+00:00",
+      "note": "新鲜青豆译fresh green beans即四季豆，改变具体豆类食材；鹰嘴豆入汤及另菜留用的分工保留。",
+      "content_hash": "4eeed1aed3c9ed2e6153da1f9b8dd79c1f68b344b8440b5dab1b60c5689f2529"
+    },
+    {
+      "id": "v8-multi-018-zh-CN",
+      "critical_spans": [
+        "把它轻轻盖住"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.196925+00:00",
+      "note": "loosely作为普通操作副词未翻译，且loosely盖住的混合表达不能完整交付中文指令；静置和防干背景保留。",
+      "content_hash": "58e76c61380c78fdb69d672c30107b4a3496c5289e1d4fc870b8a90ede31e0ab"
+    },
+    {
+      "id": "v4-mining-009-zh-CN",
+      "critical_spans": [
+        "微沸的汤"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.197430+00:00",
+      "note": "漏勺捞饺子正确，但simmering broth原样留英文，微沸汤体条件未翻译，中文方向不完全正确。",
+      "content_hash": "8249af52ea6f876d66224b4073742bb1967585a306e62d274260d664789bf73c"
+    },
+    {
+      "id": "v8-multi-024-zh-CN",
+      "critical_spans": [
+        "馅饼"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.197430+00:00",
+      "note": "tart馅饼改为蛋糕，食品类型改变；冷却后可切片及此前移动可能坏底部的时序风险保留。",
+      "content_hash": "ba4e0a0d9c88dbd59591b888839e9852c097c17385044e8e579978baf6c52d06"
+    },
+    {
+      "id": "v8-multi-021-zh-CN",
+      "critical_spans": [
+        "足够的馅料"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.197430+00:00",
+      "note": "filling馅料译为面团，剩余材料身份改变；小份延长用量及改烹饪时间前核对保留。",
+      "content_hash": "a2d3ce98fa37b3d4beb3d3dd43d5232cfce08a7df31d19d857c0a166791c1995"
+    },
+    {
+      "id": "public-short-0196-en",
+      "critical_spans": [
+        "had run out of salt"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.199449+00:00",
+      "note": "已经用完译成was running out正在耗尽，把零剩余的完成状态变成尚在减少的过程。",
+      "content_hash": "1c1e79d1e2689e92c241fdc1c85dd9e1c9b05a26f92cee3703b4991ddcf345a1"
+    },
+    {
+      "id": "v9-constraint-023-en",
+      "critical_spans": [
+        "an open endpoint at zero",
+        "both the notation and the distinction between the endpoints"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.199449+00:00",
+      "note": "零不包含一包含和记号正确，但保留记号及端点区别变成keep the distinction between the notation and the endpoints，将要求区分两个端点误作区分记号与端点。",
+      "content_hash": "593d63d7c911271f3e11cc182744dbd0f82ee3340049300dcef0e180f1088388"
+    },
+    {
+      "id": "v2-train-083-zh-CN",
+      "critical_spans": [
+        "速率保持不变",
+        "物体仍然有加速度"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.200454+00:00",
+      "note": "物理语境将speed速率写成速度并把有加速度表达为仍在加速，未保留速率不变而运动方向改变也可有加速度的标量矢量区分，形成速度不变仍加速的歧义矛盾。",
+      "content_hash": "5831529d968870603acbca837ea9549418e7e2ef6e07e1ec1a71c00b75354be5"
+    },
+    {
+      "id": "v9-constraint-024-zh-CN",
+      "critical_spans": [
+        "后来仪器之间的测量结果一致"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.201454+00:00",
+      "note": "测量仪器结果agreement一致性误成仪器之间的协议，技术对象关系改变；首次测量后才校准与不能回溯验证的限制保留。",
+      "content_hash": "1ea888e8a51c2832e2b14fb24220551e5e14883e9ada0907daacb85f20ec4257"
+    },
+    {
+      "id": "v9-constraint-022-en",
+      "critical_spans": [
+        "eighty percent of the event happened"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.201454+00:00",
+      "note": "事件发生了百分之八十所指事件的部分完成，误改为occurred eighty percent of the time重复事件频率，改变被否定陈述的含义。",
+      "content_hash": "88717eced50bc56cc23cf28f7f404f696e9a7f3e6223ed79bbfb9dca47af6674"
+    },
+    {
+      "id": "public-short-0080-zh-CN",
+      "critical_spans": [
+        "嗓子有点哑"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.202454+00:00",
+      "note": "frog in my throat惯用语嗓音沙哑误为喉咙有鱼刺，症状及原因完全改变。",
+      "content_hash": "286d8c1d9f32937fda4d99497d26a624cf9df537d435d64600bf4ace11468ec1"
+    },
+    {
+      "id": "v8-multi-034-zh-CN",
+      "critical_spans": [
+        "不要泄露秘密"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.202454+00:00",
+      "note": "惊喜保密语境do not spill the beans不泄露秘密改成别把底牌都亮出来，否定范围成为不全透露而非不透露秘密；到齐再说的时序保留。",
+      "content_hash": "a80322c242e4a25082e53e5503e026e1c69c1ebd4ddfa065e6b7b9db3d7a04f6"
+    },
+    {
+      "id": "v7-context-010-zh-CN",
+      "critical_spans": [
+        "鳎鱼"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.203454+00:00",
+      "note": "鱼柜且明确flatfish语境sole鳎鱼错成鱼眼，具体鱼种改为鱼的身体部位。",
+      "content_hash": "e82af78a790a6a6010ff1217307b285994d470e3977b339cae37b32290985cab"
+    },
+    {
+      "id": "v2-train-114-zh-CN",
+      "critical_spans": [
+        "YES 这个词"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-02T01:17:50.203454+00:00",
+      "note": "保持翻译整个请求边界，但明确命名的字面回复词YES被替换为“是”，改变内文约定的具体回复内容。",
+      "content_hash": "199eba9ab60329f6c8839257b34989df3b482e549ae5992067942d08ca499593"
+    }
+  ],
+  "annotation_hash": "951066e415ffcd58656fe2d3849a1e4a6943b1b9e44c5817e968ae8f7aa4fcec",
+  "scope": "Explicit previously reviewed semantic spans in40 real current errors only."
+}

@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-02T04:20:32.386303+00:00",
+  "correction_report_hash": "7a8178e65742e9834c078b54a5a82149b0c51661af0cbf3c9fe6e5763f2b2bf5",
+  "views": [
+    {
+      "name": "frozen_start416",
+      "generation": "runs/qwen35-v3-train-discovery-recovery1.jsonl",
+      "review": "runs/qwen35-v3-train-discovery-lexical-corrected-manual.jsonl",
+      "refs": "data/prepared/v16-reviewed-families/train-ready-after-overlap-review.jsonl",
+      "expected": 416,
+      "raw_hash": "4157c8242c57973710f84f0e5dac721f8efb35277922359fcd28a5fdf2c809c0",
+      "review_hash": "b23397474e89585b289fc0184fcd1e638f27302bb6de2ce3d0a8e6d3d4784a16",
+      "reference_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+      "counts": {
+        "pass": 328,
+        "minor": 55,
+        "major": 33
+      },
+      "all_content_bindings_valid": true
+    },
+    {
+      "name": "quarantined_candidate114",
+      "generation": "runs/qwen35-v3-reviewed34-recall.jsonl",
+      "review": "runs/qwen35-v3-reviewed34-recall-conservative-manual.jsonl",
+      "refs": "data\\prepared\\qwen35-v3-reviewed34-repair\\recall.jsonl",
+      "expected": 114,
+      "raw_hash": "1ab08743f468a93a05743c7b4ce41bdc639d2a5e0aa6ddc616edb0fe29bf7ef8",
+      "review_hash": "e13d4839b94a3e92424393ac522ad8dc1b425bd231ff18460529961652b59b06",
+      "reference_hash": "2a0e1d4c9ebed141f02a02eebacb0011cd400e4b4e19ead366c5018e2779a3c1",
+      "counts": {
+        "pass": 78,
+        "major": 12,
+        "minor": 24
+      },
+      "all_content_bindings_valid": true
+    }
+  ],
+  "clean_pairs_hash": "53fe4378468b89fb71fd293e2dbae2a670c58e9fba0cb7f2a4c894fdb08a4b69",
+  "all33_negatives_are_actual_original_start_predictions": true,
+  "no_raw_output_modified": true,
+  "old_candidate_eligible": false,
+  "stage_goal_complete": false
+}

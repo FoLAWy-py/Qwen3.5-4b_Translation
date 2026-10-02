@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:51.794715+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-hard-09",
+      "category": "hard",
+      "topic": "A group draws the line at sharing a private draft outside the team; boundary refers to acceptable action, not a drawing task.",
+      "group_id": "v10-hard-09"
+    },
+    {
+      "case_id": "v10-hard-10",
+      "category": "hard",
+      "topic": "A team is back to square one after an assumption fails, but retained notes are still available; idiom does not imply all records vanished.",
+      "group_id": "v10-hard-10"
+    },
+    {
+      "case_id": "v10-hard-11",
+      "category": "hard",
+      "topic": "A writer says an apparent contradiction is a red herring in a discussion; it is a distraction, not a fish or an answer to the contradiction.",
+      "group_id": "v10-hard-11"
+    },
+    {
+      "case_id": "v10-hard-12",
+      "category": "hard",
+      "topic": "A person brushes up on a language before a trip; revising knowledge is not physically brushing an object.",
+      "group_id": "v10-hard-12"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-hard-09\",\n      \"english\": \"The team agreed they wouldn’t share the internal draft with outsiders. Drawing the line there helped keep the project secure and focused.\",\n      \"chinese\": \"团队一致同意不将内部草稿分享给外界人士。在这一点上划清界限有助于保持项目的安全性和专注度。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-10\",\n      \"english\": \"The failed assumption sent the team back to square one, but their earlier notes gave them a starting point.\",\n      \"chinese\": \"失败的假设使团队回到了起点，但他们的早期笔记给了他们一个起点。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-11\",\n      \"english\": \"She pointed out that the contradiction was just a red herring and not a real problem.\",\n      \"chinese\": \"她指出这个矛盾只是一个转移注意力的手段，并不是一个真正的问题。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-12\",\n      \"english\": \"Before the trip, he brushed up on his Spanish to be ready for conversations.\",\n      \"chinese\": \"旅行前，他复习了西班牙语，为对话做好准备。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 470,
+    "total_tokens": 768,
+    "completion_tokens": 298,
+    "estimated_cost": 0.00012104,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

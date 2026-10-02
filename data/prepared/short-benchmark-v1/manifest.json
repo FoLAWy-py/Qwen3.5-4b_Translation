@@ -1,0 +1,140 @@
+{
+  "at": "2026-09-30T21:00:26.132811+00:00",
+  "rows": 27,
+  "hash": "e1ada036fae1dcd56d06ea0a1e9f630a8ca4f59e461abe5d9df267de29a3964c",
+  "source_hash": "1f538b9f02cded2f40101a92ee3fdd90669318718d4f4e236077e7609cfcaaec",
+  "source_paths": [
+    "data/prepared/v4/dev.jsonl",
+    "data/prepared/v8-multisentence/train.jsonl"
+  ],
+  "directions": {
+    "en": 14,
+    "zh-CN": 13
+  },
+  "eligible_by_stratum": {
+    "daily/zh-CN": 8,
+    "daily/en": 7,
+    "travel/zh-CN": 8,
+    "travel/en": 8,
+    "food/zh-CN": 8,
+    "food/en": 8,
+    "academic/zh-CN": 8,
+    "academic/en": 8,
+    "hard/en": 2,
+    "hard/zh-CN": 1
+  },
+  "selection": "First three IDs in each eligible category/direction; only source and reference length used; no model outputs or latency used",
+  "lengths": {
+    "v8-multi-025-en": {
+      "body_tokens": 27,
+      "reference_json_and_eos_tokens": 34
+    },
+    "v8-multi-026-en": {
+      "body_tokens": 26,
+      "reference_json_and_eos_tokens": 34
+    },
+    "v8-multi-027-en": {
+      "body_tokens": 24,
+      "reference_json_and_eos_tokens": 34
+    },
+    "v8-multi-025-zh-CN": {
+      "body_tokens": 27,
+      "reference_json_and_eos_tokens": 35
+    },
+    "v8-multi-026-zh-CN": {
+      "body_tokens": 28,
+      "reference_json_and_eos_tokens": 32
+    },
+    "v8-multi-027-zh-CN": {
+      "body_tokens": 22,
+      "reference_json_and_eos_tokens": 27
+    },
+    "v8-multi-001-en": {
+      "body_tokens": 26,
+      "reference_json_and_eos_tokens": 35
+    },
+    "v8-multi-002-en": {
+      "body_tokens": 23,
+      "reference_json_and_eos_tokens": 33
+    },
+    "v8-multi-003-en": {
+      "body_tokens": 25,
+      "reference_json_and_eos_tokens": 30
+    },
+    "v8-multi-001-zh-CN": {
+      "body_tokens": 26,
+      "reference_json_and_eos_tokens": 31
+    },
+    "v8-multi-002-zh-CN": {
+      "body_tokens": 27,
+      "reference_json_and_eos_tokens": 26
+    },
+    "v8-multi-003-zh-CN": {
+      "body_tokens": 24,
+      "reference_json_and_eos_tokens": 28
+    },
+    "v8-multi-017-en": {
+      "body_tokens": 22,
+      "reference_json_and_eos_tokens": 32
+    },
+    "v8-multi-018-en": {
+      "body_tokens": 28,
+      "reference_json_and_eos_tokens": 33
+    },
+    "v8-multi-019-en": {
+      "body_tokens": 28,
+      "reference_json_and_eos_tokens": 32
+    },
+    "v8-multi-017-zh-CN": {
+      "body_tokens": 29,
+      "reference_json_and_eos_tokens": 34
+    },
+    "v8-multi-018-zh-CN": {
+      "body_tokens": 27,
+      "reference_json_and_eos_tokens": 33
+    },
+    "v8-multi-019-zh-CN": {
+      "body_tokens": 27,
+      "reference_json_and_eos_tokens": 31
+    },
+    "v8-multi-036-en": {
+      "body_tokens": 23,
+      "reference_json_and_eos_tokens": 28
+    },
+    "v8-multi-038-en": {
+      "body_tokens": 20,
+      "reference_json_and_eos_tokens": 25
+    },
+    "v8-multi-038-zh-CN": {
+      "body_tokens": 20,
+      "reference_json_and_eos_tokens": 25
+    },
+    "v8-multi-009-en": {
+      "body_tokens": 22,
+      "reference_json_and_eos_tokens": 35
+    },
+    "v8-multi-010-en": {
+      "body_tokens": 22,
+      "reference_json_and_eos_tokens": 30
+    },
+    "v8-multi-011-en": {
+      "body_tokens": 35,
+      "reference_json_and_eos_tokens": 36
+    },
+    "v8-multi-009-zh-CN": {
+      "body_tokens": 28,
+      "reference_json_and_eos_tokens": 27
+    },
+    "v8-multi-010-zh-CN": {
+      "body_tokens": 26,
+      "reference_json_and_eos_tokens": 31
+    },
+    "v8-multi-011-zh-CN": {
+      "body_tokens": 25,
+      "reference_json_and_eos_tokens": 40
+    }
+  },
+  "generation_budget": 128,
+  "repetitions": 3,
+  "scope": "Known-development and reviewed future-training performance inputs only, not an accuracy test or held-out split. Short inputs may fail20-token floor and are not padded with artificial source text. Reference length is eligibility only; actual output token counts/end state must be measured."
+}

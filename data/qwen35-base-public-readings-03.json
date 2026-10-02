@@ -1,0 +1,22 @@
+{
+  "public-short-0151-zh-CN": ["pass", "每次来都同道菜，频次对象准确。", true],
+  "public-short-0226-en": ["pass", "想谈对方情况，愿望角色完整。", true],
+  "public-short-0565-zh-CN": ["pass", "像刚失去最好朋友，主体隐含你的朋友，程度时间完整。", true],
+  "public-short-0227-zh-CN": ["pass", "桌上一橙子，数量位置准确。", true],
+  "public-short-0227-en": ["pass", "桌上一橙子，准确。", true],
+  "public-short-0011-zh-CN": ["major", "包裹上的地址错把 parcel 译地块，与微调同误。", true],
+  "public-short-0135-zh-CN": ["pass", "告诉妻子别冲动购物，角色否定准确。", true],
+  "public-short-0135-en": ["pass", "告诉妻子勿冲动买，准确。", true],
+  "public-short-0306-en": ["pass", "若我是你我会去，假设角色正确。", true],
+  "public-short-0402-zh-CN": ["pass", "感谢对方来见我，未新增意愿条件。", true],
+  "public-short-0104-en": ["pass", "无家可归时常睡那长椅，时间频次位置准确。", true],
+  "public-short-0442-en": ["pass", "中文论文未指定 thesis，paper 合理，完成问句完整。", true],
+  "public-short-0052-zh-CN": ["pass", "勿对批评过敏感，程度对象准确。", true],
+  "public-short-0052-en": ["pass", "否定过分敏感批评，准确。", true],
+  "public-short-0174-en": ["pass", "定期牙医故很少牙痛，因果频次完整。", true],
+  "public-short-0507-zh-CN": ["pass", "艺术毫无兴趣，完全否定准确。", true],
+  "public-short-0507-en": ["pass", "艺术一点无兴趣，准确。", true],
+  "public-short-0170-en": ["pass", "农场工作整天，地点时长准确。", true],
+  "public-short-0248-zh-CN": ["minor", "年轻但有经验正确，经验丰富加强程度，与微调很有经验同口径。", true],
+  "public-short-0248-en": ["pass", "年轻却有经验，转折准确。", true]
+}

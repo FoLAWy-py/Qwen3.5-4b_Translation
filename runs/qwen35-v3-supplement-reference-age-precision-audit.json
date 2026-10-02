@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-02T03:55:27.877360+00:00",
+  "discovered_during": "ActualTRAINrecall review, after this round; not independent confirmation",
+  "source_group": "q35-v3-supplement-daily-03",
+  "issues": [
+    {
+      "id": "q35-v3-supplement-daily-03-zh-CN",
+      "input": {
+        "text": "Mira reserved a reading booth for her brother, but the reservation remains under her own name. The librarian should check Mira's booking rather than ask her brother to make a second one.",
+        "target_lang": "zh-CN",
+        "context": "Mira is a woman. Her brother will use the booth, and Mira is the booking holder.",
+        "glossary": {
+          "reading booth": "阅读隔间",
+          "reservation": "预订"
+        }
+      },
+      "reference": {
+        "translation": "米拉为弟弟预订了阅读隔间，但预订仍登记在她本人名下。图书管理员应核查米拉的预订，而不是让她弟弟再订一次。"
+      },
+      "reference_content_hash": "bdb3291583be1551d3c85d81118342442f0ed29b7b94a510677aaebd7b0fde1a",
+      "note": "米拉替男性兄弟预订、本人名下及馆员不应要求再次预订的角色关系正确；brother及语境未说明年龄，弟弟增加较年幼限定。原参考也有同样年龄限定，应另记参考质量问题，不据参考相同而自动判pass。"
+    },
+    {
+      "id": "q35-v3-supplement-daily-03-en",
+      "input": {
+        "text": "米拉为弟弟预订了阅读隔间，但预订仍登记在她本人名下。图书管理员应核查米拉的预订，而不是让她弟弟再订一次。",
+        "target_lang": "en",
+        "context": "Mira is a woman. Her brother will use the booth, and Mira is the booking holder.",
+        "glossary": {
+          "阅读隔间": "reading booth",
+          "预订": "reservation"
+        }
+      },
+      "reference": {
+        "translation": "Mira reserved a reading booth for her brother, but the reservation remains under her own name. The librarian should check Mira's booking rather than ask her brother to make a second one."
+      },
+      "reference_content_hash": "5f4fd1702f00a8ec02868bbec8ceb0b36ed17b620c81c9645ef3f77b5dac1c9c",
+      "note": "预订人、使用者、本人名下与不二次预订的关系正确；中文弟弟的较年幼信息在brother中未明确表达，参考同样未表达，属轻微信息压缩而非主要角色错译。"
+    }
+  ],
+  "severity": "minor sibling-age reference precision issue",
+  "original_approved_sources_preserved": true,
+  "retroactive_reference_changes": false,
+  "use_as_negative": false,
+  "required_next": "Before any future training/review using this family, explicitly re-review bilingual age detail and produce a separately audited corrected positive view or omit the pair; never pretend the original reference audit anticipated this discovery.",
+  "stage_goal_complete": false
+}

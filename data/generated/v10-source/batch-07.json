@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:55.059960+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-travel-05",
+      "category": "travel",
+      "topic": "A station announcement moves a departure to another platform without changing the departure time; a train on the old platform is a different service.",
+      "group_id": "v10-travel-05"
+    },
+    {
+      "case_id": "v10-travel-06",
+      "category": "travel",
+      "topic": "A visitor may return a rented camera at a second branch only after notifying the first branch; distinguish pickup location from allowed return location.",
+      "group_id": "v10-travel-06"
+    },
+    {
+      "case_id": "v10-travel-07",
+      "category": "travel",
+      "topic": "A boat operator offers an alternative departure if the booked one is cancelled; an alternative is not automatically a confirmed replacement.",
+      "group_id": "v10-travel-07"
+    },
+    {
+      "case_id": "v10-travel-08",
+      "category": "travel",
+      "topic": "A campsite booking includes a tent pitch and excludes equipment rental; an arrival message is not a request to provide a tent.",
+      "group_id": "v10-travel-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-travel-05\",\n      \"english\": \"The train to Paris has been moved to Platform 4, but the departure time remains unchanged. The train currently at Platform 3 is a regional service heading to Lyon, not the high-speed express.\",\n      \"chinese\": \"前往巴黎的列車已改為4號月台發車，但出發時間保持不變。目前3號月台的列車是開往里昂的區域列車，不是高速列車。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-06\",\n      \"english\": \"If you rent a camera at the downtown branch, you must call them before returning it at the airport location. The pickup location does not determine where you can return the item.\",\n      \"chinese\": \"如果您在市中心分行租借相機，必須在機場位置還機前聯繫他們。取貨地點並不能決定您可以在哪裡歸還物品。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-07\",\n      \"english\": \"If your booked ferry is cancelled, the operator will propose an alternative departure. However, this alternative is not a confirmed booking and must be confirmed separately.\",\n      \"chinese\": \"如果您預定的渡輪取消，營運商會提供其他出發時間。但此替代方案並非已確認預定，必須另行確認。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-travel-08\",\n      \"english\": \"Your campsite reservation includes a tent pitch, but does not cover equipment rental. Sending a message about arrival does not mean the site will supply a tent for you.\",\n      \"chinese\": \"您的營地預訂包含帳篷地點，但不包括設備租賃。傳送抵達訊息並不代表營地會為您提供帳篷。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 474,
+    "total_tokens": 912,
+    "completion_tokens": 438,
+    "estimated_cost": 0.00016056000000000002,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

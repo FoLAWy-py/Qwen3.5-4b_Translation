@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-01T09:03:50.813630+00:00",
+  "parent_manifest": "data/prepared/v14-public-fact-pairs/manifest.json",
+  "parent_pairs_hash": "a08cc193f065ad5fe85b885f8371989388c1e711c3b81c09c04240942928c293",
+  "pairs_hash": "a29324dc4635074c18bde2f696479c0346b3434cc44aace91a018b54521e4f74",
+  "families": 13,
+  "matrices": 26,
+  "excluded": [
+    {
+      "id": "public-fact-0310-zh-CN",
+      "group_id": "public-v12-public-short-0310",
+      "record_hash": "9d70d69d73e817b6c87f73aae3ae2f37c7285a126a4ccd11ffd1493409e3571f"
+    },
+    {
+      "id": "public-fact-0310-en",
+      "group_id": "public-v12-public-short-0310",
+      "record_hash": "1bd27a066ffbacfa9de97201d33cfadf7f3d5690a2fc1adf4ce84190e664c88f"
+    }
+  ],
+  "reviewer": "Codex",
+  "review_decision": "Exclude from contrastive negatives; positive sentence itself need not be rejected.",
+  "reason": "Coarse tomorrow-afternoon interval gives insufficient precision for a strict by/before boundary contrast. In ordinary translation the off-diagonal cannot reliably be declared incorrect without a precise clock deadline or explicit inclusive/exclusive context.",
+  "interpretation": "Conservative negative-data audit; parent teacher-forced preference is not proof of a decoded factual error. Legacy v14 used these two matrices and is not clean causal method evidence.",
+  "training_allowed": true,
+  "training_started": false,
+  "new_independent_sources": 0,
+  "release_approved": false
+}

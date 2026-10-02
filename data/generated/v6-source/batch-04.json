@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:28.649926+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-travel-05",
+      "category": "travel",
+      "topic": "a cyclist asking about a route with steep inclines",
+      "group_id": "v6-travel-05"
+    },
+    {
+      "case_id": "v6-travel-06",
+      "category": "travel",
+      "topic": "a group agreeing where to meet after visiting a market",
+      "group_id": "v6-travel-06"
+    },
+    {
+      "case_id": "v6-travel-07",
+      "category": "travel",
+      "topic": "a passenger explaining why a travel document is in another bag",
+      "group_id": "v6-travel-07"
+    },
+    {
+      "case_id": "v6-travel-08",
+      "category": "travel",
+      "topic": "a tourist asking how to reach an observation deck",
+      "group_id": "v6-travel-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-travel-05\",\n      \"english\": \"This path has steep sections. I'm not sure if my bike can handle it.\",\n      \"chinese\": \"这条小路有些陡峭的路段。我不确定我的自行车能应付吗。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-06\",\n      \"english\": \"Let's meet at the fountain after the market. It's the only landmark there.\",\n      \"chinese\": \"市场结束后我们在喷泉那里见面。那里唯一明显的地标就是喷泉。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-07\",\n      \"english\": \"My passport is in the other bag because I don't want to risk losing it.\",\n      \"chinese\": \"我的护照在另一个包里，因为我不想冒丢失的风险。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-travel-08\",\n      \"english\": \"How do I get to the highest viewing platform from here?\",\n      \"chinese\": \"从这里怎么去最高的观景台？\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 388,
+    "total_tokens": 653,
+    "completion_tokens": 265,
+    "estimated_cost": 0.00010523999999999999,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

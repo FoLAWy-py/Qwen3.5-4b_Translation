@@ -1,0 +1,13 @@
+{
+  "v4-dev-094-en": ["pass", "树根露出，中文未限定根数，复数合理。", true],
+  "v4-dev-095-zh-CN": ["minor", "吉他和弦消歧正确，但 hold 按住弱化为按准，准确性替代保持按弦。", true],
+  "v4-dev-095-en": ["minor", "和弦按弦语义可辨，但 hard to press 搭配不自然且保持按住略失。", true],
+  "v4-dev-096-zh-CN": ["pass", "文档版面语境 margin 为页边距，过窄准确。", true],
+  "v4-dev-096-en": ["pass", "page margins too narrow，正确。", true],
+  "v4-dev-097-zh-CN": ["pass", "手持设备 housing 语境 case 为外壳，裂开准确。", true],
+  "v4-dev-097-en": ["pass", "外壳裂开，outer housing 为合理同义。", true],
+  "v4-dev-098-zh-CN": ["pass", "扬声器响度语境 volume 为音量且调低，正确。", true],
+  "v4-dev-098-en": ["pass", "音量 turned down，消歧与状态正确。", true],
+  "v4-dev-099-zh-CN": ["pass", "初稿协议语境 draft 为草案且传阅，正确。", true],
+  "v4-dev-100-en": ["pass", "屋顶支撑语境 beam 为横梁且已经下垂，正确。", true]
+}

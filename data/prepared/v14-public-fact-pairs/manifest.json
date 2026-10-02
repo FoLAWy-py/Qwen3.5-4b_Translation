@@ -1,0 +1,159 @@
+{
+  "at": "2026-10-01T07:48:30.712268+00:00",
+  "parent_training_hash": "0c3098fbbc3708c153975e21bc300cd5afc9d646b7813d42e49d004a321f0f9c",
+  "explicitly_reviewed_parent_families": 14,
+  "retained_families": 14,
+  "pair_matrices": 28,
+  "positive_records": 56,
+  "pairs_hash": "a08cc193f065ad5fe85b885f8371989388c1e711c3b81c09c04240942928c293",
+  "positives_hash": "3b5458a5d1e4dc1edb7cd9d51a2be567aeb7e80643e3d55effeec41924c8de03",
+  "fact_axes": {
+    "degree": 2,
+    "quantifier": 2,
+    "duration-delta-versus-total": 2,
+    "time-point-versus-window": 2,
+    "count": 2,
+    "certainty": 2,
+    "comparison-direction": 2,
+    "probability": 2,
+    "deadline-boundary": 2,
+    "obligation-polarity": 2,
+    "affected-role": 2,
+    "event-role": 2,
+    "action-order": 2,
+    "frequency": 2
+  },
+  "directions": {
+    "zh-CN": 14,
+    "en": 14
+  },
+  "all_four_combination_max_tokens": 232,
+  "truncated_combinations": 0,
+  "excluded": [],
+  "scanned_heldout_source_snapshots": [
+    {
+      "path": "data\\prepared\\pilot-v1\\dev.jsonl",
+      "source_fields_hash": "13c1688f7f2e9ac484811b576ebef9e71dc3039c6ef812d47c84bbce9c958ba1"
+    },
+    {
+      "path": "data\\prepared\\pilot-v1\\test.jsonl",
+      "source_fields_hash": "f97fcc8dd208546f35196245ad0a4e667b7d0e43367753f56195a3577af908db"
+    },
+    {
+      "path": "data\\prepared\\v1\\acceptance_120.jsonl",
+      "source_fields_hash": "e08635230888c9c4e7c4c50b650241854977476dbbffa04b4ad9eafff6e5a2db"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev.jsonl",
+      "source_fields_hash": "07995a73110d00ed39311642a0ec89bfb67749de2ea28fca73a5c1654e1ba3f5"
+    },
+    {
+      "path": "data\\prepared\\v1\\dev_screen.jsonl",
+      "source_fields_hash": "e7e3f5074da63aed365ce3e54946dbeca7e2fe3bb31dbd904ffe6c8d65fe0266"
+    },
+    {
+      "path": "data\\prepared\\v1\\test.jsonl",
+      "source_fields_hash": "55e52942fc4ee784aff9fe5b2213bf0e12f685c2f1861c1daa1e1bd38b74d44c"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_corrected.jsonl",
+      "source_fields_hash": "55e52942fc4ee784aff9fe5b2213bf0e12f685c2f1861c1daa1e1bd38b74d44c"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen.jsonl",
+      "source_fields_hash": "d833a3176a4101e293264416192923d493fa3b81f2df1ee8c04c5e42a529f42a"
+    },
+    {
+      "path": "data\\prepared\\v1\\test_screen_corrected.jsonl",
+      "source_fields_hash": "d833a3176a4101e293264416192923d493fa3b81f2df1ee8c04c5e42a529f42a"
+    },
+    {
+      "path": "data\\prepared\\v11-mixed\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    },
+    {
+      "path": "data\\prepared\\v12-factorial\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    },
+    {
+      "path": "data\\prepared\\v12-factorial\\public-dev.jsonl",
+      "source_fields_hash": "e31f39069f4698ef755a02bd3532e4a2460cfd7102a18dd93a3c31772d930d77"
+    },
+    {
+      "path": "data\\prepared\\v12-factorial-v2\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    },
+    {
+      "path": "data\\prepared\\v12-factorial-v2\\public-dev.jsonl",
+      "source_fields_hash": "e31f39069f4698ef755a02bd3532e4a2460cfd7102a18dd93a3c31772d930d77"
+    },
+    {
+      "path": "data\\prepared\\v12-public-short\\dev.jsonl",
+      "source_fields_hash": "e31f39069f4698ef755a02bd3532e4a2460cfd7102a18dd93a3c31772d930d77"
+    },
+    {
+      "path": "data\\prepared\\v2\\bf16_test.jsonl",
+      "source_fields_hash": "e6767dd8c8e6b39264633bcd43a3d9cce05fe89c66b7c3efeec3ff9b9c9ad1a3"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev.jsonl",
+      "source_fields_hash": "159ed6d61254487f3d05b9402c56f545987a1515acc82d89ec44a2ea1437e2f7"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_corrected.jsonl",
+      "source_fields_hash": "296d6ccb4feb461bdfbf19cf585dbd772c7902c358d902e404d22a3a1d0b5dd9"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen.jsonl",
+      "source_fields_hash": "159ed6d61254487f3d05b9402c56f545987a1515acc82d89ec44a2ea1437e2f7"
+    },
+    {
+      "path": "data\\prepared\\v2\\dev_screen_corrected.jsonl",
+      "source_fields_hash": "296d6ccb4feb461bdfbf19cf585dbd772c7902c358d902e404d22a3a1d0b5dd9"
+    },
+    {
+      "path": "data\\prepared\\v2\\precision_test.jsonl",
+      "source_fields_hash": "f0ea67eb2c313d7c2cd2710b48bb76ddcb95441170b42de1136d584e81944e96"
+    },
+    {
+      "path": "data\\prepared\\v2\\test.jsonl",
+      "source_fields_hash": "7d408210401087a2580fb6446fa1e26402fc1fe2960764c9f8b4cea5a72ada05"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev.jsonl",
+      "source_fields_hash": "49730422d01e7b92c57906ad19fb865a6d5b7729c0aa824f07b1a5f93e314d97"
+    },
+    {
+      "path": "data\\prepared\\v3\\dev_references.jsonl",
+      "source_fields_hash": "49730422d01e7b92c57906ad19fb865a6d5b7729c0aa824f07b1a5f93e314d97"
+    },
+    {
+      "path": "data\\prepared\\v3\\test.jsonl",
+      "source_fields_hash": "2a53be5a5a38ce3f8e88f331c8b8fd442f3fed3dcfae4a26cc5dfede40d02f05"
+    },
+    {
+      "path": "data\\prepared\\v3\\test_references.jsonl",
+      "source_fields_hash": "2a53be5a5a38ce3f8e88f331c8b8fd442f3fed3dcfae4a26cc5dfede40d02f05"
+    },
+    {
+      "path": "data\\prepared\\v4\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    },
+    {
+      "path": "data\\prepared\\v5-mixed\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    },
+    {
+      "path": "data\\prepared\\v6-preference\\dev.jsonl",
+      "source_fields_hash": "49730422d01e7b92c57906ad19fb865a6d5b7729c0aa824f07b1a5f93e314d97"
+    },
+    {
+      "path": "data\\prepared\\v8-mixed\\dev.jsonl",
+      "source_fields_hash": "1c5b05f397bfce138c86012bd8e7a3e21d2be931e7df2cfed929405fe8468cd8"
+    }
+  ],
+  "training_allowed": true,
+  "training_started": false,
+  "release_approved": false,
+  "scope": "Train-only reviewed factual derivative pilot. Keep parent family across replay/variants/directions. No DEV targets used. Conservative source retrieval is not exhaustive semantic decontamination. Not a model quality result."
+}

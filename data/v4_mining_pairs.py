@@ -1,0 +1,28 @@
+"""New training-only sources for real model-error mining; never held-out tests."""
+# group, category, en, zh, context
+PAIRS = [
+("01", "daily", "I saved the receipt in the drawer beside the sink; the warranty card is still in the box.", "我把收据放在水槽旁的抽屉里；保修卡还在盒子里。", ""),
+("02", "daily", "Please leave the window slightly open while the paint dries, unless it starts raining.", "油漆晾干期间，请让窗户稍微开着，除非开始下雨。", ""),
+("03", "daily", "Nora offered to carry the suitcase, but Amir decided to wheel it himself.", "诺拉提出帮忙提行李箱，但阿米尔决定自己拉着走。", ""),
+("04", "daily", "The replacement arrived without a charger, even though the packing list included one.", "替换品送到时没有充电器，尽管装箱单上列有一个。", ""),
+("05", "travel", "At the interchange, follow the signs for the northbound tram rather than leaving the station.", "在换乘站，请沿指示牌前往北行有轨电车，不要出站。", ""),
+("06", "travel", "The ferry stops at the island only on the outward trip; it sails directly back to the mainland.", "渡轮只在去程停靠该岛；返程直接驶回大陆。", ""),
+("07", "travel", "Our baggage is checked through to Lisbon, but we must collect the boarding passes at the transfer desk.", "我们的行李已直挂里斯本，但登机牌必须到中转柜台领取。", ""),
+("08", "travel", "The hostel has a shared bathroom on each floor, and towels are available for an extra fee.", "这家青年旅舍每层都有共用浴室，毛巾需额外付费。", ""),
+("09", "food", "Please bring a slotted spoon for lifting the dumplings out of the simmering broth.", "请拿一把漏勺，把饺子从微沸的汤里捞出来。", ""),
+("10", "food", "Fold the beaten egg whites into the batter gently, so that you do not knock out the air.", "把打发的蛋白轻轻翻拌进面糊，避免消泡。", ""),
+("11", "food", "Set aside some cooking water before draining the pasta; it will help loosen the sauce.", "意面沥水之前，留一些煮面水，用来把酱汁调稀。", ""),
+("12", "food", "The dressing contains anchovies, although the salad itself has no pieces of fish.", "调味汁含凤尾鱼，尽管沙拉本身没有鱼块。", ""),
+("13", "academic", "The median remains unchanged when only the largest observation increases; the mean does not.", "只有最大的观测值增大时，中位数保持不变，均值则会改变。", ""),
+("14", "academic", "The sensor records the pressure difference across the filter, rather than the absolute inlet pressure.", "传感器记录的是过滤器两端的压差，而不是入口的绝对压力。", ""),
+("15", "academic", "The estimated effect is positive, but the confidence interval includes zero.", "估计效应为正，但置信区间包含零。", ""),
+("16", "academic", "The catalyst lowers the activation energy without changing the equilibrium constant.", "催化剂降低活化能，但不改变平衡常数。", ""),
+("17", "hard", "The bank needs reinforcement before winter.", "冬季来临之前，需要加固河岸。", "We are discussing erosion along a stream."),
+("17", "hard", "The bank needs reinforcement before winter.", "冬季来临之前，这家银行需要增援人手。", "We are discussing staffing shortages at a financial institution."),
+("18", "hard", "Check the scale before recording the result.", "记录结果之前，检查秤。", "We are weighing a bag of flour."),
+("18", "hard", "Check the scale before recording the result.", "记录结果之前，检查量表。", "We are scoring responses to a psychology questionnaire."),
+("19", "hard", "The charge has been reduced.", "费用已经降低了。", "We are discussing the fee for storing luggage."),
+("19", "hard", "The charge has been reduced.", "电荷量已经减少了。", "We are discussing the electric charge on a capacitor."),
+("20", "hard", "The pitch is too high for this piece.", "这首曲子的音高太高了。", "We are rehearsing a melody with a singer."),
+("20", "hard", "The pitch is too high for this piece.", "这件零件的螺距太大了。", "We are discussing the thread pitch of a machined component."),
+]

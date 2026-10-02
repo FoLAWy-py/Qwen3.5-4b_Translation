@@ -1,0 +1,11 @@
+{
+  "public-short-0193-zh-CN": ["pass", "这个房间有一台电视，存在位置准确。", true],
+  "public-short-0407-en": ["pass", "知道部分人看重我的工作，some 范围完整。", true],
+  "public-short-0085-zh-CN": ["pass", "来此感谢对方，英文 you 未限定人数，你们为合理可能译法。", true],
+  "public-short-0085-en": ["pass", "来这里是为感谢，I am here to thank 保留当前到场及目的。", true],
+  "public-short-0015-zh-CN": ["pass", "上错火车与坐错火车为合理同义。", true],
+  "public-short-0424-en": ["minor", "整天忙保留，原文很忙的程度略弱为 busy。", true],
+  "public-short-0487-zh-CN": ["pass", "汤姆男、说话者女，角色性别准确。", true],
+  "public-short-0487-en": ["pass", "汤姆男与我女，正确。", true],
+  "public-short-0395-zh-CN": ["pass", "道歉且无零钱，否定对象完整。", true]
+}

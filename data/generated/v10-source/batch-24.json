@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:48:02.415388+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-hard-13",
+      "category": "hard",
+      "topic": "A colleague sits on an unanswered request despite having received it; idiom concerns delayed action, not bodily position.",
+      "group_id": "v10-hard-13"
+    },
+    {
+      "case_id": "v10-hard-14",
+      "category": "hard",
+      "topic": "A speaker cannot put their finger on why an argument seems weak; idiom concerns identification, not touching a document.",
+      "group_id": "v10-hard-14"
+    },
+    {
+      "case_id": "v10-hard-15",
+      "category": "hard",
+      "topic": "A person keeps an eye on a changing schedule and asks to be told of a confirmed change; monitoring is not a literal instruction about eyes.",
+      "group_id": "v10-hard-15"
+    },
+    {
+      "case_id": "v10-hard-16",
+      "category": "hard",
+      "topic": "A team joins forces on one task while retaining separate responsibilities for another; cooperation does not merge all roles.",
+      "group_id": "v10-hard-16"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-hard-13\",\n      \"english\": \"I sent the report two weeks ago, but my colleague is still sitting on it. They haven't responded or forwarded it to the manager, which is holding up the project.\",\n      \"chinese\": \"我两周前就发了报告，但同事还在压着。他们既没有回复，也没有转交给主管，这导致项目停滞。\",\n      \"context\": \"The idiom 'sitting on' refers to delaying or withholding action, not the literal act of sitting.\"\n    },\n    {\n      \"case_id\": \"v10-hard-14\",\n      \"english\": \"During the meeting, the speaker couldn't put their finger on what made the proposal feel off. Despite reviewing the data, they couldn't identify the exact issue.\",\n      \"chinese\": \"会议中，发言者说不上来为什么这个提案感觉不对。尽管查看了数据，他们也无法找出具体的问题所在。\",\n      \"context\": \"The phrase 'putting one's finger on' refers to identifying a cause, not a physical action involving a finger and a document.\"\n    },\n    {\n      \"case_id\": \"v10-hard-15\",\n      \"english\": \"The project timeline keeps changing, so I asked the team to keep an eye on it and notify me if there's a confirmed update.\",\n      \"chinese\": \"项目的日程不断变化，所以我要求团队密切关注，如果有确认的更新就通知我。\",\n      \"context\": \"The phrase 'keep an eye on' refers to monitoring, not a literal instruction about using one's eyes.\"\n    },\n    {\n      \"case_id\": \"v10-hard-16\",\n      \"english\": \"The two departments joined forces for the marketing campaign but kept separate responsibilities for product development and customer support.\",\n      \"chinese\": \"两个部门为了这次市场活动联手合作，但在产品开发和客户服务方面仍保持各自的责任。\",\n      \"context\": \"The phrase 'join forces' refers to collaboration on a specific task, not a complete merging of all roles and functions.\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 460,
+    "total_tokens": 909,
+    "completion_tokens": 449,
+    "estimated_cost": 0.00016251999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

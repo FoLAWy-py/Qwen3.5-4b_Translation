@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:10.739340+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-food-01",
+      "category": "food",
+      "topic": "A cook distinguishes chickpeas from green peas and adds only chickpeas to a warm dish; the green peas are reserved for a different dish.",
+      "group_id": "v10-food-01"
+    },
+    {
+      "case_id": "v10-food-02",
+      "category": "food",
+      "topic": "A diner asks for a sauce containing peanuts to be omitted, not merely served separately; allergy prohibition remains explicit and unweakened.",
+      "group_id": "v10-food-02"
+    },
+    {
+      "case_id": "v10-food-03",
+      "category": "food",
+      "topic": "A baker folds beaten egg whites into batter rather than continuing to whisk them separately; preserve what is mixed into what.",
+      "group_id": "v10-food-03"
+    },
+    {
+      "case_id": "v10-food-04",
+      "category": "food",
+      "topic": "A cook reserves a small amount of grated lemon zest but removes the white pith; do not confuse zest with juice.",
+      "group_id": "v10-food-04"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-food-01\",\n      \"english\": \"The cook sorted the legumes carefully, placing the dried chickpeas into the simmering stew while setting aside the fresh green peas for a later dish. Only the chickpeas were suitable for the warm, hearty preparation.\",\n      \"chinese\": \"厨师小心地分拣豆类，将干鹰嘴豆放入炖煮的浓汤中，而把新鲜青豆留到稍后另一道菜使用。只有鹰嘴豆适合这道温暖扎实的菜肴。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-02\",\n      \"english\": \"The diner emphasized that the peanut sauce must not be served at all, not just set aside. The allergy was serious and the request was clear.\",\n      \"chinese\": \"用餐者强调花生酱绝不能提供，而不仅仅是单独放置。过敏情况严重，要求非常明确。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-03\",\n      \"english\": \"The baker folded the airy egg whites gently into the cake batter, ensuring they remained light and incorporated without deflating them.\",\n      \"chinese\": \"面包师轻轻将打发好的蛋白拌入蛋糕糊中，确保其保持蓬松状态并完全融入，不使其塌陷。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-04\",\n      \"english\": \"The cook scraped the colored zest from the lemon’s surface but discarded the bitter white pith beneath, using only the aromatic outer layer.\",\n      \"chinese\": \"厨师刮下柠檬表面的彩色皮屑，但丢弃了下面苦味的白色白膜，仅使用芳香的外层。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 471,
+    "total_tokens": 870,
+    "completion_tokens": 399,
+    "estimated_cost": 0.00014939999999999997,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

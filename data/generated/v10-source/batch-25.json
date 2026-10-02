@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:48:03.129662+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-hard-17",
+      "category": "hard",
+      "topic": "A visitor runs into an old friend by chance; encounter is not a collision and no meeting was arranged.",
+      "group_id": "v10-hard-17"
+    },
+    {
+      "case_id": "v10-hard-18",
+      "category": "hard",
+      "topic": "A speaker weighs up two options and postpones a decision; evaluation is not a physical measurement.",
+      "group_id": "v10-hard-18"
+    },
+    {
+      "case_id": "v10-hard-19",
+      "category": "hard",
+      "topic": "A person is tied up with an earlier commitment and can respond later; unavailable is distinct from refusing and from physical restraint.",
+      "group_id": "v10-hard-19"
+    },
+    {
+      "case_id": "v10-hard-20",
+      "category": "hard",
+      "topic": "A team wraps up a discussion without agreeing to implement a proposal; ending discussion is not packaging or final authorization.",
+      "group_id": "v10-hard-20"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-hard-17\",\n      \"english\": \"While browsing the art gallery, Mia bumped into Jordan, who she hadn’t seen in years. They exchanged brief greetings before continuing their separate journeys.\",\n      \"chinese\": \"米亚在浏览美术馆时偶然遇到了乔丹，他们多年未见。他们简短地寒暄了几句，然后各自继续行程。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-18\",\n      \"english\": \"The manager hesitated to choose between two project proposals, deciding to gather more feedback. She felt neither option was clearly superior at the moment.\",\n      \"chinese\": \"经理在两个项目提案之间犹豫不决，决定再收集更多反馈。她觉得目前没有哪个选项明显更优。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-19\",\n      \"english\": \"He couldn’t answer the question right away because he was tied up with a prior engagement. He promised to get back to her later that day.\",\n      \"chinese\": \"他无法立刻回答这个问题，因为有先前的安排。他承诺当天晚些时候再回复她。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-20\",\n      \"english\": \"The team concluded their meeting without reaching a consensus on the new strategy. They agreed to revisit the topic at a later date.\",\n      \"chinese\": \"团队在没有就新策略达成一致的情况下结束了会议。他们同意稍后再次讨论这个议题。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 452,
+    "total_tokens": 807,
+    "completion_tokens": 355,
+    "estimated_cost": 0.00013555999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

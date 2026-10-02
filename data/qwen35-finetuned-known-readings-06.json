@@ -1,0 +1,20 @@
+{
+  "v4-dev-040-en": ["minor", "返程与工作日假日例外正确，但凭券泛化为正式 return ticket。", true],
+  "v4-dev-041-zh-CN": ["pass", "孜然籽短时烤制后研磨，toast 可烘炒或烤，顺序完整。", true],
+  "v4-dev-041-en": ["pass", "孜然籽先短时烘炒再研磨，方法顺序准确。", true],
+  "v4-dev-042-zh-CN": ["minor", "碎羊肉非牛肉正确，diced 的丁状泛化为块状。", true],
+  "v4-dev-042-en": ["minor", "羊肉馅与非牛肉丁正确，但 mutton 未明确馅为绞碎形态，mutton/lamb 本身均可。", true],
+  "v4-dev-043-zh-CN": ["pass", "刮外层柠檬皮并排除苦白内层，层次和否定正确。", true],
+  "v4-dev-043-en": ["pass", "刮外皮而不取白色苦内皮，动作对象完整。", true],
+  "v4-dev-044-zh-CN": ["minor", "无盖小火至大部分液体蒸发的时段可辨，但让扁豆保持无盖慢炖表达不自然。", true],
+  "v4-dev-044-en": ["major", "不盖锅盖错为 Do not cover the lid，不盖锅的关键操作未准确表达；扁豆也泛化 beans。", true],
+  "v4-dev-045-en": ["pass", "炖菜被菜单列作主菜而非配菜，类别对比准确。", true],
+  "v4-dev-046-zh-CN": ["pass", "切片但不完全分开，保留不断开的要求。", true],
+  "v4-dev-046-en": ["pass", "面包切片但不切透，动作和否定明确。", true],
+  "v4-dev-047-zh-CN": ["pass", "混合物变稠前用打蛋器打碎结块，时序与工具正确。", true],
+  "v4-dev-047-en": ["pass", "变稠前打蛋器打散结块，完整。", true],
+  "v4-dev-048-zh-CN": ["pass", "蘸酱冷而馅料应滚烫，两对象温度不混淆。", true],
+  "v4-dev-048-en": ["pass", "冷上蘸酱且馅料滚烫，中文冷着上可作操作语气，未新增事实。", true],
+  "v4-dev-049-zh-CN": ["pass", "酸豆为 capers 合理别称，非青胡椒的对比正确。", true],
+  "v4-dev-049-en": ["major", "刺山柑错为 cassia buds 桂花蕾类香料，食材不同。已用 Kew 物种资料核对。", true]
+}

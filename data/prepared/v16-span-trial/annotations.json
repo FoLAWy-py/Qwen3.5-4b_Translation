@@ -1,0 +1,135 @@
+{
+  "at": "2026-10-01T10:33:34.154801+00:00",
+  "train_hash": "5271e4ed53e73864c6593e4aed9c49827aedaf544908bf49a8d53015cf979e1b",
+  "annotations": [
+    {
+      "id": "v10-daily-19-zh-CN",
+      "critical_spans": [
+        "水的损坏"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "water damage为水造成的损害，不能缩为水渍。",
+      "content_hash": "c3f01a9c15b0cf2e4b73c928823af9dc094540bb30fedadcfc3ea0486c2ff79a"
+    },
+    {
+      "id": "v5-seed-005-zh-CN",
+      "critical_spans": [
+        "地面缆车"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "funicular为轨道上的地面缆车，不是人行道。",
+      "content_hash": "016992e6a0cc42e10e9ae6d9518a319be18d7f2ab674510500344dcc40d2ff1b"
+    },
+    {
+      "id": "v10-travel-20-zh-CN",
+      "critical_spans": [
+        "一英里",
+        "无障碍通行条件"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "保留a mile数值和accessibility通行条件。",
+      "content_hash": "d4708c8bb81df8007d00f2fa41d40c2452de31875b671b22a1044149b8581eef"
+    },
+    {
+      "id": "v2-train-058-zh-CN",
+      "critical_spans": [
+        "这份高汤本身",
+        "甲壳类或贝类"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "询问高汤而非成品，shellfish涵盖甲壳类/贝类。",
+      "content_hash": "15a527f6dd0c4636196a9f355a24a40a01235594dc86065499abf51b414f326c"
+    },
+    {
+      "id": "v10-food-13-zh-CN",
+      "critical_spans": [
+        "食客想要半份",
+        "炒鸡肉"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "diner为食客，chicken stir-fry为炒鸡肉而非炒饭。",
+      "content_hash": "c455f1c0074d5d6917a89d7252545e0f3444b27e7c926d848e285903774f8d24"
+    },
+    {
+      "id": "v10-food-02-zh-CN",
+      "critical_spans": [
+        "用餐者",
+        "花生酱绝不能提供"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "食客角色和严重过敏情境下的完全禁止必须保留。",
+      "content_hash": "12ab453fa7fa529aba70b316ff5a53a2810cbffe99ba4a8b67c21ade13a82a36"
+    },
+    {
+      "id": "v10-academic-01-zh-CN",
+      "critical_spans": [
+        "可能会导致"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "could lead只表示可能性，不是必然发生。",
+      "content_hash": "e2e41f69f3e768916ac1c4a435f21765d3935955d36dd132e12871158356a45b"
+    },
+    {
+      "id": "v8-multi-031-zh-CN",
+      "critical_spans": [
+        "这个指标",
+        "另一个指标"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "两处measure均为研究指标，不是措施。",
+      "content_hash": "796074a4d145f58bde7a429e1e34e1ae5cabe8a7acd7787cabde447c3ce85e05"
+    },
+    {
+      "id": "public-short-0080-zh-CN",
+      "critical_spans": [
+        "我嗓子有点哑"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "frog in throat表达嗓音沙哑而非实体动物。",
+      "content_hash": "22688864626014d882e17f3c8179f2eef96e1dea89742b8cb7b0dced9d1ec80d"
+    },
+    {
+      "id": "v5-seed-020-zh-CN",
+      "critical_spans": [
+        "演员阵容"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "明确戏剧actors语境对应cast演员阵容。",
+      "content_hash": "51a91cd9e770380242383195f1f0a11e65ff50041d6b10a6bbe26ac489087bc8"
+    },
+    {
+      "id": "v8-multi-035-zh-CN",
+      "critical_spans": [
+        "现在该由你来决定了"
+      ],
+      "multiplier": 3.0,
+      "reviewer": "Codex",
+      "at": "2026-10-01T10:33:34.154801+00:00",
+      "note": "明确决策责任语境对应ball in your court习语。",
+      "content_hash": "56f3a7886e77de7c88ff042ed3fe44f654b35eb06493a861d820f7b00ecce7ae"
+    }
+  ],
+  "annotation_hash": "3468e62e4ec58347d2f3b142e56f4fe6daed5cdef006cf0dbaa5ecf9ca58271b",
+  "scope": "Explicitly read TRAIN source, chosen, actual rejected and issue. Only chosen NLL weighted; summed preference margins unchanged.",
+  "release_approved": false
+}

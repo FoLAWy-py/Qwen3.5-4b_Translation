@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:44.859479+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-academic-17",
+      "category": "academic",
+      "topic": "A filter excludes values below a threshold but keeps values equal to it; preserve boundary inclusion and a literal symbolic expression.",
+      "group_id": "v10-academic-17"
+    },
+    {
+      "case_id": "v10-academic-18",
+      "category": "academic",
+      "topic": "A definition distinguishes a directed edge from an undirected connection; observing a link does not by itself specify causal direction.",
+      "group_id": "v10-academic-18"
+    },
+    {
+      "case_id": "v10-academic-19",
+      "category": "academic",
+      "topic": "An estimator is unbiased under a stated sampling assumption, and the statement does not apply when that assumption is violated.",
+      "group_id": "v10-academic-19"
+    },
+    {
+      "case_id": "v10-academic-20",
+      "category": "academic",
+      "topic": "A document uses a provisional label for a newly defined measure; preserve the label and explain that a later rename does not change stored values.",
+      "group_id": "v10-academic-20"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-academic-17\",\n      \"english\": \"The filter retains all data points where the measurement is greater than or equal to 50. It discards any values below 50, including those slightly less than the threshold.\",\n      \"chinese\": \"该过滤器保留所有测量值大于或等于50的数据点。它会丢弃任何低于50的值，包括略低于阈值的数值。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-18\",\n      \"english\": \"In the graph, a directed edge from A to B indicates a one-way relationship, while an undirected connection simply shows a mutual link with no implied direction.\",\n      \"chinese\": \"在图中，从A到B的有向边表示单向关系，而无向连接仅表示互连关系，没有暗示方向。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-19\",\n      \"english\": \"The estimator is unbiased only if the samples are drawn independently. If the independence assumption is violated, the estimator may systematically over- or underestimate the true value.\",\n      \"chinese\": \"只有在样本独立抽取的情况下，该估计量才是无偏的。如果独立性假设被违反，该估计量可能会系统性地高估或低估真实值。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-20\",\n      \"english\": \"The initial report refers to the metric as 'temp_index' for clarity. Later, it was renamed to 'final_index', but this does not affect the values stored in the dataset.\",\n      \"chinese\": \"最初的报告将该指标称为'temp_index'以保持清晰。之后将其更名为'final_index'，但这并不影响数据集中存储的值。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 470,
+    "total_tokens": 889,
+    "completion_tokens": 419,
+    "estimated_cost": 0.00015492,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

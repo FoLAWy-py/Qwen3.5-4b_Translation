@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:54.054469+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-hard-05",
+      "category": "hard",
+      "topic": "A project gets off the ground after an initial delay but has not yet finished; starting is distinct from successful completion.",
+      "group_id": "v10-hard-05"
+    },
+    {
+      "case_id": "v10-hard-06",
+      "category": "hard",
+      "topic": "A speaker says a suggestion hit the nail on the head in a discussion of priorities; idiom means accurately identifying the point.",
+      "group_id": "v10-hard-06"
+    },
+    {
+      "case_id": "v10-hard-07",
+      "category": "hard",
+      "topic": "A committee passes the buck over responsibility for an unresolved request; no money is transferred.",
+      "group_id": "v10-hard-07"
+    },
+    {
+      "case_id": "v10-hard-08",
+      "category": "hard",
+      "topic": "A person turns down an offer but remains available to discuss another option; refusal is not a volume adjustment.",
+      "group_id": "v10-hard-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-hard-05\",\n      \"english\": \"The team finally launched the project after a three-week delay, but it's still in the early development phase. They've completed the foundation work, but the final delivery date remains uncertain.\",\n      \"chinese\": \"团队在延迟三周后终于启动了项目，但目前仍处于早期开发阶段。他们已经完成了基础工作，但最终交付日期仍然不确定。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-06\",\n      \"english\": \"During the meeting, she said his comment hit the nail on the head when discussing which goals to focus on next. Everyone agreed that he had clearly identified the main issue.\",\n      \"chinese\": \"在会议中，她说他的评论一针见血地指出了下一步应关注的目标。大家都同意他清楚地指出了主要问题。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-07\",\n      \"english\": \"The committee members kept passing the buck, none of them willing to take responsibility for the client's unresolved request. They kept referring it to another department without offering a solution.\",\n      \"chinese\": \"委员会成员不断推卸责任，没有人愿意对客户的未决请求负责。他们一直将此事转给其他部门，却没有提供解决方案。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-hard-08\",\n      \"english\": \"She turned down the job offer, but said she'd be open to discussing other roles within the company. It wasn't a rejection of the company, just a mismatch in the position offered.\",\n      \"chinese\": \"她拒绝了这份工作邀约，但表示愿意讨论公司内的其他职位。这并非对公司表示拒绝，只是所提供的职位不匹配。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 452,
+    "total_tokens": 860,
+    "completion_tokens": 408,
+    "estimated_cost": 0.0001504,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

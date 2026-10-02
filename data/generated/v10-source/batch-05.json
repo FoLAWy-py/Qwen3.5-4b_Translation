@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:46:52.483164+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-daily-17",
+      "category": "daily",
+      "topic": "A shop customer receives store credit for a returned item but no cash refund; preserve both the amount of credit and what cannot be exchanged.",
+      "group_id": "v10-daily-17"
+    },
+    {
+      "case_id": "v10-daily-18",
+      "category": "daily",
+      "topic": "A club member asks to omit a nickname from a name badge while retaining it in the private draft; invent fictional names, no real personal data.",
+      "group_id": "v10-daily-18"
+    },
+    {
+      "case_id": "v10-daily-19",
+      "category": "daily",
+      "topic": "A household postpones painting a wall until a small damp patch is assessed; a dry surface alone is not confirmation of the cause.",
+      "group_id": "v10-daily-19"
+    },
+    {
+      "case_id": "v10-daily-20",
+      "category": "daily",
+      "topic": "A courier leaves two boxes with reception but keeps the envelope requiring a signature; notification does not prove the envelope was delivered.",
+      "group_id": "v10-daily-20"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-daily-17\",\n      \"english\": \"The customer returned the damaged jacket and received $45 in store credit, which can only be used for new inventory items. Cash refunds are not available for returns after 30 days.\",\n      \"chinese\": \"顾客退回了有损坏的夹克，并获得了45美元的商店信用额度，该额度只能用于购买新品库存商品。退货超过30天后不可申请现金退款。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-18\",\n      \"english\": \"Mira requested that her nickname 'Zoey' not appear on the event badge, though it remained in the club’s private draft for her file. The organizers agreed to remove it from the printed version.\",\n      \"chinese\": \"米拉要求她的昵称“Zoey”不要出现在活动徽章上，尽管它仍保留在俱乐部的私人草稿中。组织者同意从印刷版本中删除。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-19\",\n      \"english\": \"The family decided to delay painting the living room wall until a small damp area had been checked by a professional. A dry wall today does not guarantee no water damage.\",\n      \"chinese\": \"这家人决定推迟为客厅墙壁上漆，直到有专业人士检查一处小潮湿区域。今天墙壁干燥并不能保证没有水损害。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-daily-20\",\n      \"english\": \"The delivery driver left two packages at the office but kept the third one for signature. The company received a delivery notice, but it didn’t confirm the envelope’s arrival.\",\n      \"chinese\": \"快递员在办公室留下了两个包裹，但保留了需要签字的第三个。公司收到了投递通知，但这并未确认信封是否送达。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 480,
+    "total_tokens": 912,
+    "completion_tokens": 432,
+    "estimated_cost": 0.00015936,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

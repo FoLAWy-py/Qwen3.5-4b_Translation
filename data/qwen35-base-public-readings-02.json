@@ -1,0 +1,19 @@
+{
+  "public-short-0190-zh-CN": ["major", "in court 应限定证据使用位置，错限定发言为庭内发言，与微调同误。", true],
+  "public-short-0190-en": ["pass", "所说话可能在法庭作不利证据，范围正确。", true],
+  "public-short-0292-zh-CN": ["pass", "确实做且无人帮助，强调与否定范围完整。", true],
+  "public-short-0292-en": ["pass", "indeed 强调做成无任何帮助，准确。", true],
+  "public-short-0257-en": ["pass", "祝平顺旅程，习语合理直译。", true],
+  "public-short-0493-zh-CN": ["pass", "士兵已准备战斗，已准备可表已就绪，完整。", true],
+  "public-short-0578-en": ["pass", "比汤姆早一点到此，时间比较完整。", true],
+  "public-short-0307-zh-CN": ["pass", "他送我好礼物，角色评价准确。", true],
+  "public-short-0307-en": ["pass", "给我不错礼物，完整。", true],
+  "public-short-0033-zh-CN": ["minor", "再一瓶与礼貌正确，wine 葡萄酒泛化为酒，类型略失。", true],
+  "public-short-0230-en": ["pass", "原始永不再见到他准确，非法空字段格式失败。", true],
+  "public-short-0133-zh-CN": ["pass", "礼貌询问在做何事，英文 you 可复数，未凭参考单数限制。", true],
+  "public-short-0133-en": ["pass", "礼貌进行问句正确。", true],
+  "public-short-0099-zh-CN": ["pass", "汤姆认为预算300美元不能买齐所需，否定金额范围准确。", true],
+  "public-short-0099-en": ["pass", "不觉得300美元能买齐，中文未限过去现在，准确。", true],
+  "public-short-0201-en": ["pass", "每人一千日元，分配单位准确。", true],
+  "public-short-0072-zh-CN": ["minor", "不涨工资正确，would not 拒绝意愿弱成不会，与微调同口径。", true]
+}

@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-30T15:38:29.031467+00:00",
+  "train": {
+    "rows": 496,
+    "groups": 242,
+    "hash": "e49ef710eeec2781846368188b1a73ff93e0e6bcf154585d0c3acc9ae98210c3"
+  },
+  "dev": {
+    "rows": 200,
+    "groups": 100,
+    "hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "categories": {
+      "daily": 40,
+      "travel": 40,
+      "food": 40,
+      "academic": 40,
+      "hard": 40
+    }
+  },
+  "policy": "New dev sources exact-deduplicated against all existing prepared files; both directions same group; not a release test; no full semantic near-duplicate guarantee",
+  "configuration": {
+    "method": "continue SFT from v2 NF4; mixed reviewed positive rows",
+    "lr": 1e-05,
+    "steps": 31,
+    "accumulation": 16,
+    "seed": 42,
+    "selection": "Save at16 and31; lowest mean per-row answer NLL on newdev; inspect selected dev outputs; no release test until candidate passes screening"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-02T00:02:02.218347+00:00",
+  "adapter_dir": "models/witrans-qwen35-v2-critical-cpo",
+  "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+  "quantization": {
+    "type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "bfloat16"
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_length": 1024,
+    "max_new_tokens": 128
+  },
+  "latency_hypothesis": "Separate output length and time-to-first-token from decoding; profiler locates costly operators, not a causal LoRA ablation.",
+  "diagnostics": [
+    {
+      "text": "请问去机场的巴士几点出发？",
+      "target_lang": "en"
+    },
+    {
+      "text": "如果今天下雨，我们就取消徒步。",
+      "target_lang": "en"
+    },
+    {
+      "text": "这道菜不含花生，但含有牛奶。",
+      "target_lang": "en"
+    },
+    {
+      "text": "Please send me the revised schedule by Friday.",
+      "target_lang": "zh-CN"
+    },
+    {
+      "text": "Do not restart the device until the update finishes.",
+      "target_lang": "zh-CN"
+    },
+    {
+      "text": "The room rate includes breakfast for two people.",
+      "target_lang": "zh-CN"
+    }
+  ],
+  "performance_inputs_hash": "f4057624ca5a024d3bf286b0d0acb37fcacfd6273250ae9979535d64c7c570f9",
+  "performance_lengths": {
+    "v8-multi-025-en": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-026-en": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    },
+    "v8-multi-027-en": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-025-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-026-zh-CN": {
+      "body_tokens": 28,
+      "prompt_tokens": 231
+    },
+    "v8-multi-027-zh-CN": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-001-en": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    },
+    "v8-multi-002-en": {
+      "body_tokens": 20,
+      "prompt_tokens": 223
+    },
+    "v8-multi-003-en": {
+      "body_tokens": 22,
+      "prompt_tokens": 225
+    },
+    "v8-multi-001-zh-CN": {
+      "body_tokens": 26,
+      "prompt_tokens": 229
+    },
+    "v8-multi-002-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-003-zh-CN": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-017-en": {
+      "body_tokens": 19,
+      "prompt_tokens": 222
+    },
+    "v8-multi-018-en": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-019-en": {
+      "body_tokens": 24,
+      "prompt_tokens": 227
+    },
+    "v8-multi-017-zh-CN": {
+      "body_tokens": 29,
+      "prompt_tokens": 232
+    },
+    "v8-multi-018-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-019-zh-CN": {
+      "body_tokens": 27,
+      "prompt_tokens": 230
+    },
+    "v8-multi-036-en": {
+      "body_tokens": 19,
+      "prompt_tokens": 236
+    },
+    "v8-multi-038-en": {
+      "body_tokens": 18,
+      "prompt_tokens": 236
+    },
+    "v8-multi-038-zh-CN": {
+      "body_tokens": 20,
+      "prompt_tokens": 238
+    },
+    "v8-multi-009-en": {
+      "body_tokens": 21,
+      "prompt_tokens": 224
+    },
+    "v8-multi-010-en": {
+      "body_tokens": 21,
+      "prompt_tokens": 224
+    },
+    "v8-multi-011-en": {
+      "body_tokens": 31,
+      "prompt_tokens": 234
+    },
+    "v8-multi-009-zh-CN": {
+      "body_tokens": 28,
+      "prompt_tokens": 231
+    },
+    "v8-multi-010-zh-CN": {
+      "body_tokens": 26,
+      "prompt_tokens": 229
+    },
+    "v8-multi-011-zh-CN": {
+      "body_tokens": 25,
+      "prompt_tokens": 228
+    }
+  },
+  "performance_excluded": [
+    {
+      "id": "v8-multi-017-en",
+      "body_tokens": 19,
+      "prompt_tokens": 222,
+      "reason": "Tokenizer eligibility only; no padding or output-driven selection"
+    },
+    {
+      "id": "v8-multi-036-en",
+      "body_tokens": 19,
+      "prompt_tokens": 236,
+      "reason": "Tokenizer eligibility only; no padding or output-driven selection"
+    },
+    {
+      "id": "v8-multi-038-en",
+      "body_tokens": 18,
+      "prompt_tokens": 236,
+      "reason": "Tokenizer eligibility only; no padding or output-driven selection"
+    }
+  ],
+  "warmup_rounds": 1,
+  "measured_rounds": 3,
+  "train_path": "data/prepared/v16-reviewed-families/train-ready-after-overlap-review.jsonl",
+  "train_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "train_rows": 416,
+  "train_generation_output": "runs/qwen35-v3-train-discovery-recovery1.jsonl",
+  "order": "Latencies and operator profile; formal timing; then all TRAIN real generation. One GPU process at a time.",
+  "method_claim": false,
+  "stage_goal_complete": false,
+  "release_approved": false
+}

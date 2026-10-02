@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:24.651721+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-food-13",
+      "category": "food",
+      "topic": "A diner wants a small portion of the same dish rather than a different children’s dish; preserve the requested portion and identity.",
+      "group_id": "v10-food-13"
+    },
+    {
+      "case_id": "v10-food-14",
+      "category": "food",
+      "topic": "A cook places sliced mushrooms on a tray without piling them up; preserve the purpose without inventing an exact cooking temperature.",
+      "group_id": "v10-food-14"
+    },
+    {
+      "case_id": "v10-food-15",
+      "category": "food",
+      "topic": "A customer asks whether the drink is unsweetened or sweetened with another ingredient; no added sugar does not imply no sugar.",
+      "group_id": "v10-food-15"
+    },
+    {
+      "case_id": "v10-food-16",
+      "category": "food",
+      "topic": "A baker lets a pastry case cool before adding a cold filling; distinguish pastry shell from whole dessert and preserve timing.",
+      "group_id": "v10-food-16"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-food-13\",\n      \"english\": \"The diner asked for a half-portion of the chicken stir-fry instead of the kids' menu option. They wanted the same dish, just in a smaller size for a lighter meal.\",\n      \"chinese\": \"食客要求要一半分量的鸡肉炒饭，而不是儿童餐。他们想要同样的菜肴，但分量较小，适合轻食。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-14\",\n      \"english\": \"The cook arranged the mushroom slices on the tray in a single layer, making sure they were spaced for even cooking. He avoided piling them up to preserve the texture and flavor.\",\n      \"chinese\": \"厨师将蘑菇片平铺在托盘上，确保它们之间有空隙以便均匀烹饪。他避免堆叠起来，以保持口感和风味。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-15\",\n      \"english\": \"The customer asked if the iced tea was unsweetened or sweetened with honey. They wanted to know if sugar was omitted, not necessarily that no sweetener was used at all.\",\n      \"chinese\": \"顾客询问冰茶是无糖的还是用蜂蜜调味的。他们想知道是否省去了糖，而不是说完全没有使用任何甜味剂。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-16\",\n      \"english\": \"The baker waited for the flaky pastry shell to cool before adding the cold fruit filling. This prevented the pastry from becoming soggy and ensured a crisp finish.\",\n      \"chinese\": \"面包师在加入冷果酱之前，先让酥皮外壳冷却。这样可以防止酥皮变湿，并确保最后口感酥脆。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 465,
+    "total_tokens": 878,
+    "completion_tokens": 413,
+    "estimated_cost": 0.00015283999999999998,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

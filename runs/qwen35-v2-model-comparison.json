@@ -1,0 +1,1260 @@
+{
+  "at": "2026-10-01T13:47:53.706302+00:00",
+  "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "candidate_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+  "recipe": "Transfer current validated v7 recipe: supervised translation then reviewed critical-span CPO.",
+  "sections": {
+    "known": {
+      "counts": {
+        "base": {
+          "pass": 156,
+          "major": 24,
+          "minor": 20
+        },
+        "finetuned": {
+          "pass": 164,
+          "major": 17,
+          "minor": 19
+        }
+      },
+      "metrics": {
+        "base": {
+          "pass_count": 156,
+          "major_including_critical": 24,
+          "critical": 0,
+          "rows": 200,
+          "pass_rate": 0.78,
+          "pass_with_all_protocol_constraints": 120
+        },
+        "finetuned": {
+          "pass_count": 164,
+          "major_including_critical": 17,
+          "critical": 0,
+          "rows": 200,
+          "pass_rate": 0.82,
+          "pass_with_all_protocol_constraints": 164
+        }
+      },
+      "source_group_paired_stats": {
+        "pass_difference": 0.04,
+        "group_bootstrap_95_interval": [
+          0.0,
+          0.085
+        ],
+        "rows": 200,
+        "source_groups": 100,
+        "iterations": 5000,
+        "seed": 42,
+        "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+      },
+      "strata": {
+        "base": {
+          "daily/zh-CN": {
+            "pass": 14,
+            "minor": 3,
+            "major": 3
+          },
+          "daily/en": {
+            "major": 5,
+            "pass": 14,
+            "minor": 1
+          },
+          "travel/zh-CN": {
+            "major": 5,
+            "pass": 13,
+            "minor": 2
+          },
+          "travel/en": {
+            "pass": 17,
+            "major": 2,
+            "minor": 1
+          },
+          "food/zh-CN": {
+            "pass": 12,
+            "major": 1,
+            "minor": 7
+          },
+          "food/en": {
+            "pass": 16,
+            "minor": 1,
+            "major": 3
+          },
+          "academic/zh-CN": {
+            "pass": 16,
+            "minor": 3,
+            "major": 1
+          },
+          "academic/en": {
+            "major": 1,
+            "pass": 18,
+            "minor": 1
+          },
+          "hard/zh-CN": {
+            "pass": 17,
+            "major": 3
+          },
+          "hard/en": {
+            "pass": 19,
+            "minor": 1
+          }
+        },
+        "finetuned": {
+          "daily/zh-CN": {
+            "pass": 15,
+            "minor": 4,
+            "major": 1
+          },
+          "daily/en": {
+            "major": 4,
+            "pass": 16
+          },
+          "travel/zh-CN": {
+            "major": 5,
+            "pass": 13,
+            "minor": 2
+          },
+          "travel/en": {
+            "pass": 17,
+            "major": 1,
+            "minor": 2
+          },
+          "food/zh-CN": {
+            "pass": 12,
+            "minor": 8
+          },
+          "food/en": {
+            "pass": 17,
+            "minor": 1,
+            "major": 2
+          },
+          "academic/zh-CN": {
+            "pass": 20
+          },
+          "academic/en": {
+            "major": 1,
+            "pass": 19
+          },
+          "hard/zh-CN": {
+            "pass": 16,
+            "major": 3,
+            "minor": 1
+          },
+          "hard/en": {
+            "pass": 19,
+            "minor": 1
+          }
+        }
+      },
+      "stratum_rows": {
+        "daily/zh-CN": 20,
+        "daily/en": 20,
+        "travel/zh-CN": 20,
+        "travel/en": 20,
+        "food/zh-CN": 20,
+        "food/en": 20,
+        "academic/zh-CN": 20,
+        "academic/en": 20,
+        "hard/zh-CN": 20,
+        "hard/en": 20
+      },
+      "stratum_pass_changes": {
+        "daily/zh-CN": 0.05,
+        "daily/en": 0.1,
+        "travel/zh-CN": 0.0,
+        "travel/en": 0.0,
+        "food/zh-CN": 0.0,
+        "food/en": 0.05,
+        "academic/zh-CN": 0.2,
+        "academic/en": 0.05,
+        "hard/zh-CN": -0.05,
+        "hard/en": 0.0
+      },
+      "transitions": [
+        {
+          "before": "major",
+          "after": "major",
+          "count": 16
+        },
+        {
+          "before": "pass",
+          "after": "pass",
+          "count": 153
+        },
+        {
+          "before": "minor",
+          "after": "minor",
+          "count": 13
+        },
+        {
+          "before": "minor",
+          "after": "pass",
+          "count": 6
+        },
+        {
+          "before": "major",
+          "after": "pass",
+          "count": 5
+        },
+        {
+          "before": "pass",
+          "after": "minor",
+          "count": 3
+        },
+        {
+          "before": "major",
+          "after": "minor",
+          "count": 3
+        },
+        {
+          "before": "minor",
+          "after": "major",
+          "count": 1
+        }
+      ],
+      "structure_direction_eos": {
+        "base": false,
+        "finetuned": false
+      },
+      "protocol_counts": {
+        "base": {
+          "format_valid": 161,
+          "ended": 200,
+          "language_correct": 199
+        },
+        "finetuned": {
+          "format_valid": 200,
+          "ended": 200,
+          "language_correct": 199
+        }
+      },
+      "runtime": {
+        "base": {
+          "at": "2026-10-01T13:35:23.166924+00:00",
+          "model_id": "Qwen/Qwen3.5-4B",
+          "base": {
+            "model_id": "Qwen/Qwen3.5-4B",
+            "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+            "completed_at": "2026-10-01T11:53:40.902389+00:00",
+            "status": "complete",
+            "license": "apache-2.0",
+            "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+            "files": [
+              {
+                "file": "model.safetensors-00001-of-00002.safetensors",
+                "bytes": 5329398688,
+                "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+                "verified_official_lfs": true
+              },
+              {
+                "file": "model.safetensors-00002-of-00002.safetensors",
+                "bytes": 3990429408,
+                "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+                "verified_official_lfs": true
+              }
+            ],
+            "transport": "Shard2 completed original HTTP; shard1 assembled from official cache-busted Range chunks. Both official LFS hashes verified. Original stalled download and range duplicate-file guard preserved.",
+            "terminology": "Official post-trained checkpoint before project fine-tuning, not a pretraining-only Base checkpoint."
+          },
+          "adapter_dir": null,
+          "adapter_sha256": null,
+          "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+          "data_hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+          "generation_hash": "0ade89fd7cb6464438b3cbc1077fcb4898ad54b9096bacee7fed146d7fcf74c2",
+          "rows": 200,
+          "quantization": "nf4",
+          "decoding": {
+            "do_sample": false,
+            "max_length": 1024,
+            "max_new_tokens": 256
+          },
+          "loading_info": {
+            "missing_keys": [],
+            "unexpected_count": 0,
+            "expected_unused": "Vision tower/MTP excluded from text-only model",
+            "class_name": "Qwen3_5ForCausalLM"
+          },
+          "load_seconds": 21.203166999999667,
+          "cpu_parameter_count": 0,
+          "peak_reserved_gib": 3.091796875,
+          "valid_json": 161,
+          "ended": 200,
+          "errors": 39,
+          "release_approved": false
+        },
+        "finetuned": {
+          "at": "2026-10-01T13:14:42.840534+00:00",
+          "model_id": "Qwen/Qwen3.5-4B",
+          "base": {
+            "model_id": "Qwen/Qwen3.5-4B",
+            "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+            "completed_at": "2026-10-01T11:53:40.902389+00:00",
+            "status": "complete",
+            "license": "apache-2.0",
+            "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+            "files": [
+              {
+                "file": "model.safetensors-00001-of-00002.safetensors",
+                "bytes": 5329398688,
+                "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+                "verified_official_lfs": true
+              },
+              {
+                "file": "model.safetensors-00002-of-00002.safetensors",
+                "bytes": 3990429408,
+                "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+                "verified_official_lfs": true
+              }
+            ],
+            "transport": "Shard2 completed original HTTP; shard1 assembled from official cache-busted Range chunks. Both official LFS hashes verified. Original stalled download and range duplicate-file guard preserved.",
+            "terminology": "Official post-trained checkpoint before project fine-tuning, not a pretraining-only Base checkpoint."
+          },
+          "adapter_dir": "models/witrans-qwen35-v2-critical-cpo",
+          "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+          "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+          "data_hash": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+          "generation_hash": "c1b5ef0b1cb631c6cf64e62f919d0550b1c45810af665debb26c3d190b80dc3d",
+          "rows": 200,
+          "quantization": "nf4",
+          "decoding": {
+            "do_sample": false,
+            "max_length": 1024,
+            "max_new_tokens": 256
+          },
+          "loading_info": {
+            "missing_keys": [],
+            "unexpected_count": 0,
+            "expected_unused": "Vision tower/MTP excluded from text-only model",
+            "class_name": "Qwen3_5ForCausalLM"
+          },
+          "load_seconds": 23.51461279999785,
+          "cpu_parameter_count": 0,
+          "peak_reserved_gib": 3.322265625,
+          "valid_json": 200,
+          "ended": 200,
+          "errors": 0,
+          "release_approved": false
+        }
+      },
+      "development_generation_timings": {
+        "base": {
+          "mean_seconds": 3.5440208670001447,
+          "median_seconds": 3.4930311499992968
+        },
+        "finetuned": {
+          "mean_seconds": 4.854867354999897,
+          "median_seconds": 4.952704300001642
+        }
+      },
+      "changed_verdict_examples": [
+        {
+          "id": "v4-dev-003-zh-CN",
+          "category": "daily",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "I returned the borrowed ladder, but I still have your extension cable.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "借来的梯子我已经还了，但你的延长线还在我这里。"
+          },
+          "before": "major",
+          "after": "pass",
+          "base": "我归还了借来的梯子，但我仍然拥有你的延长线。",
+          "finetuned": "我已经归还了借来的梯子，但我仍然有你的延长线。",
+          "base_note": "still have 指仍保管对方延长线，拥有增加所有权含义，角色归属不准确。",
+          "finetuned_note": "梯子已归还、仍持有对方延长线，所有者和转折正确。"
+        },
+        {
+          "id": "v4-dev-003-en",
+          "category": "daily",
+          "target_lang": "en",
+          "input": {
+            "text": "借来的梯子我已经还了，但你的延长线还在我这里。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "I returned the borrowed ladder, but I still have your extension cable."
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "{\"translation\":\"I've returned the borrowed ladder, but your extension line is still with me.\",\"target_lang\":\"en\",\"context\":\"\",\"glossary\":{}}",
+          "finetuned": "I've returned the borrowed ladder, but your extension cord is still with me.",
+          "base_note": "已还梯子而线仍在我处的语义正确，extension line 搭配不如 cord/cable；原始 JSON 多出字段，另记格式失败。",
+          "finetuned_note": "已归还借来的梯子，延长线仍在我这里，角色正确。"
+        },
+        {
+          "id": "v4-dev-014-en",
+          "category": "daily",
+          "target_lang": "en",
+          "input": {
+            "text": "洗衣机脱水正常，但现在无法排水。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "The washing machine spins normally but no longer drains."
+          },
+          "before": "major",
+          "after": "pass",
+          "base": "The washing machine drains normally, but it cannot drain water now.",
+          "finetuned": "The washing machine spins normally, but it cannot drain water now.",
+          "base_note": "脱水正常错为 drains normally，变成既排水正常又不能排水的矛盾。",
+          "finetuned_note": "脱水正常而现在不能排水，两个状态保留。"
+        },
+        {
+          "id": "v4-dev-016-zh-CN",
+          "category": "daily",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "I left the lights on because the electrician was still working.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "我没关灯，因为电工还在干活。"
+          },
+          "before": "major",
+          "after": "pass",
+          "base": "我忘了关灯，因为电工还在工作。",
+          "finetuned": "我让灯开着，因为电工还在工作。",
+          "base_note": "因电工工作而保持开灯，译忘了关灯，新增遗忘并改变原因性质。",
+          "finetuned_note": "因电工仍工作而保持灯开着，原因正确。"
+        },
+        {
+          "id": "v4-dev-019-zh-CN",
+          "category": "daily",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "Let me finish explaining before you decide whether to lend it to me.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "先让我解释完，你再决定要不要把它借给我。"
+          },
+          "before": "pass",
+          "after": "minor",
+          "base": "让我先说完，你再决定是否借给我。",
+          "finetuned": "让我先说完解释，你再决定是否借给我。",
+          "base_note": "先让我说完再由对方决定借给我，顺序角色完整，口语说完自然。",
+          "finetuned_note": "借出方与接受者及先解释再决定均正确，但说完解释语序不自然。"
+        },
+        {
+          "id": "v4-dev-025-zh-CN",
+          "category": "travel",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "Leave the hire car in bay twelve and put the keys in the drop box.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "把租来的车停在十二号车位，将钥匙放入归还箱。"
+          },
+          "before": "major",
+          "after": "minor",
+          "base": "请将租赁车辆停放在12号车位，并将钥匙放入投币箱。",
+          "finetuned": "将租赁车停放在12号车位，并将钥匙放入还车箱。",
+          "base_note": "drop box 钥匙归还箱错为投币箱，归还操作对象错误；12号位正确。",
+          "finetuned_note": "12 号车位和放钥匙正确，但 drop box 译还车箱不够准确，宜钥匙归还箱。"
+        },
+        {
+          "id": "v4-dev-033-en",
+          "category": "travel",
+          "target_lang": "en",
+          "input": {
+            "text": "下车时再刷一次卡，否则会收取最高票价。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "Tap your card again when you get off; otherwise the maximum fare is charged."
+          },
+          "before": "major",
+          "after": "minor",
+          "base": "{\"translation\":\"Refresh your card again when you get off the vehicle, or the highest fare will be charged.\",\"target_lang\":\"en\",\"context\":\"\",\"glossary\":{}}",
+          "finetuned": "Please swipe your card again when you get off the bus, otherwise the highest fare will be charged.",
+          "base_note": "刷卡译 Refresh card 刷新卡，操作不同；额外键亦格式失败。",
+          "finetuned_note": "下车再刷卡否则最高票价正确，但原文未限定 bus，交通方式被缩窄。"
+        },
+        {
+          "id": "v4-dev-040-zh-CN",
+          "category": "travel",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The return voucher is valid on any weekday except public holidays.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "返程凭券在工作日有效，但法定节假日除外。"
+          },
+          "before": "minor",
+          "after": "major",
+          "base": "返券在除法定节假日外的任何工作日有效。",
+          "finetuned": "退款凭证在除公共假期以外的任何工作日有效。",
+          "base_note": "返券不自然且未明确返程凭券，时间例外正确；原文 return 缺 context，另作敏感性分析。",
+          "finetuned_note": "既有返程凭券口径下 return 错为退款；工作日及假日例外正确。原文 return 缺语境，另作敏感性分析。"
+        },
+        {
+          "id": "v4-dev-042-zh-CN",
+          "category": "food",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The pastry is filled with minced lamb, not with diced beef.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "这种酥皮点心里面是羊肉馅，不是牛肉丁。"
+          },
+          "before": "major",
+          "after": "minor",
+          "base": "这种糕点里填的是碎羊肉，而不是碎牛肉。",
+          "finetuned": "这种糕点里填的是碎羊肉，而不是切块的牛肉。",
+          "base_note": "diced beef 牛肉丁错为碎牛肉，切丁与绞碎形态不同；正例碎羊肉正确。",
+          "finetuned_note": "碎羊肉非牛肉正确，diced 的丁状泛化为块状。"
+        },
+        {
+          "id": "v4-dev-044-zh-CN",
+          "category": "food",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "Let the lentils simmer uncovered until most of the liquid has evaporated.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "不盖锅盖，小火煮扁豆，直到大部分液体蒸发。"
+          },
+          "before": "pass",
+          "after": "minor",
+          "base": "让扁豆在液体大部分蒸发前不加盖炖煮。",
+          "finetuned": "让扁豆在液体大部分蒸发之前，保持无盖慢炖。",
+          "base_note": "大部分液体蒸发前无盖炖煮，炖隐含小火，持续时段明确。",
+          "finetuned_note": "无盖小火至大部分液体蒸发的时段可辨，但让扁豆保持无盖慢炖表达不自然。"
+        },
+        {
+          "id": "v4-dev-047-zh-CN",
+          "category": "food",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "We need a whisk to break up the lumps before the mixture thickens.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "混合物变稠之前，我们需要用打蛋器把结块打散。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "我们需要一个打蛋器，在混合物变稠之前将其打散。",
+          "finetuned": "我们需要一个打蛋器，在混合物变稠之前把块打碎。",
+          "base_note": "变稠前打蛋器打散动作正确，但其指混合物，未明确结块为打散对象。",
+          "finetuned_note": "混合物变稠前用打蛋器打碎结块，时序与工具正确。"
+        },
+        {
+          "id": "v4-dev-048-en",
+          "category": "food",
+          "target_lang": "en",
+          "input": {
+            "text": "蘸酱冷着上，馅料则应滚烫。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "The dipping sauce is served cold, whereas the filling should be piping hot."
+          },
+          "before": "major",
+          "after": "pass",
+          "base": "Dip the sauce cold, but the filling should be piping hot.",
+          "finetuned": "Serve the dipping sauce cold, but the filling should be piping hot.",
+          "base_note": "蘸酱冷上错为 Dip the sauce cold，把上菜改成蘸酱动作，谓语错误。",
+          "finetuned_note": "冷上蘸酱且馅料滚烫，中文冷着上可作操作语气，未新增事实。"
+        },
+        {
+          "id": "v4-dev-066-zh-CN",
+          "category": "academic",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The leaf loses water through its stomata during transpiration.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "蒸腾作用中，叶片通过气孔散失水分。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "植物通过气孔在蒸腾作用中失去水分。",
+          "finetuned": "叶片在蒸腾过程中通过气孔失去水分。",
+          "base_note": "蒸腾气孔失水正确，leaf 叶片泛化为整个植物。",
+          "finetuned_note": "叶在蒸腾时通过气孔失水，过程通道准确。"
+        },
+        {
+          "id": "v4-dev-068-zh-CN",
+          "category": "academic",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The river deposited silt on the inner side of the bend.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "河流在弯道内侧沉积了淤泥。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "河流在弯道内侧沉积了泥沙。",
+          "finetuned": "河流在弯道内侧沉积了泥沙。",
+          "base_note": "弯道内侧沉积正确，silt 淤泥泛化为泥沙。",
+          "finetuned_note": "弯道内侧泥沙沉积，方向正确。"
+        },
+        {
+          "id": "v4-dev-068-en",
+          "category": "academic",
+          "target_lang": "en",
+          "input": {
+            "text": "河流在弯道内侧沉积了淤泥。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "The river deposited silt on the inner side of the bend."
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "Sediment is deposited on the inside of the river bend.",
+          "finetuned": "The river deposited silt on the inside of the bend.",
+          "base_note": "河弯内侧沉积正确，淤泥泛化 sediment，细颗粒类别略失。",
+          "finetuned_note": "河流在弯内侧沉积淤泥，位置准确。"
+        },
+        {
+          "id": "v4-dev-069-zh-CN",
+          "category": "academic",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The document was written after the event and may reflect hindsight.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "这份文献是在事件发生后写成的，可能带有事后视角。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "该文档是在事件发生后撰写的，可能反映了事后之明。",
+          "finetuned": "这份文件是在事件发生后撰写的，可能会反映事后回顾。",
+          "base_note": "事件后文献带事后知识的可能性正确，但事后之明措辞不自然，宜后见之明或事后视角。",
+          "finetuned_note": "事件后写成且可能反映事后回顾，时间与可能性完整。"
+        },
+        {
+          "id": "v4-dev-080-zh-CN",
+          "category": "academic",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The sample was diluted by adding solvent while retaining all of the solute.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "加入溶剂使样品稀释，同时保留全部溶质。"
+          },
+          "before": "major",
+          "after": "pass",
+          "base": "将溶剂加入样品中，同时保留所有溶质。",
+          "finetuned": "在保留所有溶质的情况下，通过加入溶剂对样品进行了稀释。",
+          "base_note": "英语明确陈述样品已稀释，译为加入溶剂的操作句并省去稀释结果，语气和结果不完整。",
+          "finetuned_note": "加入溶剂稀释同时保留全部溶质，两物质角色准确。"
+        },
+        {
+          "id": "v4-dev-095-zh-CN",
+          "category": "hard",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "The chord is difficult to hold.",
+            "target_lang": "zh-CN",
+            "context": "We are discussing finger placement on a guitar.",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "这个和弦很难按住。"
+          },
+          "before": "pass",
+          "after": "minor",
+          "base": "这个和弦很难按住。",
+          "finetuned": "这个和弦很难按准。",
+          "base_note": "吉他chord正确为和弦。",
+          "finetuned_note": "吉他和弦消歧正确，但 hold 按住弱化为按准，准确性替代保持按弦。"
+        }
+      ],
+      "source_ambiguity_sensitivity": {
+        "plan": {
+          "scope": "Supplementary diagnostic only; preserve primary frozen-development grading and every original decision. Frozen before corrected base generation and full paired result.",
+          "excluded_known_groups": [
+            "v4-dev-021",
+            "v4-dev-022",
+            "v4-dev-040"
+          ],
+          "reasons": {
+            "v4-dev-021": "coach can denote a bus or railway carriage; no disambiguating context supplied",
+            "v4-dev-022": "on board does not specify bus, ship, train or aircraft; the reference chooses a vehicle reading",
+            "v4-dev-040": "return voucher lacks context distinguishing return travel from a refund or goods return"
+          },
+          "rule": "Remove the entire source group in both directions from both model roles; compute the same paired pass interval. Do not modify training, checkpoints, decoding or primary grades based on this result.",
+          "release_approved": false
+        },
+        "counts": {
+          "base": {
+            "pass": 155,
+            "major": 21,
+            "minor": 18
+          },
+          "finetuned": {
+            "pass": 163,
+            "major": 13,
+            "minor": 18
+          }
+        },
+        "paired_stats": {
+          "pass_difference": 0.041237113402061855,
+          "group_bootstrap_95_interval": [
+            0.0,
+            0.08762886597938144
+          ],
+          "rows": 194,
+          "source_groups": 97,
+          "iterations": 5000,
+          "seed": 42,
+          "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+        }
+      }
+    },
+    "public": {
+      "counts": {
+        "base": {
+          "pass": 105,
+          "minor": 7,
+          "major": 4
+        },
+        "finetuned": {
+          "pass": 105,
+          "minor": 8,
+          "major": 3
+        }
+      },
+      "metrics": {
+        "base": {
+          "pass_count": 105,
+          "major_including_critical": 4,
+          "critical": 0,
+          "rows": 116,
+          "pass_rate": 0.9051724137931034,
+          "pass_with_all_protocol_constraints": 103
+        },
+        "finetuned": {
+          "pass_count": 105,
+          "major_including_critical": 3,
+          "critical": 0,
+          "rows": 116,
+          "pass_rate": 0.9051724137931034,
+          "pass_with_all_protocol_constraints": 105
+        }
+      },
+      "source_group_paired_stats": {
+        "pass_difference": 0.0,
+        "group_bootstrap_95_interval": [
+          -0.034482758620689655,
+          0.034482758620689655
+        ],
+        "rows": 116,
+        "source_groups": 58,
+        "iterations": 5000,
+        "seed": 42,
+        "scope": "Percentile paired bootstrap resampling source groups; interval is diagnostic, not a guarantee of generalization"
+      },
+      "strata": {
+        "base": {
+          "daily/zh-CN": {
+            "pass": 38,
+            "minor": 4,
+            "major": 3
+          },
+          "daily/en": {
+            "pass": 44,
+            "minor": 1
+          },
+          "travel/zh-CN": {
+            "pass": 6
+          },
+          "travel/en": {
+            "pass": 6
+          },
+          "academic/zh-CN": {
+            "pass": 2
+          },
+          "academic/en": {
+            "pass": 2
+          },
+          "hard/zh-CN": {
+            "major": 1
+          },
+          "hard/en": {
+            "minor": 1
+          },
+          "food/zh-CN": {
+            "pass": 3,
+            "minor": 1
+          },
+          "food/en": {
+            "pass": 4
+          }
+        },
+        "finetuned": {
+          "daily/zh-CN": {
+            "pass": 38,
+            "major": 3,
+            "minor": 4
+          },
+          "daily/en": {
+            "pass": 43,
+            "minor": 2
+          },
+          "travel/zh-CN": {
+            "pass": 6
+          },
+          "travel/en": {
+            "pass": 6
+          },
+          "academic/zh-CN": {
+            "pass": 2
+          },
+          "academic/en": {
+            "pass": 2
+          },
+          "hard/zh-CN": {
+            "minor": 1
+          },
+          "hard/en": {
+            "minor": 1
+          },
+          "food/zh-CN": {
+            "pass": 4
+          },
+          "food/en": {
+            "pass": 4
+          }
+        }
+      },
+      "stratum_rows": {
+        "daily/zh-CN": 45,
+        "daily/en": 45,
+        "travel/zh-CN": 6,
+        "travel/en": 6,
+        "academic/zh-CN": 2,
+        "academic/en": 2,
+        "hard/zh-CN": 1,
+        "hard/en": 1,
+        "food/zh-CN": 4,
+        "food/en": 4
+      },
+      "stratum_pass_changes": {
+        "daily/zh-CN": 0.0,
+        "daily/en": -0.022222222222222223,
+        "travel/zh-CN": 0.0,
+        "travel/en": 0.0,
+        "academic/zh-CN": 0.0,
+        "academic/en": 0.0,
+        "hard/zh-CN": 0.0,
+        "hard/en": 0.0,
+        "food/zh-CN": 0.25,
+        "food/en": 0.0
+      },
+      "transitions": [
+        {
+          "before": "pass",
+          "after": "pass",
+          "count": 103
+        },
+        {
+          "before": "major",
+          "after": "major",
+          "count": 3
+        },
+        {
+          "before": "minor",
+          "after": "pass",
+          "count": 2
+        },
+        {
+          "before": "minor",
+          "after": "minor",
+          "count": 5
+        },
+        {
+          "before": "major",
+          "after": "minor",
+          "count": 1
+        },
+        {
+          "before": "pass",
+          "after": "minor",
+          "count": 2
+        }
+      ],
+      "structure_direction_eos": {
+        "base": false,
+        "finetuned": true
+      },
+      "protocol_counts": {
+        "base": {
+          "format_valid": 114,
+          "ended": 116,
+          "language_correct": 116
+        },
+        "finetuned": {
+          "format_valid": 116,
+          "ended": 116,
+          "language_correct": 116
+        }
+      },
+      "runtime": {
+        "base": {
+          "at": "2026-10-01T13:41:14.964567+00:00",
+          "model_id": "Qwen/Qwen3.5-4B",
+          "base": {
+            "model_id": "Qwen/Qwen3.5-4B",
+            "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+            "completed_at": "2026-10-01T11:53:40.902389+00:00",
+            "status": "complete",
+            "license": "apache-2.0",
+            "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+            "files": [
+              {
+                "file": "model.safetensors-00001-of-00002.safetensors",
+                "bytes": 5329398688,
+                "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+                "verified_official_lfs": true
+              },
+              {
+                "file": "model.safetensors-00002-of-00002.safetensors",
+                "bytes": 3990429408,
+                "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+                "verified_official_lfs": true
+              }
+            ],
+            "transport": "Shard2 completed original HTTP; shard1 assembled from official cache-busted Range chunks. Both official LFS hashes verified. Original stalled download and range duplicate-file guard preserved.",
+            "terminology": "Official post-trained checkpoint before project fine-tuning, not a pretraining-only Base checkpoint."
+          },
+          "adapter_dir": null,
+          "adapter_sha256": null,
+          "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+          "data_hash": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+          "generation_hash": "32d102da6e4131e48b14e6d697450d724fdbb868c3debb2df02a4fc6d9816107",
+          "rows": 116,
+          "quantization": "nf4",
+          "decoding": {
+            "do_sample": false,
+            "max_length": 1024,
+            "max_new_tokens": 256
+          },
+          "loading_info": {
+            "missing_keys": [],
+            "unexpected_count": 0,
+            "expected_unused": "Vision tower/MTP excluded from text-only model",
+            "class_name": "Qwen3_5ForCausalLM"
+          },
+          "load_seconds": 20.66531919999761,
+          "cpu_parameter_count": 0,
+          "peak_reserved_gib": 3.091796875,
+          "valid_json": 114,
+          "ended": 116,
+          "errors": 2,
+          "release_approved": false
+        },
+        "finetuned": {
+          "at": "2026-10-01T13:23:02.060102+00:00",
+          "model_id": "Qwen/Qwen3.5-4B",
+          "base": {
+            "model_id": "Qwen/Qwen3.5-4B",
+            "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+            "completed_at": "2026-10-01T11:53:40.902389+00:00",
+            "status": "complete",
+            "license": "apache-2.0",
+            "source": "https://huggingface.co/Qwen/Qwen3.5-4B",
+            "files": [
+              {
+                "file": "model.safetensors-00001-of-00002.safetensors",
+                "bytes": 5329398688,
+                "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+                "verified_official_lfs": true
+              },
+              {
+                "file": "model.safetensors-00002-of-00002.safetensors",
+                "bytes": 3990429408,
+                "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+                "verified_official_lfs": true
+              }
+            ],
+            "transport": "Shard2 completed original HTTP; shard1 assembled from official cache-busted Range chunks. Both official LFS hashes verified. Original stalled download and range duplicate-file guard preserved.",
+            "terminology": "Official post-trained checkpoint before project fine-tuning, not a pretraining-only Base checkpoint."
+          },
+          "adapter_dir": "models/witrans-qwen35-v2-critical-cpo",
+          "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+          "prompt_hash": "16465a8a3a3ef925155322e6fbd13df95a1c9348ece436eee5428646cbf7ba28",
+          "data_hash": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0",
+          "generation_hash": "8f4582c1826bd47a15e66ead35f49554b7d27af75a85919938361a9d8a5fb3b0",
+          "rows": 116,
+          "quantization": "nf4",
+          "decoding": {
+            "do_sample": false,
+            "max_length": 1024,
+            "max_new_tokens": 256
+          },
+          "loading_info": {
+            "missing_keys": [],
+            "unexpected_count": 0,
+            "expected_unused": "Vision tower/MTP excluded from text-only model",
+            "class_name": "Qwen3_5ForCausalLM"
+          },
+          "load_seconds": 23.49099660000138,
+          "cpu_parameter_count": 0,
+          "peak_reserved_gib": 3.322265625,
+          "valid_json": 116,
+          "ended": 116,
+          "errors": 0,
+          "release_approved": false
+        }
+      },
+      "development_generation_timings": {
+        "base": {
+          "mean_seconds": 2.7962774956897567,
+          "median_seconds": 2.6599958000006154
+        },
+        "finetuned": {
+          "mean_seconds": 4.042612310344746,
+          "median_seconds": 3.7899749999996857
+        }
+      },
+      "changed_verdict_examples": [
+        {
+          "id": "public-short-0082-zh-CN",
+          "category": "daily",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "Speak clearly and make yourself heard.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "说清楚些，让别人听见你的话。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "说清楚，让自己被听见。",
+          "finetuned": "说清楚，让别人能听清。",
+          "base_note": "说清楚让他人听到的语义正确，但让自己被听见为生硬被动表达。",
+          "finetuned_note": "说清楚且让别人听清，两个要求完整。"
+        },
+        {
+          "id": "public-short-0342-zh-CN",
+          "category": "hard",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "If we were supposed to talk more than listen, we would have been given two mouths and one ear.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "如果我们本该多说少听，那我们就该有两张嘴和一只耳朵。"
+          },
+          "before": "major",
+          "after": "minor",
+          "base": "如果我们本该多听少说，我们本该被赋予两个嘴巴和一个耳朵。",
+          "finetuned": "如果我们应该说得多于听，我们就应该被赋予两个嘴巴和一个耳朵。",
+          "base_note": "talk more than listen 多说少听反转为多听少说，反事实前提错误。",
+          "finetuned_note": "多说少听假设与两嘴一耳保留，但两个嘴巴一个耳朵量词和被赋予表达生硬。"
+        },
+        {
+          "id": "public-short-0597-en",
+          "category": "daily",
+          "target_lang": "en",
+          "input": {
+            "text": "汤姆说，他觉得可能只有自己必须做那件事。",
+            "target_lang": "en",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "Tom said he thought he might be the only one who had to do that."
+          },
+          "before": "pass",
+          "after": "minor",
+          "base": "Tom said that he felt that perhaps only he must do that thing.",
+          "finetuned": "Tom said that he felt like only he had to do that thing.",
+          "base_note": "perhaps 保留可能性，only he must 义务角色正确。",
+          "finetuned_note": "汤姆觉得只有他须做正确，felt like 有主观缓和，但显式可能未充分保留。"
+        },
+        {
+          "id": "public-short-0033-zh-CN",
+          "category": "food",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "One more bottle of wine, please.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "请再来一瓶葡萄酒。"
+          },
+          "before": "minor",
+          "after": "pass",
+          "base": "再来一瓶酒，谢谢。",
+          "finetuned": "再来一瓶葡萄酒，谢谢。",
+          "base_note": "再一瓶与礼貌正确，wine 葡萄酒泛化为酒，类型略失。",
+          "finetuned_note": "再一瓶葡萄酒，please 转谢谢礼貌请求等效。"
+        },
+        {
+          "id": "public-short-0402-zh-CN",
+          "category": "daily",
+          "target_lang": "zh-CN",
+          "input": {
+            "text": "Thank you for coming to meet me.",
+            "target_lang": "zh-CN",
+            "context": "",
+            "glossary": {}
+          },
+          "reference": {
+            "translation": "谢谢你来见我。"
+          },
+          "before": "pass",
+          "after": "minor",
+          "base": "谢谢你来见我。",
+          "finetuned": "谢谢你愿意来见我。",
+          "base_note": "感谢对方来见我，未新增意愿条件。",
+          "finetuned_note": "感谢来见我正确，但新增愿意并将已来的感谢弱化为意愿感谢。"
+        }
+      ]
+    }
+  },
+  "development_gates_vs_own_base": {
+    "known_pass_gain_at_least3pp": true,
+    "known_major_nonincrease": true,
+    "category_direction_regression_at_most2pp": false,
+    "public_pass_regression_at_most2pp": true,
+    "public_major_nonincrease": true,
+    "all_json_direction_eos": false,
+    "candidate_critical_zero": true
+  },
+  "fine_tuning_screen_passed": false,
+  "legacy_v7_context": {
+    "known": {
+      "pass_count": 140,
+      "minor": 31,
+      "major": 29,
+      "rows": 200
+    },
+    "public": {
+      "pass_count": 95,
+      "minor": 18,
+      "major": 3,
+      "rows": 116
+    },
+    "scope": "Historical current-best same input/prompt/NF4 reference; different model architecture/tokenizer/training lineage, not an equal-total-training method ablation."
+  },
+  "excluded_failed_generation_evidence": [
+    "runs/qwen35-base-known.jsonl",
+    "runs/qwen35-base-public.jsonl"
+  ],
+  "exclusions_reason": "All initial base rows failed removed Transformers generation API before any raw output. Preserved as interface failure, not semantic model accuracy.",
+  "limitations": "Fresh Qwen3.5 LoRA cannot inherit Qwen3/v2/v5 weights. Recipe transfer is not exact reproduction of the historical multi-round lineage, nor an equal-total-training architecture ablation. One seed, repeated DEV only.",
+  "scope": "Repeated known200 and auxiliary116. Authorized AI source review, not independent confirmation or human professional validation. One concrete candidate; no stable method/algorithm claim.",
+  "default_promoted": false,
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "own_weight_short_benchmark": {
+    "at": "2026-10-01T13:44:45.238939+00:00",
+    "plan_hash": "774d63766d2f225b049bf947af178889d2ab195b6404a076aa8a75ce64a5b01e",
+    "cases": [
+      {
+        "text": "请问去机场的巴士几点出发？",
+        "target_lang": "en"
+      },
+      {
+        "text": "如果今天下雨，我们就取消徒步。",
+        "target_lang": "en"
+      },
+      {
+        "text": "这道菜不含花生，但含有牛奶。",
+        "target_lang": "en"
+      },
+      {
+        "text": "Please send me the revised schedule by Friday.",
+        "target_lang": "zh-CN"
+      },
+      {
+        "text": "Do not restart the device until the update finishes.",
+        "target_lang": "zh-CN"
+      },
+      {
+        "text": "The room rate includes breakfast for two people.",
+        "target_lang": "zh-CN"
+      }
+    ],
+    "cases_hash": "d122a3174c09a8e2291d7ea5b78d31707591c297f11dcfd67a115d1d6f01de84",
+    "protocol": "NF4; unchanged prompt; thinking disabled; greedy; total1024/output256; six warm-ups then three rounds; sequential GPU.",
+    "summaries": {
+      "base": {
+        "adapter_sha256": null,
+        "calls": 18,
+        "rounds": 3,
+        "mean_seconds": 2.7292421555555646,
+        "p95_seconds": 3.288473900000099,
+        "peak_reserved_gib": 3.091796875,
+        "cpu_parameter_count": 0,
+        "valid_json": 18,
+        "ended": 18,
+        "mean_at_most4s": true,
+        "p95_at_most8s": true
+      },
+      "finetuned": {
+        "adapter_sha256": "fe983cd436a3d2672e33071bb8e466a4e1ed2f64b76961c836880d8d5f8dfb27",
+        "calls": 18,
+        "rounds": 3,
+        "mean_seconds": 4.308914744444944,
+        "p95_seconds": 5.323399900000368,
+        "peak_reserved_gib": 3.32421875,
+        "cpu_parameter_count": 0,
+        "valid_json": 18,
+        "ended": 18,
+        "mean_at_most4s": false,
+        "p95_at_most8s": true
+      }
+    },
+    "scope": "Own-weight Windows PyTorch fallback timing. Fixed short-sentence sample; no production or long-text latency claim.",
+    "release_approved": false
+  }
+}

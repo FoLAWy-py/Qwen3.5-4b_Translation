@@ -1,0 +1,147 @@
+{
+  "at": "2026-10-02T04:08:44.997372+00:00",
+  "sources": [
+    {
+      "title": "Cambridge English–Chinese green bean",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english-chinese-simplified/green-bean",
+      "finding": "The entry explicitly permits 青豆 and 四季豆; unqualified 青豆 cannot demand peas."
+    },
+    {
+      "title": "MOE 青豆",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=101958&la=0&powerMode=0",
+      "finding": "The regional entry refers to soybean seeds, further illustrating lexical ambiguity."
+    }
+  ],
+  "correction_basis": "Individual AI source reread and dictionary verification; discovered after training, not pretraining review.",
+  "old_trial_eligible": false,
+  "optimization_round_requirement_satisfied": false,
+  "invalidated_plan_hashes": [
+    "8ab5e821d19e86fa84018e0dd8c9005c48edf362a76fbc9d346dff0da02f5efb"
+  ],
+  "invalidated_outputs": [
+    "models/witrans-qwen35-v3-reviewed34-cpo"
+  ],
+  "quarantined_adapter_sha256": "3e95cd30ad4fa13b0db35102d86f9f0b8bf01630b1da5ba2f0fec9346166df61",
+  "reason": "Reasonable green beans translation was wrongly used as a major-error CPO negative.",
+  "original_files": {
+    "runs/qwen35-v3-train-discovery-conservative-manual.jsonl": "9f00fb998188ed6e4ce8b56e51293d7cec344018b5bad9f9d4a670749d6c68b4",
+    "runs/qwen35-v3-reviewed34-recall-manual.jsonl": "09db93f013c99eb99cc4f785eae3e4a82e41632c34de7f4e4026de48b94a316c",
+    "data/prepared/qwen35-v3-reviewed-current-errors/pairs.jsonl": "460bd799373e7720e63e1a0600a464acb24c4941d360f27d4c36479a8f835718",
+    "data/prepared/v16-reviewed-families/train-ready-after-overlap-review.jsonl": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+    "data/prepared/qwen35-v3-context-supplement/train.jsonl": "817c8bcdec7767751cbda5650bce89103db15eba28cba28b42f2577a6caf60f9"
+  },
+  "changes": [
+    {
+      "view": "runs/qwen35-v3-train-discovery-conservative-manual.jsonl",
+      "id": "v10-food-01-en",
+      "old": "0c95a2663fc1b085ef8656df955f688ff90d7f28be89bf06b3f767f4685446fc",
+      "new": "2cff2ecace42c62f193054d2b2ae85ebba573b7d2baeb8a7b7674861f7765d56",
+      "old_verdict": "major",
+      "new_verdict": "pass",
+      "note": "原文青豆无豌豆限定，context/glossary均未消歧；Cambridge green bean词条接受青豆/四季豆。green beans是可接受词义；鹰嘴豆用于汤、青豆留另一道菜及唯有鹰嘴豆适用的关系均完整，判pass。参考green peas是一种可接受解释，不能据此把green beans作负例。"
+    },
+    {
+      "view": "runs/qwen35-v3-reviewed34-recall-manual.jsonl",
+      "id": "v8-multi-001-zh-CN",
+      "old": "3d1c5952bd698780a19fb4796b197d4a0bcf7416a93ea1626c70bcda281020ba",
+      "new": "81666e40d9d175903a9f8d0f29ca76ce505c64b7d6cc2074af5f81d70c11f905",
+      "old_verdict": "major",
+      "new_verdict": "major",
+      "note": "只有两人都未能在你到达之前回家时才取钥匙；译文删去在你到达之前这一限定，改变取钥匙条件，判major。保留旧笔记但不沿用其扩大条件的方向断言。"
+    },
+    {
+      "view": "runs/qwen35-v3-reviewed34-recall-manual.jsonl",
+      "id": "v10-food-01-en",
+      "old": "f84e43e16be022569abfc5911fc1b7a849ba73fa1018e0c0f0e4252609288b29",
+      "new": "5f92f0adcf7da48b0405ecbf11e529b6aa8f927158272d0bbf38f54163acc157",
+      "old_verdict": "major",
+      "new_verdict": "pass",
+      "note": "原文青豆无豌豆限定，context/glossary均未消歧；Cambridge green bean词条接受青豆/四季豆。green beans是可接受词义；鹰嘴豆用于汤、青豆留另一道菜及唯有鹰嘴豆适用的关系均完整，判pass。参考green peas是一种可接受解释，不能据此把green beans作负例。"
+    },
+    {
+      "view": "runs/qwen35-v3-reviewed34-recall-manual.jsonl",
+      "id": "v4-mining-009-zh-CN",
+      "old": "fcb245a1683f8e3ab873b31905f639b484d98d036833920947d0b68616a7b829",
+      "new": "f53034e007e7bfc802a124763a4f3df4cc90b09f7d52c41db850cc4030777dee",
+      "old_verdict": "major",
+      "new_verdict": "minor",
+      "note": "漏勺、捞饺子和请求均正确，主要语言方向已修复；遗漏正在慢煮的汤这一介质和温度细节，按附属细节遗漏判minor，不作下一轮负例。原起点该条英文方向错误仍是major。"
+    }
+  ],
+  "positive_age_corrections": [
+    {
+      "id": "q35-v3-supplement-daily-03-zh-CN",
+      "input_hash": "548eeb06018be53b5523661c5efc7608ac55636810ee728ee0f3f1d44cf36cb4",
+      "old_output": {
+        "translation": "米拉为弟弟预订了阅读隔间，但预订仍登记在她本人名下。图书管理员应核查米拉的预订，而不是让她弟弟再订一次。"
+      },
+      "new_output": {
+        "translation": "米拉为她的兄弟预订了阅读隔间，但预订仍登记在她本人名下。图书管理员应核查米拉的预订，而不是让她的兄弟再订一次。"
+      },
+      "old_hash": "5a168ed6cd6b48a518e4dc6a2bc07b28f0b09090d1d9b0bcb557b2f766eb78a2",
+      "new_hash": "8e257badf8ab169ce3650055706c37cff5c1119017d18c0fd7c6dce1a7966fd2"
+    },
+    {
+      "id": "q35-v3-supplement-daily-03-en",
+      "input_hash": "88e1df4bbbc02a3fc83fdb814ef87d59217a17fb766e895281576e7d71defd14",
+      "old_output": {
+        "translation": "Mira reserved a reading booth for her brother, but the reservation remains under her own name. The librarian should check Mira's booking rather than ask her brother to make a second one."
+      },
+      "new_output": {
+        "translation": "Mira reserved a reading booth for her younger brother, but the reservation remains under her own name. The librarian should check Mira's booking rather than ask her younger brother to make a second one."
+      },
+      "old_hash": "79b25fa624c3505e51f0bb7f1d04167cd1a890a4941b64eea5ea324e260f7d56",
+      "new_hash": "db88041180b4c40affcdee81381c85a318002a58783c4d3cf56a295b780f23df"
+    }
+  ],
+  "outputs": {
+    "original_review": "runs/qwen35-v3-train-discovery-lexical-corrected-manual.jsonl",
+    "candidate_review": "runs/qwen35-v3-reviewed34-recall-conservative-manual.jsonl",
+    "clean_pairs": "data/prepared/qwen35-v3-reviewed33-current-errors/pairs.jsonl",
+    "gradient": "runs/qwen35-v3-reviewed33-gradient-diagnosis.json",
+    "supplement": "data/prepared/qwen35-v3-age-corrected-positives/supplement.jsonl",
+    "replay": "data/prepared/qwen35-v3-age-corrected-positives/replay.jsonl",
+    "pool_audit": "runs/qwen35-v3-reviewed33-current-error-pool-audit.json"
+  },
+  "new_hashes": {
+    "original_review": "b23397474e89585b289fc0184fcd1e638f27302bb6de2ce3d0a8e6d3d4784a16",
+    "candidate_review": "e13d4839b94a3e92424393ac522ad8dc1b425bd231ff18460529961652b59b06",
+    "clean_pairs": "53fe4378468b89fb71fd293e2dbae2a670c58e9fba0cb7f2a4c894fdb08a4b69",
+    "gradient": "4ca904912a94e7da7c05ea2ad78fceeff886e67142eeb04681c27c36634a8099",
+    "supplement": "b26a48e6a638936c820b4ca20da6cce1f4ad62348ac59f1e0b22b9dd8a8f942d",
+    "replay": "4aeb67856c1c24696228719878ad6b571be110c6611f68eb2eaaeffd5d7ad81e"
+  },
+  "counts": {
+    "original": {
+      "pass": 328,
+      "minor": 55,
+      "major": 33
+    },
+    "candidate": {
+      "pass": 78,
+      "major": 12,
+      "minor": 24
+    },
+    "pairs": 33,
+    "pair_groups": 32,
+    "replay": 456,
+    "replay_groups": 220
+  },
+  "original_frozen_screening_preserved": true,
+  "corrected_candidate_screen_still_failed": true,
+  "unchanged_failures": {
+    "preservation_pass": 36,
+    "preservation_minimum": 39,
+    "supplement_pass": 22,
+    "supplement_minimum": 32,
+    "supplement_major": 5,
+    "supplement_major_maximum": 4
+  },
+  "no_dev_or_confirmation_generated": true,
+  "original_416_positives_reused_unchanged": true,
+  "ambiguous_green_peas_reference_retained_as_permissible_positive": true,
+  "prior_quarantines_remain_in_force": true,
+  "stage_goal_complete": false,
+  "release_approved": false,
+  "default_promoted": false
+}

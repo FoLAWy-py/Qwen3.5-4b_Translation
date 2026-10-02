@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "splits": {
+    "dev": {
+      "count": 4,
+      "sha256": "eb7684f2e7c205a0d1c4b2cb0e6747a1243f368f473e4bf99a00e832057a091d",
+      "categories": {
+        "academic": 3,
+        "travel": 1
+      },
+      "directions": {
+        "en": 2,
+        "zh-CN": 2
+      }
+    },
+    "test": {
+      "count": 4,
+      "sha256": "6d33a4bb25019f0078436c513e9455626ac4cc7c0d4c01175b623a1ec8f872f6",
+      "categories": {
+        "academic": 1,
+        "food": 2,
+        "hard": 1
+      },
+      "directions": {
+        "en": 1,
+        "zh-CN": 3
+      }
+    },
+    "train": {
+      "count": 32,
+      "sha256": "0577c4b9aab62fb494e98c4ba3c2ed9e3f3fc3f39cbbae40c13214bb57009f2c",
+      "categories": {
+        "academic": 10,
+        "food": 4,
+        "travel": 5,
+        "daily": 10,
+        "hard": 3
+      },
+      "directions": {
+        "en": 17,
+        "zh-CN": 15
+      }
+    }
+  }
+}

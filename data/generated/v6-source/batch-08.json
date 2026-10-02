@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T20:07:42.116344+00:00",
+  "plan_hash": "1671c1bac85d82ed67a116de8d11fe21bbeca6e8ba51669e386b2281b0490a82",
+  "batch": [
+    {
+      "case_id": "v6-academic-05",
+      "category": "academic",
+      "topic": "a geography class comparing erosion and deposition",
+      "group_id": "v6-academic-05"
+    },
+    {
+      "case_id": "v6-academic-06",
+      "category": "academic",
+      "topic": "a computing class explaining a queue versus a stack",
+      "group_id": "v6-academic-06"
+    },
+    {
+      "case_id": "v6-academic-07",
+      "category": "academic",
+      "topic": "a history class distinguishing a quotation from a later interpretation",
+      "group_id": "v6-academic-07"
+    },
+    {
+      "case_id": "v6-academic-08",
+      "category": "academic",
+      "topic": "a mathematics class describing a necessary versus a sufficient condition",
+      "group_id": "v6-academic-08"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v6-academic-05\",\n      \"english\": \"Erosion wears away land, while deposition builds it up with sediment.\",\n      \"chinese\": \"侵蚀会磨损土地，而沉积则通过沉积物堆积起来。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-06\",\n      \"english\": \"A queue adds to the back and removes from the front, unlike a stack.\",\n      \"chinese\": \"队列在队尾添加元素并在队首移除，这与栈不同。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-07\",\n      \"english\": \"The quotation shows the original words, not a later interpretation.\",\n      \"chinese\": \"引文展示了原始话语，而不是后来的解释。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v6-academic-08\",\n      \"english\": \"A necessary condition must be true for the conclusion to hold.\",\n      \"chinese\": \"必要条件必须为真，结论才成立。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 384,
+    "total_tokens": 638,
+    "completion_tokens": 254,
+    "estimated_cost": 0.00010184,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

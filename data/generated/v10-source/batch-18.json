@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:39.346864+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-academic-09",
+      "category": "academic",
+      "topic": "A survey permits multiple choices and reports percentages that need not sum to100; preserve denominator and scope without inventing results.",
+      "group_id": "v10-academic-09"
+    },
+    {
+      "case_id": "v10-academic-10",
+      "category": "academic",
+      "topic": "A simulation terminates when either of two stopping conditions is met; do not change either into both.",
+      "group_id": "v10-academic-10"
+    },
+    {
+      "case_id": "v10-academic-11",
+      "category": "academic",
+      "topic": "A mathematical statement distinguishes at most one solution from exactly one solution; absence of a solution is allowed by the first statement.",
+      "group_id": "v10-academic-11"
+    },
+    {
+      "case_id": "v10-academic-12",
+      "category": "academic",
+      "topic": "A program distinguishes a file that does not exist from an existing file of zero bytes; do not equate both with a read failure.",
+      "group_id": "v10-academic-12"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-academic-09\",\n      \"english\": \"The survey asked participants to select any number of options, allowing overlapping choices. The resulting percentages sum to more than 100% because multiple selections are permitted.\",\n      \"chinese\": \"该调查允许参与者选择任意数量的选项，因此选项可以重叠。由于允许多选，最终的百分比总和超过了100%。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-10\",\n      \"english\": \"The simulation ends when the maximum iteration count is reached or when a stable state is detected. It does not require both conditions to be satisfied simultaneously.\",\n      \"chinese\": \"当达到最大迭代次数或检测到稳定状态时，模拟将终止。它不要求两个条件同时满足。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-11\",\n      \"english\": \"The theorem states that there is at most one solution, not necessarily exactly one. It allows for the possibility that no solution exists at all.\",\n      \"chinese\": \"该定理指出最多存在一个解，而非一定恰好存在一个解。它允许完全没有解的可能性。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-academic-12\",\n      \"english\": \"The program treats a missing file and an empty file as distinct cases. Both can cause a read error, but they are not the same condition.\",\n      \"chinese\": \"该程序将文件不存在与文件为空视为两种不同的情况。虽然两者都可能导致读取错误，但它们不是同一条件。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 472,
+    "total_tokens": 847,
+    "completion_tokens": 375,
+    "estimated_cost": 0.00014276,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}

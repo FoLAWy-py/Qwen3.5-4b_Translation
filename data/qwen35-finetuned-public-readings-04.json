@@ -1,0 +1,14 @@
+{
+  "public-short-0228-en": ["pass", "成千上万为大量人的习语，tens of thousands 合理表达，未把精确数值改写。", true],
+  "public-short-0492-zh-CN": ["pass", "your place 常指你家，去对方处询问许可正确。", true],
+  "public-short-0492-en": ["pass", "去你那里询问许可，go/come 视角自然。", true],
+  "public-short-0134-zh-CN": ["pass", "cut 可剪也可砍，树上一枝被剪下合理。", true],
+  "public-short-0474-zh-CN": ["pass", "询问身边此处能否打出租车，位置和可能性正确。", true],
+  "public-short-0474-en": ["pass", "附近能否乘出租车，询问而非回答。", true],
+  "public-short-0254-zh-CN": ["pass", "对方铅笔差点戳我眼睛，未变已戳。", true],
+  "public-short-0254-en": ["pass", "差点用铅笔戳我眼睛，near miss 正确保留。", true],
+  "public-short-0189-zh-CN": ["pass", "郊区生活必需车，必要性准确。", true],
+  "public-short-0189-en": ["pass", "郊区生活需车，条件和必需性完整。", true],
+  "public-short-0588-zh-CN": ["pass", "买冰淇淋给我则我亲你，条件角色完整。", true],
+  "public-short-0190-zh-CN": ["major", "in court 应修饰证据被使用的位置，译为在法庭上说的话，范围被缩窄为庭内发言。", true]
+}

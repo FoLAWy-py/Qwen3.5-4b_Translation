@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-01T10:41:37.560357+00:00",
+  "reviewed_families": 200,
+  "reviewed_rows": 416,
+  "decision_hash": "214d46c0587e77485c533f7ac3b062a3f7424d6e1913f497a199ce56e6bacab2",
+  "original_records_hash": "7b93078f7d2e9b0fe85fa65dcae21b68168c73276efe19da816a79dc5d8bea0a",
+  "reviewed_records_hash": "fbeb94a8b28245a9cf5c3c91e7fdf9febc39d3aefab77214de6f627e57dca6e7",
+  "train_ready_hash": "5bdf4ed80bfed01e67f07917bbfcba50dec4ff2b012e776fa5ca54167da3162a",
+  "train_ready_families": 198,
+  "train_ready_rows": 408,
+  "quarantined_families": [
+    "v5-seed-18",
+    "v7-context-09"
+  ],
+  "reference_repairs": 3,
+  "strata": {
+    "daily/zh-CN": 40,
+    "daily/en": 40,
+    "travel/zh-CN": 40,
+    "travel/en": 40,
+    "food/zh-CN": 41,
+    "food/en": 41,
+    "academic/zh-CN": 40,
+    "academic/en": 40,
+    "hard/zh-CN": 43,
+    "hard/en": 43
+  },
+  "source_selection": "TRAIN-only NLL priority inside five balanced categories; all references individually read in both directions.",
+  "data_role": "Authorized reviewed existing TRAIN positive sources, not independent confirmation; no new negative labels.",
+  "new_negative_authorized": false,
+  "heldout_hashes": {
+    "dev": "a4ec0478d5aca8b263e605bfe3e7ec2b57dd9411510135cfaf227575ede03237",
+    "public_dev": "b5e578d1029d54022f955f55fb7e8fc0e090aa03f8198bc9e9ec8e3e789f95c0"
+  },
+  "release_approved": false
+}

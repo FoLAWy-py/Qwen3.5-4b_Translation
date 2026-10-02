@@ -1,0 +1,10 @@
+{
+  "public-short-0215-zh-CN": ["pass", "德国曾为意大利盟友，时间与关系正确。", true],
+  "public-short-0215-en": ["pass", "德国曾为意大利同盟国，完整。", true],
+  "public-short-0342-zh-CN": ["minor", "多说少听假设与两嘴一耳保留，但两个嘴巴一个耳朵量词和被赋予表达生硬。", true],
+  "public-short-0342-en": ["minor", "两嘴一耳反事实寓意可辨，If we should 与 then we should 搭配弱于本该的自然假设表达。", true],
+  "public-short-0183-zh-CN": ["pass", "感觉好时散步，条件与习惯准确。", true],
+  "public-short-0597-zh-CN": ["pass", "汤姆说他觉得可能仅他必须做，转述不确定性和义务完整。", true],
+  "public-short-0597-en": ["minor", "汤姆觉得只有他须做正确，felt like 有主观缓和，但显式可能未充分保留。", true],
+  "public-short-0228-zh-CN": ["pass", "成千上万人想知道答案，数量和意愿正确。", true]
+}

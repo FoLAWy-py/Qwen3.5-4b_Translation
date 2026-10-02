@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-30T15:46:42.867841+00:00",
+  "rows": 60,
+  "groups": 23,
+  "references_hash": "971c8aa04214d9a1fc463dcb45687c51cf51a3b3b67cbdea3a42b3e7bddf0241",
+  "excluded_duplicate_families": [
+    "17"
+  ],
+  "scope": "Next training batch only, no v4 train/dev mutation; same text across contexts stays in one family; whole family excluded if any source duplicates existing corpus"
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-09-30T23:47:21.545818+00:00",
+  "plan_hash": "0af1b28b8ac5fa4b54aaa428feaa43bb0b92f03350c326dc01a98971fa0bcf4a",
+  "batch": [
+    {
+      "case_id": "v10-food-09",
+      "category": "food",
+      "topic": "A restaurant offers the salad before the main dish but only if the customer wants separate courses; offering is not automatic action.",
+      "group_id": "v10-food-09"
+    },
+    {
+      "case_id": "v10-food-10",
+      "category": "food",
+      "topic": "A jar contains a spice blend whose label names cumin and coriander; distinguish a listed ingredient from a suggested garnish.",
+      "group_id": "v10-food-10"
+    },
+    {
+      "case_id": "v10-food-11",
+      "category": "food",
+      "topic": "A baker weighs flour before sifting, so the stated amount refers to unsifted flour; do not reverse that order.",
+      "group_id": "v10-food-11"
+    },
+    {
+      "case_id": "v10-food-12",
+      "category": "food",
+      "topic": "A cook keeps the liquid from stewed fruit separate from the fruit until serving; do not turn stewing into frying.",
+      "group_id": "v10-food-12"
+    }
+  ],
+  "raw": "{\n  \"items\": [\n    {\n      \"case_id\": \"v10-food-09\",\n      \"english\": \"The restaurant serves salad as a separate course only if the customer explicitly requests it, otherwise it is included in the main dish. This policy avoids confusion and ensures the meal is customized to individual preferences.\",\n      \"chinese\": \"餐厅只有在顾客明确要求时才将沙拉作为单独一道菜上桌，否则会将其包含在主菜中。这项规定避免了混淆，并确保餐点能符合个人喜好。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-10\",\n      \"english\": \"The label on the jar lists cumin and coriander as main ingredients, not as optional garnishes. This distinction is important for those with allergies or dietary restrictions.\",\n      \"chinese\": \"罐子上的标签列出孜然和香菜作为主要成分，而不是可选的装饰。这一区别对有过敏或饮食限制的人来说非常重要。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-11\",\n      \"english\": \"The recipe specifies 200 grams of flour measured before sifting, not after. Changing the order may affect the volume and texture of the final product.\",\n      \"chinese\": \"食谱中规定200克面粉是在过筛前称量，而不是之后。改变这个顺序可能会影响成品的体积和质地。\",\n      \"context\": \"\"\n    },\n    {\n      \"case_id\": \"v10-food-12\",\n      \"english\": \"The cook carefully separates the stewed fruit syrup from the fruit before plating to avoid overcooking and to preserve the fruit’s texture.\",\n      \"chinese\": \"厨师在摆盘前小心地将果酱与水果分开，以防止过度烹煮并保留水果的质地。\",\n      \"context\": \"\"\n    }\n  ]\n}",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 465,
+    "total_tokens": 871,
+    "completion_tokens": 406,
+    "estimated_cost": 0.00015088,
+    "prompt_tokens_details": null
+  },
+  "response_model": "Qwen/Qwen3-32B"
+}
